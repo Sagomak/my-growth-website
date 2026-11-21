@@ -1,0 +1,149 @@
+{
+  "locale": "en",
+  "meta": {
+    "privacy": {
+      "title": "Privacy Policy, MyGrowth",
+      "description": "MyGrowth keeps your habits, logs and notes on your device. Read the full privacy policy."
+    },
+    "terms": {
+      "title": "Terms of Use, MyGrowth",
+      "description": "Terms of Use for the MyGrowth iOS app."
+    }
+  },
+  "chrome": {
+    "backHome": "Back to Home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "support": "Support"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: November 20, 2026",
+    "intro": "MyGrowth (\"the App\") is made by Sagomak and is committed to protecting your privacy. This policy explains how we handle your data.",
+    "short": {
+      "title": "The Short Version",
+      "body": "We don't collect your habit data. Everything you track stays on your device."
+    },
+    "stored": {
+      "title": "What Data Is Stored",
+      "intro": "The App stores the following data locally on your iPhone:",
+      "items": [
+        "Habit configurations (names, units, targets, colors)",
+        "Daily log entries (date, value, optional notes)",
+        "App preferences (theme, onboarding status, consent records)"
+      ],
+      "footer": "This data is stored using iOS on-device storage (UserDefaults). It never leaves your device."
+    },
+    "notCollect": {
+      "title": "What We Don't Collect",
+      "items": [
+        "No personal information (name, email, phone, location)",
+        "No usage analytics or crash reports",
+        "No advertising identifiers",
+        "No cookies or tracking pixels",
+        "No habits, logs or notes are ever transmitted to any server"
+      ]
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "body": "The App contains no analytics tools, ad networks or cloud services. Its only third-party SDK is RevenueCat, used to check in-app purchases (see Purchases below)."
+    },
+    "rights": {
+      "title": "Your Rights (GDPR)",
+      "intro": "Under the General Data Protection Regulation, you have the right to:",
+      "access": "<b>Access</b> your data: visible directly in the app at any time",
+      "export": "<b>Export</b> your data: via Settings, Data Management, Export (JSON or CSV)",
+      "delete": "<b>Delete</b> your data: via Settings, Data Management, Clear All Data",
+      "rectify": "<b>Rectify</b> your data: edit any entry by tapping it in the app",
+      "footer": "Since all data is stored exclusively on your device, exercising these rights requires no request to us, you have full control."
+    },
+    "retention": {
+      "title": "Data Retention",
+      "body": "Your data persists on your device until you delete it within the app or uninstall the app. Uninstalling permanently removes all data."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "body": "The App does not knowingly collect data from children under 16. Since no personal information is collected from any user, the App is compliant with COPPA and GDPR age requirements."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "body": "If we update this policy, we will post the revised version on this page with an updated date."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "For privacy questions or concerns:"
+    },
+    "purchases": {
+      "title": "Purchases",
+      "body": [
+        "MyGrowth Pro is sold through Apple's App Store. Apple processes every payment; we never see your name, Apple ID or payment details.",
+        "To know which purchases are active, the App uses RevenueCat, Inc. (revenuecat.com), a subscription service that processes this data on our behalf. When the App starts, and when you buy or restore a purchase, RevenueCat receives a random anonymous ID created by the App, your purchase and subscription history from Apple's receipt, and basic technical details: device type, operating system, locale and currency.",
+        "RevenueCat receives none of your habits, logs or notes, and no name, email or account details. This data is not used for tracking or advertising. See RevenueCat's privacy policy at revenuecat.com/privacy and Apple's at apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: November 20, 2026",
+    "intro": "Welcome to MyGrowth (\"the App\"). By downloading or using the App, you agree to these terms.",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "body": "By accessing or using MyGrowth, you agree to be bound by these Terms of Use. If you do not agree, do not use the App."
+    },
+    "description": {
+      "title": "Description of Service",
+      "body": "MyGrowth is a personal habit-tracking application for iOS. It allows you to log daily activities, visualize your progress through heatmap grids and charts, and manage your personal data, all stored locally on your device."
+    },
+    "responsibilities": {
+      "title": "User Responsibilities",
+      "items": [
+        "You are responsible for all data you enter into the App",
+        "You are responsible for maintaining backups of your data using the export feature",
+        "You must not use the App for any unlawful purpose",
+        "You must not attempt to reverse-engineer, decompile, or tamper with the App"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Data and Privacy",
+      "item1": "All data is stored locally on your device",
+      "item2": "We do not collect, transmit, or have access to your habits, logs or notes",
+      "item3": "For full details, see our <link>Privacy Policy</link>"
+    },
+    "ip": {
+      "title": "Intellectual Property",
+      "body": "MyGrowth, including its design, code, and visual assets, is the intellectual property of its developer, Sagomak. You are granted a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes."
+    },
+    "iap": {
+      "title": "In-App Purchases",
+      "body": "The App may offer optional premium features via in-app purchases. All purchases are processed by Apple through the App Store and are subject to Apple's terms and conditions. Refunds are handled by Apple per their refund policy. The App checks your purchase status through RevenueCat, as described in the <link>Privacy Policy</link>."
+    },
+    "warranties": {
+      "title": "Disclaimer of Warranties",
+      "body": "The App is provided \"as is\" without warranties of any kind, express or implied. We do not guarantee that the App will be error-free, uninterrupted, or free of harmful components."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "body": "To the maximum extent permitted by law, the developer shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the App, including but not limited to data loss."
+    },
+    "dataLoss": {
+      "title": "Data Loss",
+      "body": "Since all data is stored locally on your device, we are not responsible for data loss due to device failure, iOS updates, app deletion, or any other cause. We recommend regularly exporting your data using the built-in export feature."
+    },
+    "modifications": {
+      "title": "Modifications",
+      "body": "We reserve the right to update these Terms at any time. Continued use of the App after changes constitutes acceptance of the new Terms. The latest version will always be available at this page."
+    },
+    "termination": {
+      "title": "Termination",
+      "body": "We may terminate or suspend your access to the App at any time, without notice, for conduct that we believe violates these Terms or is harmful to other users or the App."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "body": "These Terms are governed by the laws of Denmark, without regard to conflict of law principles."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "For questions about these Terms:"
+    }
+  }
+}

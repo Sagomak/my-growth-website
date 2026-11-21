@@ -1,0 +1,149 @@
+{
+  "locale": "it",
+  "meta": {
+    "privacy": {
+      "title": "Informativa sulla privacy, MyGrowth",
+      "description": "MyGrowth tiene abitudini, registrazioni e note sul tuo dispositivo. Leggi l'informativa sulla privacy completa."
+    },
+    "terms": {
+      "title": "Termini di utilizzo, MyGrowth",
+      "description": "Termini di utilizzo dell'app iOS MyGrowth."
+    }
+  },
+  "chrome": {
+    "backHome": "Torna alla home",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di utilizzo",
+    "support": "Supporto"
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy",
+    "lastUpdated": "Ultimo aggiornamento: 20 novembre 2026",
+    "intro": "MyGrowth (\"l'App\") è realizzata da Sagomak ed è impegnata a proteggere la tua privacy. Questa informativa spiega come gestiamo i tuoi dati.",
+    "short": {
+      "title": "In breve",
+      "body": "Non raccogliamo i dati delle tue abitudini. Tutto ciò che registri resta sul tuo dispositivo."
+    },
+    "stored": {
+      "title": "Quali dati vengono salvati",
+      "intro": "L'App salva i seguenti dati localmente sul tuo iPhone:",
+      "items": [
+        "Configurazioni delle abitudini (nomi, unità, obiettivi, colori)",
+        "Voci di registro giornaliere (data, valore, note facoltative)",
+        "Preferenze dell'app (tema, stato dell'onboarding, registri di consenso)"
+      ],
+      "footer": "Questi dati sono salvati tramite l'archiviazione locale di iOS (UserDefaults). Non lasciano mai il tuo dispositivo."
+    },
+    "notCollect": {
+      "title": "Cosa non raccogliamo",
+      "items": [
+        "Nessuna informazione personale (nome, email, telefono, posizione)",
+        "Nessuna statistica d'uso o segnalazione di arresto anomalo",
+        "Nessun identificatore pubblicitario",
+        "Nessun cookie o pixel di tracciamento",
+        "Abitudini, registrazioni e note non vengono mai trasmesse ad alcun server"
+      ]
+    },
+    "thirdParty": {
+      "title": "Servizi di terze parti",
+      "body": "L'App non contiene strumenti di analisi, reti pubblicitarie o servizi cloud. L'unico SDK di terze parti è RevenueCat, usato per verificare gli acquisti in-app (vedi Acquisti più sotto)."
+    },
+    "rights": {
+      "title": "I tuoi diritti (GDPR)",
+      "intro": "Ai sensi del Regolamento generale sulla protezione dei dati, hai il diritto di:",
+      "access": "<b>Accedere</b> ai tuoi dati: visibili direttamente nell'app in qualsiasi momento",
+      "export": "<b>Esportare</b> i tuoi dati: tramite Impostazioni → Gestione dati → Esporta (JSON o CSV)",
+      "delete": "<b>Eliminare</b> i tuoi dati: tramite Impostazioni → Gestione dati → Cancella tutti i dati",
+      "rectify": "<b>Rettificare</b> i tuoi dati: modifica qualsiasi voce toccandola nell'app",
+      "footer": "Poiché tutti i dati sono salvati esclusivamente sul tuo dispositivo, per esercitare questi diritti non serve alcuna richiesta a noi: hai il pieno controllo."
+    },
+    "retention": {
+      "title": "Conservazione dei dati",
+      "body": "I tuoi dati restano sul dispositivo finché non li elimini nell'app o disinstalli l'app. La disinstallazione rimuove definitivamente tutti i dati."
+    },
+    "children": {
+      "title": "Privacy dei minori",
+      "body": "L'App non raccoglie consapevolmente dati da minori di 16 anni. Poiché non viene raccolta alcuna informazione personale da nessun utente, l'App è conforme ai requisiti di età di COPPA e GDPR."
+    },
+    "changes": {
+      "title": "Modifiche a questa informativa",
+      "body": "Se aggiorniamo questa informativa, pubblicheremo la versione rivista su questa pagina con una data aggiornata."
+    },
+    "contact": {
+      "title": "Contatti",
+      "body": "Per domande o dubbi sulla privacy:"
+    },
+    "purchases": {
+      "title": "Acquisti",
+      "body": [
+        "MyGrowth Pro è venduto tramite l'App Store di Apple. Apple gestisce ogni pagamento; non vediamo mai il tuo nome, il tuo ID Apple o i tuoi dati di pagamento.",
+        "Per sapere quali acquisti sono attivi, l'App usa RevenueCat, Inc. (revenuecat.com), un servizio di abbonamenti che tratta questi dati per nostro conto. All'avvio dell'App, e quando acquisti o ripristini un acquisto, RevenueCat riceve un ID anonimo casuale creato dall'App, la cronologia di acquisti e abbonamenti dalla ricevuta Apple e alcuni dati tecnici di base: tipo di dispositivo, sistema operativo, lingua e valuta.",
+        "RevenueCat non riceve nessuna delle tue abitudini, registrazioni o note, né nome, email o dati di un account. Questi dati non sono usati per tracciamento o pubblicità. Consulta l'informativa sulla privacy di RevenueCat su revenuecat.com/privacy e quella di Apple su apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Termini di utilizzo",
+    "lastUpdated": "Ultimo aggiornamento: 20 novembre 2026",
+    "intro": "Benvenuto in MyGrowth (\"l'App\"). Scaricando o utilizzando l'App, accetti questi termini.",
+    "acceptance": {
+      "title": "Accettazione dei termini",
+      "body": "Accedendo o utilizzando MyGrowth, accetti di essere vincolato da questi Termini di utilizzo. Se non sei d'accordo, non utilizzare l'App."
+    },
+    "description": {
+      "title": "Descrizione del servizio",
+      "body": "MyGrowth è un'applicazione personale per il monitoraggio delle abitudini per iOS. Ti consente di registrare le attività quotidiane, visualizzare i tuoi progressi tramite griglie heatmap e grafici e gestire i tuoi dati personali, tutti salvati localmente sul tuo dispositivo."
+    },
+    "responsibilities": {
+      "title": "Responsabilità dell'utente",
+      "items": [
+        "Sei responsabile di tutti i dati che inserisci nell'App",
+        "Sei responsabile del mantenimento dei backup dei tuoi dati tramite la funzione di esportazione",
+        "Non devi utilizzare l'App per scopi illeciti",
+        "Non devi tentare di decodificare, decompilare o manomettere l'App"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Dati e privacy",
+      "item1": "Tutti i dati sono salvati localmente sul tuo dispositivo",
+      "item2": "Non raccogliamo, trasmettiamo né abbiamo accesso alle tue abitudini, registrazioni o note",
+      "item3": "Per tutti i dettagli, consulta la nostra <link>Informativa sulla privacy</link>"
+    },
+    "ip": {
+      "title": "Proprietà intellettuale",
+      "body": "MyGrowth, inclusi il suo design, il codice e le risorse visive, è proprietà intellettuale del suo sviluppatore, Sagomak. Ti viene concessa una licenza limitata, non esclusiva e non trasferibile per utilizzare l'App per scopi personali e non commerciali."
+    },
+    "iap": {
+      "title": "Acquisti in-app",
+      "body": "L'App può offrire funzioni premium facoltative tramite acquisti in-app. Tutti gli acquisti sono gestiti da Apple tramite l'App Store e sono soggetti ai termini e alle condizioni di Apple. I rimborsi sono gestiti da Apple secondo la sua politica di rimborso. L'App verifica lo stato dei tuoi acquisti tramite RevenueCat, come descritto nell'<link>Informativa sulla privacy</link>."
+    },
+    "warranties": {
+      "title": "Esclusione di garanzie",
+      "body": "L'App è fornita \"così com'è\", senza garanzie di alcun tipo, esplicite o implicite. Non garantiamo che l'App sia priva di errori, ininterrotta o priva di componenti dannosi."
+    },
+    "liability": {
+      "title": "Limitazione di responsabilità",
+      "body": "Nella misura massima consentita dalla legge, lo sviluppatore non sarà responsabile di alcun danno indiretto, incidentale, speciale o consequenziale derivante dall'uso dell'App, inclusa, a titolo esemplificativo, la perdita di dati."
+    },
+    "dataLoss": {
+      "title": "Perdita di dati",
+      "body": "Poiché tutti i dati sono salvati localmente sul tuo dispositivo, non siamo responsabili della perdita di dati dovuta a guasti del dispositivo, aggiornamenti di iOS, eliminazione dell'app o qualsiasi altra causa. Ti consigliamo di esportare regolarmente i tuoi dati con la funzione di esportazione integrata."
+    },
+    "modifications": {
+      "title": "Modifiche",
+      "body": "Ci riserviamo il diritto di aggiornare questi Termini in qualsiasi momento. L'uso continuato dell'App dopo le modifiche costituisce accettazione dei nuovi Termini. L'ultima versione sarà sempre disponibile in questa pagina."
+    },
+    "termination": {
+      "title": "Risoluzione",
+      "body": "Possiamo terminare o sospendere il tuo accesso all'App in qualsiasi momento, senza preavviso, per comportamenti che riteniamo violino questi Termini o siano dannosi per altri utenti o per l'App."
+    },
+    "governingLaw": {
+      "title": "Legge applicabile",
+      "body": "Questi Termini sono regolati dalle leggi della Danimarca, senza riguardo ai principi sui conflitti di legge."
+    },
+    "contact": {
+      "title": "Contatti",
+      "body": "Per domande su questi Termini:"
+    }
+  }
+}
