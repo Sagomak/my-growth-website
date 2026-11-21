@@ -1,0 +1,35 @@
+# MyGrowth
+
+> MyGrowth (MyGrowth: Habit & Life Tracker) is an iOS habit tracker by Sagomak. It turns habits into a hand-drawn heatmap, charts and statistics. All habit data stays on the device: no account, no cloud, no tracking.
+
+- App Store: https://apps.apple.com/app/id6761617617
+- Version: 3.0.0 (hand-drawn design: warm paper light mode, soft graphite dark mode)
+- Platform: iPhone (iOS)
+- Price: free to download; MyGrowth Pro is an optional in-app purchase (monthly, yearly or one-time). Current prices are shown on the App Store.
+- Languages: 25
+- Studio: Sagomak. Contact: hello@sagomak.com
+
+## Features
+
+- Dashboard with today's habits as cards and a "Becoming" identity goal in a hand-drawn frame
+- Grid: a year heatmap per habit, in the habit's own colour
+- Charts and statistics: consistency, averages, totals, days on target, best days
+- Streaks that follow each habit's schedule, so a planned rest day never breaks them
+- Events: places, books, trips and concerts, each category with its own colour, shown as a year picture
+- Widgets (Habit Grid, Today) and a timer Live Activity on the Lock Screen
+- Timers that keep running when you leave the app; durations shown as h, min and s
+- CSV import of past logs and full CSV backup and restore (Pro)
+
+## Privacy
+
+- Habits, logs and notes are stored only on the device (iOS on-device storage).
+- No account, no analytics, no crash reporting, no advertising identifiers, no cookies or tracking.
+- Purchases are processed by Apple. The app checks purchase status with RevenueCat using a random anonymous ID; RevenueCat receives no habit data.
+
+## Pages
+
+- [Home](https://mygrowth.sagomak.com/en/)
+- [Privacy Policy](https://mygrowth.sagomak.com/en/privacy/)
+- [Terms of Use](https://mygrowth.sagomak.com/en/terms/)
+- [Support and FAQ](https://mygrowth.sagomak.com/en/support/)
+- [Import and backup tutorial](https://mygrowth.sagomak.com/en/tutorial/)
