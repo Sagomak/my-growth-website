@@ -102,9 +102,10 @@ main > section.wrap { padding-top: 56px; padding-bottom: 56px; }
 .phone { margin: 0; width: 100%; aspect-ratio: 1320 / 2868; padding: 3.2%; border-radius: 15% / 7%;
   background: #111214; box-shadow: 0 0 0 1.5px #2b2c2e inset, 0 24px 48px -16px rgb(0 0 0 / 0.35); }
 .phone-screen { position: relative; width: 100%; height: 100%; border-radius: 12.4% / 5.8%; overflow: hidden; background: var(--surface2); }
+.phone-screen picture { display: contents; }
 .phone-screen img { width: 100%; height: 100%; object-fit: cover; }
 .phone-island { position: absolute; top: 1.8%; left: 50%; width: 30%; height: 3.2%; transform: translateX(-50%); background: #000; border-radius: 999px; }
-.hero .phone { width: min(320px, 72vw); }
+.hero .phone { width: min(320px, 64vw); }
 .phone-small { box-shadow: 0 0 0 1px #2b2c2e inset, 0 12px 24px -12px rgb(0 0 0 / 0.35); }
 
 /* Year card --------------------------------------------------------------- */
@@ -203,8 +204,20 @@ main > section.wrap { padding-top: 56px; padding-bottom: 56px; }
 .tile h3 { font-size: clamp(28px, 3.6vw, 34px); }
 .tile p { margin-top: 10px; color: var(--text-2); font-size: 17px; }
 .tile-split { display: grid; gap: 20px; align-items: end; grid-template-columns: 1fr; }
-.tile-split .phone { width: 150px; justify-self: center; }
-@media (min-width: 640px) { .tile-split { grid-template-columns: 1fr 150px; } }
+.widget-mock { width: 160px; height: 160px; justify-self: center; padding: 14px; --ink-fill: var(--surface); }
+.widget-name { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.widget-heat .heat { justify-content: flex-start; }
+@media (min-width: 640px) { .tile-split { grid-template-columns: 1fr 160px; } }
+.gallery { margin-top: 56px; }
+.gallery-row {
+  list-style: none; display: grid; grid-auto-flow: column; grid-auto-columns: 200px; gap: 20px;
+  overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 4px 16px; margin: 0 -4px;
+  scrollbar-width: thin;
+}
+.gallery-row li { scroll-snap-align: start; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.gallery-row .phone { width: 200px; }
+.gallery-caption { font-size: 22px; font-weight: 700; color: var(--text-2); }
+@media (min-width: 1100px) { .gallery-row { grid-auto-flow: row; grid-template-columns: repeat(6, 1fr); grid-auto-columns: auto; overflow: visible; } .gallery-row .phone { width: 100%; } }
 @media (min-width: 900px) {
   .bento { grid-template-columns: repeat(6, 1fr); }
   .tile-events, .tile-widgets { grid-column: span 3; }

@@ -61,7 +61,7 @@ export default function Home() {
             </p>
           </div>
           <div className="hero-visual">
-            <Phone src="/screens/dashboard.webp" alt={en.hero.phoneAlt} priority width={320} />
+            <Phone src="/screens/dashboard.webp" srcDark="/screens/dashboard-dark.webp" alt={en.hero.phoneAlt} priority width={320} vw={64} />
           </div>
         </section>
 
@@ -178,7 +178,11 @@ export default function Home() {
                   <h3>{F.widgets.title}</h3>
                   <p>{F.widgets.body}</p>
                 </div>
-                <Phone src="/screens/widgets.webp" alt="MyGrowth widgets on the Home Screen." width={170} className="phone-small" />
+                <InkFrame seed="widget.grid" className="widget-mock" radius={22} hint={[160, 160]}>
+                  <p className="widget-name hand">{F.widget.name}</p>
+                  <Heatmap habit="widget.reading" initialNow={now} cell={8} gap={2.5} maxWeeks={13} months={false}
+                    label={F.widget.label} className="widget-heat" />
+                </InkFrame>
               </div>
             </InkFrame>
 
@@ -213,6 +217,18 @@ export default function Home() {
                 {LANGUAGES.map((l) => <li key={l}>{l}</li>)}
               </ul>
             </InkFrame>
+          </div>
+          {/* Real screenshots */}
+          <div className="gallery">
+            <Eyebrow seed="gallery">{en.gallery.eyebrow}</Eyebrow>
+            <ul className="gallery-row" aria-label={en.gallery.label} tabIndex={0}>
+              {en.gallery.items.map((g) => (
+                <li key={g.src}>
+                  <Phone src={g.src} alt={g.alt} width={220} className="phone-small" />
+                  <span className="hand gallery-caption">{g.caption}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 

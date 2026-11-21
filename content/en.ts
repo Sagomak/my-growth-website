@@ -34,7 +34,7 @@ export const en = {
     title: "You become what you repeatedly do.",
     sub: "MyGrowth turns your habits into a hand-drawn heatmap, charts and statistics, so you can watch showing up turn into progress.",
     trust: "Private by design. No account, no cloud.",
-    phoneAlt: "The MyGrowth Dashboard: today's habits as hand-drawn cards under the Becoming goal.",
+    phoneAlt: "The MyGrowth Dashboard: the week strip, the Becoming goal and today's habits as hand-drawn cards.",
   },
   year: {
     eyebrow: "Your year, at a glance",
@@ -56,7 +56,7 @@ export const en = {
         title: "Who you are becoming, on one page.",
         body: "Today's habits as cards under your Becoming goal, in its own hand-drawn frame. Habits you have not logged yet stand out, so you see at a glance what is left.",
         becomingLabel: "Becoming",
-        becomingGoal: "someone who reads every day",
+        becomingGoal: "someone who keeps their promises",
       },
       grid: {
         eyebrow: "Grid",
@@ -97,12 +97,25 @@ export const en = {
         paper: "Paper",
         graphite: "Graphite",
       },
+      widget: { name: "Reading", label: "Example Habit Grid widget for Reading, about three months of squares." },
       languages: {
         eyebrow: "Languages",
         title: `In your language. ${LANGUAGE_COUNT} of them.`,
         body: "From English to Japanese, Bengali to Albanian. Your own colours and icons on every habit.",
       },
     },
+  },
+  gallery: {
+    eyebrow: "A look inside",
+    label: "Screenshots of MyGrowth 3.0",
+    items: [
+      { src: "/screens/grid.webp", caption: "Grid", alt: "The Grid tab: a year heatmap for Consistency and one per habit, each in its own colour." },
+      { src: "/screens/charts.webp", caption: "Charts", alt: "The Charts tab: the Consistency line over 90 days, active and all-time best streaks, and a habit chart." },
+      { src: "/screens/habit-chart.webp", caption: "Every habit", alt: "A Running chart against its 5 km goal, with days shown up, consistency, average, total and best day." },
+      { src: "/screens/log-sheet.webp", caption: "Logging", alt: "The log sheet for Meditation: hours, minutes and seconds, the 15 min target, Clear and Save." },
+      { src: "/screens/events.webp", caption: "Events", alt: "The Events tab: travel, concerts and books, each a year grid in their own colours." },
+      { src: "/screens/dashboard-dark.webp", caption: "Graphite", alt: "The Dashboard in dark mode, on soft graphite." },
+    ],
   },
   privacy: {
     eyebrow: "Privacy",

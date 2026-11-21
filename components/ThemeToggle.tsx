@@ -11,6 +11,10 @@ function apply(mode: Mode) {
   const root = document.documentElement;
   if (mode === "system") delete root.dataset.theme;
   else root.dataset.theme = mode;
+  // Theme-aware screenshots (<picture> in Phone): follow the choice.
+  document.querySelectorAll<HTMLSourceElement>("source[data-theme-source]").forEach((s) => {
+    s.media = mode === "system" ? "(prefers-color-scheme: dark)" : mode === "dark" ? "all" : "not all";
+  });
   try {
     if (mode === "system") localStorage.removeItem(KEY);
     else localStorage.setItem(KEY, mode);
