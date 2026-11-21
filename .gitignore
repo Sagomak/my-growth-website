@@ -1,0 +1,13 @@
+/node_modules
+/.next/
+/out/
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+.env*
+.vercel
+# local agent and editor config
+.claude/
+# verification artefacts
+/reports/
+scripts/og/og.html

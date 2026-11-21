@@ -1,0 +1,32 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/", "destination": "/en/", "statusCode": 301 },
+    { "source": "/:loc(it|es|de)", "destination": "/en/", "statusCode": 301 },
+    { "source": "/:loc(it|es|de)/", "destination": "/en/", "statusCode": 301 },
+    { "source": "/:loc(it|es|de)/:page(support|tutorial)", "destination": "/en/:page/", "statusCode": 301 },
+    { "source": "/:loc(it|es|de)/:page(support|tutorial)/", "destination": "/en/:page/", "statusCode": 301 }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/(screens|img)/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800, stale-while-revalidate=86400" }]
+    }
+  ]
+}
