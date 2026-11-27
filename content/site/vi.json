@@ -42,6 +42,28 @@
     "trust": "Riêng tư ngay từ thiết kế. Không tài khoản, không đám mây.",
     "phoneAlt": "Dashboard của MyGrowth: dải tuần, mục tiêu Trở thành và các thói quen hôm nay dưới dạng thẻ vẽ tay."
   },
+  "skyline": {
+    "title": "Một năm của sự nhất quán",
+    "caption": "Dữ liệu ví dụ: tám thói quen trong một năm",
+    "viewGroup": "Chế độ xem biểu đồ",
+    "flat": "Heatmap phẳng",
+    "skyline": "Skyline 3D",
+    "hintFlat": "Di chuột lên một ngày để xem chi tiết, hoặc dùng các phím mũi tên",
+    "hintOrbit": "Kéo để xoay skyline, nhấp đúp để đặt lại",
+    "hintTouch": "Chạm vào một ngày để xem chi tiết",
+    "tooltip": "{pct} vào {date}",
+    "empty": "Không ghi lại gì vào {date}",
+    "range": "{a} đến {b}",
+    "avg": "Sự nhất quán trung bình",
+    "bestWeek": "Tuần tốt nhất",
+    "longest": "Chuỗi ngày dài nhất",
+    "current": "Chuỗi ngày hiện tại",
+    "goal": "Chuỗi ngày chỉ tính những ngày đạt hoặc vượt mục tiêu {goal}.",
+    "levelEmpty": "Chưa ghi lại",
+    "levelUnder": "Dưới {pct}",
+    "highlight": "Làm nổi bật các ngày: {level}",
+    "aria": "Sự nhất quán ví dụ cho mỗi ngày từ {a} đến {b}, trung bình {avg}. Dùng các phím mũi tên để đọc từng ngày."
+  },
   "year": {
     "eyebrow": "Cả năm của bạn, trong một cái nhìn",
     "title": "Một bức tranh chân thật về một năm.",
@@ -250,7 +272,8 @@
     "tutorial": "Hướng dẫn",
     "copyright": "© {year} Sagomak",
     "fonts": "Phông chữ theo giấy phép SIL Open Font License",
-    "languages": "Ngôn ngữ"
+    "languages": "Ngôn ngữ",
+    "skyline": "Biểu đồ skyline phỏng theo"
   },
   "support": {
     "eyebrow": "Hỗ trợ",

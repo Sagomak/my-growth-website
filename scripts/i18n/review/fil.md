@@ -61,3 +61,14 @@ Still flagged for a native speaker:
 | site.lang.suggest | Available in Filipino | Available sa Filipino | Taglish vs formal "Makukuha sa Filipino" |
 | site (many keys) | feature, tap, save, backup, data | kept in English | Taglish mix needs a native check |
 | legal.terms.liability.body, governingLaw.body, ip.title | incidental, consequential, conflict of laws, Intellectual Property | kept in English | legal terms; needs a legal check |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.title | A year of consistency | Isang taon ng konsistensi | glossary term in lower case as a common noun; check it reads well handwritten |
+| site.skyline.hintFlat, hintOrbit | Hover / Drag / double click | I-hover / I-drag / i-double click | Taglish verbs, consistent with the site, native check |
+| site.skyline.longest, current, goal | Longest run / Current run | Pinakamahabang sunod-sunod / Kasalukuyang sunod-sunod | glossary "Sunod-sunod" as a noun; may read better as "Pinakamahabang sunod-sunod na araw" |
+| site.skyline.tooltip, empty | {pct} on {date} | {pct} sa {date} / Walang naitala sa {date} | "sa" vs "noong" before a full date |
+| site.footer.skyline | Skyline chart adapted from | Hinango ang skyline chart mula sa | must read naturally before the English link title |

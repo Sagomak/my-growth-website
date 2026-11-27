@@ -42,6 +42,28 @@
     "trust": "Private by design. No account, no cloud.",
     "phoneAlt": "The MyGrowth Dashboard: the week strip, the Becoming goal and today's habits as hand-drawn cards."
   },
+  "skyline": {
+    "title": "A year of consistency",
+    "caption": "Example data: eight habits over one year",
+    "viewGroup": "Chart view",
+    "flat": "Flat heatmap",
+    "skyline": "3D skyline",
+    "hintFlat": "Hover a day for details, or use the arrow keys",
+    "hintOrbit": "Drag to turn the skyline, double click to reset",
+    "hintTouch": "Tap a day for details",
+    "tooltip": "{pct} on {date}",
+    "empty": "Nothing logged on {date}",
+    "range": "{a} to {b}",
+    "avg": "Average consistency",
+    "bestWeek": "Best week",
+    "longest": "Longest run",
+    "current": "Current run",
+    "goal": "Runs count the days at or above the {goal} goal.",
+    "levelEmpty": "Nothing logged",
+    "levelUnder": "Under {pct}",
+    "highlight": "Highlight days: {level}",
+    "aria": "Example Consistency for every day from {a} to {b}, averaging {avg}. Use the arrow keys to read each day."
+  },
   "year": {
     "eyebrow": "Your year, at a glance",
     "title": "One honest picture of a year.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Fonts under the SIL Open Font License",
-    "languages": "Languages"
+    "languages": "Languages",
+    "skyline": "Skyline chart adapted from"
   },
   "support": {
     "eyebrow": "Support",

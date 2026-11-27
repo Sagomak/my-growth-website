@@ -51,3 +51,14 @@ Still flagged for a native speaker:
 | site.tutorial.reminders.items | Morning reminder / Evening nudge | सुबह की याद दिलाने वाला / शाम का संकेत | Glossary terms, awkward as names |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | “मौजूदा डेटा में मिलाएँ” | Not in glossary; must match the app button |
 | site.features.items.widgets.* | Live Activity | लाइव ऐक्टिविटी | Check against Apple's Hindi iOS term |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.longest, current, goal | Longest run / Current run | सबसे लंबी स्ट्रीक / मौजूदा स्ट्रीक | site copy uses "स्ट्रीक"; glossary "Streak" is "लगातार", which does not work as a noun here |
+| site.skyline.hintFlat | Hover a day | किसी दिन पर पॉइंटर ले जाएँ | "hover" rendered as "move the pointer to" |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | स्ट्रीक में वे दिन गिने जाते हैं जब {goal} का लक्ष्य पूरा हुआ या उससे ज़्यादा रहा। | rephrased |
+| site.skyline.aria | Example Consistency for every day ... | {a} से {b} तक हर दिन की उदाहरण स्थिरता, ... | "उदाहरण स्थिरता" a bit stiff |
+| site.footer.skyline | Skyline chart adapted from | स्काईलाइन चार्ट का आधार: | Hindi puts "from" after the noun, so rewritten as "basis of the skyline chart:" before the link |

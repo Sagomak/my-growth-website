@@ -44,3 +44,12 @@ Still flagged for a native speaker:
 | site.tutorial.reminders.items[1][0] | Evening nudge | 夕方のリマインダー | Glossary term, identical in kind to the morning one |
 | site.pro.proItems[6] | Habits on scheduled days | スケジュールされた日の習慣 | Built on glossary "Scheduled days"; stiff |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | 既存のデータと統合 | Not in the glossary; check against the app's button label |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.title | A year of consistency | 一貫性の一年 | Glossary 一貫性 is stiff for a handwritten title; 続けた一年 would be more natural |
+| site.footer.skyline | Skyline chart adapted from | スカイラインチャートの原案： | Japanese puts the source first; rendered as a label "original of the skyline chart:" so it reads before the link |
+| site.skyline.levelEmpty / empty | Nothing logged | 記録なし | Glossary "Not logged" (ログされていません) is unnatural; used 記録なし |
+| site.skyline.range | {a} to {b} | {a}から{b}まで | Avoided 〜 so nothing reads as a dash |

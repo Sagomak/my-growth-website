@@ -48,3 +48,13 @@ Still flagged for a native speaker:
 | site.tutorial.reminders.items | Morning reminder / Evening nudge | Promemoria Mattutino / Promemoria Serale | app glossary names; "nudge" nuance lost |
 | site.tutorial.pace.* | Pace, Track time | Andatura, Traccia tempo | app glossary terms; "passo" is more usual for running |
 | legal.privacy.rights.export | Settings, Data Management, Export | Impostazioni, Gestione Dati, Esporta | confirm the button label in the app |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.range | {a} to {b} | dal {a} al {b} | "dal 1 nov" should strictly be "dall'1 nov"; also starts lowercase if shown alone at line start |
+| site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered with a colon, since "il giovedì 12 novembre" reads awkwardly |
+| site.skyline.levelEmpty | Nothing logged | Nessuna registrazione | glossary "Not logged" is "Non registrato"; chose the noun form for a legend swatch |
+| site.skyline.flat | Flat heatmap | Heatmap piatta | "piatta" could read as "dull"; "Heatmap 2D" is an alternative |

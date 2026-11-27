@@ -52,3 +52,14 @@ Still flagged for a native speaker:
 | site.features.items.dashboard.eyebrow, becomingGoal | Becoming / someone who keeps their promises | হয়ে উঠছেন / এমন একজন, যিনি কথা রাখেন | Verb phrase as a name; check the label plus goal combination |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | “বিদ্যমান ডেটার সঙ্গে মেশান” | Not in glossary; must match the app button |
 | site.faq.items[0].a | Water | পানি | Glossary uses Bangladeshi form; West Bengal says "জল" |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.longest, current, goal | Longest run / Current run | দীর্ঘতম স্ট্রিক / চলতি স্ট্রিক | glossary "Streak" equals "Consistency" (ধারাবাহিকতা); site copy uses "স্ট্রিক", kept |
+| site.skyline.empty, levelEmpty | Nothing logged | কিছু লগ করা হয়নি | glossary "Not logged" is "লগ ইন করা হয়নি" (means "not logged in"), not used |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | স্ট্রিকে সেই দিনগুলো গোনা হয়, যেদিন {goal} লক্ষ্য ছোঁয়া বা ছাড়ানো হয়েছে। | rephrased |
+| site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered |
+| site.footer.skyline | Skyline chart adapted from | স্কাইলাইন চার্টের ভিত্তি: | Bengali puts "from" after the noun, so rewritten as "basis of the skyline chart:" before the link |

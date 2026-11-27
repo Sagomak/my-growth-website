@@ -42,3 +42,15 @@ Still flagged for a native speaker:
 | site.features.items.widgets.body | Habit Grid widget, Today widget | виджет «Сетка привычек», виджет «Сегодня» | check the app's widget gallery names |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | «Объединить с существующими» | button not in glossary; check the app |
 | legal.privacy.rights.export | Settings, Data Management, Export | Настройки, Управление данными, Экспорт | "Export" button not in glossary |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | 3D-вид | "skyline" has no natural Russian toggle label; used "3D view" |
+| site.skyline.tooltip, empty | {pct} on {date} / Nothing logged on {date} | {date}: {pct} / {date}: нет записей | reordered as "date: value" to avoid case agreement with the browser date |
+| site.skyline.range | {a} to {b} | с {a} по {b} | needs genitive dates ("12 нояб."), which Intl gives; check in the browser |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | В серию входят дни с результатом не ниже цели {goal}. | rephrased |
+| site.skyline.levelEmpty | Nothing logged | Нет записей | glossary "Not logged" is «Не зафиксировано»; shorter form chosen for the legend |
+| site.footer.skyline | Skyline chart adapted from | Диаграмма skyline создана на основе | followed by the English link title |

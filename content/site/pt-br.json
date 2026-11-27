@@ -42,6 +42,28 @@
     "trust": "Privado por natureza. Sem conta, sem nuvem.",
     "phoneAlt": "O Dashboard do MyGrowth: a faixa da semana, a meta Rumo a e os hábitos de hoje como cartões desenhados à mão."
   },
+  "skyline": {
+    "title": "Um ano de constância",
+    "caption": "Dados de exemplo: oito hábitos ao longo de um ano",
+    "viewGroup": "Visualização do gráfico",
+    "flat": "Heatmap plano",
+    "skyline": "Skyline 3D",
+    "hintFlat": "Passe o mouse sobre um dia para ver os detalhes ou use as setas do teclado",
+    "hintOrbit": "Arraste para girar o skyline, clique duas vezes para redefinir",
+    "hintTouch": "Toque em um dia para ver os detalhes",
+    "tooltip": "{date}: {pct}",
+    "empty": "{date}: nada registrado",
+    "range": "de {a} a {b}",
+    "avg": "Constância média",
+    "bestWeek": "Melhor semana",
+    "longest": "Maior sequência",
+    "current": "Sequência atual",
+    "goal": "As sequências contam os dias que atingem ou superam a meta de {goal}.",
+    "levelEmpty": "Nada registrado",
+    "levelUnder": "Abaixo de {pct}",
+    "highlight": "Destacar dias: {level}",
+    "aria": "Constância de exemplo para cada dia, de {a} a {b}, com média de {avg}. Use as setas do teclado para ler cada dia."
+  },
   "year": {
     "eyebrow": "Seu ano, de relance",
     "title": "Um retrato honesto de um ano.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Fontes sob a SIL Open Font License",
-    "languages": "Idiomas"
+    "languages": "Idiomas",
+    "skyline": "Gráfico skyline adaptado de"
   },
   "support": {
     "eyebrow": "Suporte",

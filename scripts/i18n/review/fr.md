@@ -49,3 +49,54 @@ Still flagged for a native speaker:
 | site.tutorial.reminders.items | Default: 9:00 / 21:00 | 9:00 / 21:00 | kept app format; French print usage is 9 h 00 |
 | site.pro.proItems[2] | All time charts and averages | Graphiques et moyennes sur tout l'historique | glossary has "Tout le temps + moyennes", which is a calque; I deviated here as this is marketing copy, not a UI label |
 | legal.* | (whole file) | tutoiement | "tu" in legal text matches the app and the Italian page; confirm the owner wants it in French legal copy |
+
+## Formal address (legal), 2026-11-27
+
+Legal pages switched from informal to formal address (tu → vous). Marketing copy (content/site) stays informal. Changed key paths (31):
+
+- legal.meta.privacy.description
+- legal.privacy.intro
+- legal.privacy.short.body
+- legal.privacy.stored.intro
+- legal.privacy.stored.footer
+- legal.privacy.rights.title
+- legal.privacy.rights.intro
+- legal.privacy.rights.access
+- legal.privacy.rights.export
+- legal.privacy.rights.delete
+- legal.privacy.rights.rectify
+- legal.privacy.rights.footer
+- legal.privacy.retention.body
+- legal.privacy.purchases.body[0]
+- legal.privacy.purchases.body[1]
+- legal.privacy.purchases.body[2]
+- legal.terms.intro
+- legal.terms.acceptance.body
+- legal.terms.description.body
+- legal.terms.responsibilities.items[0]
+- legal.terms.responsibilities.items[1]
+- legal.terms.responsibilities.items[2]
+- legal.terms.responsibilities.items[3]
+- legal.terms.dataPrivacy.item1
+- legal.terms.dataPrivacy.item2
+- legal.terms.dataPrivacy.item3
+- legal.terms.ip.body
+- legal.terms.iap.body
+- legal.terms.liability.body
+- legal.terms.dataLoss.body
+- legal.terms.termination.body
+
+Doubts:
+
+- terms.acceptance.body: "vous acceptez d'être lié" keeps the masculine singular "lié" (polite singular vous, generic masculine as before); "liés" would only fit a plural reading.
+- terms.responsibilities.items[0], [1]: "Vous êtes responsable" kept singular for the same reason.
+- chrome.*, englishLink ("Lire la version anglaise"): infinitive or neutral, no address, left unchanged.
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.range | {a} to {b} | du {a} au {b} | "du 1 nov." where French would write "1er"; lowercase "du" if it opens a line |
+| site.skyline.skyline | 3D skyline | Skyline 3D | feminine "la skyline" used in hintOrbit; gender of the anglicism varies |
+| site.skyline.hintOrbit | Drag to turn the skyline, double click to reset | Fais glisser pour faire tourner la skyline, double-clique pour la réinitialiser | "double-clique" uses an in-word hyphen (allowed by the brief) |

@@ -47,3 +47,15 @@ Still flagged for a native speaker:
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | «Об'єднати з наявними» | button not in glossary |
 | legal.privacy.rights.export | Settings, Data Management, Export | Налаштування, Управління даними, Експорт | "Export" button not in glossary |
 | legal.privacy.stored.items[2] | onboarding status | стан ознайомлення | no settled term |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | 3D-вигляд | "skyline" has no natural Ukrainian toggle label; used "3D view" |
+| site.skyline.tooltip, empty | {pct} on {date} / Nothing logged on {date} | {date}: {pct} / {date}: немає записів | reordered to avoid case agreement with the browser date |
+| site.skyline.range | {a} to {b} | з {a} по {b} | check with Intl short dates in the browser |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | До серії входять дні з результатом не нижче мети {goal}. | rephrased |
+| site.skyline.levelEmpty | Nothing logged | Немає записів | glossary "Not logged" is «Не зафіксовано»; shorter form chosen |
+| site.footer.skyline | Skyline chart adapted from | Діаграму skyline створено на основі | followed by the English link title |

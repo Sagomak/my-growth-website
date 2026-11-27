@@ -48,3 +48,13 @@ Still flagged for a native speaker:
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Flet med eksisterende | button label not in glossary |
 | site.tutorial.pace.items[1][1] | km/h | km/h | Danish usually writes km/t |
 | legal.terms.liability.body | indirect, incidental, special, or consequential damages | indirekte tab, hændelige skader, særlige skader eller følgeskader | US liability categories have no exact Danish equivalent; legal check advised |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.title | A year of consistency | Et år med konsekvens | glossary Consistency = Konsekvens, which in Danish also means "consequence"; reads oddly as a title |
+| site.skyline.avg | Average consistency | Gennemsnitlig konsekvens | same glossary issue as above |
+| site.skyline.longest / current | Longest run / Current run | Længste stime / Nuværende stime | glossary Streak = Stime; "stime" is uncommon for streaks in Danish ("stribe" is more usual) |
+| site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered; Danish full date "torsdag den 12. november 2026" reads best first |

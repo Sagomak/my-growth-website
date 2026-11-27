@@ -42,6 +42,28 @@
     "trust": "Privato fin dalla progettazione. Nessun account, nessun cloud.",
     "phoneAlt": "La Dashboard di MyGrowth: la striscia della settimana, l'obiettivo Diventi e le abitudini di oggi come card disegnate a mano."
   },
+  "skyline": {
+    "title": "Un anno di costanza",
+    "caption": "Dati di esempio: otto abitudini in un anno",
+    "viewGroup": "Vista del grafico",
+    "flat": "Heatmap piatta",
+    "skyline": "Skyline 3D",
+    "hintFlat": "Passa sopra un giorno per i dettagli, oppure usa i tasti freccia",
+    "hintOrbit": "Trascina per ruotare lo skyline, doppio clic per ripristinare",
+    "hintTouch": "Tocca un giorno per i dettagli",
+    "tooltip": "{date}: {pct}",
+    "empty": "{date}: nessuna registrazione",
+    "range": "dal {a} al {b}",
+    "avg": "Costanza media",
+    "bestWeek": "Settimana migliore",
+    "longest": "Serie più lunga",
+    "current": "Serie attuale",
+    "goal": "Le serie contano i giorni pari o superiori all'obiettivo del {goal}.",
+    "levelEmpty": "Nessuna registrazione",
+    "levelUnder": "Sotto il {pct}",
+    "highlight": "Evidenzia i giorni: {level}",
+    "aria": "Costanza di esempio per ogni giorno dal {a} al {b}, con una media del {avg}. Usa i tasti freccia per leggere ogni giorno."
+  },
   "year": {
     "eyebrow": "Il tuo anno, a colpo d'occhio",
     "title": "Un anno in un'unica immagine onesta.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Font con licenza SIL Open Font License",
-    "languages": "Lingue"
+    "languages": "Lingue",
+    "skyline": "Grafico skyline adattato da"
   },
   "support": {
     "eyebrow": "Supporto",

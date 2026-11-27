@@ -42,6 +42,28 @@
     "trust": "Privat që në konceptim. Pa llogari, pa cloud.",
     "phoneAlt": "Dashboard i MyGrowth: shiriti i javës, qëllimi „Po bëhesh” dhe zakonet e sotme si karta të vizatuara me dorë."
   },
+  "skyline": {
+    "title": "Një vit konsistencë",
+    "caption": "Të dhëna shembull: tetë zakone gjatë një viti",
+    "viewGroup": "Pamja e grafikut",
+    "flat": "Hartë nxehtësie e sheshtë",
+    "skyline": "Panoramë 3D",
+    "hintFlat": "Kalo kursorin mbi një ditë për detaje, ose përdor tastet e shigjetave",
+    "hintOrbit": "Tërhiqe për ta rrotulluar panoramën, kliko dy herë për ta rikthyer",
+    "hintTouch": "Prek një ditë për detaje",
+    "tooltip": "{date}: {pct}",
+    "empty": "{date}: asgjë e regjistruar",
+    "range": "{a} deri më {b}",
+    "avg": "Konsistenca mesatare",
+    "bestWeek": "Java më e mirë",
+    "longest": "Seria më e gjatë",
+    "current": "Seria aktuale",
+    "goal": "Seritë numërojnë ditët që arrijnë ose kalojnë qëllimin prej {goal}.",
+    "levelEmpty": "Asgjë e regjistruar",
+    "levelUnder": "Nën {pct}",
+    "highlight": "Thekso ditët: {level}",
+    "aria": "Konsistencë shembull për çdo ditë nga {a} deri më {b}, me mesatare {avg}. Përdor tastet e shigjetave për të lexuar çdo ditë."
+  },
   "year": {
     "eyebrow": "Viti yt, me një shikim",
     "title": "Një pamje e sinqertë e një viti.",
@@ -250,7 +272,8 @@
     "tutorial": "Udhëzues",
     "copyright": "© {year} Sagomak",
     "fonts": "Fontet sipas licencës SIL Open Font License",
-    "languages": "Gjuhët"
+    "languages": "Gjuhët",
+    "skyline": "Grafiku i panoramës është përshtatur nga"
   },
   "support": {
     "eyebrow": "Mbështetje",

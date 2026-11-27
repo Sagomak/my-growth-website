@@ -42,6 +42,28 @@
     "trust": "Privat sejak awal. Tanpa akun, tanpa cloud.",
     "phoneAlt": "Dashboard MyGrowth: strip mingguan, tujuan Menjadi, dan kebiasaan hari ini sebagai kartu gambar tangan."
   },
+  "skyline": {
+    "title": "Setahun konsistensi",
+    "caption": "Data contoh: delapan kebiasaan selama setahun",
+    "viewGroup": "Tampilan grafik",
+    "flat": "Heatmap datar",
+    "skyline": "Skyline 3D",
+    "hintFlat": "Arahkan kursor ke suatu hari untuk detail, atau gunakan tombol panah",
+    "hintOrbit": "Seret untuk memutar skyline, klik dua kali untuk mengatur ulang",
+    "hintTouch": "Ketuk suatu hari untuk detail",
+    "tooltip": "{pct} pada {date}",
+    "empty": "Tidak ada catatan pada {date}",
+    "range": "{a} sampai {b}",
+    "avg": "Rata-rata konsistensi",
+    "bestWeek": "Minggu terbaik",
+    "longest": "Rentetan terpanjang",
+    "current": "Rentetan saat ini",
+    "goal": "Rentetan menghitung hari yang mencapai tujuan {goal} atau lebih.",
+    "levelEmpty": "Belum dicatat",
+    "levelUnder": "Di bawah {pct}",
+    "highlight": "Sorot hari: {level}",
+    "aria": "Contoh Konsistensi untuk setiap hari dari {a} sampai {b}, dengan rata-rata {avg}. Gunakan tombol panah untuk membaca tiap hari."
+  },
   "year": {
     "eyebrow": "Setahunmu dalam sekali lihat",
     "title": "Gambaran jujur tentang setahun.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Font di bawah SIL Open Font License",
-    "languages": "Bahasa"
+    "languages": "Bahasa",
+    "skyline": "Grafik skyline diadaptasi dari"
   },
   "support": {
     "eyebrow": "Dukungan",

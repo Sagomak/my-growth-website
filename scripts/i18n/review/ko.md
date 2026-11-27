@@ -49,3 +49,12 @@ Still flagged for a native speaker:
 | site.pro.proItems[2] | All time charts and averages | 모든 시간 차트와 평균 | From glossary; 전체 기간 more natural |
 | site.pro.free[0] | 3 habits | 3가지 습관 | Glossary; 습관 3개 more natural |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | 기존 데이터와 병합 | Not in glossary; check against the app |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.footer.skyline | Skyline chart adapted from | 스카이라인 차트 출처: | Korean puts the source first; rendered as "Skyline chart source:" so it reads before the link |
+| site.skyline.levelEmpty / empty | Nothing logged | 기록 없음 | Glossary "Not logged" is 로그인하지 않음 ("not logged in"), wrong; used 기록 없음 |
+| site.skyline.title | A year of consistency | 일관성의 한 해 | Glossary 일관성 is stiff for a title; 꾸준함 would be more natural |
+| site.skyline.range | {a} to {b} | {a}부터 {b}까지 | Avoided ~ so nothing reads as a dash |

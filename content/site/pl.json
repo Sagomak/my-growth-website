@@ -42,6 +42,28 @@
     "trust": "Prywatność w standardzie. Bez konta, bez chmury.",
     "phoneAlt": "Dashboard w MyGrowth: pasek tygodnia, cel Stajesz się i dzisiejsze nawyki jako odręcznie rysowane karty."
   },
+  "skyline": {
+    "title": "Rok konsekwencji",
+    "caption": "Przykładowe dane: osiem nawyków przez rok",
+    "viewGroup": "Widok wykresu",
+    "flat": "Płaska heatmapa",
+    "skyline": "Panorama 3D",
+    "hintFlat": "Najedź na dzień, by zobaczyć szczegóły, albo użyj strzałek",
+    "hintOrbit": "Przeciągnij, by obrócić panoramę, kliknij dwukrotnie, by zresetować",
+    "hintTouch": "Stuknij dzień, by zobaczyć szczegóły",
+    "tooltip": "{date}: {pct}",
+    "empty": "{date}: brak wpisów",
+    "range": "od {a} do {b}",
+    "avg": "Średnia konsekwencja",
+    "bestWeek": "Najlepszy tydzień",
+    "longest": "Najdłuższa passa",
+    "current": "Obecna passa",
+    "goal": "Do passy liczą się dni, w których osiągasz cel {goal} lub więcej.",
+    "levelEmpty": "Brak wpisów",
+    "levelUnder": "Poniżej {pct}",
+    "highlight": "Wyróżnij dni: {level}",
+    "aria": "Przykładowa Konsekwencja dla każdego dnia od {a} do {b}, średnio {avg}. Użyj strzałek, by odczytać kolejne dni."
+  },
   "year": {
     "eyebrow": "Twój rok w jednym spojrzeniu",
     "title": "Jeden szczery obraz całego roku.",
@@ -250,7 +272,8 @@
     "tutorial": "Samouczek",
     "copyright": "© {year} Sagomak",
     "fonts": "Czcionki na licencji SIL Open Font License",
-    "languages": "Języki"
+    "languages": "Języki",
+    "skyline": "Wykres panoramy na podstawie"
   },
   "support": {
     "eyebrow": "Wsparcie",

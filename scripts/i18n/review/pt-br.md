@@ -48,3 +48,12 @@ Still flagged for a native speaker:
 | site.features.items.widgets.body | Habit Grid widget | widget de Grade do hábito | widget name not in glossary |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Mesclar com os existentes | button label not in glossary |
 | legal.privacy.rights.intro | General Data Protection Regulation | Regulamento Geral sobre a Proteção de Dados (RGPD, conhecido em inglês como GDPR) | parenthetical is an addition to the source; owner to decide between RGPD, GDPR or keeping the gloss |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered with a colon, since "em quinta-feira" would need "na" |
+| site.skyline.skyline | 3D skyline | Skyline 3D | masculine "o skyline" used in hintOrbit |
+| site.skyline.hintOrbit | Drag to turn the skyline, double click to reset | Arraste para girar o skyline, clique duas vezes para redefinir | "clique duas vezes" avoids "duplo clique"; both are natural |

@@ -42,6 +42,28 @@
     "trust": "Peribadi sejak awal. Tiada akaun, tiada awan.",
     "phoneAlt": "Dashboard MyGrowth: jalur mingguan, matlamat Menjadi dan tabiat hari ini sebagai kad lukisan tangan."
   },
+  "skyline": {
+    "title": "Setahun konsistensi",
+    "caption": "Data contoh: lapan tabiat sepanjang setahun",
+    "viewGroup": "Paparan carta",
+    "flat": "Heatmap rata",
+    "skyline": "Skyline 3D",
+    "hintFlat": "Halakan tetikus pada satu hari untuk butiran, atau guna kekunci anak panah",
+    "hintOrbit": "Seret untuk memusingkan skyline, klik dua kali untuk set semula",
+    "hintTouch": "Ketik satu hari untuk butiran",
+    "tooltip": "{pct} pada {date}",
+    "empty": "Tiada catatan pada {date}",
+    "range": "{a} hingga {b}",
+    "avg": "Purata konsistensi",
+    "bestWeek": "Minggu terbaik",
+    "longest": "Rentetan terpanjang",
+    "current": "Rentetan semasa",
+    "goal": "Rentetan mengira hari yang mencapai matlamat {goal} atau lebih.",
+    "levelEmpty": "Tidak dicatat",
+    "levelUnder": "Di bawah {pct}",
+    "highlight": "Serlahkan hari: {level}",
+    "aria": "Contoh Konsistensi bagi setiap hari dari {a} hingga {b}, dengan purata {avg}. Guna kekunci anak panah untuk membaca setiap hari."
+  },
   "year": {
     "eyebrow": "Setahunmu dalam sekali pandang",
     "title": "Satu gambaran jujur tentang setahun.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Fon di bawah SIL Open Font License",
-    "languages": "Bahasa"
+    "languages": "Bahasa",
+    "skyline": "Carta skyline diadaptasi daripada"
   },
   "support": {
     "eyebrow": "Sokongan",

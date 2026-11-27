@@ -42,3 +42,11 @@ Still flagged for a native speaker:
 | site.features.items.widgets.eyebrow | Live Activity | กิจกรรมสด | Check against Apple's Thai name. |
 | site.meta.*.title, legal.meta.*.title | Support, MyGrowth | สนับสนุน, MyGrowth | Comma separator kept from the site pattern; Thai titles often use a space or "|". |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | รวมกับข้อมูลที่มีอยู่ | Not in glossary; match the app's exact label. |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.tooltip / empty | {pct} on {date} | {pct} เมื่อ{date} | Thai full date already starts with วัน...; check the join with no space reads well |
+| site.skyline.skyline / footer.skyline | 3D skyline | สกายไลน์ 3 มิติ | Transliterated "skyline"; no common Thai term for this chart type |
+| site.skyline.flat | Flat heatmap | heatmap แบบแบน | Keeps the English "heatmap" as the existing site copy does |

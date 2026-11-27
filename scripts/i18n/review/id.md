@@ -45,3 +45,11 @@ Still flagged for a native speaker:
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Gabungkan dengan yang ada | check against the app's import button |
 | legal.privacy.stored.items[2] | onboarding status | status orientasi awal | no fixed term |
 | legal.terms.governingLaw.body | conflict of law principles | prinsip-prinsip konflik hukum | legal term; needs a legal check |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | Skyline 3D | Loanword kept (also in hintOrbit and footer). |
+| site.skyline.longest | Longest run | Rentetan terpanjang | Glossary "Streak" = "Rentetan"; reads a little formal. |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | Rentetan menghitung hari yang mencapai tujuan {goal} atau lebih. | Glossary "Goal" = "Tujuan"; "target" may be more natural for a percentage. |

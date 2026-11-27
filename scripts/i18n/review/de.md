@@ -50,3 +50,12 @@ Still flagged for a native speaker:
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Mit vorhandenen zusammenführen | button not in glossary; confirm against the app |
 | legal.privacy.rights.export | Settings, Data Management, Export | Einstellungen, Datenverwaltung, Exportieren | confirm the button label in the app |
 | legal.terms.liability.body | incidental, special damages | zufällige, besondere Schäden | common-law terms with no exact German equivalent; such exclusions are limited under German law anyway |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.footer.skyline | Skyline chart adapted from | Skyline-Diagramm basierend auf | "adaptiert von" sounds translated; check it reads well before the English link text |
+| site.skyline.hintFlat | Hover a day for details, or use the arrow keys | Fahre über einen Tag für Details oder nutze die Pfeiltasten | "Fahre mit der Maus über" is fuller; shortened for the hint line |
+| site.skyline.aria | ... | Beispielwerte für Beständigkeit an jedem Tag von {a} bis {b}, im Durchschnitt {avg}. ... | "Beispielwerte" added for natural phrasing |

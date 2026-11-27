@@ -37,3 +37,11 @@ Still flagged for a native speaker:
 | site.tutorial.reminders.items | Morning reminder / Evening nudge | Nhắc nhở buổi sáng / Nhắc Nhở Buổi Tối | Inconsistent capitalization in the app glossary. |
 | site.tutorial.pace.items | min/km | phút/km | Check the unit the app displays. |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Gộp với dữ liệu hiện có | Not in glossary; match the app's exact label. |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.title | A year of consistency | Một năm của sự nhất quán | Glossary "Sự nhất quán" is stiff in a short handwritten title |
+| site.skyline.skyline / hintOrbit / footer.skyline | 3D skyline | Skyline 3D | Kept "skyline" in English; no established Vietnamese term |
+| site.skyline.aria | Example Consistency for every day... | Sự nhất quán ví dụ cho mỗi ngày... | Glossary term plus "ví dụ" reads a bit literal |

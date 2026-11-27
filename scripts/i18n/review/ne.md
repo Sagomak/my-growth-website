@@ -58,3 +58,12 @@ Still flagged for a native speaker:
 | site.nav.support | Support | सहयोग | Glossary term, acceptable but "सहायता" also possible |
 | site.features.items.dashboard.becomingGoal | someone who keeps their promises | आफ्नो वचन निभाउने मान्छे | Check after the "बन्दै" label |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | “विद्यमान डाटासँग मिलाउनुहोस्” | Not in glossary; must match the app button |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.longest / current / goal | Longest run / Current run | सबैभन्दा लामो स्ट्रिक / हालको स्ट्रिक | Glossary "Streak" is लगातार, which does not work as a noun here; used स्ट्रिक as the existing site copy (features.grid) does |
+| site.footer.skyline | Skyline chart adapted from | स्काइलाइन चार्टको स्रोत: | Nepali puts the source before "adapted"; rendered as "Source of the skyline chart:" so it reads before the link |
+| site.skyline.title | A year of consistency | सततताको एक वर्ष | Glossary सततता; site body text also uses निरन्तरता, check which reads better as a title |
+| site.skyline.empty / levelEmpty | Nothing logged | केही दर्ता गरिएको छैन / केही दर्ता छैन | Glossary "Not logged" (लगाइएको छैन) reads as "not worn"; not used |

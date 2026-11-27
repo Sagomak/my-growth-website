@@ -38,3 +38,13 @@ Still flagged for a native speaker:
 | site.gallery.items[2].alt | days shown up / total | Pokazane dni / Całkowity | app glossary terms with wrong meaning or part of speech; fix in the app ("Dni obecności", "Suma") |
 | site.features.items.grid.body, site.tutorial.streaks.* | streak | passa | glossary "Passa" while App Store copy uses "seria"; pick one across app, store and site |
 | site.features.items.widgets.body, widget.label | Habit Grid widget | Widżet Habit Grid | widget name left in English; confirm against the Polish widget gallery |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | Panorama 3D | "skyline" rendered as "panorama" (city panorama); also used in hintOrbit and footer ("Wykres panoramy"). A native may prefer the loanword "skyline". |
+| site.skyline.tooltip | {pct} on {date} | {date}: {pct} | Reordered with a colon; "w dniu {date}" before a weekday-first date reads stiffly. |
+| site.skyline.range | {a} to {b} | od {a} do {b} | "od" added; check it reads well after a stat label. |
+| site.skyline.levelEmpty | Nothing logged | Brak wpisów | Glossary "Not logged" is "Nie zalogowano" (means "not signed in"), so not used. |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | Do passy liczą się dni, w których osiągasz cel {goal} lub więcej. | Rephrased; "Passa" glossary term used for "run". |

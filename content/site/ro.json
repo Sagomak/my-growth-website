@@ -42,6 +42,28 @@
     "trust": "Privat din start. Fără cont, fără cloud.",
     "phoneAlt": "Dashboard-ul MyGrowth: banda săptămânii, obiectivul Devii și obiceiurile de azi ca niște carduri desenate de mână."
   },
+  "skyline": {
+    "title": "Un an de constanță",
+    "caption": "Date exemplu: opt obiceiuri timp de un an",
+    "viewGroup": "Vizualizarea graficului",
+    "flat": "Heatmap plat",
+    "skyline": "Skyline 3D",
+    "hintFlat": "Treci cu mouse-ul peste o zi pentru detalii sau folosește tastele săgeți",
+    "hintOrbit": "Trage ca să rotești skyline-ul, dublu clic ca să resetezi",
+    "hintTouch": "Atinge o zi pentru detalii",
+    "tooltip": "{date}: {pct}",
+    "empty": "{date}: nimic înregistrat",
+    "range": "{a} până la {b}",
+    "avg": "Constanță medie",
+    "bestWeek": "Cea mai bună săptămână",
+    "longest": "Cea mai lungă serie",
+    "current": "Seria curentă",
+    "goal": "Seriile numără zilele în care atingi sau depășești obiectivul de {goal}.",
+    "levelEmpty": "Nimic înregistrat",
+    "levelUnder": "Sub {pct}",
+    "highlight": "Evidențiază zilele: {level}",
+    "aria": "Exemplu de Constanță pentru fiecare zi de la {a} la {b}, cu o medie de {avg}. Folosește tastele săgeți ca să citești fiecare zi."
+  },
   "year": {
     "eyebrow": "Anul tău, dintr-o privire",
     "title": "O imagine sinceră a unui an întreg.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Fonturi sub licența SIL Open Font License",
-    "languages": "Limbi"
+    "languages": "Limbi",
+    "skyline": "Grafic skyline adaptat după"
   },
   "support": {
     "eyebrow": "Suport",

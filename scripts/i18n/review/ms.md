@@ -50,3 +50,12 @@ Still flagged for a native speaker:
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Gabungkan dengan sedia ada | check against the app's button |
 | legal.terms.liability.body | consequential damages | kerosakan berbangkit | "ganti rugi berbangkit" may be preferred; legal check |
 | legal.terms.governingLaw.body | conflict of law principles | prinsip konflik undang-undang | legal check |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | Skyline 3D | Loanword kept (also in hintOrbit and footer). |
+| site.skyline.hintFlat | Hover a day for details... | Halakan tetikus pada satu hari untuk butiran... | "hover" has no standard Malay term. |
+| site.skyline.levelEmpty | Nothing logged | Tidak dicatat | Glossary "Not logged"; verify it fits as a legend label. |
+| site.skyline.title | A year of consistency | Setahun konsistensi | Same as id; "Setahun yang konsisten" is the alternative. |

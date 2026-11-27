@@ -42,6 +42,28 @@
     "trust": "从设计之初就注重隐私。无需账户，没有云端。",
     "phoneAlt": "MyGrowth的Dashboard：周视图条、正在成为目标，以及以手绘卡片呈现的今天的习惯。"
   },
+  "skyline": {
+    "title": "一致性的一年",
+    "caption": "示例数据：八个习惯，为期一年",
+    "viewGroup": "图表视图",
+    "flat": "平面热力图",
+    "skyline": "3D天际线",
+    "hintFlat": "将鼠标悬停在某一天上查看详情，或使用方向键",
+    "hintOrbit": "拖动可旋转天际线，双击可复位",
+    "hintTouch": "轻点某一天查看详情",
+    "tooltip": "{date}：{pct}",
+    "empty": "{date}：未记录",
+    "range": "{a}至{b}",
+    "avg": "平均一致性",
+    "bestWeek": "最佳一周",
+    "longest": "最长连续记录",
+    "current": "当前连续记录",
+    "goal": "连续记录只计算达到或超过{goal}目标的天数。",
+    "levelEmpty": "未记录",
+    "levelUnder": "低于{pct}",
+    "highlight": "突出显示：{level}",
+    "aria": "从{a}到{b}每一天的一致性示例，平均为{avg}。使用方向键逐日读取。"
+  },
   "year": {
     "eyebrow": "一整年，一目了然",
     "title": "一年，一张诚实的图。",
@@ -250,7 +272,8 @@
     "tutorial": "教程",
     "copyright": "© {year} Sagomak",
     "fonts": "字体依据SIL Open Font License使用",
-    "languages": "语言"
+    "languages": "语言",
+    "skyline": "天际线图改编自"
   },
   "support": {
     "eyebrow": "支持",

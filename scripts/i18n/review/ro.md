@@ -37,3 +37,12 @@ Still flagged for a native speaker:
 | site.features.items.charts.consistency (and all "Constanță") | Consistency | Constanță | glossary vs App Store "consecvență"; align app, store and site |
 | site.faq.items[2].a, site.tutorial.backup.* | Import Data / Export Backup | Importă Date / Exportă Backup | glossary title case is not Romanian style; fix in the app first |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Combină cu datele existente | not in glossary; check the app's option label |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | Skyline 3D | Loanword kept (also in hintOrbit "skyline-ul" and footer); "panoramă" is the alternative. |
+| site.skyline.range | {a} to {b} | {a} până la {b} | "de la {a} până la {b}" may read better depending on context. |
+| site.skyline.tooltip | {pct} on {date} | {date}: {pct} | Reordered with a colon to avoid preposition choice before a weekday-first date. |
+| site.skyline.hintOrbit | ...double click to reset | ...dublu clic ca să resetezi | Check "dublu clic" vs "clic dublu". |

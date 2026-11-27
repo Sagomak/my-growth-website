@@ -42,6 +42,28 @@
     "trust": "Privat fra starten. Ingen konto, ingen sky.",
     "phoneAlt": "MyGrowths Dashboard: ugebjælken, målet På vej mod og dagens vaner som håndtegnede kort."
   },
+  "skyline": {
+    "title": "Et år med konsekvens",
+    "caption": "Eksempeldata: otte vaner over et år",
+    "viewGroup": "Diagramvisning",
+    "flat": "Fladt heatmap",
+    "skyline": "3D-skyline",
+    "hintFlat": "Hold musen over en dag for detaljer, eller brug piletasterne",
+    "hintOrbit": "Træk for at dreje skylinen, dobbeltklik for at nulstille",
+    "hintTouch": "Tryk på en dag for detaljer",
+    "tooltip": "{date}: {pct}",
+    "empty": "{date}: intet logget",
+    "range": "{a} til {b}",
+    "avg": "Gennemsnitlig konsekvens",
+    "bestWeek": "Bedste uge",
+    "longest": "Længste stime",
+    "current": "Nuværende stime",
+    "goal": "Stimer tæller de dage, hvor målet på {goal} er nået eller overgået.",
+    "levelEmpty": "Intet logget",
+    "levelUnder": "Under {pct}",
+    "highlight": "Fremhæv dage: {level}",
+    "aria": "Eksempel på Konsekvens for hver dag fra {a} til {b}, med et gennemsnit på {avg}. Brug piletasterne til at læse hver dag."
+  },
   "year": {
     "eyebrow": "Dit år på ét blik",
     "title": "Ét ærligt billede af et år.",
@@ -250,7 +272,8 @@
     "tutorial": "Vejledning",
     "copyright": "© {year} Sagomak",
     "fonts": "Skrifttyper under SIL Open Font License",
-    "languages": "Sprog"
+    "languages": "Sprog",
+    "skyline": "Skyline-diagram baseret på"
   },
   "support": {
     "eyebrow": "Support",

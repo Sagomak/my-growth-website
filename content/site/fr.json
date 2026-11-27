@@ -42,6 +42,28 @@
     "trust": "Privé par conception. Pas de compte, pas de cloud.",
     "phoneAlt": "Le Dashboard de MyGrowth : la bande de la semaine, l'objectif Deviens et les habitudes du jour sous forme de cartes dessinées à la main."
   },
+  "skyline": {
+    "title": "Une année de constance",
+    "caption": "Données d'exemple : huit habitudes sur un an",
+    "viewGroup": "Vue du graphique",
+    "flat": "Heatmap à plat",
+    "skyline": "Skyline 3D",
+    "hintFlat": "Survole un jour pour voir le détail, ou utilise les flèches du clavier",
+    "hintOrbit": "Fais glisser pour faire tourner la skyline, double-clique pour la réinitialiser",
+    "hintTouch": "Touche un jour pour voir le détail",
+    "tooltip": "{pct} le {date}",
+    "empty": "Rien d'enregistré le {date}",
+    "range": "du {a} au {b}",
+    "avg": "Constance moyenne",
+    "bestWeek": "Meilleure semaine",
+    "longest": "Plus longue série",
+    "current": "Série en cours",
+    "goal": "Les séries comptent les jours où l'objectif de {goal} est atteint ou dépassé.",
+    "levelEmpty": "Rien d'enregistré",
+    "levelUnder": "Moins de {pct}",
+    "highlight": "Mettre en évidence les jours : {level}",
+    "aria": "Constance d'exemple pour chaque jour du {a} au {b}, avec une moyenne de {avg}. Utilise les flèches du clavier pour lire chaque jour."
+  },
   "year": {
     "eyebrow": "Ton année, d'un coup d'œil",
     "title": "Une année, en une image honnête.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutoriel",
     "copyright": "© {year} Sagomak",
     "fonts": "Polices sous licence SIL Open Font License",
-    "languages": "Langues"
+    "languages": "Langues",
+    "skyline": "Graphique skyline adapté de"
   },
   "support": {
     "eyebrow": "Aide",

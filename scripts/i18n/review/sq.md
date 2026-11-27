@@ -48,3 +48,12 @@ Still flagged for a native speaker:
 | site.hero.trust, site.privacy.body | no cloud | pa cloud | Loanword kept; check. |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | Bashko me ekzistueset | Not in glossary; match the app's exact label. |
 | legal.privacy.stored.items[2] | onboarding status | statusi i hyrjes fillestare | No settled Albanian term. |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | Panoramë 3D | "skyline" rendered as "panoramë"; also in hintOrbit and footer ("Grafiku i panoramës është përshtatur nga"). |
+| site.skyline.tooltip | {pct} on {date} | {date}: {pct} | "më {date}" clashes with a weekday-first date, so reordered with a colon. |
+| site.skyline.title | A year of consistency | Një vit konsistencë | Check whether "Një vit konsistence" (genitive) is more natural. |
+| site.skyline.hintOrbit | ...double click to reset | ...kliko dy herë për ta rikthyer | "rikthyer" (restore) for "reset"; "rivendosur" is the alternative. |

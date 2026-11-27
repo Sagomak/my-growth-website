@@ -37,3 +37,63 @@ Still flagged for a native speaker:
 | site.gallery.items[2].alt | days shown up | Gösterilen günler | app glossary term means "displayed days"; fix in the app |
 | site.tutorial.reminders.items[1][0] | Evening nudge | Akşam Hatırlatıcısı | same word as the morning reminder; app glossary choice |
 | legal (whole) | (register) | informal "sen" | Turkish legal texts usually use "siz"; kept informal to match the App Store copy, owner to decide |
+
+## Formal address (legal), 2026-11-27
+
+Legal pages switched from informal to formal address (sen → siz). Marketing copy (content/site) stays informal. Changed key paths (37):
+
+- legal.meta.privacy.description
+- legal.privacy.intro
+- legal.privacy.short.body
+- legal.privacy.stored.intro
+- legal.privacy.stored.footer
+- legal.privacy.thirdParty.body
+- legal.privacy.rights.title
+- legal.privacy.rights.intro
+- legal.privacy.rights.access
+- legal.privacy.rights.export
+- legal.privacy.rights.delete
+- legal.privacy.rights.rectify
+- legal.privacy.rights.footer
+- legal.privacy.retention.body
+- legal.privacy.contact.body
+- legal.privacy.purchases.body[0]
+- legal.privacy.purchases.body[1]
+- legal.privacy.purchases.body[2]
+- legal.terms.intro
+- legal.terms.acceptance.body
+- legal.terms.description.body
+- legal.terms.responsibilities.items[0]
+- legal.terms.responsibilities.items[1]
+- legal.terms.responsibilities.items[2]
+- legal.terms.responsibilities.items[3]
+- legal.terms.dataPrivacy.item1
+- legal.terms.dataPrivacy.item2
+- legal.terms.dataPrivacy.item3
+- legal.terms.ip.body
+- legal.terms.iap.body
+- legal.terms.liability.body
+- legal.terms.dataLoss.body
+- legal.terms.modifications.body
+- legal.terms.termination.body
+- legal.terms.contact.body
+- legal.chrome.backHome
+- legal.englishLink
+
+Doubts:
+
+- privacy.purchases.body[1] "abonelik geçmişini" and terms.iap.body "satın alma durumunu": the informal form was ambiguous between the compound-noun suffix and the 2nd person possessive. English has "your" in both, so I read them as possessive and changed to "geçmişinizi" and "durumunuzu". Confirm.
+- privacy.purchases.body[2] "hesap bilgilerini" → "hesap bilgilerinizi" to match the already 2nd person "adını, e-postanı" in the same list (English has no "your" there).
+- terms.termination.body: "ihlal ettiğini" and "zarar verdiğini" left unchanged; their subject is the conduct (3rd person), not the reader. Only "erişimini" → "erişiminizi".
+- privacy.retention.body: "silene" and "kaldırana" are person-neutral converbs, left unchanged.
+- chrome.backHome "Ana sayfaya dön" → "Ana sayfaya dönün" and englishLink "oku" → "okuyun": navigation labels; Turkish UI often keeps the bare imperative for buttons. Revert these two if the owner prefers short link labels.
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.skyline | 3D skyline | 3D silüet | "silüet" for skyline; "3B" is the TDK-style abbreviation, "3D" kept as more common on the web. |
+| site.footer.skyline | Skyline chart adapted from | Silüet grafiği şuradan uyarlandı: | Turkish word order would put the source before the verb; a colon before the link avoids that. |
+| site.skyline.range | {a} to {b} | {a} ile {b} arası | Avoids suffix harmony on dates ("'dan/'den"); check after a stat label. |
+| site.skyline.levelUnder | Under {pct} | {pct} altı | Legend label; "{pct} altında" is the fuller alternative. |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | Seriler, {goal} hedefine ulaştığın ya da onu geçtiğin günleri sayar. | Dative suffix sits on "hedef", so it works with any {goal} value. |

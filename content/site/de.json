@@ -42,6 +42,28 @@
     "trust": "Privat von Grund auf. Kein Konto, keine Cloud.",
     "phoneAlt": "Das MyGrowth-Dashboard: der Wochenstreifen, das Ziel unter „Werde zu“ und die Gewohnheiten von heute als handgezeichnete Karten."
   },
+  "skyline": {
+    "title": "Ein Jahr Beständigkeit",
+    "caption": "Beispieldaten: acht Gewohnheiten über ein Jahr",
+    "viewGroup": "Diagrammansicht",
+    "flat": "Flache Heatmap",
+    "skyline": "3D-Skyline",
+    "hintFlat": "Fahre über einen Tag für Details oder nutze die Pfeiltasten",
+    "hintOrbit": "Ziehe, um die Skyline zu drehen, Doppelklick setzt sie zurück",
+    "hintTouch": "Tippe auf einen Tag für Details",
+    "tooltip": "{pct} am {date}",
+    "empty": "Am {date} nichts erfasst",
+    "range": "{a} bis {b}",
+    "avg": "Durchschnittliche Beständigkeit",
+    "bestWeek": "Beste Woche",
+    "longest": "Längste Serie",
+    "current": "Aktuelle Serie",
+    "goal": "Serien zählen die Tage, an denen das Ziel von {goal} erreicht oder übertroffen wurde.",
+    "levelEmpty": "Nichts erfasst",
+    "levelUnder": "Unter {pct}",
+    "highlight": "Tage hervorheben: {level}",
+    "aria": "Beispielwerte für Beständigkeit an jedem Tag von {a} bis {b}, im Durchschnitt {avg}. Mit den Pfeiltasten liest du jeden Tag einzeln."
+  },
   "year": {
     "eyebrow": "Dein Jahr auf einen Blick",
     "title": "Ein ehrliches Bild von einem Jahr.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Schriften unter der SIL Open Font License",
-    "languages": "Sprachen"
+    "languages": "Sprachen",
+    "skyline": "Skyline-Diagramm basierend auf"
   },
   "support": {
     "eyebrow": "Support",

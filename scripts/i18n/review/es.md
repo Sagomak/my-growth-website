@@ -45,3 +45,12 @@ Still flagged for a native speaker:
 | site.tutorial.pace.intro | Track time | Rastrear tiempo | app glossary term; "Registrar tiempo" would be more natural |
 | legal.privacy.rights.export | Settings, Data Management, Export | Configuración, Gestión de Datos, Exportar | confirm the button label in the app |
 | legal.terms.liability.body | consequential damages, including but not limited to | daños consecuentes, incluida, entre otros | live wording kept; a lawyer may prefer "daños emergentes" and "sin carácter limitativo" |
+
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.range | {a} to {b} | del {a} al {b} | lowercase "del" if the string opens a line on its own |
+| site.skyline.avg | Average consistency | Constancia promedio | glossary Average = Promedio; "Constancia media" is equally natural |
+| site.skyline.goal | Runs count the days at or above the {goal} goal. | Las rachas cuentan los días que alcanzan o superan la meta del {goal}. | glossary Goal = Meta (site elsewhere says "objetivo") |

@@ -42,6 +42,28 @@
     "trust": "プライバシー最優先。アカウントなし、クラウドなし。",
     "phoneAlt": "MyGrowthのDashboard：週のストリップ、目指す姿の目標、手描きのカードで並ぶ今日の習慣。"
   },
+  "skyline": {
+    "title": "一貫性の一年",
+    "caption": "サンプルデータ：8つの習慣の一年間",
+    "viewGroup": "チャートの表示",
+    "flat": "平面のヒートマップ",
+    "skyline": "3Dスカイライン",
+    "hintFlat": "日にカーソルを合わせると詳細を表示、矢印キーでも操作できます",
+    "hintOrbit": "ドラッグでスカイラインを回転、ダブルクリックでリセット",
+    "hintTouch": "日をタップすると詳細を表示",
+    "tooltip": "{date}：{pct}",
+    "empty": "{date}：記録なし",
+    "range": "{a}から{b}まで",
+    "avg": "平均一貫性",
+    "bestWeek": "最高の週",
+    "longest": "最長連続記録",
+    "current": "現在の連続記録",
+    "goal": "連続記録は、目標の{goal}以上を達成した日を数えます。",
+    "levelEmpty": "記録なし",
+    "levelUnder": "{pct}未満",
+    "highlight": "日をハイライト：{level}",
+    "aria": "{a}から{b}までの毎日の一貫性のサンプル。平均は{avg}です。矢印キーで1日ずつ読み上げます。"
+  },
   "year": {
     "eyebrow": "一年をひと目で",
     "title": "一年を、一枚の正直な絵に。",
@@ -250,7 +272,8 @@
     "tutorial": "チュートリアル",
     "copyright": "© {year} Sagomak",
     "fonts": "フォントはSIL Open Font Licenseのもとで使用しています",
-    "languages": "言語"
+    "languages": "言語",
+    "skyline": "スカイラインチャートの原案："
   },
   "support": {
     "eyebrow": "サポート",

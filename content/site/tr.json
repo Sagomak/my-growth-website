@@ -42,6 +42,28 @@
     "trust": "Gizlilik temelden gelir. Hesap yok, bulut yok.",
     "phoneAlt": "MyGrowth Dashboard'u: hafta şeridi, Hedef ve bugünün alışkanlıkları elle çizilmiş kartlar olarak."
   },
+  "skyline": {
+    "title": "Bir yıllık süreklilik",
+    "caption": "Örnek veri: bir yıl boyunca sekiz alışkanlık",
+    "viewGroup": "Grafik görünümü",
+    "flat": "Düz heatmap",
+    "skyline": "3D silüet",
+    "hintFlat": "Ayrıntılar için bir günün üzerine gel ya da ok tuşlarını kullan",
+    "hintOrbit": "Silüeti döndürmek için sürükle, sıfırlamak için çift tıkla",
+    "hintTouch": "Ayrıntılar için bir güne dokun",
+    "tooltip": "{date}: {pct}",
+    "empty": "{date}: kayıt yok",
+    "range": "{a} ile {b} arası",
+    "avg": "Ortalama süreklilik",
+    "bestWeek": "En iyi hafta",
+    "longest": "En uzun seri",
+    "current": "Güncel seri",
+    "goal": "Seriler, {goal} hedefine ulaştığın ya da onu geçtiğin günleri sayar.",
+    "levelEmpty": "Kayıt yok",
+    "levelUnder": "{pct} altı",
+    "highlight": "Günleri vurgula: {level}",
+    "aria": "{a} ile {b} arasındaki her gün için örnek Süreklilik, ortalama {avg}. Her günü okumak için ok tuşlarını kullan."
+  },
   "year": {
     "eyebrow": "Bir bakışta yılın",
     "title": "Bir yılın tek ve dürüst resmi.",
@@ -250,7 +272,8 @@
     "tutorial": "Eğitim",
     "copyright": "© {year} Sagomak",
     "fonts": "Yazı tipleri SIL Open Font License kapsamında",
-    "languages": "Diller"
+    "languages": "Diller",
+    "skyline": "Silüet grafiği şuradan uyarlandı:"
   },
   "support": {
     "eyebrow": "Destek",

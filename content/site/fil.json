@@ -42,6 +42,28 @@
     "trust": "Pribado mula sa simula. Walang account, walang cloud.",
     "phoneAlt": "Ang Dashboard ng MyGrowth: ang strip ng linggo, ang layuning Nagiging at ang mga gawi ngayong araw bilang mga card na iginuhit sa kamay."
   },
+  "skyline": {
+    "title": "Isang taon ng konsistensi",
+    "caption": "Halimbawang data: walong gawi sa loob ng isang taon",
+    "viewGroup": "View ng tsart",
+    "flat": "Patag na heatmap",
+    "skyline": "3D skyline",
+    "hintFlat": "I-hover ang isang araw para sa detalye, o gamitin ang mga arrow key",
+    "hintOrbit": "I-drag para paikutin ang skyline, i-double click para i-reset",
+    "hintTouch": "I-tap ang isang araw para sa detalye",
+    "tooltip": "{pct} sa {date}",
+    "empty": "Walang naitala sa {date}",
+    "range": "{a} hanggang {b}",
+    "avg": "Average na Konsistensi",
+    "bestWeek": "Pinakamagandang linggo",
+    "longest": "Pinakamahabang sunod-sunod",
+    "current": "Kasalukuyang sunod-sunod",
+    "goal": "Binibilang ng sunod-sunod ang mga araw na umabot o lumampas sa layuning {goal}.",
+    "levelEmpty": "Walang naitala",
+    "levelUnder": "Mas mababa sa {pct}",
+    "highlight": "I-highlight ang mga araw: {level}",
+    "aria": "Halimbawang Konsistensi para sa bawat araw mula {a} hanggang {b}, na may average na {avg}. Gamitin ang mga arrow key para basahin ang bawat araw."
+  },
   "year": {
     "eyebrow": "Ang taon mo, sa isang sulyap",
     "title": "Isang tapat na larawan ng isang taon.",
@@ -250,7 +272,8 @@
     "tutorial": "Tutorial",
     "copyright": "© {year} Sagomak",
     "fonts": "Mga font sa ilalim ng SIL Open Font License",
-    "languages": "Mga Wika"
+    "languages": "Mga Wika",
+    "skyline": "Hinango ang skyline chart mula sa"
   },
   "support": {
     "eyebrow": "Suporta",

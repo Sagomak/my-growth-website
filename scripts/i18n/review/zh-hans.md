@@ -47,3 +47,11 @@ Still flagged for a native speaker:
 | site.tutorial.reminders.items[1][0] | Evening nudge | 晚上提醒 | Glossary term; nuance lost |
 | site.pro.proItems[6] | Habits on scheduled days | 按计划的日子执行的习惯 | Built on glossary 计划的日子; stiff |
 | site.tutorial.backup.restoreSteps[3] | Merge with existing | 与现有数据合并 | Not in glossary; check against the app |
+
+## Skyline strings, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.skyline.title | A year of consistency | 一致性的一年 | Glossary 一致性 is stiff for a title; 坚持的一年 would be more natural |
+| site.skyline.skyline / footer.skyline | 3D skyline | 3D天际线 / 天际线图改编自 | 天际线 is a literal rendering of "skyline"; check it reads as a chart |
+| site.skyline.highlight | Highlight days: {level} | 突出显示：{level} | Dropped "days" for brevity in an aria label |
