@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Uno sguardo dentro",
-    "label": "Schermate di MyGrowth 3.0",
+    "label": "Schermate di MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Griglia",
         "alt": "La scheda Griglia: una heatmap annuale per la Costanza e una per ogni abitudine, ciascuna nel suo colore."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Grafici",
         "alt": "La scheda Grafici: la linea della Costanza su 90 giorni, le serie attive e i record di sempre, e il grafico di un'abitudine."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Ogni abitudine",
         "alt": "Un grafico di Corsa rispetto al suo obiettivo di 5 km, con Giorni visualizzati, costanza, media, totale e giorno migliore."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Registrazione",
         "alt": "Il foglio di registrazione di Meditazione: ore, minuti e secondi, l'obiettivo di 15 min, Pulisci e Salva."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Eventi",
         "alt": "La scheda Eventi: viaggi, concerti e libri, ciascuno con una griglia annuale nei suoi colori."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafite",
         "alt": "La Dashboard in modalità scura, su grafite morbida."
       }

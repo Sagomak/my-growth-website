@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "アプリの中をのぞく",
-    "label": "MyGrowth 3.0のスクリーンショット",
+    "label": "MyGrowth 3.0.0のスクリーンショット",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "グリッド",
         "alt": "グリッドタブ：一貫性の年間ヒートマップと、習慣ごとのヒートマップ。それぞれ専用の色。"
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "チャート",
         "alt": "チャートタブ：90日間の一貫性の線、現在と過去最高の連続記録、習慣のチャート。"
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "すべての習慣",
         "alt": "5 kmの目標に対するランニングのチャート。表示された日数、一貫性、平均、合計、最高の日。"
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "記録",
         "alt": "瞑想の記録シート：時間、分、秒の入力、15分のターゲット、クリアと保存。"
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "イベント",
         "alt": "イベントタブ：旅、ライブ、本。それぞれ専用の色の年間グリッド。"
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "グラファイト",
         "alt": "ダークモードのDashboard。やわらかなグラファイトの上に。"
       }

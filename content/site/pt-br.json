@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Por dentro do app",
-    "label": "Capturas de tela do MyGrowth 3.0",
+    "label": "Capturas de tela do MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Grade",
         "alt": "A aba Grade: um heatmap do ano para a Constância e um para cada hábito, cada um na sua cor."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Gráficos",
         "alt": "A aba Gráficos: a linha de Constância em 90 dias, as sequências ativas e as melhores de todos os tempos, e o gráfico de um hábito."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Cada hábito",
         "alt": "Um gráfico de Corrida comparado à meta de 5 km, com dias mostrados, constância, média, total e melhor dia."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Registro",
         "alt": "A tela de registro de Meditação: horas, minutos e segundos, a meta de 15 min, Limpar e Salvar."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Eventos",
         "alt": "A aba Eventos: viagens, shows e livros, cada um em uma grade do ano com as suas cores."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafite",
         "alt": "O Dashboard no modo escuro, sobre grafite suave."
       }

@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Nhìn vào bên trong",
-    "label": "Ảnh chụp màn hình MyGrowth 3.0",
+    "label": "Ảnh chụp màn hình MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Lưới",
         "alt": "Tab Lưới: heatmap cả năm cho Sự nhất quán và một heatmap cho từng thói quen, mỗi cái một màu riêng."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Biểu đồ",
         "alt": "Tab Biểu đồ: đường Sự nhất quán trong 90 ngày, chuỗi ngày hiện tại và dài nhất từ trước đến nay, cùng biểu đồ của một thói quen."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Từng thói quen",
         "alt": "Biểu đồ Chạy so với mục tiêu 5 km, kèm Ngày đã hiển thị, sự nhất quán, trung bình, tổng cộng và ngày tốt nhất."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Ghi chép",
         "alt": "Bảng ghi cho Thiền: giờ, phút và giây, mục tiêu 15 phút, Xóa và Lưu."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Sự kiện",
         "alt": "Tab Sự kiện: du lịch, hòa nhạc và sách, mỗi mục là một lưới cả năm với màu riêng."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Than chì",
         "alt": "Dashboard ở chế độ tối, trên nền than chì dịu mắt."
       }

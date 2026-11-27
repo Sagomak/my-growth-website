@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "एक झलक अंदर की",
-    "label": "MyGrowth 3.0 के स्क्रीनशॉट",
+    "label": "MyGrowth 3.0.0 के स्क्रीनशॉट",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "ग्रिड",
         "alt": "ग्रिड टैब: स्थिरता के लिए एक साल का heatmap और हर आदत के लिए एक, हर एक अपने रंग में।"
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "चार्ट्स",
         "alt": "चार्ट्स टैब: 90 दिनों की स्थिरता रेखा, मौजूदा और अब तक की सबसे लंबी स्ट्रीक, और एक आदत का चार्ट।"
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "हर आदत",
         "alt": "5 किमी के लक्ष्य के मुकाबले “दौड़ना” आदत का चार्ट, साथ में दिखाए गए दिन, स्थिरता, औसत, कुल और सर्वश्रेष्ठ दिन।"
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "लॉगिंग",
         "alt": "ध्यान के लिए लॉग शीट: घंटे, मिनट और सेकंड, 15 मि॰ का लक्ष्य, “स्पष्ट करें” और “सहेजें”।"
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "घटनाएँ",
         "alt": "घटनाएँ टैब: यात्राएँ, कॉन्सर्ट और किताबें, हर एक अपने रंगों में एक साल का ग्रिड।"
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "ग्रेफ़ाइट",
         "alt": "डार्क मोड में Dashboard, हल्के ग्रेफ़ाइट पर।"
       }

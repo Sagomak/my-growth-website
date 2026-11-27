@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Un aperçu",
-    "label": "Captures d'écran de MyGrowth 3.0",
+    "label": "Captures d'écran de MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Grille",
         "alt": "L'onglet Grille : une heatmap annuelle pour la Constance et une par habitude, chacune dans sa couleur."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Graphiques",
         "alt": "L'onglet Graphiques : la courbe de Constance sur 90 jours, les séries en cours et les meilleures de tous les temps, et le graphique d'une habitude."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Chaque habitude",
         "alt": "Un graphique Course face à son objectif de 5 km, avec les jours affichés, la constance, la moyenne, le total et le meilleur jour."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Saisie",
         "alt": "La fiche de saisie pour Méditation : heures, minutes et secondes, la cible de 15 min, Effacer et Sauvegarder."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Événements",
         "alt": "L'onglet Événements : voyages, concerts et livres, chacun dans une grille annuelle à ses couleurs."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Graphite",
         "alt": "Le Dashboard en mode sombre, sur un graphite doux."
       }

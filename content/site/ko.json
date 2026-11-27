@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "앱 들여다보기",
-    "label": "MyGrowth 3.0 스크린샷",
+    "label": "MyGrowth 3.0.0 스크린샷",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "그리드",
         "alt": "그리드 탭: 일관성의 연간 히트맵과 습관별 히트맵, 각각 고유한 색."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "차트",
         "alt": "차트 탭: 90일간의 일관성 선, 현재와 역대 최고 연속 기록, 그리고 습관 차트."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "모든 습관",
         "alt": "5 km 목표 대비 달리기 차트: 표시된 일수, 일관성, 평균, 총합, 가장 좋은 날."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "기록",
         "alt": "명상 기록 시트: 시간, 분, 초, 15분 목표, 지우기와 저장."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "이벤트",
         "alt": "이벤트 탭: 여행, 공연, 책, 각각 고유한 색의 연간 그리드."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "그래파이트",
         "alt": "다크 모드의 Dashboard, 부드러운 그래파이트 위에."
       }

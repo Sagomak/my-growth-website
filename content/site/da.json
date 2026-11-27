@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Et kig indenfor",
-    "label": "Skærmbilleder af MyGrowth 3.0",
+    "label": "Skærmbilleder af MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Gitter",
         "alt": "Fanen Gitter: et årsheatmap for Konsekvens og ét for hver vane, hver i sin egen farve."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Diagrammer",
         "alt": "Fanen Diagrammer: Konsekvens-linjen over 90 dage, aktive stimer og de bedste nogensinde, og et vanediagram."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Hver vane",
         "alt": "Et Løb-diagram mod målet på 5 km, med dage vist, konsekvens, gennemsnit, total og bedste dag."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Registrering",
         "alt": "Registreringsarket for Meditation: timer, minutter og sekunder, målet på 15 min, Ryd og Gem."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Begivenheder",
         "alt": "Fanen Begivenheder: rejser, koncerter og bøger, hver som et årsgitter i deres egne farver."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafit",
         "alt": "Dashboard i mørkt tema, på blød grafit."
       }

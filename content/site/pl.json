@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Zajrzyj do środka",
-    "label": "Zrzuty ekranu MyGrowth 3.0",
+    "label": "Zrzuty ekranu MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Siatka",
         "alt": "Zakładka Siatka: roczna heatmapa dla Konsekwencji i osobna dla każdego nawyku, każda we własnym kolorze."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Wykresy",
         "alt": "Zakładka Wykresy: linia Konsekwencji z 90 dni, aktualna i najlepsza passa wszech czasów oraz wykres nawyku."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Każdy nawyk",
         "alt": "Wykres nawyku Bieganie względem celu 5 km, z polami Pokazane dni, Konsekwencja, Średnia, Całkowity i Najlepszy dzień."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Zapisywanie",
         "alt": "Okno zapisu dla nawyku Medytacja: godziny, minuty i sekundy, cel 15 min, Wyczyść i Zapisz."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Wydarzenia",
         "alt": "Zakładka Wydarzenia: podróże, koncerty i książki, każde jako roczna siatka we własnych kolorach."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafit",
         "alt": "Dashboard w trybie ciemnym, na miękkim graficie."
       }

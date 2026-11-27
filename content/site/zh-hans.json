@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "看看应用内部",
-    "label": "MyGrowth 3.0截图",
+    "label": "MyGrowth 3.0.0截图",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "网格",
         "alt": "网格标签页：一致性的年度热力图，以及每个习惯各自颜色的热力图。"
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "图表",
         "alt": "图表标签页：90天的一致性曲线、当前与历史最佳连续记录，以及一个习惯图表。"
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "每个习惯",
         "alt": "以5公里为目标的跑步图表，包含显示的天数、一致性、平均、总计和最佳日。"
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "记录",
         "alt": "冥想的记录面板：小时、分钟和秒，15分钟的目标，清除和保存。"
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "事件",
         "alt": "事件标签页：旅行、演出和书籍，各自颜色的年度网格。"
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "石墨灰",
         "alt": "深色模式下的Dashboard，铺在柔和的石墨灰上。"
       }

@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "A look inside",
-    "label": "Screenshots of MyGrowth 3.0",
+    "label": "Screenshots of MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Grid",
         "alt": "The Grid tab: a year heatmap for Consistency and one per habit, each in its own colour."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Charts",
         "alt": "The Charts tab: the Consistency line over 90 days, active and all-time best streaks, and a habit chart."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Every habit",
         "alt": "A Running chart against its 5 km goal, with days shown up, consistency, average, total and best day."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Logging",
         "alt": "The log sheet for Meditation: hours, minutes and seconds, the 15 min target, Clear and Save."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Events",
         "alt": "The Events tab: travel, concerts and books, each a year grid in their own colours."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Graphite",
         "alt": "The Dashboard in dark mode, on soft graphite."
       }

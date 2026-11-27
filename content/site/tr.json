@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "İçeriden bir bakış",
-    "label": "MyGrowth 3.0 ekran görüntüleri",
+    "label": "MyGrowth 3.0.0 ekran görüntüleri",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Izgara",
         "alt": "Izgara sekmesi: Süreklilik için bir yıllık heatmap ve her alışkanlık için ayrı bir tane, her biri kendi renginde."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Grafikler",
         "alt": "Grafikler sekmesi: 90 günlük Süreklilik çizgisi, aktif seri ve tüm zamanların en iyi serisi, bir de alışkanlık grafiği."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Her alışkanlık",
         "alt": "5 km hedefine karşı bir Koşu grafiği; Gösterilen günler, Süreklilik, Ortalama, Toplam ve En iyi gün ile."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Kayıt",
         "alt": "Meditasyon için kayıt penceresi: saat, dakika ve saniye, 15 min hedefi, Temizle ve Kaydet."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Etkinlikler",
         "alt": "Etkinlikler sekmesi: yolculuklar, konserler ve kitaplar, her biri kendi renklerinde bir yıllık ızgara."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafit",
         "alt": "Koyu modda, yumuşak grafit üzerinde Dashboard."
       }

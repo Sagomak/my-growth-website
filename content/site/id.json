@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Intip ke dalam",
-    "label": "Tangkapan layar MyGrowth 3.0",
+    "label": "Tangkapan layar MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Grid",
         "alt": "Tab Grid: heatmap setahun untuk Konsistensi dan satu untuk setiap kebiasaan, masing-masing dengan warnanya sendiri."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Grafik",
         "alt": "Tab Grafik: garis Konsistensi selama 90 hari, rentetan aktif dan rentetan terbaik sepanjang masa, serta grafik kebiasaan."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Setiap kebiasaan",
         "alt": "Grafik Lari terhadap tujuan 5 km, dengan hari yang ditampilkan, konsistensi, rata-rata, total, dan hari terbaik."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Pencatatan",
         "alt": "Lembar catatan untuk Meditasi: jam, menit, dan detik, target 15 min, Bersihkan dan Simpan."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Peristiwa",
         "alt": "Tab Peristiwa: perjalanan, konser, dan buku, masing-masing grid setahun dengan warnanya sendiri."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafit",
         "alt": "Dashboard dalam mode gelap, berwarna grafit lembut."
       }

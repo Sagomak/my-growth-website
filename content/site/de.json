@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Ein Blick hinein",
-    "label": "Screenshots von MyGrowth 3.0",
+    "label": "Screenshots von MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Raster",
         "alt": "Der Tab Raster: eine Jahres-Heatmap für Beständigkeit und eine pro Gewohnheit, jede in ihrer eigenen Farbe."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Diagramme",
         "alt": "Der Tab Diagramme: die Linie für Beständigkeit über 90 Tage, aktive Serien und Bestwerte aller Zeiten sowie ein Gewohnheitsdiagramm."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Jede Gewohnheit",
         "alt": "Ein Diagramm für Laufen, gemessen am Ziel von 5 km, mit „Tage angezeigt“, Beständigkeit, Durchschnitt, Gesamt und bestem Tag."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Eintragen",
         "alt": "Das Eintragsblatt für Meditation: Stunden, Minuten und Sekunden, das Ziel von 15 min, Löschen und Speichern."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Ereignisse",
         "alt": "Der Tab Ereignisse: Reisen, Konzerte und Bücher, jeweils als Jahresraster in eigenen Farben."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Graphit",
         "alt": "Das Dashboard im dunklen Modus, auf sanftem Graphit."
       }

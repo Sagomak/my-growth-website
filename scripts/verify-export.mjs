@@ -51,6 +51,13 @@ for (const [code, tag] of LOCS) for (const p of ["", "privacy/", "terms/", "supp
   if (!h.includes(`name="twitter:image" content="https://mygrowth.sagomak.com${OG.image}"`)) fail.push(`/${code}/${p}: twitter:image is not ${OG.image}`);
 }
 if (!existsSync(join(OUT, OG.image))) fail.push(`missing Open Graph image ${OG.image}`);
+// Screenshots: only content-hashed files ship, and every referenced one exists.
+const SCREEN_RE = /^[a-z-]+\.[0-9a-f]{10}(-\d+)?\.webp$/;
+for (const f of readdirSync(join(OUT, "screens"))) if (!SCREEN_RE.test(f)) fail.push(`screenshot without a content hash: /screens/${f}`);
+for (const [code] of LOCS) {
+  const h = readFileSync(join(OUT, code, "index.html"), "utf8");
+  for (const m of h.matchAll(/\/screens\/[^"\s,)]+\.webp/g)) if (!existsSync(join(OUT, m[0]))) fail.push(`/${code}/: missing ${m[0]}`);
+}
 const home = readFileSync(join(OUT, "en/index.html"), "utf8");
 if (!home.includes('name="apple-itunes-app" content="app-id=6761617617"')) fail.push("Smart App Banner meta missing");
 if (!home.includes("application/ld+json")) fail.push("JSON-LD missing");

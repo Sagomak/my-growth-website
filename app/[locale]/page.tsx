@@ -73,7 +73,7 @@ export default async function Home({ params }: Props) {
                 <WeekStrip initialNow={now} label={t.year.weekLabel} todayLabel={t.year.todayLabel} lang={tag} />
               </div>
               <div className="year-phone">
-                <Phone src="/screens/dashboard.webp" srcDark="/screens/dashboard-dark.webp" alt={t.hero.phoneAlt} width={280} vw={64} />
+                <Phone screen="dashboard" screenDark="dashboard-dark" alt={t.hero.phoneAlt} width={280} vw={64} />
               </div>
             </div>
           </InkFrame>
@@ -191,11 +191,11 @@ export default async function Home({ params }: Props) {
               <p>{F.themes.body}</p>
               <div className="theme-pair">
                 <figure>
-                  <Phone src="/screens/dashboard.webp" alt="The Dashboard on warm paper." width={120} className="phone-small" />
+                  <Phone screen="dashboard" alt="The Dashboard on warm paper." width={120} className="phone-small" />
                   <figcaption className="hand">{F.themes.paper}</figcaption>
                 </figure>
                 <figure>
-                  <Phone src="/screens/dashboard-dark.webp" alt="The Dashboard on soft graphite." width={120} className="phone-small" />
+                  <Phone screen="dashboard-dark" alt="The Dashboard on soft graphite." width={120} className="phone-small" />
                   <figcaption className="hand">{F.themes.graphite}</figcaption>
                 </figure>
               </div>
@@ -213,7 +213,7 @@ export default async function Home({ params }: Props) {
             <ul className="gallery-row" aria-label={t.gallery.label} tabIndex={0}>
               {t.gallery.items.map((g) => (
                 <li key={g.src}>
-                  <Phone src={g.src} alt={g.alt} width={220} className="phone-small" />
+                  <Phone screen={g.src} alt={g.alt} width={220} className="phone-small" />
                   <span className="hand gallery-caption">{g.caption}</span>
                 </li>
               ))}

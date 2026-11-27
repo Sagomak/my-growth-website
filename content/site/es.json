@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Un vistazo por dentro",
-    "label": "Capturas de pantalla de MyGrowth 3.0",
+    "label": "Capturas de pantalla de MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Cuadrícula",
         "alt": "La pestaña Cuadrícula: un heatmap anual para la Constancia y uno por hábito, cada uno en su propio color."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Gráficos",
         "alt": "La pestaña Gráficos: la línea de Constancia en 90 días, las rachas activas y las mejores de siempre, y el gráfico de un hábito."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Cada hábito",
         "alt": "Un gráfico de Correr frente a su meta de 5 km, con Días mostrados, constancia, promedio, total y mejor día."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Registro",
         "alt": "La hoja de registro de Meditación: horas, minutos y segundos, el objetivo de 15 min, Borrar y Guardar."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Eventos",
         "alt": "La pestaña Eventos: viajes, conciertos y libros, cada uno con una cuadrícula anual en sus propios colores."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafito",
         "alt": "El Dashboard en modo oscuro, sobre grafito suave."
       }

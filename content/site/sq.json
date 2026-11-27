@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Një vështrim brenda",
-    "label": "Pamje ekrani nga MyGrowth 3.0",
+    "label": "Pamje ekrani nga MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Gridi",
         "alt": "Skeda Gridi: një hartë nxehtësie vjetore për Konsistencën dhe një për çdo zakon, secila me ngjyrën e vet."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Grafikë",
         "alt": "Skeda Grafikë: vija e Konsistencës për 90 ditë, seria aktive dhe seria më e mirë e të gjitha kohërave, dhe një grafik zakoni."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Çdo zakon",
         "alt": "Një grafik për Vrapim kundrejt qëllimit prej 5 km, me Ditët e shfaqura, konsistencën, mesataren, totalin dhe ditën më të mirë."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Regjistrimi",
         "alt": "Fleta e regjistrimit për Meditimin: orë, minuta dhe sekonda, qëllimi 15 min, Pastro dhe Ruaj."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Ngjarje",
         "alt": "Skeda Ngjarje: udhëtime, koncerte dhe libra, secila një grid vjetor me ngjyrat e veta."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafit",
         "alt": "Dashboard në modalitetin e errët, mbi grafit të butë."
       }

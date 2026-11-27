@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "Silipin ang loob",
-    "label": "Mga screenshot ng MyGrowth 3.0",
+    "label": "Mga screenshot ng MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Grid",
         "alt": "Ang tab na Grid: isang heatmap ng taon para sa Konsistensi at isa para sa bawat gawi, bawat isa sa sarili nitong kulay."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Mga Tsart",
         "alt": "Ang tab na Mga Tsart: ang linya ng Konsistensi sa loob ng 90 araw, ang aktibo at pinakamahabang sunod-sunod sa lahat ng panahon, at isang tsart ng gawi."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Bawat gawi",
         "alt": "Isang tsart ng Pagtakbo laban sa layuning 5 km, kasama ang mga araw na ipinakita, konsistensi, karaniwan, kabuuan at pinakamagandang araw."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Pagtatala",
         "alt": "Ang log sheet para sa Meditasyon: oras, minuto at segundo, ang 15 min na target, Linisin at I-save."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Mga Kaganapan",
         "alt": "Ang tab na Mga Kaganapan: mga biyahe, concert at libro, bawat isa ay grid ng taon sa sarili nitong kulay."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Graphite",
         "alt": "Ang Dashboard sa dark mode, sa malambot na graphite."
       }

@@ -141,35 +141,35 @@
   },
   "gallery": {
     "eyebrow": "O privire înăuntru",
-    "label": "Capturi de ecran din MyGrowth 3.0",
+    "label": "Capturi de ecran din MyGrowth 3.0.0",
     "items": [
       {
-        "src": "/screens/grid.webp",
+        "src": "grid",
         "caption": "Grilă",
         "alt": "Fila Grilă: un heatmap anual pentru Constanță și câte unul pentru fiecare obicei, fiecare în propria culoare."
       },
       {
-        "src": "/screens/charts.webp",
+        "src": "charts",
         "caption": "Grafice",
         "alt": "Fila Grafice: linia Constanță pe 90 de zile, seria activă și cea mai bună serie din toate timpurile, plus graficul unui obicei."
       },
       {
-        "src": "/screens/habit-chart.webp",
+        "src": "habit-chart",
         "caption": "Fiecare obicei",
         "alt": "Un grafic Alergare față de obiectivul de 5 km, cu Zilele afișate, Constanță, Medie, Total și Cea mai bună zi."
       },
       {
-        "src": "/screens/log-sheet.webp",
+        "src": "log-sheet",
         "caption": "Înregistrare",
         "alt": "Fereastra de înregistrare pentru Meditație: ore, minute și secunde, obiectivul de 15 min, Șterge și Salvează."
       },
       {
-        "src": "/screens/events.webp",
+        "src": "events",
         "caption": "Evenimente",
         "alt": "Fila Evenimente: călătorii, concerte și cărți, fiecare cu grila anuală în culorile ei."
       },
       {
-        "src": "/screens/dashboard-dark.webp",
+        "src": "dashboard-dark",
         "caption": "Grafit",
         "alt": "Dashboard-ul în modul întunecat, pe grafit catifelat."
       }
