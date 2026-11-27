@@ -20,7 +20,6 @@
     "home": "MyGrowth 홈",
     "features": "기능",
     "privacy": "개인정보 보호",
-    "pro": "Pro",
     "faq": "FAQ",
     "support": "지원",
     "menu": "메뉴",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Pro 구매는 Apple을 통해 이루어지며, 무작위 익명 ID로 RevenueCat에서 확인됩니다.",
     "link": "개인정보 처리방침 읽기"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "모든 이야기를 보고 싶다면, Pro.",
-    "body": "MyGrowth는 무료로 다운로드할 수 있고, 습관 세 개까지는 무료로 사용할 수 있습니다. Pro는 모든 기능을 엽니다.",
-    "freeTitle": "무료",
-    "free": [
-      "3가지 습관",
-      "현재 연도",
-      "30일 차트"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "무제한 습관",
-      "전체 기록",
-      "모든 시간 차트와 평균",
-      "이벤트",
-      "CSV 가져오기와 백업",
-      "사용자 정의 색상",
-      "예정된 날의 습관"
-    ],
-    "plans": "월간, 연간, 또는 한 번 구매로 평생.",
-    "price": "현재 가격은 App Store에서 확인하세요."
   },
   "faq": {
     "eyebrow": "FAQ",

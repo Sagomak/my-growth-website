@@ -63,7 +63,6 @@ export function Nav({ t, locale, page }: { t: Site; locale: Locale; page: Page }
   const links = [
     { href: `${home}#features`, label: t.nav.features },
     { href: `${home}#privacy`, label: t.nav.privacy },
-    { href: `${home}#pro`, label: t.nav.pro },
     { href: `${home}#faq`, label: t.nav.faq },
     { href: pathFor(locale, "support"), label: t.nav.support },
   ];

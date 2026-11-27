@@ -20,7 +20,6 @@
     "home": "Pagina principală MyGrowth",
     "features": "Funcții",
     "privacy": "Confidențialitate",
-    "pro": "Pro",
     "faq": "Întrebări",
     "support": "Suport",
     "menu": "Meniu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Achizițiile Pro trec prin Apple și sunt verificate cu RevenueCat, folosind un ID anonim aleatoriu.",
     "link": "Citește politica de confidențialitate"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, când vrei toată povestea.",
-    "body": "MyGrowth se descarcă gratuit și îl poți folosi gratuit cu până la trei obiceiuri. Pro deblochează tot.",
-    "freeTitle": "Gratuit",
-    "free": [
-      "3 obiceiuri",
-      "Anul curent",
-      "Grafice pe 30 de zile"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Obiceiuri nelimitate",
-      "Istoric complet",
-      "Grafice și medii din toate timpurile",
-      "Evenimente",
-      "Import CSV și backup",
-      "Culori personalizate",
-      "Obiceiuri în zile programate"
-    ],
-    "plans": "Lunar, anual sau o singură dată, pe viață.",
-    "price": "Vezi prețul actual în App Store."
   },
   "faq": {
     "eyebrow": "Întrebări",

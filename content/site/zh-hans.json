@@ -20,7 +20,6 @@
     "home": "MyGrowth首页",
     "features": "功能",
     "privacy": "隐私",
-    "pro": "Pro",
     "faq": "常见问题",
     "support": "支持",
     "menu": "菜单",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Pro购买通过Apple完成，并使用一个随机匿名ID经由RevenueCat进行验证。",
     "link": "阅读隐私政策"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "想看完整的故事，就选Pro。",
-    "body": "MyGrowth可免费下载，最多三个习惯免费使用。Pro解锁全部功能。",
-    "freeTitle": "免费",
-    "free": [
-      "3个习惯",
-      "当前年份",
-      "30天图表"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "无限习惯",
-      "完整历史",
-      "所有时间的图表和平均值",
-      "事件",
-      "CSV导入与备份",
-      "自定义颜色",
-      "按计划的日子执行的习惯"
-    ],
-    "plans": "按月、按年，或一次购买永久使用。",
-    "price": "当前价格请在App Store查看。"
   },
   "faq": {
     "eyebrow": "常见问题",

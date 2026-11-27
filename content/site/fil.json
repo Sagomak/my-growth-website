@@ -20,7 +20,6 @@
     "home": "Home ng MyGrowth",
     "features": "Mga Feature",
     "privacy": "Privacy",
-    "pro": "Pro",
     "faq": "FAQ",
     "support": "Suporta",
     "menu": "Menu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Dumadaan sa Apple ang mga pagbili ng Pro at sinusuri gamit ang RevenueCat, sa pamamagitan ng random at anonymous na ID.",
     "link": "Basahin ang patakaran sa privacy"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, kapag gusto mo ang buong kuwento.",
-    "body": "Libreng i-download ang MyGrowth at libreng gamitin para sa hanggang tatlong gawi. Binubuksan ng Pro ang lahat.",
-    "freeTitle": "Libre",
-    "free": [
-      "3 gawi",
-      "Kasalukuyang taon",
-      "Mga tsart ng 30 araw"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Walang limit na mga gawi",
-      "Buong kasaysayan",
-      "Mga tsart at average sa lahat ng panahon",
-      "Mga Kaganapan",
-      "CSV import at backup",
-      "Mga Pasadyang Kulay",
-      "Mga gawi sa mga nakatakdang araw"
-    ],
-    "plans": "Buwanan, taunan o isang bayad habambuhay.",
-    "price": "Tingnan ang kasalukuyang presyo sa App Store."
   },
   "faq": {
     "eyebrow": "FAQ",

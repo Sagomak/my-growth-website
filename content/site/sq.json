@@ -20,7 +20,6 @@
     "home": "Kreu i MyGrowth",
     "features": "Veçoritë",
     "privacy": "Privatësia",
-    "pro": "Pro",
     "faq": "Pyetje",
     "support": "Mbështetje",
     "menu": "Menyja",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Blerjet Pro kalojnë përmes Apple dhe verifikohen me RevenueCat, duke përdorur një ID anonime të rastësishme.",
     "link": "Lexo politikën e privatësisë"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, kur do historinë e plotë.",
-    "body": "MyGrowth shkarkohet dhe përdoret falas me deri në tre zakone. Pro hap gjithçka.",
-    "freeTitle": "Falas",
-    "free": [
-      "3 zakone",
-      "Viti aktual",
-      "Grafikë 30-ditorë"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Zakone të pakufizuara",
-      "Historia e plotë",
-      "Grafikë dhe mesatare për të gjitha kohët",
-      "Ngjarje",
-      "Import CSV dhe kopje rezervë",
-      "Ngjyrat e personalizuara",
-      "Zakone në ditë të planifikuara"
-    ],
-    "plans": "Mujore, vjetore ose një herë për gjithë jetën.",
-    "price": "Shiko çmimin aktual në App Store."
   },
   "faq": {
     "eyebrow": "Pyetje",

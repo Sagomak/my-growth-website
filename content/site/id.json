@@ -20,7 +20,6 @@
     "home": "Beranda MyGrowth",
     "features": "Fitur",
     "privacy": "Privasi",
-    "pro": "Pro",
     "faq": "FAQ",
     "support": "Dukungan",
     "menu": "Menu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Pembelian Pro diproses melalui Apple dan diverifikasi dengan RevenueCat, menggunakan ID anonim acak.",
     "link": "Baca kebijakan privasi"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, saat kamu ingin cerita lengkapnya.",
-    "body": "MyGrowth gratis diunduh dan digunakan dengan hingga tiga kebiasaan. Pro membuka semuanya.",
-    "freeTitle": "Gratis",
-    "free": [
-      "3 kebiasaan",
-      "Tahun saat ini",
-      "Grafik 30 hari"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Kebiasaan tanpa batas",
-      "Riwayat lengkap",
-      "Grafik dan rata-rata sepanjang masa",
-      "Peristiwa",
-      "Impor dan cadangan CSV",
-      "Warna kustom",
-      "Kebiasaan di hari yang dijadwalkan"
-    ],
-    "plans": "Bulanan, tahunan, atau sekali untuk seumur hidup.",
-    "price": "Lihat harga terbaru di App Store."
   },
   "faq": {
     "eyebrow": "FAQ",

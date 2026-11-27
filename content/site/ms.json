@@ -20,7 +20,6 @@
     "home": "Laman utama MyGrowth",
     "features": "Ciri",
     "privacy": "Privasi",
-    "pro": "Pro",
     "faq": "Soalan Lazim",
     "support": "Sokongan",
     "menu": "Menu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Pembelian Pro dibuat melalui Apple dan disemak dengan RevenueCat, menggunakan ID tanpa nama yang rawak.",
     "link": "Baca dasar privasi"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, apabila kamu mahu kisah penuhnya.",
-    "body": "MyGrowth percuma untuk dimuat turun dan digunakan dengan sehingga tiga tabiat. Pro membuka segalanya.",
-    "freeTitle": "Percuma",
-    "free": [
-      "3 tabiat",
-      "Tahun semasa",
-      "Carta 30 hari"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Tabiat tanpa had",
-      "Sejarah penuh",
-      "Carta dan purata sepanjang masa",
-      "Peristiwa",
-      "Import dan sandaran CSV",
-      "Warna tersuai",
-      "Tabiat pada hari yang dijadualkan"
-    ],
-    "plans": "Bulanan, tahunan atau sekali untuk seumur hidup.",
-    "price": "Lihat harga semasa di App Store."
   },
   "faq": {
     "eyebrow": "Soalan Lazim",

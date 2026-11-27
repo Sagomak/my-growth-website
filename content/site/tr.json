@@ -20,7 +20,6 @@
     "home": "MyGrowth ana sayfa",
     "features": "Özellikler",
     "privacy": "Gizlilik",
-    "pro": "Pro",
     "faq": "SSS",
     "support": "Destek",
     "menu": "Menü",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Pro satın alımları Apple üzerinden yapılır ve rastgele, anonim bir kimlik kullanılarak RevenueCat ile doğrulanır.",
     "link": "Gizlilik politikasını oku"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Hikâyenin tamamını istediğinde, Pro.",
-    "body": "MyGrowth'u indirmek ücretsiz, üç alışkanlığa kadar kullanmak da ücretsiz. Pro her şeyi açar.",
-    "freeTitle": "Ücretsiz",
-    "free": [
-      "3 alışkanlık",
-      "Mevcut yıl",
-      "30 günlük grafikler"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Sınırsız alışkanlıklar",
-      "Tam tarih",
-      "Tüm zamanların grafikleri ve ortalamaları",
-      "Etkinlikler",
-      "CSV içe aktarma ve yedekleme",
-      "Özel renkler",
-      "Planlanan günlerde alışkanlıklar"
-    ],
-    "plans": "Aylık, yıllık ya da bir kez ödeyip ömür boyu.",
-    "price": "Güncel fiyatı App Store'da gör."
   },
   "faq": {
     "eyebrow": "SSS",

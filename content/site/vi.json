@@ -20,7 +20,6 @@
     "home": "Trang chủ MyGrowth",
     "features": "Tính năng",
     "privacy": "Quyền riêng tư",
-    "pro": "Pro",
     "faq": "Hỏi đáp",
     "support": "Hỗ trợ",
     "menu": "Menu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Giao dịch mua Pro được thực hiện qua Apple và được kiểm tra bằng RevenueCat, với một ID ẩn danh ngẫu nhiên.",
     "link": "Đọc chính sách bảo mật"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, khi bạn muốn thấy toàn bộ câu chuyện.",
-    "body": "MyGrowth miễn phí tải về và sử dụng với tối đa ba thói quen. Pro mở khóa mọi thứ.",
-    "freeTitle": "Miễn phí",
-    "free": [
-      "3 thói quen",
-      "Năm hiện tại",
-      "Biểu đồ 30 ngày"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Thói quen không giới hạn",
-      "Lịch sử đầy đủ",
-      "Biểu đồ và trung bình toàn thời gian",
-      "Sự kiện",
-      "Nhập CSV và sao lưu",
-      "Màu tùy chỉnh",
-      "Thói quen theo ngày đã lên lịch"
-    ],
-    "plans": "Hàng tháng, hàng năm hoặc trọn đời.",
-    "price": "Xem giá hiện tại trên App Store."
   },
   "faq": {
     "eyebrow": "Hỏi đáp",

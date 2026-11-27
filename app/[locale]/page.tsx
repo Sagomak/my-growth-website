@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import { APP_STORE_URL } from "@/lib/site";
 import { LOCALES, info, pathFor, type Locale } from "@/lib/i18n";
 import { site, term, fill } from "@/lib/dict";
 import { pageMetadata } from "@/lib/seo";
@@ -248,27 +247,6 @@ export default async function Home({ params }: Props) {
           </div>
           <p className="privacy-note muted">{t.privacy.purchases}</p>
           <p><Link prefetch={false} className="cta-link hand" href={pathFor(locale, "privacy")}>{t.privacy.link}<span aria-hidden="true"> ›</span></Link></p>
-        </section>
-
-        {/* Pro */}
-        <section id="pro" className="pro wrap" aria-labelledby="pro-title">
-          <SectionHead id="pro-title" seed="pro" eyebrow={t.pro.eyebrow} title={t.pro.title} body={t.pro.body} />
-          <div className="pro-cols">
-            <InkFrame seed="pro.free" className="plan" variant="plain" hint={[340, 260]}>
-              <h3 className="card-title">{t.pro.freeTitle}</h3>
-              <ul className="ticks quiet">
-                {t.pro.free.map((s, i) => <li key={s}><Node seed={`pro.f.${i}`} size={7} color="var(--text-muted)" /><span>{s}</span></li>)}
-              </ul>
-            </InkFrame>
-            <InkFrame seed="pro.pro" className="plan plan-pro" hint={[520, 300]}
-              style={{ "--ink-color": "var(--accent)" } as CSSProperties} lineWidth={1.6}>
-              <h3 className="card-title">{t.pro.proTitle}</h3>
-              <ul className="ticks two">
-                {t.pro.proItems.map((s, i) => <li key={s}><Node seed={`pro.p.${i}`} size={8} /><span>{s}</span></li>)}
-              </ul>
-              <p className="plan-price">{t.pro.plans} <a href={APP_STORE_URL}>{t.pro.price}</a></p>
-            </InkFrame>
-          </div>
         </section>
 
         {/* FAQ */}

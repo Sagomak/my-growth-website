@@ -20,7 +20,6 @@
     "home": "Strona główna MyGrowth",
     "features": "Funkcje",
     "privacy": "Prywatność",
-    "pro": "Pro",
     "faq": "FAQ",
     "support": "Wsparcie",
     "menu": "Menu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Zakupy Pro przechodzą przez Apple i są sprawdzane w RevenueCat za pomocą losowego, anonimowego identyfikatora.",
     "link": "Przeczytaj politykę prywatności"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, gdy chcesz zobaczyć całą historię.",
-    "body": "MyGrowth możesz pobrać i używać za darmo z maksymalnie trzema nawykami. Pro odblokowuje wszystko.",
-    "freeTitle": "Darmowe",
-    "free": [
-      "3 nawyki",
-      "Bieżący rok",
-      "Wykresy z 30 dni"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Nieograniczone nawyki",
-      "Pełna historia",
-      "Wykresy i średnie z całej historii",
-      "Wydarzenia",
-      "Import CSV i kopia zapasowa",
-      "Kolory niestandardowe",
-      "Nawyki w zaplanowane dni"
-    ],
-    "plans": "Miesięcznie, rocznie albo raz na zawsze.",
-    "price": "Aktualną cenę sprawdzisz w App Store."
   },
   "faq": {
     "eyebrow": "FAQ",

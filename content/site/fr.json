@@ -20,7 +20,6 @@
     "home": "Accueil MyGrowth",
     "features": "Fonctionnalités",
     "privacy": "Confidentialité",
-    "pro": "Pro",
     "faq": "FAQ",
     "support": "Aide",
     "menu": "Menu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Les achats Pro passent par Apple et sont vérifiés avec RevenueCat, à l'aide d'un identifiant anonyme aléatoire.",
     "link": "Lire la politique de confidentialité"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, quand tu veux toute l'histoire.",
-    "body": "MyGrowth est gratuit à télécharger et à utiliser jusqu'à trois habitudes. Pro débloque tout.",
-    "freeTitle": "Gratuit",
-    "free": [
-      "3 habitudes",
-      "Année en cours",
-      "Graphiques sur 30 jours"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Habitudes illimitées",
-      "Historique complet",
-      "Graphiques et moyennes sur tout l'historique",
-      "Événements",
-      "Import CSV et sauvegarde",
-      "Couleurs personnalisées",
-      "Habitudes sur des jours programmés"
-    ],
-    "plans": "Au mois, à l'année ou une fois pour toutes.",
-    "price": "Consulte le prix actuel sur l'App Store."
   },
   "faq": {
     "eyebrow": "FAQ",

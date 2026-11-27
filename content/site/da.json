@@ -20,7 +20,6 @@
     "home": "MyGrowths forside",
     "features": "Funktioner",
     "privacy": "Privatliv",
-    "pro": "Pro",
     "faq": "FAQ",
     "support": "Support",
     "menu": "Menu",
@@ -195,29 +194,6 @@
     ],
     "purchases": "Pro-køb går gennem Apple og kontrolleres med RevenueCat ved hjælp af et tilfældigt, anonymt id.",
     "link": "Læs privatlivspolitikken"
-  },
-  "pro": {
-    "eyebrow": "MyGrowth Pro",
-    "title": "Pro, når du vil have hele historien.",
-    "body": "MyGrowth er gratis at downloade og bruge med op til tre vaner. Pro låser op for det hele.",
-    "freeTitle": "Gratis",
-    "free": [
-      "3 vaner",
-      "Nuværende år",
-      "Diagrammer for 30 dage"
-    ],
-    "proTitle": "Pro",
-    "proItems": [
-      "Ubegrænsede vaner",
-      "Fulde historie",
-      "Diagrammer og gennemsnit for alle tider",
-      "Begivenheder",
-      "CSV-import og backup",
-      "Egne farver",
-      "Vaner på planlagte dage"
-    ],
-    "plans": "Månedligt, årligt eller én gang for altid.",
-    "price": "Se den aktuelle pris i App Store."
   },
   "faq": {
     "eyebrow": "FAQ",
