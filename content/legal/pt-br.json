@@ -49,13 +49,13 @@
       "body": "O App não contém ferramentas de análise, redes de anúncios nem serviços em nuvem. O único SDK de terceiros é o da RevenueCat, usado para verificar compras no app (veja Compras abaixo)."
     },
     "rights": {
-      "title": "Seus direitos (RGPD)",
+      "title": "Seus direitos (RGPD e LGPD)",
       "intro": "Nos termos do Regulamento Geral sobre a Proteção de Dados (RGPD, conhecido em inglês como GDPR), você tem o direito de:",
       "access": "<b>Acessar</b> seus dados: visíveis diretamente no app a qualquer momento",
       "export": "<b>Exportar</b> seus dados: em Configurações, Gerenciamento de Dados, Exportar (JSON ou CSV)",
       "delete": "<b>Excluir</b> seus dados: em Configurações, Gerenciamento de Dados, Limpar Todos os Dados",
       "rectify": "<b>Corrigir</b> seus dados: edite qualquer registro tocando nele no app",
-      "footer": "Como todos os dados ficam armazenados exclusivamente no seu dispositivo, exercer esses direitos não exige nenhuma solicitação a nós: você tem controle total."
+      "footer": "Como todos os dados ficam armazenados exclusivamente no seu dispositivo, exercer esses direitos não exige nenhuma solicitação a nós: você tem controle total. No Brasil, a Lei Geral de Proteção de Dados Pessoais (LGPD, Lei nº 13.709/2018) garante os mesmos direitos, ao lado do RGPD."
     },
     "retention": {
       "title": "Retenção de dados",
