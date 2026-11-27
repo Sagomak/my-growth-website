@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: un tracker de obiceiuri desenat de mână, care rămâne pe iPhone-ul tău",
+      "description": "MyGrowth îți transformă obiceiurile într-un heatmap desenat de mână, grafice și statistici. Privat din start: fără cont, fără cloud, datele rămân pe dispozitivul tău."
+    },
+    "support": {
+      "title": "Suport, MyGrowth",
+      "description": "Răspunsuri la întrebările frecvente despre MyGrowth și cum ne poți contacta."
+    },
+    "tutorial": {
+      "title": "Importă și salvează datele, MyGrowth",
+      "description": "Importă istoricul obiceiurilor dintr-un fișier CSV, fă backup și restaurează MyGrowth și vezi obiceiurile cu care pornește aplicația."
+    },
+    "notFound": {
+      "title": "Pagina nu a fost găsită, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "Pagina principală MyGrowth",
+    "features": "Funcții",
+    "privacy": "Confidențialitate",
+    "pro": "Pro",
+    "faq": "Întrebări",
+    "support": "Suport",
+    "menu": "Meniu",
+    "theme": {
+      "label": "Temă",
+      "system": "Sistem",
+      "light": "Hârtie",
+      "dark": "Grafit"
+    }
+  },
+  "badge": {
+    "alt": "Descarcă din App Store",
+    "aria": "Descarcă MyGrowth din App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Devii ceea ce faci în mod repetat.",
+    "sub": "MyGrowth îți transformă obiceiurile într-un heatmap desenat de mână, grafice și statistici, ca să vezi cum prezența zilnică devine progres.",
+    "trust": "Privat din start. Fără cont, fără cloud.",
+    "phoneAlt": "Dashboard-ul MyGrowth: banda săptămânii, obiectivul Devii și obiceiurile de azi ca niște carduri desenate de mână."
+  },
+  "year": {
+    "eyebrow": "Anul tău, dintr-o privire",
+    "title": "O imagine sinceră a unui an întreg.",
+    "body": "Fiecare zi în care ești prezent umple un pătrat. Pătratul de azi din banda săptămânii se umple pe măsură ce trece ziua.",
+    "habit": "Citit",
+    "weekLabel": "Săptămâna aceasta",
+    "todayLabel": "Astăzi, a trecut {pct}% din zi",
+    "legendLess": "Mai puțin",
+    "legendMore": "Mai mult",
+    "gridLabel": "Exemplu de heatmap: un an de citit, câte un pătrat pe zi, până azi."
+  },
+  "features": {
+    "eyebrow": "Ce găsești înăuntru",
+    "title": "Urmărește ce contează. Privește cum crește.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard și Devii",
+        "title": "Cine devii, pe o singură pagină.",
+        "body": "Obiceiurile de azi, sub formă de carduri, sub obiectivul tău Devii, în propriul chenar desenat de mână. Obiceiurile pe care nu le-ai notat încă ies în evidență, ca să vezi dintr-o privire ce mai ai de făcut.",
+        "becomingLabel": "Devii",
+        "becomingGoal": "un om care își ține promisiunile"
+      },
+      "grid": {
+        "eyebrow": "Grilă",
+        "title": "Un an de efort, o imagine sinceră.",
+        "body": "Fiecare obicei are propriul heatmap, în propria culoare. Tiparele, golurile și seriile se văd dintr-o privire, iar seriile îți urmează programul, așa că o zi de odihnă nu le întrerupe niciodată."
+      },
+      "charts": {
+        "eyebrow": "Grafice",
+        "title": "Fiecare obicei, măsurat.",
+        "body": "Constanță, medii, totaluri, zile cu obiectiv atins și cele mai bune zile. Liniile se desenează singure, iar barele cresc de jos în sus.",
+        "consistency": "Constanță",
+        "lastDays": "ultimele 30 de zile",
+        "minutes": "Minute pe zi",
+        "chartLabel": "Exemplu de grafic Constanță: procentul obiceiurilor făcute în fiecare zi în ultimele 30 de zile, crescând de la aproximativ 40% la aproximativ 90%.",
+        "barsLabel": "Exemplu de grafic cu bare: minute de citit pe zi, de-a lungul unei săptămâni."
+      },
+      "events": {
+        "eyebrow": "Evenimente",
+        "title": "Fiecare loc, carte și călătorie are culoarea ei.",
+        "body": "Notează locurile pe care le vizitezi, cărțile pe care le citești, călătoriile și concertele, și privește cum un an întreg din viața ta apare ca o singură imagine.",
+        "legend": [
+          "Călătorii",
+          "Cărți",
+          "Concerte"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widgeturi și Live Activity",
+        "title": "Pe ecranul principal și pe ecranul de blocare.",
+        "body": "Un widget Habit Grid, un widget Astăzi pentru a nota direct de pe ecranul principal și cronometre care stau pe ecranul de blocare."
+      },
+      "timers": {
+        "eyebrow": "Cronometre și înregistrare",
+        "title": "Notezi în câteva secunde. Cronometrele merg mai departe.",
+        "body": "Atinge un card, scrie o valoare, salvează. Duratele apar în h, min și s, iar un cronometru pornit merge mai departe când ieși din aplicație.",
+        "timer": "Meditație"
+      },
+      "themes": {
+        "eyebrow": "Hârtie și grafit",
+        "title": "Hârtie caldă ziua, grafit catifelat noaptea.",
+        "body": "Modul luminos stă pe o hârtie în tonuri calde. Modul întunecat e un grafit catifelat în loc de negru pur. Cuvintele sunt scrise de mână, cifrele rămân clare și exacte.",
+        "paper": "Hârtie",
+        "graphite": "Grafit"
+      },
+      "widget": {
+        "name": "Citit",
+        "label": "Exemplu de widget Habit Grid pentru Citit, cam trei luni de pătrate."
+      },
+      "languages": {
+        "eyebrow": "Limbi",
+        "title": "În limba ta. Una din 25.",
+        "body": "De la engleză la japoneză, de la bengaleză la albaneză. Propriile culori și pictograme pe fiecare obicei."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "O privire înăuntru",
+    "label": "Capturi de ecran din MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Grilă",
+        "alt": "Fila Grilă: un heatmap anual pentru Constanță și câte unul pentru fiecare obicei, fiecare în propria culoare."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Grafice",
+        "alt": "Fila Grafice: linia Constanță pe 90 de zile, seria activă și cea mai bună serie din toate timpurile, plus graficul unui obicei."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Fiecare obicei",
+        "alt": "Un grafic Alergare față de obiectivul de 5 km, cu Zilele afișate, Constanță, Medie, Total și Cea mai bună zi."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Înregistrare",
+        "alt": "Fereastra de înregistrare pentru Meditație: ore, minute și secunde, obiectivul de 15 min, Șterge și Salvează."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Evenimente",
+        "alt": "Fila Evenimente: călătorii, concerte și cărți, fiecare cu grila anuală în culorile ei."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Grafit",
+        "alt": "Dashboard-ul în modul întunecat, pe grafit catifelat."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Confidențialitate",
+    "title": "Datele tale rămân pe iPhone.",
+    "body": "Fără cont, fără cloud, fără urmărire. Doar tu și dovada că devii cine vrei să fii.",
+    "storedTitle": "Stocate pe dispozitivul tău",
+    "stored": [
+      "Obiceiurile tale: nume, unități, obiective, culori și pictograme",
+      "Înregistrările zilnice: dată, valoare și note opționale",
+      "Setările și preferințele tale"
+    ],
+    "neverTitle": "Nu colectăm niciodată",
+    "never": [
+      "Obiceiurile, înregistrările sau notele tale",
+      "Nume, e-mail, telefon sau locație",
+      "Analize de utilizare sau rapoarte de erori",
+      "Identificatori de publicitate, cookie-uri sau urmărire"
+    ],
+    "purchases": "Achizițiile Pro trec prin Apple și sunt verificate cu RevenueCat, folosind un ID anonim aleatoriu.",
+    "link": "Citește politica de confidențialitate"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, când vrei toată povestea.",
+    "body": "MyGrowth se descarcă gratuit și îl poți folosi gratuit cu până la trei obiceiuri. Pro deblochează tot.",
+    "freeTitle": "Gratuit",
+    "free": [
+      "3 obiceiuri",
+      "Anul curent",
+      "Grafice pe 30 de zile"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Obiceiuri nelimitate",
+      "Istoric complet",
+      "Grafice și medii din toate timpurile",
+      "Evenimente",
+      "Import CSV și backup",
+      "Culori personalizate",
+      "Obiceiuri în zile programate"
+    ],
+    "plans": "Lunar, anual sau o singură dată, pe viață.",
+    "price": "Vezi prețul actual în App Store."
+  },
+  "faq": {
+    "eyebrow": "Întrebări",
+    "title": "Întrebări, cu răspunsuri.",
+    "items": [
+      {
+        "q": "Cum notez un obicei?",
+        "a": "Atinge orice card de obicei din Dashboard. Se deschide o fereastră scurtă: scrie valoarea (7,5 ore de somn, 2,5 l de apă) și atinge Salvează. Înregistrarea se salvează imediat, iar heatmap-ul se actualizează."
+      },
+      {
+        "q": "Unde sunt stocate datele mele?",
+        "a": "Doar pe iPhone-ul tău, în spațiul de stocare iOS de pe dispozitiv. Nu există servere, sincronizare în cloud sau conturi. Politica de confidențialitate are toate detaliile.",
+        "link": {
+          "href": "privacy",
+          "text": "Citește politica de confidențialitate"
+        }
+      },
+      {
+        "q": "Pot importa istoricul dintr-un tabel?",
+        "a": "Da, cu Pro. Mergi la Setări, Gestionarea datelor, Importă Date și alege un fișier CSV cu coloanele date, habit, unit, value și note. Tutorialul are un șablon.",
+        "link": {
+          "href": "tutorial",
+          "text": "Deschide tutorialul"
+        }
+      },
+      {
+        "q": "Cum îmi salvez sau îmi mut datele?",
+        "a": "Cu Pro, Setări, Gestionarea datelor, Exportă Backup salvează toate obiceiurile și înregistrările într-un singur fișier CSV. Pe noul dispozitiv, importă-l cu Importă Date."
+      },
+      {
+        "q": "Cum îmi șterg toate datele?",
+        "a": "Mergi la Setări, Gestionarea datelor, Șterge toate datele. Ți se va cere confirmarea. Acțiunea este definitivă: șterge de pe dispozitiv toate obiceiurile, înregistrările și preferințele."
+      },
+      {
+        "q": "Cât costă Pro?",
+        "a": "Pro este disponibil ca abonament lunar sau anual ori ca achiziție unică. Prețurile depind de țară; App Store îți arată prețul actual înainte să cumperi."
+      },
+      {
+        "q": "Va exista o versiune pentru Android?",
+        "a": "Deocamdată nu. Preferăm să construim bine o singură platformă decât două prost."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Începe azi. Peste un an îți vei mulțumi."
+  },
+  "footer": {
+    "studio": "O aplicație Sagomak",
+    "privacy": "Politica de Confidențialitate",
+    "terms": "Termeni de utilizare",
+    "support": "Suport",
+    "tutorial": "Tutorial",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Fonturi sub licența SIL Open Font License",
+    "languages": "Limbi"
+  },
+  "support": {
+    "eyebrow": "Suport",
+    "title": "Cu ce te putem ajuta?",
+    "intro": "Răspunsuri la întrebările frecvente. Dacă nu găsești ce cauți, scrie-ne.",
+    "faqTitle": "Întrebări frecvente",
+    "contactTitle": "Mai ai nevoie de ajutor?",
+    "contactBody": "O întrebare, o eroare sau o idee? Citim fiecare e-mail.",
+    "emailCta": "Scrie la",
+    "reviewBefore": "Poți și să ",
+    "reviewLink": "lași o recenzie în App Store",
+    "reviewAfter": ". Ajută mai mult decât crezi."
+  },
+  "tutorial": {
+    "eyebrow": "Tutorial",
+    "title": "Importă-ți datele",
+    "intro": "Îți urmărești deja obiceiurile? Adu-ți istoricul în câteva minute. Importul și backupul fac parte din Pro.",
+    "importLogs": {
+      "title": "Importă înregistrările zilnice",
+      "intro": "Importă date mai vechi pentru obiceiurile tale dintr-un fișier CSV. Fiecare rând este înregistrarea unei zile pentru un obicei.",
+      "templateLabel": "Formatul șablonului",
+      "required": "obligatoriu",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Exemplu: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Trebuie să corespundă numelui unui obicei existent în aplicație (majusculele nu contează)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Unitatea obiceiului, ca reper pentru tine. Exemple: ore, minute, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Un număr, 0 sau mai mare."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Text liber opțional. Lasă câmpul gol sau omite coloana."
+        }
+      ],
+      "download": "Descarcă șablonul (CSV)",
+      "tips": [
+        "Merg Excel, Google Sheets și Numbers: exportă ca .csv sau .txt.",
+        "Numele obiceiurilor trebuie să corespundă: 'Antrenament' și 'antrenament' merg amândouă, dar 'Antrenamente' nu se potrivește cu 'Antrenament'.",
+        "Dacă data și obiceiul există deja, importul actualizează valoarea în loc să adauge una nouă.",
+        "Poți combina mai multe obiceiuri într-un singur fișier."
+      ]
+    },
+    "backup": {
+      "title": "Backup și restaurare",
+      "intro": "Exportă toate obiceiurile și înregistrările într-un singur fișier CSV, ca să le restaurezi pe un dispozitiv nou sau să păstrezi o copie offline.",
+      "exportTitle": "Cum exporți",
+      "exportSteps": [
+        "Mergi la Setări, Gestionarea datelor",
+        "Atinge Exportă Backup",
+        "Salvează sau trimite fișierul"
+      ],
+      "restoreTitle": "Cum restaurezi",
+      "restoreSteps": [
+        "Mergi la Setări, Gestionarea datelor",
+        "Atinge Importă Date",
+        "Alege fișierul de backup",
+        "Alege Combină cu datele existente sau Înlocuiește toate datele",
+        "Verifică rezumatul și atinge Importă"
+      ],
+      "formatLabel": "Formatul backupului (simplificat)",
+      "autoDetect": "Aplicația deosebește singură un backup (are o secțiune #HABITS) de un simplu fișier cu înregistrări. Un singur buton de import le gestionează pe amândouă."
+    },
+    "prebuilt": {
+      "title": "Obiceiuri cu care să începi",
+      "intro": "MyGrowth îți propune aceste obiceiuri, gata de urmărit:",
+      "cols": [
+        "Obicei",
+        "Unitate",
+        "Obiectiv zilnic"
+      ],
+      "note": "Poți crea și propriile obiceiuri, cu numele, unitatea, pictograma, culoarea și programul tău."
+    },
+    "reminders": {
+      "title": "Mementouri zilnice",
+      "intro": "MyGrowth îți poate trimite două notificări pe zi:",
+      "items": [
+        [
+          "Alerte de dimineață",
+          "un rezumat al obiceiurilor programate pentru azi. Implicit: 9:00."
+        ],
+        [
+          "Împingere de Seară",
+          "un memento discret să notezi ce ți-a scăpat. Implicit: 21:00."
+        ]
+      ],
+      "footer": "Le poți modifica pe amândouă în Setări, Notificări."
+    },
+    "pace": {
+      "title": "Ritm și viteză",
+      "intro": "Pentru obiceiuri ca Alergare și Bicicletă, activează urmărirea timpului în obicei ca să notezi distanța și timpul. Aplicația calculează:",
+      "items": [
+        [
+          "Alergare",
+          "ritmul în min/km. 7 km în 38 min înseamnă 5:25 min/km."
+        ],
+        [
+          "Bicicletă",
+          "viteza în km/h. 10 km în 30 min înseamnă 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Cum funcționează seriile",
+      "tips": [
+        "O valoare de 0 nu contează: trebuie chiar să faci obiceiul.",
+        "Valoarea trebuie să atingă obiectivul: 2 ore de somn cu un obiectiv de 8 nu contează.",
+        "Seriile îți urmează programul. Te antrenezi luni, miercuri și vineri, le bifezi pe toate trei și ai o serie de 3 zile. Marțea și joia nu o întrerup."
+      ]
+    },
+    "cta": "Gata de import?"
+  },
+  "notFound": {
+    "title": "Pagina asta nu e aici.",
+    "body": "Linkul poate fi vechi sau pagina s-a mutat.",
+    "home": "Înapoi la MyGrowth"
+  },
+  "legal": {
+    "contact": "Scrie la"
+  },
+  "lang": {
+    "label": "Limbă",
+    "current": "Română",
+    "suggest": "Disponibil în română",
+    "switchTo": "Comută la română",
+    "dismiss": "Închide"
+  },
+  "a11y": {
+    "skip": "Sari la conținut",
+    "mainNav": "Principal",
+    "languages": "Limbi",
+    "timerRunning": "Exemplu de cronometru pornit",
+    "gridLabel": "Exemplu de heatmap pentru {habit}, câte un pătrat pe zi.",
+    "eventsLabel": "Exemplu de grilă de evenimente: zilele unei jumătăți de an, în culorile categoriilor lor.",
+    "themeSwitch": "Comută la {theme}."
+  }
+}

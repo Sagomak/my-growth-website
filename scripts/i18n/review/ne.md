@@ -1,0 +1,60 @@
+# ne (नेपाली)
+Confidence: medium-low (natural standard Nepali with तपाईं and -नुहोस्; no tone file, and the glossary is inconsistent in several places, so a native review is needed)
+
+Punctuation choice: sentences end with the Devanagari danda (।), standard in Nepali print and app copy. Question marks, colons and commas are Latin. Digits are Western (0 to 9) and dates use the Gregorian calendar.
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| (all) | full stop | । | Danda used for every sentence end |
+| legal.*.lastUpdated | November 20, 2026 | 20 नोभेम्बर 2026 | Gregorian date, Western digits; Nepali readers may expect Devanagari digits |
+| site.pro.free[0] | 3 habits | 3 बानीहरू | Glossary uses "बानी" here but "आदत" for Habit everywhere else; kept as the app has it |
+| (many) | data | डाटा / डेटा | Glossary mixes both: "डाटा व्यवस्थापन" but "डेटा आयात गर्नुहोस्", "सारा डेटा मेटाउनुहोस्". Prose uses "डाटा"; glossary terms kept as is |
+| (many) | colour | रङ / रंगहरू | Prose uses "रङ"; glossary "कस्टम रंगहरू" kept |
+| site.tutorial.importLogs.columns[2].desc, faq, streaks | hours, minutes | घंटा, मिनेट्स | Glossary units; "घंटा" vs "घण्टा" (the "h" unit) and the anglicised plural "मिनेट्स" are inconsistent |
+| site.features.items.timers.body, pace | h, min, s | घण्टा, मिनेट, सेकेन्ड | Glossary gives full words, not abbreviations; kept |
+| site.features.items.grid.body, streaks.* | streak | स्ट्रिक | Glossary "Streak" = "लगातार" (an adjective); used "स्ट्रिक" as a noun |
+| site.features.items.charts.consistency | Consistency | सततता | Glossary term; "निरन्तरता" is more common |
+| site.tutorial.backup.restoreSteps[3] | Replace all data | “सर्व डाटा परिवर्तन गर्नुहोस्” | Glossary term; "सर्व" is Hindi-like, "सबै" is Nepali |
+| site.pro.proItems[2] | All time charts and averages | सर्व समयका चार्ट र औसतहरू | Follows glossary "सर्व समय"; same issue |
+| site.gallery.items[3].alt | Clear | “स्पष्ट” | Glossary term; means "evident", not "erase" |
+| site.gallery.items[2].alt | days shown up | दिएका दिनहरू | Glossary term, meaning unclear |
+| site.tutorial.reminders.items | Morning reminder | सुप्रभात सम्झाउने | Glossary term; "सुप्रभात" means "good morning" |
+| site.tutorial.pace | Pace and speed | गति र रफ्तार | Glossary gives "गति" for both; used "रफ्तार" for speed |
+| site.year.habit | Reading | पढाइ | Glossary term |
+| site.nav.support | Support | सहयोग | Glossary term, used as is |
+| site.nav.theme.light/dark | Paper / Graphite | कागज / ग्राफाइट | Theme names; glossary has only Light/Dark |
+| site.features.items.dashboard.becomingGoal | someone who keeps their promises | आफ्नो वचन निभाउने मान्छे | Shown after "बन्दै"; check the combination |
+| site.hero.sub, year.body | show up | निरन्तरता | Idiom rendered as "consistency / keeping at it" |
+| site.tutorial.backup.restoreSteps[3] | Merge with existing | “भइरहेको डाटासँग मिलाउनुहोस्” | Not in glossary; check against the app |
+| legal.privacy.rights.intro | General Data Protection Regulation | सामान्य डाटा संरक्षण नियमन (GDPR) | No official Nepali name |
+| legal.terms.liability.body | consequential damages; including but not limited to | परिणामस्वरूप हुने क्षति; समावेश छ, तर त्यतिमा मात्र सीमित छैन | Legal phrasing, check |
+| site.a11y.themeSwitch | Switch to {theme}. | {theme} मा बदल्नुहोस्। | Variable theme name before postposition |
+
+## Reviewer
+Confidence after review: medium (prose is natural standard Nepali with a consistent तपाईं register and the legal text is complete; the glossary itself is inconsistent and Hindi-leaning in places, which needs an in-app fix by a native speaker)
+
+Changes: 3
+- site.features.items.themes.body, "लाइट मोड न्यानो कागजमा बस्छ।", "लाइट मोडको पृष्ठभूमि न्यानो कागज हो।", literal "sits on" read unnaturally
+- site.tutorial.streaks.tips[2], "सोमबार, बुधबार र शुक्रबार व्यायाम गर्नुहोस्, तीनवटै पूरा गर्नुहोस्, भने त्यो 3 दिनको स्ट्रिक हो।", "सोमबार, बुधबार र शुक्रबार व्यायाम गर्ने तालिका छ र तीनवटै पूरा गर्नुभयो भने, त्यो 3 दिनको स्ट्रिक हो।", "imperative + भने" was ungrammatical
+- site.tutorial.backup.restoreSteps[3], "“भइरहेको डाटासँग मिलाउनुहोस्”", "“विद्यमान डाटासँग मिलाउनुहोस्”", "भइरहेको" means "ongoing", not "existing"
+
+Translator flags resolved (confirmed, no change): danda punctuation; स्ट्रिक for streak; गति / रफ्तार split; कागज / ग्राफाइट; निरन्तरता for "show up"; GDPR rendering; liability phrasing; "{theme} मा बदल्नुहोस्" fits all three theme names.
+
+Still flagged for a native speaker:
+
+| Key | English | Translation | Why |
+|---|---|---|---|
+| legal.*.lastUpdated, (all) | digits | Western 0 to 9 | Nepali readers may expect Devanagari digits |
+| site.pro.free[0] | 3 habits | 3 बानीहरू | Glossary uses बानी here, आदत everywhere else |
+| (many) | data | डाटा / डेटा | Glossary mixes both spellings |
+| (many) | colour | रङ / रंगहरू | Glossary "कस्टम रंगहरू" differs from prose "रङ" |
+| site.tutorial.importLogs.columns[2].desc, faq, streaks | hours, minutes | घंटा, मिनेट्स | Glossary units; घंटा vs घण्टा and anglicised मिनेट्स |
+| site.features.items.timers.body, pace | h, min, s | घण्टा, मिनेट, सेकेन्ड | Glossary gives full words, not abbreviations |
+| site.features.items.charts.consistency | Consistency | सततता | Glossary; "निरन्तरता" is more common |
+| site.tutorial.backup.restoreSteps[3], pro.proItems[2] | Replace all data / All time | सर्व डाटा परिवर्तन गर्नुहोस् / सर्व समयका | Glossary "सर्व" is Hindi-like; Nepali is "सबै" |
+| site.gallery.items[3].alt | Clear | “स्पष्ट” | Glossary term means "evident", not "erase" |
+| site.gallery.items[2].alt | days shown up | दिएका दिनहरू | Glossary term, meaning unclear |
+| site.tutorial.reminders.items | Morning reminder | सुप्रभात सम्झाउने | Glossary; "सुप्रभात" means "good morning" |
+| site.nav.support | Support | सहयोग | Glossary term, acceptable but "सहायता" also possible |
+| site.features.items.dashboard.becomingGoal | someone who keeps their promises | आफ्नो वचन निभाउने मान्छे | Check after the "बन्दै" label |
+| site.tutorial.backup.restoreSteps[3] | Merge with existing | “विद्यमान डाटासँग मिलाउनुहोस्” | Not in glossary; must match the app button |

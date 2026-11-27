@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: pelacak kebiasaan gambar tangan yang tetap di iPhone-mu",
+      "description": "MyGrowth mengubah kebiasaanmu menjadi heatmap gambar tangan, grafik, dan statistik. Privat sejak awal: tanpa akun, tanpa cloud, datamu tetap di perangkatmu."
+    },
+    "support": {
+      "title": "Dukungan, MyGrowth",
+      "description": "Jawaban atas pertanyaan umum tentang MyGrowth, dan cara menghubungi kami."
+    },
+    "tutorial": {
+      "title": "Impor dan cadangkan datamu, MyGrowth",
+      "description": "Impor riwayat kebiasaanmu dari file CSV, cadangkan dan pulihkan MyGrowth, dan lihat kebiasaan bawaan untuk memulai."
+    },
+    "notFound": {
+      "title": "Halaman tidak ditemukan, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "Beranda MyGrowth",
+    "features": "Fitur",
+    "privacy": "Privasi",
+    "pro": "Pro",
+    "faq": "FAQ",
+    "support": "Dukungan",
+    "menu": "Menu",
+    "theme": {
+      "label": "Tema",
+      "system": "Sistem",
+      "light": "Kertas",
+      "dark": "Grafit"
+    }
+  },
+  "badge": {
+    "alt": "Unduh di App Store",
+    "aria": "Unduh MyGrowth di App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Kamu menjadi apa yang kamu lakukan berulang kali.",
+    "sub": "MyGrowth mengubah kebiasaanmu menjadi heatmap gambar tangan, grafik, dan statistik, sehingga kamu bisa melihat usahamu setiap hari berubah menjadi kemajuan.",
+    "trust": "Privat sejak awal. Tanpa akun, tanpa cloud.",
+    "phoneAlt": "Dashboard MyGrowth: strip mingguan, tujuan Menjadi, dan kebiasaan hari ini sebagai kartu gambar tangan."
+  },
+  "year": {
+    "eyebrow": "Setahunmu dalam sekali lihat",
+    "title": "Gambaran jujur tentang setahun.",
+    "body": "Setiap hari kamu hadir, satu kotak terisi. Kotak hari ini di strip mingguan terisi seiring berjalannya hari.",
+    "habit": "Membaca",
+    "weekLabel": "Minggu ini",
+    "todayLabel": "Hari ini, {pct}% hari sudah berlalu",
+    "legendLess": "Sedikit",
+    "legendMore": "Banyak",
+    "gridLabel": "Contoh heatmap: setahun membaca, satu kotak per hari, berakhir hari ini."
+  },
+  "features": {
+    "eyebrow": "Apa saja di dalamnya",
+    "title": "Lacak yang penting. Lihat ia bertumbuh.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard dan Menjadi",
+        "title": "Dirimu kelak, dalam satu halaman.",
+        "body": "Kebiasaan hari ini tampil sebagai kartu di bawah tujuan Menjadi, dalam bingkai gambar tangannya sendiri. Kebiasaan yang belum kamu catat tampil menonjol, jadi kamu langsung tahu apa yang tersisa.",
+        "becomingLabel": "Menjadi",
+        "becomingGoal": "orang yang menepati janjinya"
+      },
+      "grid": {
+        "eyebrow": "Grid",
+        "title": "Setahun usaha, satu gambar yang jujur.",
+        "body": "Setiap kebiasaan punya heatmap sendiri dengan warnanya sendiri. Pola, celah, dan rentetan terlihat sekilas, dan rentetan mengikuti jadwalmu, jadi hari istirahat tidak pernah memutusnya."
+      },
+      "charts": {
+        "eyebrow": "Grafik",
+        "title": "Setiap kebiasaan, terukur.",
+        "body": "Konsistensi, rata-rata, total, hari target tercapai, dan hari terbaik. Garis menggambar dirinya sendiri dan batang tumbuh dari bawah.",
+        "consistency": "Konsistensi",
+        "lastDays": "30 hari terakhir",
+        "minutes": "Menit per hari",
+        "chartLabel": "Contoh grafik Konsistensi: persentase kebiasaan yang dilakukan setiap hari selama 30 hari terakhir, naik dari sekitar 40% ke sekitar 90%.",
+        "barsLabel": "Contoh grafik batang: menit membaca per hari selama satu minggu."
+      },
+      "events": {
+        "eyebrow": "Peristiwa",
+        "title": "Setiap tempat, buku, dan perjalanan punya warnanya sendiri.",
+        "body": "Catat tempat yang kamu kunjungi, buku yang kamu baca, perjalanan, dan konser, lalu lihat setahun penuh hidupmu muncul sebagai satu gambar.",
+        "legend": [
+          "Perjalanan",
+          "Buku",
+          "Konser"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widget dan Live Activity",
+        "title": "Di Layar Utama dan Layar Kunci.",
+        "body": "Widget Grid Kebiasaan, widget Hari ini untuk mencatat langsung dari Layar Utama, dan pengatur waktu yang tampil di Layar Kunci."
+      },
+      "timers": {
+        "eyebrow": "Pengatur waktu dan pencatatan",
+        "title": "Catat dalam hitungan detik. Pengatur waktu tetap berjalan.",
+        "body": "Ketuk kartu, ketik nilai, simpan. Durasi ditampilkan sebagai h, min, dan s, dan pengatur waktu tetap berjalan saat kamu keluar dari aplikasi.",
+        "timer": "Meditasi"
+      },
+      "themes": {
+        "eyebrow": "Kertas dan grafit",
+        "title": "Kertas hangat di siang hari, grafit lembut di malam hari.",
+        "body": "Mode terang berlatar kertas bernuansa hangat. Mode gelap berwarna grafit lembut, bukan hitam pekat. Kata-kata bergaya tulisan tangan, angka tetap tajam dan akurat.",
+        "paper": "Kertas",
+        "graphite": "Grafit"
+      },
+      "widget": {
+        "name": "Membaca",
+        "label": "Contoh widget Grid Kebiasaan untuk Membaca, berisi kotak untuk sekitar tiga bulan."
+      },
+      "languages": {
+        "eyebrow": "Bahasa",
+        "title": "Dalam bahasamu. Ada 25 bahasa.",
+        "body": "Dari Inggris hingga Jepang, dari Bengali hingga Albania. Warna dan ikonmu sendiri di setiap kebiasaan."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Intip ke dalam",
+    "label": "Tangkapan layar MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Grid",
+        "alt": "Tab Grid: heatmap setahun untuk Konsistensi dan satu untuk setiap kebiasaan, masing-masing dengan warnanya sendiri."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Grafik",
+        "alt": "Tab Grafik: garis Konsistensi selama 90 hari, rentetan aktif dan rentetan terbaik sepanjang masa, serta grafik kebiasaan."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Setiap kebiasaan",
+        "alt": "Grafik Lari terhadap tujuan 5 km, dengan hari yang ditampilkan, konsistensi, rata-rata, total, dan hari terbaik."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Pencatatan",
+        "alt": "Lembar catatan untuk Meditasi: jam, menit, dan detik, target 15 min, Bersihkan dan Simpan."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Peristiwa",
+        "alt": "Tab Peristiwa: perjalanan, konser, dan buku, masing-masing grid setahun dengan warnanya sendiri."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Grafit",
+        "alt": "Dashboard dalam mode gelap, berwarna grafit lembut."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privasi",
+    "title": "Datamu tetap di iPhone-mu.",
+    "body": "Tanpa akun, tanpa cloud, tanpa pelacakan. Hanya kamu dan bukti bahwa kamu sedang menjadi diri yang kamu tuju.",
+    "storedTitle": "Disimpan di perangkatmu",
+    "stored": [
+      "Kebiasaanmu: nama, satuan, target, warna, dan ikon",
+      "Catatan harianmu: tanggal, nilai, dan catatan opsional",
+      "Pengaturan dan preferensimu"
+    ],
+    "neverTitle": "Tidak pernah dikumpulkan",
+    "never": [
+      "Kebiasaan, catatan harian, atau catatan pribadimu",
+      "Nama, email, nomor telepon, atau lokasi",
+      "Analitik penggunaan atau laporan error",
+      "ID iklan, cookie, atau pelacakan"
+    ],
+    "purchases": "Pembelian Pro diproses melalui Apple dan diverifikasi dengan RevenueCat, menggunakan ID anonim acak.",
+    "link": "Baca kebijakan privasi"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, saat kamu ingin cerita lengkapnya.",
+    "body": "MyGrowth gratis diunduh dan digunakan dengan hingga tiga kebiasaan. Pro membuka semuanya.",
+    "freeTitle": "Gratis",
+    "free": [
+      "3 kebiasaan",
+      "Tahun saat ini",
+      "Grafik 30 hari"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Kebiasaan tanpa batas",
+      "Riwayat lengkap",
+      "Grafik dan rata-rata sepanjang masa",
+      "Peristiwa",
+      "Impor dan cadangan CSV",
+      "Warna kustom",
+      "Kebiasaan di hari yang dijadwalkan"
+    ],
+    "plans": "Bulanan, tahunan, atau sekali untuk seumur hidup.",
+    "price": "Lihat harga terbaru di App Store."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Pertanyaan, terjawab.",
+    "items": [
+      {
+        "q": "Bagaimana cara mencatat kebiasaan?",
+        "a": "Ketuk kartu kebiasaan mana pun di Dashboard. Sebuah lembar singkat terbuka: ketik nilaimu (7,5 jam tidur, 2,5 L air) lalu ketuk Simpan. Catatan langsung tersimpan dan heatmap-mu diperbarui."
+      },
+      {
+        "q": "Di mana dataku disimpan?",
+        "a": "Hanya di iPhone-mu, di penyimpanan lokal iOS. Tidak ada server, tidak ada sinkronisasi cloud, dan tidak ada akun. Kebijakan privasi memuat detail lengkapnya.",
+        "link": {
+          "href": "privacy",
+          "text": "Baca kebijakan privasi"
+        }
+      },
+      {
+        "q": "Bisakah aku mengimpor riwayat dari spreadsheet?",
+        "a": "Bisa, dengan Pro. Buka Pengaturan, Manajemen Data, Impor Data, lalu pilih file CSV dengan kolom date, habit, unit, value, dan note. Tutorial menyediakan templatenya.",
+        "link": {
+          "href": "tutorial",
+          "text": "Buka tutorial"
+        }
+      },
+      {
+        "q": "Bagaimana cara mencadangkan atau memindahkan dataku?",
+        "a": "Dengan Pro, Pengaturan, Manajemen Data, Ekspor Cadangan menyimpan setiap kebiasaan dan catatan dalam satu file CSV. Impor file itu di perangkat baru lewat Impor Data."
+      },
+      {
+        "q": "Bagaimana cara menghapus semua dataku?",
+        "a": "Buka Pengaturan, Manajemen Data, Hapus Semua Data. Kamu akan diminta konfirmasi. Tindakan ini permanen: semua kebiasaan, catatan, dan preferensi akan terhapus dari perangkatmu."
+      },
+      {
+        "q": "Berapa harga Pro?",
+        "a": "Pro tersedia sebagai langganan bulanan atau tahunan, atau pembelian sekali bayar. Harga tergantung negaramu; App Store menampilkan harga terbaru sebelum kamu membeli."
+      },
+      {
+        "q": "Apakah akan ada versi Android?",
+        "a": "Untuk saat ini belum. Kami lebih memilih membangun satu platform dengan baik daripada dua dengan setengah hati."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Mulai hari ini. Setahun lagi, kamu akan senang telah memulainya."
+  },
+  "footer": {
+    "studio": "Aplikasi dari Sagomak",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Penggunaan",
+    "support": "Dukungan",
+    "tutorial": "Tutorial",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Font di bawah SIL Open Font License",
+    "languages": "Bahasa"
+  },
+  "support": {
+    "eyebrow": "Dukungan",
+    "title": "Ada yang bisa kami bantu?",
+    "intro": "Jawaban atas pertanyaan umum. Jika kamu tidak menemukan yang kamu cari, kirimi kami email.",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "contactTitle": "Masih butuh bantuan?",
+    "contactBody": "Pertanyaan, bug, atau ide? Kami membaca setiap email.",
+    "emailCta": "Kirim email ke",
+    "reviewBefore": "Kamu juga bisa ",
+    "reviewLink": "memberi ulasan di App Store",
+    "reviewAfter": ". Itu sangat membantu, lebih dari yang kamu kira."
+  },
+  "tutorial": {
+    "eyebrow": "Tutorial",
+    "title": "Impor datamu",
+    "intro": "Sudah melacak kebiasaan? Bawa riwayatmu ke sini dalam hitungan menit. Impor dan cadangan termasuk dalam Pro.",
+    "importLogs": {
+      "title": "Impor catatan harian",
+      "intro": "Impor data lama kebiasaanmu dari file CSV. Setiap baris adalah catatan satu hari untuk satu kebiasaan.",
+      "templateLabel": "Format template",
+      "required": "wajib",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Contoh: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Harus sama dengan nama kebiasaan yang sudah ada di aplikasi (huruf besar atau kecil tidak masalah)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Satuan kebiasaan, sebagai referensimu. Contoh: jam, menit, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Angka, 0 atau lebih."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Teks bebas opsional. Biarkan kosong atau hilangkan kolomnya."
+        }
+      ],
+      "download": "Unduh template (CSV)",
+      "tips": [
+        "Excel, Google Sheets, dan Numbers semuanya bisa: ekspor sebagai .csv atau .txt.",
+        "Nama kebiasaan harus sama: 'Lari' dan 'lari' sama-sama bisa, tetapi 'Lari pagi' tidak cocok dengan 'Lari'.",
+        "Jika tanggal dan kebiasaan sudah ada, impor akan memperbarui nilainya, bukan menambahkan yang kedua.",
+        "Kamu bisa mencampur beberapa kebiasaan dalam satu file."
+      ]
+    },
+    "backup": {
+      "title": "Cadangkan dan pulihkan",
+      "intro": "Ekspor semua kebiasaan dan catatanmu sebagai satu file CSV, untuk dipulihkan di perangkat baru atau disimpan sebagai salinan offline.",
+      "exportTitle": "Cara mengekspor",
+      "exportSteps": [
+        "Buka Pengaturan, Manajemen Data",
+        "Ketuk Ekspor Cadangan",
+        "Simpan atau bagikan file-nya"
+      ],
+      "restoreTitle": "Cara memulihkan",
+      "restoreSteps": [
+        "Buka Pengaturan, Manajemen Data",
+        "Ketuk Impor Data",
+        "Pilih file cadanganmu",
+        "Pilih Gabungkan dengan yang ada atau Ganti semua data",
+        "Periksa ringkasannya lalu ketuk Impor"
+      ],
+      "formatLabel": "Format cadangan (disederhanakan)",
+      "autoDetect": "Aplikasi bisa membedakan sendiri file cadangan (yang memiliki bagian #HABITS) dari file catatan biasa. Satu tombol impor menangani keduanya."
+    },
+    "prebuilt": {
+      "title": "Kebiasaan untuk memulai",
+      "intro": "MyGrowth menyarankan kebiasaan berikut, siap untuk dilacak:",
+      "cols": [
+        "Kebiasaan",
+        "Satuan",
+        "Target harian"
+      ],
+      "note": "Kamu juga bisa membuat kebiasaanmu sendiri, dengan nama, satuan, ikon, warna, dan jadwalmu sendiri."
+    },
+    "reminders": {
+      "title": "Pengingat harian",
+      "intro": "MyGrowth bisa mengirimimu dua notifikasi sehari:",
+      "items": [
+        [
+          "Pengingat Pagi",
+          "ringkasan kebiasaan yang dijadwalkan hari ini. Bawaan: 09.00."
+        ],
+        [
+          "Dorongan Malam",
+          "pengingat lembut untuk mencatat yang terlewat. Bawaan: 21.00."
+        ]
+      ],
+      "footer": "Keduanya bisa diubah di Pengaturan, Notifikasi."
+    },
+    "pace": {
+      "title": "Pace dan kecepatan",
+      "intro": "Untuk kebiasaan seperti Lari dan Bersepeda, aktifkan Lacak waktu di kebiasaan tersebut untuk mencatat jarak dan waktu. Aplikasi akan menghitung:",
+      "items": [
+        [
+          "Lari",
+          "kecepatan dalam min/km. 7 km dalam 38 min berarti 5:25 min/km."
+        ],
+        [
+          "Bersepeda",
+          "kecepatan dalam km/h. 10 km dalam 30 min berarti 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Cara kerja rentetan",
+      "tips": [
+        "Nilai 0 tidak dihitung: kamu harus benar-benar melakukan kebiasaannya.",
+        "Nilainya harus mencapai target: tidur 2 jam dengan target 8 tidak dihitung.",
+        "Rentetan mengikuti jadwalmu. Latihan hari Senin, Rabu, dan Jumat, penuhi ketiganya, dan itu rentetan 3 hari. Selasa dan Kamis tidak memutusnya."
+      ]
+    },
+    "cta": "Siap mengimpor?"
+  },
+  "notFound": {
+    "title": "Halaman ini tidak ada.",
+    "body": "Tautannya mungkin sudah usang, atau halamannya sudah dipindahkan.",
+    "home": "Kembali ke MyGrowth"
+  },
+  "legal": {
+    "contact": "Kirim email ke"
+  },
+  "lang": {
+    "label": "Bahasa",
+    "current": "Bahasa Indonesia",
+    "suggest": "Tersedia dalam Bahasa Indonesia",
+    "switchTo": "Beralih ke Bahasa Indonesia",
+    "dismiss": "Tutup"
+  },
+  "a11y": {
+    "skip": "Langsung ke konten",
+    "mainNav": "Utama",
+    "languages": "Bahasa",
+    "timerRunning": "Contoh pengatur waktu yang sedang berjalan",
+    "gridLabel": "Contoh heatmap untuk {habit}, satu kotak per hari.",
+    "eventsLabel": "Contoh grid peristiwa: setengah tahun hari dengan warna kategorinya masing-masing.",
+    "themeSwitch": "Beralih ke {theme}."
+  }
+}

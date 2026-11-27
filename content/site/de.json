@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: ein handgezeichneter Gewohnheitstracker, der auf deinem iPhone bleibt",
+      "description": "MyGrowth verwandelt deine Gewohnheiten in eine handgezeichnete Heatmap, Diagramme und Statistiken. Privat von Grund auf: kein Konto, keine Cloud, deine Daten bleiben auf deinem Gerät."
+    },
+    "support": {
+      "title": "Support, MyGrowth",
+      "description": "Antworten auf häufige Fragen zu MyGrowth und wie du uns erreichst."
+    },
+    "tutorial": {
+      "title": "Daten importieren und sichern, MyGrowth",
+      "description": "Importiere deinen Gewohnheitsverlauf aus einer CSV-Datei, sichere MyGrowth und stelle es wieder her, und sieh dir die Gewohnheiten an, mit denen die App startet."
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "MyGrowth-Startseite",
+    "features": "Funktionen",
+    "privacy": "Datenschutz",
+    "pro": "Pro",
+    "faq": "FAQ",
+    "support": "Support",
+    "menu": "Menü",
+    "theme": {
+      "label": "Design",
+      "system": "System",
+      "light": "Papier",
+      "dark": "Graphit"
+    }
+  },
+  "badge": {
+    "alt": "Laden im App Store",
+    "aria": "MyGrowth im App Store laden"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Du wirst, was du wiederholt tust.",
+    "sub": "MyGrowth verwandelt deine Gewohnheiten in eine handgezeichnete Heatmap, Diagramme und Statistiken, damit du siehst, wie aus Dranbleiben Fortschritt wird.",
+    "trust": "Privat von Grund auf. Kein Konto, keine Cloud.",
+    "phoneAlt": "Das MyGrowth-Dashboard: der Wochenstreifen, das Ziel unter „Werde zu“ und die Gewohnheiten von heute als handgezeichnete Karten."
+  },
+  "year": {
+    "eyebrow": "Dein Jahr auf einen Blick",
+    "title": "Ein ehrliches Bild von einem Jahr.",
+    "body": "Jeder Tag, an dem du dranbleibst, füllt ein Kästchen. Die Kachel für heute im Wochenstreifen füllt sich, während der Tag vergeht.",
+    "habit": "Lesen",
+    "weekLabel": "Diese Woche",
+    "todayLabel": "Heute, {pct} % des Tages vorbei",
+    "legendLess": "Weniger",
+    "legendMore": "Mehr",
+    "gridLabel": "Beispiel-Heatmap: ein Jahr Lesen, ein Kästchen pro Tag, bis heute."
+  },
+  "features": {
+    "eyebrow": "Was drin ist",
+    "title": "Verfolge, was zählt. Sieh es wachsen.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard und Werde zu",
+        "title": "Wer du wirst, auf einer Seite.",
+        "body": "Die Gewohnheiten von heute als Karten unter deinem Ziel bei „Werde zu“, in einem eigenen handgezeichneten Rahmen. Gewohnheiten, die du noch nicht eingetragen hast, heben sich ab, so siehst du auf einen Blick, was noch fehlt.",
+        "becomingLabel": "Werde zu",
+        "becomingGoal": "jemandem, der seine Versprechen hält"
+      },
+      "grid": {
+        "eyebrow": "Raster",
+        "title": "Ein Jahr Einsatz, ein ehrliches Bild.",
+        "body": "Jede Gewohnheit bekommt ihre eigene Heatmap in ihrer eigenen Farbe. Muster, Lücken und Serien siehst du auf einen Blick, und Serien folgen deinem Zeitplan, sodass ein Ruhetag sie nie unterbricht."
+      },
+      "charts": {
+        "eyebrow": "Diagramme",
+        "title": "Jede Gewohnheit, gemessen.",
+        "body": "Beständigkeit, Durchschnitte, Gesamtwerte, Tage am Ziel und beste Tage. Linien zeichnen sich selbst, und Balken wachsen von unten.",
+        "consistency": "Beständigkeit",
+        "lastDays": "letzte 30 Tage",
+        "minutes": "Minuten pro Tag",
+        "chartLabel": "Beispiel für das Diagramm Beständigkeit: der Anteil der jeden Tag erledigten Gewohnheiten in den letzten 30 Tagen, steigend von etwa 40 % auf etwa 90 %.",
+        "barsLabel": "Beispiel-Balkendiagramm: Minuten Lesen pro Tag über eine Woche."
+      },
+      "events": {
+        "eyebrow": "Ereignisse",
+        "title": "Jeder Ort, jedes Buch, jede Reise in eigener Farbe.",
+        "body": "Trag die Orte ein, die du besuchst, die Bücher, die du liest, die Reisen und die Konzerte, und sieh ein ganzes Jahr deines Lebens als ein einziges Bild.",
+        "legend": [
+          "Reisen",
+          "Bücher",
+          "Konzerte"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widgets und Live-Aktivität",
+        "title": "Auf deinem Home-Bildschirm und Sperrbildschirm.",
+        "body": "Ein Gewohnheitsraster-Widget, ein Heute-Widget zum Eintragen direkt vom Home-Bildschirm und Timer, die auf deinem Sperrbildschirm weiterlaufen."
+      },
+      "timers": {
+        "eyebrow": "Timer und Eintragen",
+        "title": "In Sekunden eingetragen. Timer laufen weiter.",
+        "body": "Karte antippen, Wert eingeben, speichern. Dauern werden als h, min und s angezeigt, und ein laufender Timer läuft weiter, wenn du die App verlässt.",
+        "timer": "Meditation"
+      },
+      "themes": {
+        "eyebrow": "Papier und Graphit",
+        "title": "Warmes Papier am Tag, sanftes Graphit bei Nacht.",
+        "body": "Der helle Modus liegt auf warmem Papier. Der dunkle Modus ist ein sanftes Graphit statt reinem Schwarz. Wörter erscheinen in Handschrift, Zahlen bleiben klar und exakt.",
+        "paper": "Papier",
+        "graphite": "Graphit"
+      },
+      "widget": {
+        "name": "Lesen",
+        "label": "Beispiel für ein Gewohnheitsraster-Widget für Lesen, etwa drei Monate an Kästchen."
+      },
+      "languages": {
+        "eyebrow": "Sprachen",
+        "title": "In deiner Sprache. Eine von 25.",
+        "body": "Von Englisch bis Japanisch, von Bengalisch bis Albanisch. Deine eigenen Farben und Symbole für jede Gewohnheit."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Ein Blick hinein",
+    "label": "Screenshots von MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Raster",
+        "alt": "Der Tab Raster: eine Jahres-Heatmap für Beständigkeit und eine pro Gewohnheit, jede in ihrer eigenen Farbe."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Diagramme",
+        "alt": "Der Tab Diagramme: die Linie für Beständigkeit über 90 Tage, aktive Serien und Bestwerte aller Zeiten sowie ein Gewohnheitsdiagramm."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Jede Gewohnheit",
+        "alt": "Ein Diagramm für Laufen, gemessen am Ziel von 5 km, mit „Tage angezeigt“, Beständigkeit, Durchschnitt, Gesamt und bestem Tag."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Eintragen",
+        "alt": "Das Eintragsblatt für Meditation: Stunden, Minuten und Sekunden, das Ziel von 15 min, Löschen und Speichern."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Ereignisse",
+        "alt": "Der Tab Ereignisse: Reisen, Konzerte und Bücher, jeweils als Jahresraster in eigenen Farben."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Graphit",
+        "alt": "Das Dashboard im dunklen Modus, auf sanftem Graphit."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Datenschutz",
+    "title": "Deine Daten bleiben auf deinem iPhone.",
+    "body": "Kein Konto, keine Cloud, kein Tracking. Nur du und der Beweis, dass du wirst, wer du sein willst.",
+    "storedTitle": "Auf deinem Gerät gespeichert",
+    "stored": [
+      "Deine Gewohnheiten: Namen, Einheiten, Ziele, Farben und Symbole",
+      "Deine täglichen Einträge: Datum, Wert und optionale Notizen",
+      "Deine Einstellungen und Vorlieben"
+    ],
+    "neverTitle": "Nie erhoben",
+    "never": [
+      "Deine Gewohnheiten, Einträge oder Notizen",
+      "Name, E-Mail, Telefon oder Standort",
+      "Nutzungsstatistiken oder Absturzberichte",
+      "Werbe-IDs, Cookies oder Tracking"
+    ],
+    "purchases": "Pro-Käufe laufen über Apple und werden mit RevenueCat geprüft, über eine zufällige anonyme ID.",
+    "link": "Datenschutzrichtlinie lesen"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, wenn du die ganze Geschichte willst.",
+    "body": "MyGrowth ist kostenlos zum Herunterladen und mit bis zu drei Gewohnheiten kostenlos nutzbar. Pro schaltet alles frei.",
+    "freeTitle": "Kostenlos",
+    "free": [
+      "3 Gewohnheiten",
+      "Aktuelles Jahr",
+      "30-Tage-Diagramme"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Unbegrenzte Gewohnheiten",
+      "Vollständige Historie",
+      "Diagramme und Durchschnitte aller Zeiten",
+      "Ereignisse",
+      "CSV-Import und Backup",
+      "Benutzerdefinierte Farben",
+      "Gewohnheiten an geplanten Tagen"
+    ],
+    "plans": "Monatlich, jährlich oder einmalig, lebenslang.",
+    "price": "Den aktuellen Preis findest du im App Store."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Fragen und Antworten.",
+    "items": [
+      {
+        "q": "Wie trage ich eine Gewohnheit ein?",
+        "a": "Tippe auf dem Dashboard auf eine beliebige Gewohnheitskarte. Ein kurzes Blatt öffnet sich: Gib deinen Wert ein (7,5 Stunden Schlaf, 2,5 L Wasser) und tippe auf Speichern. Der Eintrag wird sofort gespeichert, und deine Heatmap aktualisiert sich."
+      },
+      {
+        "q": "Wo werden meine Daten gespeichert?",
+        "a": "Nur auf deinem iPhone, im lokalen Speicher von iOS. Es gibt keine Server, keine Cloud-Synchronisierung und keine Konten. Alle Details stehen in der Datenschutzrichtlinie.",
+        "link": {
+          "href": "privacy",
+          "text": "Datenschutzrichtlinie lesen"
+        }
+      },
+      {
+        "q": "Kann ich meinen Verlauf aus einer Tabelle importieren?",
+        "a": "Ja, mit Pro. Geh zu Einstellungen, Datenverwaltung, Daten importieren und wähle eine CSV-Datei mit den Spalten date, habit, unit, value und note. Im Tutorial findest du eine Vorlage.",
+        "link": {
+          "href": "tutorial",
+          "text": "Tutorial öffnen"
+        }
+      },
+      {
+        "q": "Wie sichere ich meine Daten oder ziehe sie um?",
+        "a": "Mit Pro tippst du unter Einstellungen, Datenverwaltung auf Exportieren Backup: Das speichert jede Gewohnheit und jeden Eintrag in einer einzigen CSV-Datei. Importiere sie auf dem neuen Gerät mit Daten importieren."
+      },
+      {
+        "q": "Wie lösche ich alle meine Daten?",
+        "a": "Geh zu Einstellungen, Datenverwaltung, Alle Daten löschen. Du wirst um Bestätigung gebeten. Das ist endgültig: Jede Gewohnheit, jeder Eintrag und jede Einstellung wird von deinem Gerät gelöscht."
+      },
+      {
+        "q": "Was kostet Pro?",
+        "a": "Pro gibt es als Monats- oder Jahresabo oder als Einmalkauf. Die Preise hängen von deinem Land ab; der App Store zeigt dir den aktuellen Preis vor dem Kauf."
+      },
+      {
+        "q": "Wird es eine Android-Version geben?",
+        "a": "Vorerst nicht. Wir machen lieber eine Plattform richtig als zwei halbherzig."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Fang heute an. In einem Jahr wirst du froh sein, dass du es getan hast."
+  },
+  "footer": {
+    "studio": "Eine App von Sagomak",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "support": "Support",
+    "tutorial": "Tutorial",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Schriften unter der SIL Open Font License",
+    "languages": "Sprachen"
+  },
+  "support": {
+    "eyebrow": "Support",
+    "title": "Wie können wir helfen?",
+    "intro": "Antworten auf häufige Fragen. Wenn du nicht findest, was du suchst, schreib uns.",
+    "faqTitle": "Häufige Fragen",
+    "contactTitle": "Brauchst du noch Hilfe?",
+    "contactBody": "Eine Frage, ein Fehler oder eine Idee? Wir lesen jede E-Mail.",
+    "emailCta": "Schreib an",
+    "reviewBefore": "Du kannst auch ",
+    "reviewLink": "eine Bewertung im App Store hinterlassen",
+    "reviewAfter": ". Das hilft uns mehr, als du denkst."
+  },
+  "tutorial": {
+    "eyebrow": "Tutorial",
+    "title": "Daten importieren",
+    "intro": "Du verfolgst deine Gewohnheiten schon? Hol deinen Verlauf in wenigen Minuten rüber. Import und Backup gehören zu Pro.",
+    "importLogs": {
+      "title": "Tägliche Einträge importieren",
+      "intro": "Importiere frühere Daten zu deinen Gewohnheiten aus einer CSV-Datei. Jede Zeile ist der Eintrag eines Tages für eine Gewohnheit.",
+      "templateLabel": "Format der Vorlage",
+      "required": "Pflicht",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Beispiel: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Muss dem Namen einer vorhandenen Gewohnheit in der App entsprechen (Groß- und Kleinschreibung spielt keine Rolle)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Die Einheit der Gewohnheit, zu deiner Orientierung. Beispiele: Stunden, Minuten, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Eine Zahl, 0 oder größer."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Optionaler freier Text. Lass ihn leer oder lass die Spalte ganz weg."
+        }
+      ],
+      "download": "Vorlage herunterladen (CSV)",
+      "tips": [
+        "Excel, Google Sheets und Numbers funktionieren alle: Exportiere als .csv oder .txt.",
+        "Die Namen der Gewohnheiten müssen passen: 'Workout' und 'workout' funktionieren beide, 'Work out' passt nicht zu 'Workout'.",
+        "Gibt es ein Datum und eine Gewohnheit schon, aktualisiert der Import den Wert, statt einen zweiten anzulegen.",
+        "Du kannst mehrere Gewohnheiten in einer Datei mischen."
+      ]
+    },
+    "backup": {
+      "title": "Sichern und wiederherstellen",
+      "intro": "Exportiere alle deine Gewohnheiten und Einträge als eine CSV-Datei, um sie auf einem neuen Gerät wiederherzustellen oder eine Offline-Kopie zu behalten.",
+      "exportTitle": "So exportierst du",
+      "exportSteps": [
+        "Geh zu Einstellungen, Datenverwaltung",
+        "Tippe auf Exportieren Backup",
+        "Speichere oder teile die Datei"
+      ],
+      "restoreTitle": "So stellst du wieder her",
+      "restoreSteps": [
+        "Geh zu Einstellungen, Datenverwaltung",
+        "Tippe auf Daten importieren",
+        "Wähle deine Backup-Datei",
+        "Wähle Mit vorhandenen zusammenführen oder Alle Daten ersetzen",
+        "Prüfe die Zusammenfassung und tippe auf Importieren"
+      ],
+      "formatLabel": "Backup-Format (vereinfacht)",
+      "autoDetect": "Die App erkennt selbst, ob es ein Backup ist (es hat einen Abschnitt #HABITS) oder eine einfache Datei mit Einträgen. Ein einziger Import-Button erledigt beides."
+    },
+    "prebuilt": {
+      "title": "Gewohnheiten für den Start",
+      "intro": "MyGrowth schlägt dir diese Gewohnheiten vor, bereit zum Verfolgen:",
+      "cols": [
+        "Gewohnheit",
+        "Einheit",
+        "Tagesziel"
+      ],
+      "note": "Du kannst auch eigene Gewohnheiten anlegen, mit eigenem Namen, eigener Einheit, eigenem Symbol, eigener Farbe und eigenem Zeitplan."
+    },
+    "reminders": {
+      "title": "Tägliche Erinnerungen",
+      "intro": "MyGrowth kann dir zwei Benachrichtigungen am Tag schicken:",
+      "items": [
+        [
+          "Morgen Erinnerung",
+          "eine Übersicht der für heute geplanten Gewohnheiten. Standard: 9:00."
+        ],
+        [
+          "Abend Erinnerung",
+          "ein sanfter Hinweis, nachzutragen, was du verpasst hast. Standard: 21:00."
+        ]
+      ],
+      "footer": "Beide kannst du unter Einstellungen, Benachrichtigungen ändern."
+    },
+    "pace": {
+      "title": "Tempo und Geschwindigkeit",
+      "intro": "Für Gewohnheiten wie Laufen und Radfahren schaltest du in der Gewohnheit „Zeit verfolgen“ ein, um Strecke und Zeit einzutragen. Die App berechnet:",
+      "items": [
+        [
+          "Laufen",
+          "Tempo in min/km. 7 km in 38 min ergeben 5:25 min/km."
+        ],
+        [
+          "Radfahren",
+          "Geschwindigkeit in km/h. 10 km in 30 min ergeben 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "So funktionieren Serien",
+      "tips": [
+        "Ein Wert von 0 zählt nicht: Du musst die Gewohnheit wirklich ausführen.",
+        "Der Wert muss das Ziel erreichen: 2 Stunden Schlaf bei einem Ziel von 8 zählen nicht.",
+        "Serien folgen deinem Zeitplan. Du trainierst Montag, Mittwoch und Freitag, schaffst alle drei, und das ist eine 3-Tage-Serie. Dienstag und Donnerstag unterbrechen sie nicht."
+      ]
+    },
+    "cta": "Bereit zum Import?"
+  },
+  "notFound": {
+    "title": "Diese Seite gibt es hier nicht.",
+    "body": "Der Link ist vielleicht veraltet, oder die Seite ist umgezogen.",
+    "home": "Zurück zu MyGrowth"
+  },
+  "legal": {
+    "contact": "Schreib an"
+  },
+  "lang": {
+    "label": "Sprache",
+    "current": "Deutsch",
+    "suggest": "Verfügbar auf Deutsch",
+    "switchTo": "Zu Deutsch wechseln",
+    "dismiss": "Schließen"
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "mainNav": "Hauptnavigation",
+    "languages": "Sprachen",
+    "timerRunning": "Beispiel-Timer läuft",
+    "gridLabel": "Beispiel-Heatmap für {habit}, ein Kästchen pro Tag.",
+    "eventsLabel": "Beispielraster für Ereignisse: ein halbes Jahr an Tagen in den Farben ihrer Kategorien.",
+    "themeSwitch": "Zu {theme} wechseln."
+  }
+}

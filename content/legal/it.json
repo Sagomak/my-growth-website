@@ -52,8 +52,8 @@
       "title": "I tuoi diritti (GDPR)",
       "intro": "Ai sensi del Regolamento generale sulla protezione dei dati, hai il diritto di:",
       "access": "<b>Accedere</b> ai tuoi dati: visibili direttamente nell'app in qualsiasi momento",
-      "export": "<b>Esportare</b> i tuoi dati: tramite Impostazioni → Gestione dati → Esporta (JSON o CSV)",
-      "delete": "<b>Eliminare</b> i tuoi dati: tramite Impostazioni → Gestione dati → Cancella tutti i dati",
+      "export": "<b>Esportare</b> i tuoi dati: tramite Impostazioni, Gestione Dati, Esporta (JSON o CSV)",
+      "delete": "<b>Eliminare</b> i tuoi dati: tramite Impostazioni, Gestione Dati, Cancella Tutti i Dati",
       "rectify": "<b>Rettificare</b> i tuoi dati: modifica qualsiasi voce toccandola nell'app",
       "footer": "Poiché tutti i dati sono salvati esclusivamente sul tuo dispositivo, per esercitare questi diritti non serve alcuna richiesta a noi: hai il pieno controllo."
     },
@@ -145,5 +145,7 @@
       "title": "Contatti",
       "body": "Per domande su questi Termini:"
     }
-  }
+  },
+  "languageNote": "Questa è una traduzione. In caso di differenze, prevale la versione inglese.",
+  "englishLink": "Leggi la versione inglese"
 }

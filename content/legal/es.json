@@ -52,8 +52,8 @@
       "title": "Tus derechos (RGPD)",
       "intro": "En virtud del Reglamento General de Protección de Datos, tienes derecho a:",
       "access": "<b>Acceder</b> a tus datos: visibles directamente en la app en cualquier momento",
-      "export": "<b>Exportar</b> tus datos: en Ajustes → Gestión de datos → Exportar (JSON o CSV)",
-      "delete": "<b>Eliminar</b> tus datos: en Ajustes → Gestión de datos → Borrar todos los datos",
+      "export": "<b>Exportar</b> tus datos: en Configuración, Gestión de Datos, Exportar (JSON o CSV)",
+      "delete": "<b>Eliminar</b> tus datos: en Configuración, Gestión de Datos, Borrar Todos los Datos",
       "rectify": "<b>Rectificar</b> tus datos: edita cualquier registro tocándolo en la app",
       "footer": "Como todos los datos se guardan exclusivamente en tu dispositivo, ejercer estos derechos no requiere ninguna solicitud a nosotros: tienes el control total."
     },
@@ -145,5 +145,7 @@
       "title": "Contacto",
       "body": "Para preguntas sobre estos Términos:"
     }
-  }
+  },
+  "languageNote": "Esta es una traducción. En caso de diferencias, prevalece la versión en inglés.",
+  "englishLink": "Leer la versión en inglés"
 }

@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: iPhone'unda kalan, elle çizilmiş alışkanlık takipçisi",
+      "description": "MyGrowth alışkanlıklarını elle çizilmiş bir heatmap'e, grafiklere ve istatistiklere dönüştürür. Gizlilik temelden gelir: hesap yok, bulut yok, verilerin cihazında kalır."
+    },
+    "support": {
+      "title": "Destek, MyGrowth",
+      "description": "MyGrowth hakkında sık sorulan soruların yanıtları ve bize nasıl ulaşabileceğin."
+    },
+    "tutorial": {
+      "title": "Verilerini içe aktar ve yedekle, MyGrowth",
+      "description": "Alışkanlık geçmişini bir CSV dosyasından içe aktar, MyGrowth'u yedekle ve geri yükle, uygulamanın hazır sunduğu alışkanlıklara göz at."
+    },
+    "notFound": {
+      "title": "Sayfa bulunamadı, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "MyGrowth ana sayfa",
+    "features": "Özellikler",
+    "privacy": "Gizlilik",
+    "pro": "Pro",
+    "faq": "SSS",
+    "support": "Destek",
+    "menu": "Menü",
+    "theme": {
+      "label": "Tema",
+      "system": "Sistem",
+      "light": "Kâğıt",
+      "dark": "Grafit"
+    }
+  },
+  "badge": {
+    "alt": "App Store'dan indirin",
+    "aria": "MyGrowth'u App Store'dan indir"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Tekrar tekrar yaptığın şey olursun.",
+    "sub": "MyGrowth alışkanlıklarını elle çizilmiş bir heatmap'e, grafiklere ve istatistiklere dönüştürür; böylece her gün orada olmanın ilerlemeye dönüşmesini izlersin.",
+    "trust": "Gizlilik temelden gelir. Hesap yok, bulut yok.",
+    "phoneAlt": "MyGrowth Dashboard'u: hafta şeridi, Hedef ve bugünün alışkanlıkları elle çizilmiş kartlar olarak."
+  },
+  "year": {
+    "eyebrow": "Bir bakışta yılın",
+    "title": "Bir yılın tek ve dürüst resmi.",
+    "body": "Orada olduğun her gün bir kareyi doldurur. Hafta şeridindeki bugünün kutucuğu, gün ilerledikçe dolar.",
+    "habit": "Okuma",
+    "weekLabel": "Bu hafta",
+    "todayLabel": "Bugün, günün %{pct} kısmı geçti",
+    "legendLess": "Az",
+    "legendMore": "Çok",
+    "gridLabel": "Örnek heatmap: bugüne kadar bir yıllık okuma, her gün için bir kare."
+  },
+  "features": {
+    "eyebrow": "İçinde neler var",
+    "title": "Önemli olanı takip et. Büyümesini izle.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard ve Hedef",
+        "title": "Dönüştüğün kişi, tek sayfada.",
+        "body": "Bugünün alışkanlıkları, elle çizilmiş kendi çerçevesindeki Hedef'inin altında kartlar halinde. Henüz kaydetmediğin alışkanlıklar öne çıkar, böylece neyin kaldığını bir bakışta görürsün.",
+        "becomingLabel": "Hedef",
+        "becomingGoal": "sözünü tutan biri"
+      },
+      "grid": {
+        "eyebrow": "Izgara",
+        "title": "Bir yıllık emek, tek bir dürüst resim.",
+        "body": "Her alışkanlığın kendi renginde kendi heatmap'i var. Örüntüler, boşluklar ve seriler bir bakışta görünür; seriler programını takip eder, böylece bir dinlenme günü onları asla bozmaz."
+      },
+      "charts": {
+        "eyebrow": "Grafikler",
+        "title": "Her alışkanlık, ölçülmüş.",
+        "body": "Süreklilik, ortalamalar, toplamlar, hedefe ulaşılan günler ve en iyi günler. Çizgiler kendi kendini çizer, çubuklar aşağıdan yukarı büyür.",
+        "consistency": "Süreklilik",
+        "lastDays": "son 30 gün",
+        "minutes": "Günlük dakika",
+        "chartLabel": "Örnek Süreklilik grafiği: son 30 günde her gün yapılan alışkanlıkların oranı, yaklaşık %40'tan yaklaşık %90'a yükseliyor.",
+        "barsLabel": "Örnek çubuk grafik: bir hafta boyunca günlük okuma dakikaları."
+      },
+      "events": {
+        "eyebrow": "Etkinlikler",
+        "title": "Her yer, kitap ve yolculuk kendi renginde.",
+        "body": "Gittiğin yerleri, okuduğun kitapları, yolculukları ve konserleri kaydet, hayatının koca bir yılının tek bir resim olarak ortaya çıkışını izle.",
+        "legend": [
+          "Yolculuklar",
+          "Kitaplar",
+          "Konserler"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widget'lar ve Live Activity",
+        "title": "Ana ekranında ve kilit ekranında.",
+        "body": "Bir Habit Grid widget'ı, ana ekrandan kayıt yapmak için bir Bugün widget'ı ve kilit ekranında yaşayan zamanlayıcılar."
+      },
+      "timers": {
+        "eyebrow": "Zamanlayıcılar ve kayıt",
+        "title": "Saniyeler içinde kaydet. Zamanlayıcılar çalışmaya devam eder.",
+        "body": "Bir karta dokun, değeri yaz, kaydet. Süreler h, min ve s olarak gösterilir ve çalışan bir zamanlayıcı uygulamadan çıktığında da işlemeye devam eder.",
+        "timer": "Meditasyon"
+      },
+      "themes": {
+        "eyebrow": "Kâğıt ve grafit",
+        "title": "Gündüz sıcak kâğıt, gece yumuşak grafit.",
+        "body": "Açık mod sıcak tonlu bir kâğıdın üzerinde. Koyu mod saf siyah yerine yumuşak bir grafit. Yazılar el yazısıyla, sayılar net ve kesin.",
+        "paper": "Kâğıt",
+        "graphite": "Grafit"
+      },
+      "widget": {
+        "name": "Okuma",
+        "label": "Okuma için örnek Habit Grid widget'ı, yaklaşık üç aylık kareler."
+      },
+      "languages": {
+        "eyebrow": "Diller",
+        "title": "Senin dilinde. 25 dilden biri.",
+        "body": "İngilizceden Japoncaya, Bengalceden Arnavutçaya. Her alışkanlıkta kendi renklerin ve simgelerin."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "İçeriden bir bakış",
+    "label": "MyGrowth 3.0 ekran görüntüleri",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Izgara",
+        "alt": "Izgara sekmesi: Süreklilik için bir yıllık heatmap ve her alışkanlık için ayrı bir tane, her biri kendi renginde."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Grafikler",
+        "alt": "Grafikler sekmesi: 90 günlük Süreklilik çizgisi, aktif seri ve tüm zamanların en iyi serisi, bir de alışkanlık grafiği."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Her alışkanlık",
+        "alt": "5 km hedefine karşı bir Koşu grafiği; Gösterilen günler, Süreklilik, Ortalama, Toplam ve En iyi gün ile."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Kayıt",
+        "alt": "Meditasyon için kayıt penceresi: saat, dakika ve saniye, 15 min hedefi, Temizle ve Kaydet."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Etkinlikler",
+        "alt": "Etkinlikler sekmesi: yolculuklar, konserler ve kitaplar, her biri kendi renklerinde bir yıllık ızgara."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Grafit",
+        "alt": "Koyu modda, yumuşak grafit üzerinde Dashboard."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Gizlilik",
+    "title": "Verilerin iPhone'unda kalır.",
+    "body": "Hesap yok, bulut yok, takip yok. Sadece sen ve olmak istediğin kişiye dönüştüğünün kanıtı.",
+    "storedTitle": "Cihazında saklananlar",
+    "stored": [
+      "Alışkanlıkların: adlar, birimler, hedefler, renkler ve simgeler",
+      "Günlük kayıtların: tarih, değer ve isteğe bağlı notlar",
+      "Ayarların ve tercihlerin"
+    ],
+    "neverTitle": "Asla toplanmayanlar",
+    "never": [
+      "Alışkanlıkların, kayıtların veya notların",
+      "Ad, e-posta, telefon veya konum",
+      "Kullanım analizleri veya çökme raporları",
+      "Reklam kimlikleri, çerezler veya takip"
+    ],
+    "purchases": "Pro satın alımları Apple üzerinden yapılır ve rastgele, anonim bir kimlik kullanılarak RevenueCat ile doğrulanır.",
+    "link": "Gizlilik politikasını oku"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Hikâyenin tamamını istediğinde, Pro.",
+    "body": "MyGrowth'u indirmek ücretsiz, üç alışkanlığa kadar kullanmak da ücretsiz. Pro her şeyi açar.",
+    "freeTitle": "Ücretsiz",
+    "free": [
+      "3 alışkanlık",
+      "Mevcut yıl",
+      "30 günlük grafikler"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Sınırsız alışkanlıklar",
+      "Tam tarih",
+      "Tüm zamanların grafikleri ve ortalamaları",
+      "Etkinlikler",
+      "CSV içe aktarma ve yedekleme",
+      "Özel renkler",
+      "Planlanan günlerde alışkanlıklar"
+    ],
+    "plans": "Aylık, yıllık ya da bir kez ödeyip ömür boyu.",
+    "price": "Güncel fiyatı App Store'da gör."
+  },
+  "faq": {
+    "eyebrow": "SSS",
+    "title": "Sorular ve yanıtlar.",
+    "items": [
+      {
+        "q": "Bir alışkanlığı nasıl kaydederim?",
+        "a": "Dashboard'daki herhangi bir alışkanlık kartına dokun. Kısa bir pencere açılır: değerini yaz (7,5 saat uyku, 2,5 L su) ve Kaydet'e dokun. Kayıt hemen işlenir ve heatmap'in güncellenir."
+      },
+      {
+        "q": "Verilerim nerede saklanıyor?",
+        "a": "Yalnızca iPhone'unda, iOS'un cihaz içi depolamasında. Sunucu, bulut senkronizasyonu ya da hesap yok. Tüm ayrıntılar gizlilik politikasında.",
+        "link": {
+          "href": "privacy",
+          "text": "Gizlilik politikasını oku"
+        }
+      },
+      {
+        "q": "Geçmişimi bir tablodan içe aktarabilir miyim?",
+        "a": "Evet, Pro ile. Ayarlar, Veri Yönetimi, Veri İçe Aktar yoluna git ve date, habit, unit, value ve note sütunlarını içeren bir CSV dosyası seç. Eğitimde bir şablon var.",
+        "link": {
+          "href": "tutorial",
+          "text": "Eğitimi aç"
+        }
+      },
+      {
+        "q": "Verilerimi nasıl yedeklerim veya taşırım?",
+        "a": "Pro ile Ayarlar, Veri Yönetimi, Yedek Dışa Aktar tüm alışkanlıklarını ve kayıtlarını tek bir CSV dosyasına kaydeder. Yeni cihazda Veri İçe Aktar ile içe aktar."
+      },
+      {
+        "q": "Tüm verilerimi nasıl silerim?",
+        "a": "Ayarlar, Veri Yönetimi, Tüm Verileri Temizle yoluna git. Onaylaman istenir. Bu işlem kalıcıdır: cihazındaki tüm alışkanlıkları, kayıtları ve tercihleri siler."
+      },
+      {
+        "q": "Pro ne kadar?",
+        "a": "Pro aylık veya yıllık abonelik ya da tek seferlik satın alma olarak sunulur. Fiyatlar ülkene göre değişir; App Store satın almadan önce güncel fiyatı gösterir."
+      },
+      {
+        "q": "Android sürümü olacak mı?",
+        "a": "Şimdilik hayır. İki platformu kötü yapmaktansa bir platformu iyi yapmayı tercih ediyoruz."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bugün başla. Bir yıl sonra başladığına sevineceksin."
+  },
+  "footer": {
+    "studio": "Bir Sagomak uygulaması",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "support": "Destek",
+    "tutorial": "Eğitim",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Yazı tipleri SIL Open Font License kapsamında",
+    "languages": "Diller"
+  },
+  "support": {
+    "eyebrow": "Destek",
+    "title": "Nasıl yardımcı olabiliriz?",
+    "intro": "Sık sorulan soruların yanıtları. Aradığını bulamazsan bize yaz.",
+    "faqTitle": "Sık sorulan sorular",
+    "contactTitle": "Hâlâ yardıma mı ihtiyacın var?",
+    "contactBody": "Bir soru, bir hata ya da bir fikir mi? Her e-postayı okuyoruz.",
+    "emailCta": "Yaz:",
+    "reviewBefore": "Ayrıca ",
+    "reviewLink": "App Store'da bir değerlendirme bırakabilirsin",
+    "reviewAfter": ". Sandığından çok daha fazla işe yarıyor."
+  },
+  "tutorial": {
+    "eyebrow": "Eğitim",
+    "title": "Verilerini içe aktar",
+    "intro": "Alışkanlıklarını zaten takip ediyor musun? Geçmişini dakikalar içinde getir. İçe aktarma ve yedekleme Pro'nun parçası.",
+    "importLogs": {
+      "title": "Günlük kayıtları içe aktar",
+      "intro": "Alışkanlıklarının geçmiş verilerini bir CSV dosyasından içe aktar. Her satır, bir alışkanlık için bir günün kaydıdır.",
+      "templateLabel": "Şablon biçimi",
+      "required": "zorunlu",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Örnek: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Uygulamada var olan bir alışkanlık adıyla eşleşmelidir (büyük ya da küçük harf fark etmez)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Alışkanlığın birimi, senin başvurman için. Örnekler: saat, dakika, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "0 veya daha büyük bir sayı."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "İsteğe bağlı serbest metin. Boş bırakabilir ya da sütunu hiç eklemeyebilirsin."
+        }
+      ],
+      "download": "Şablonu indir (CSV)",
+      "tips": [
+        "Excel, Google Sheets ve Numbers'ın hepsi uygundur: .csv veya .txt olarak dışa aktar.",
+        "Alışkanlık adları eşleşmeli: 'Antrenman' ve 'antrenman' ikisi de olur, ama 'Antreman' 'Antrenman' ile eşleşmez.",
+        "Bir tarih ve alışkanlık zaten varsa, içe aktarma ikinci bir değer eklemek yerine mevcut değeri günceller.",
+        "Tek bir dosyada birden fazla alışkanlığı karıştırabilirsin."
+      ]
+    },
+    "backup": {
+      "title": "Yedekle ve geri yükle",
+      "intro": "Tüm alışkanlıklarını ve kayıtlarını tek bir CSV dosyası olarak dışa aktar; yeni bir cihazda geri yüklemek ya da çevrimdışı bir kopya tutmak için.",
+      "exportTitle": "Nasıl dışa aktarılır",
+      "exportSteps": [
+        "Ayarlar, Veri Yönetimi'ne git",
+        "Yedek Dışa Aktar'a dokun",
+        "Dosyayı kaydet veya paylaş"
+      ],
+      "restoreTitle": "Nasıl geri yüklenir",
+      "restoreSteps": [
+        "Ayarlar, Veri Yönetimi'ne git",
+        "Veri İçe Aktar'a dokun",
+        "Yedek dosyanı seç",
+        "Mevcut verilerle birleştir veya Tüm verileri değiştir seçeneğini belirle",
+        "Özeti kontrol et ve İçe Aktar'a dokun"
+      ],
+      "formatLabel": "Yedek biçimi (basitleştirilmiş)",
+      "autoDetect": "Uygulama bir yedeği (#HABITS bölümü vardır) düz bir kayıt dosyasından kendisi ayırt eder. Tek bir içe aktarma düğmesi ikisini de halleder."
+    },
+    "prebuilt": {
+      "title": "Başlangıç alışkanlıkları",
+      "intro": "MyGrowth takibe hazır şu alışkanlıkları önerir:",
+      "cols": [
+        "Alışkanlık",
+        "Birim",
+        "Günlük hedef"
+      ],
+      "note": "Kendi adın, birimin, simgen, rengin ve programınla kendi alışkanlıklarını da oluşturabilirsin."
+    },
+    "reminders": {
+      "title": "Günlük hatırlatıcılar",
+      "intro": "MyGrowth sana günde iki bildirim gönderebilir:",
+      "items": [
+        [
+          "Sabah Hatırlatıcısı",
+          "bugün planlanan alışkanlıklarının bir özeti. Varsayılan: 9:00."
+        ],
+        [
+          "Akşam Hatırlatıcısı",
+          "kaçırdıklarını kaydetmen için nazik bir hatırlatma. Varsayılan: 21:00."
+        ]
+      ],
+      "footer": "İkisini de Ayarlar, Bildirimler'den değiştirebilirsin."
+    },
+    "pace": {
+      "title": "Tempo ve hız",
+      "intro": "Koşu ve Bisiklet sürme gibi alışkanlıklarda, mesafe ve süreyi kaydetmek için alışkanlığın içinde zaman takibini aç. Uygulama şunları hesaplar:",
+      "items": [
+        [
+          "Koşu",
+          "min/km cinsinden tempo. 38 min'de 7 km, 5:25 min/km eder."
+        ],
+        [
+          "Bisiklet sürme",
+          "km/h cinsinden hız. 30 min'de 10 km, 20,0 km/h eder."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Seriler nasıl işler",
+      "tips": [
+        "0 değeri sayılmaz: alışkanlığı gerçekten yapman gerekir.",
+        "Değer hedefi karşılamalı: hedef 8 iken 2 saat uyku sayılmaz.",
+        "Seriler programını takip eder. Pazartesi, çarşamba ve cuma antrenman yap, üçünü de tamamla: bu 3 günlük bir seridir. Salı ve perşembe seriyi bozmaz."
+      ]
+    },
+    "cta": "İçe aktarmaya hazır mısın?"
+  },
+  "notFound": {
+    "title": "Bu sayfa burada değil.",
+    "body": "Bağlantı eski olabilir ya da sayfa taşınmış olabilir.",
+    "home": "MyGrowth'a dön"
+  },
+  "legal": {
+    "contact": "Yaz:"
+  },
+  "lang": {
+    "label": "Dil",
+    "current": "Türkçe",
+    "suggest": "Türkçe olarak da mevcut",
+    "switchTo": "Türkçeye geç",
+    "dismiss": "Kapat"
+  },
+  "a11y": {
+    "skip": "İçeriğe geç",
+    "mainNav": "Ana menü",
+    "languages": "Diller",
+    "timerRunning": "Çalışan örnek zamanlayıcı",
+    "gridLabel": "{habit} için örnek heatmap, her gün için bir kare.",
+    "eventsLabel": "Örnek etkinlik ızgarası: kategorilerinin renklerinde yarım yıllık günler.",
+    "themeSwitch": "{theme} temasına geç."
+  }
+}

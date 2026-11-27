@@ -1,0 +1,151 @@
+{
+  "locale": "da",
+  "meta": {
+    "privacy": {
+      "title": "Privatlivspolitik, MyGrowth",
+      "description": "MyGrowth gemmer dine vaner, registreringer og noter på din enhed. Læs hele privatlivspolitikken."
+    },
+    "terms": {
+      "title": "Brugsvilkår, MyGrowth",
+      "description": "Brugsvilkår for iOS-appen MyGrowth."
+    }
+  },
+  "chrome": {
+    "backHome": "Tilbage til forsiden",
+    "privacy": "Privatlivspolitik",
+    "terms": "Brugsvilkår",
+    "support": "Support"
+  },
+  "privacy": {
+    "title": "Privatlivspolitik",
+    "lastUpdated": "Senest opdateret: 20. november 2026",
+    "intro": "MyGrowth (»Appen«) er udviklet af Sagomak, som forpligter sig til at beskytte dit privatliv. Denne politik forklarer, hvordan vi håndterer dine data.",
+    "short": {
+      "title": "Kort fortalt",
+      "body": "Vi indsamler ikke dine vanedata. Alt, hvad du tracker, bliver på din enhed."
+    },
+    "stored": {
+      "title": "Hvilke data gemmes",
+      "intro": "Appen gemmer følgende data lokalt på din iPhone:",
+      "items": [
+        "Vaneopsætning (navne, enheder, mål, farver)",
+        "Daglige registreringer (dato, værdi, valgfrie noter)",
+        "Appens præferencer (tema, introduktionsstatus, registrering af samtykke)"
+      ],
+      "footer": "Disse data gemmes i iOS' lokale lager på enheden (UserDefaults). De forlader aldrig din enhed."
+    },
+    "notCollect": {
+      "title": "Hvad vi ikke indsamler",
+      "items": [
+        "Ingen personoplysninger (navn, e-mail, telefon, placering)",
+        "Ingen brugsstatistik eller nedbrudsrapporter",
+        "Ingen annonce-id'er",
+        "Ingen cookies eller sporingspixels",
+        "Ingen vaner, registreringer eller noter overføres nogensinde til nogen server"
+      ]
+    },
+    "thirdParty": {
+      "title": "Tredjepartstjenester",
+      "body": "Appen indeholder ingen analyseværktøjer, annoncenetværk eller cloudtjenester. Dens eneste tredjeparts-SDK er RevenueCat, som bruges til at kontrollere køb i appen (se Køb nedenfor)."
+    },
+    "rights": {
+      "title": "Dine rettigheder (GDPR)",
+      "intro": "I henhold til databeskyttelsesforordningen (GDPR) har du ret til at:",
+      "access": "<b>Få indsigt</b> i dine data: synlige direkte i appen til enhver tid",
+      "export": "<b>Eksportere</b> dine data: via Indstillinger, Datahåndtering, Eksportér (JSON eller CSV)",
+      "delete": "<b>Slette</b> dine data: via Indstillinger, Datahåndtering, Slet alle data",
+      "rectify": "<b>Berigtige</b> dine data: redigér enhver registrering ved at trykke på den i appen",
+      "footer": "Da alle data udelukkende gemmes på din enhed, kræver det ingen henvendelse til os at udøve disse rettigheder: du har fuld kontrol."
+    },
+    "retention": {
+      "title": "Opbevaring af data",
+      "body": "Dine data forbliver på din enhed, indtil du sletter dem i appen eller afinstallerer appen. Afinstallation fjerner permanent alle data."
+    },
+    "children": {
+      "title": "Børns privatliv",
+      "body": "Appen indsamler ikke bevidst data fra børn under 16 år. Da der ikke indsamles personoplysninger fra nogen bruger, overholder Appen aldersreglerne i COPPA og GDPR."
+    },
+    "changes": {
+      "title": "Ændringer i denne politik",
+      "body": "Hvis vi opdaterer denne politik, offentliggør vi den reviderede version på denne side med en opdateret dato."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "Ved spørgsmål eller bekymringer om privatliv:"
+    },
+    "purchases": {
+      "title": "Køb",
+      "body": [
+        "MyGrowth Pro sælges via Apples App Store. Apple behandler alle betalinger; vi ser aldrig dit navn, dit Apple ID eller dine betalingsoplysninger.",
+        "For at vide, hvilke køb der er aktive, bruger Appen RevenueCat, Inc. (revenuecat.com), en abonnementstjeneste, der behandler disse data på vores vegne. Når Appen starter, og når du køber eller gendanner et køb, modtager RevenueCat et tilfældigt, anonymt id oprettet af Appen, din købs- og abonnementshistorik fra Apples kvittering samt grundlæggende tekniske oplysninger: enhedstype, styresystem, sprog- og områdeindstilling og valuta.",
+        "RevenueCat modtager ingen af dine vaner, registreringer eller noter og intet navn, ingen e-mail eller kontooplysninger. Disse data bruges ikke til sporing eller annoncering. Se RevenueCats privatlivspolitik på revenuecat.com/privacy og Apples på apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Brugsvilkår",
+    "lastUpdated": "Senest opdateret: 20. november 2026",
+    "intro": "Velkommen til MyGrowth (»Appen«). Ved at downloade eller bruge Appen accepterer du disse vilkår.",
+    "acceptance": {
+      "title": "Accept af vilkår",
+      "body": "Ved at tilgå eller bruge MyGrowth accepterer du at være bundet af disse brugsvilkår. Hvis du ikke accepterer dem, må du ikke bruge Appen."
+    },
+    "description": {
+      "title": "Beskrivelse af tjenesten",
+      "body": "MyGrowth er en personlig app til vanetracking til iOS. Den giver dig mulighed for at registrere daglige aktiviteter, visualisere dine fremskridt med heatmap-gitre og diagrammer og administrere dine personlige data, alt sammen gemt lokalt på din enhed."
+    },
+    "responsibilities": {
+      "title": "Brugerens ansvar",
+      "items": [
+        "Du er ansvarlig for alle data, du indtaster i Appen",
+        "Du er ansvarlig for at tage backup af dine data med eksportfunktionen",
+        "Du må ikke bruge Appen til ulovlige formål",
+        "Du må ikke forsøge at foretage reverse engineering af, dekompilere eller manipulere Appen"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Data og privatliv",
+      "item1": "Alle data gemmes lokalt på din enhed",
+      "item2": "Vi indsamler ikke, overfører ikke og har ikke adgang til dine vaner, registreringer eller noter",
+      "item3": "Se alle detaljer i vores <link>Privatlivspolitik</link>"
+    },
+    "ip": {
+      "title": "Immaterielle rettigheder",
+      "body": "MyGrowth, herunder dets design, kode og visuelle elementer, tilhører som immateriel ejendom dets udvikler, Sagomak. Du får en begrænset, ikke-eksklusiv, ikke-overdragelig licens til at bruge Appen til personlige, ikke-kommercielle formål."
+    },
+    "iap": {
+      "title": "Køb i appen",
+      "body": "Appen kan tilbyde valgfrie premiumfunktioner via køb i appen. Alle køb behandles af Apple gennem App Store og er underlagt Apples vilkår og betingelser. Refusioner håndteres af Apple i henhold til Apples refusionspolitik. Appen kontrollerer din købsstatus via RevenueCat som beskrevet i <link>Privatlivspolitikken</link>."
+    },
+    "warranties": {
+      "title": "Ansvarsfraskrivelse for garantier",
+      "body": "Appen leveres »som den er« uden garantier af nogen art, hverken udtrykkelige eller underforståede. Vi garanterer ikke, at Appen vil være fejlfri, fungere uden afbrydelser eller være fri for skadelige komponenter."
+    },
+    "liability": {
+      "title": "Ansvarsbegrænsning",
+      "body": "I det omfang loven tillader det, er udvikleren ikke ansvarlig for indirekte tab, hændelige skader, særlige skader eller følgeskader, der opstår som følge af din brug af Appen, herunder, men ikke begrænset til, tab af data."
+    },
+    "dataLoss": {
+      "title": "Tab af data",
+      "body": "Da alle data gemmes lokalt på din enhed, er vi ikke ansvarlige for tab af data som følge af fejl på enheden, iOS-opdateringer, sletning af appen eller nogen anden årsag. Vi anbefaler, at du jævnligt eksporterer dine data med den indbyggede eksportfunktion."
+    },
+    "modifications": {
+      "title": "Ændringer",
+      "body": "Vi forbeholder os ret til at opdatere disse vilkår når som helst. Fortsat brug af Appen efter ændringer udgør accept af de nye vilkår. Den seneste version vil altid være tilgængelig på denne side."
+    },
+    "termination": {
+      "title": "Ophør",
+      "body": "Vi kan til enhver tid og uden varsel afbryde eller suspendere din adgang til Appen ved adfærd, som vi mener overtræder disse vilkår eller er til skade for andre brugere eller Appen."
+    },
+    "governingLaw": {
+      "title": "Lovvalg",
+      "body": "Disse vilkår er underlagt dansk ret uden hensyn til lovvalgsregler."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "Ved spørgsmål om disse vilkår:"
+    }
+  },
+  "languageNote": "Dette er en oversættelse. I tilfælde af uoverensstemmelser har den engelske version forrang.",
+  "englishLink": "Læs den engelske version"
+}

@@ -1,0 +1,151 @@
+{
+  "locale": "id",
+  "meta": {
+    "privacy": {
+      "title": "Kebijakan Privasi, MyGrowth",
+      "description": "MyGrowth menyimpan kebiasaan, catatan harian, dan catatanmu di perangkatmu. Baca kebijakan privasi selengkapnya."
+    },
+    "terms": {
+      "title": "Syarat Penggunaan, MyGrowth",
+      "description": "Syarat Penggunaan aplikasi iOS MyGrowth."
+    }
+  },
+  "chrome": {
+    "backHome": "Kembali ke Beranda",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Penggunaan",
+    "support": "Dukungan"
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir diperbarui: 20 November 2026",
+    "intro": "MyGrowth (\"Aplikasi\") dibuat oleh Sagomak dan berkomitmen melindungi privasimu. Kebijakan ini menjelaskan cara kami menangani datamu.",
+    "short": {
+      "title": "Versi Singkat",
+      "body": "Kami tidak mengumpulkan data kebiasaanmu. Semua yang kamu lacak tetap berada di perangkatmu."
+    },
+    "stored": {
+      "title": "Data Apa yang Disimpan",
+      "intro": "Aplikasi menyimpan data berikut secara lokal di iPhone-mu:",
+      "items": [
+        "Konfigurasi kebiasaan (nama, satuan, target, warna)",
+        "Entri catatan harian (tanggal, nilai, catatan opsional)",
+        "Preferensi aplikasi (tema, status orientasi awal, catatan persetujuan)"
+      ],
+      "footer": "Data ini disimpan menggunakan penyimpanan lokal iOS di perangkat (UserDefaults). Data ini tidak pernah meninggalkan perangkatmu."
+    },
+    "notCollect": {
+      "title": "Apa yang Tidak Kami Kumpulkan",
+      "items": [
+        "Tidak ada informasi pribadi (nama, email, nomor telepon, lokasi)",
+        "Tidak ada analitik penggunaan atau laporan error",
+        "Tidak ada ID iklan",
+        "Tidak ada cookie atau piksel pelacak",
+        "Tidak ada kebiasaan, catatan harian, atau catatan yang pernah dikirim ke server mana pun"
+      ]
+    },
+    "thirdParty": {
+      "title": "Layanan Pihak Ketiga",
+      "body": "Aplikasi tidak memuat alat analitik, jaringan iklan, atau layanan cloud. Satu-satunya SDK pihak ketiga di dalamnya adalah RevenueCat, yang digunakan untuk memeriksa pembelian dalam aplikasi (lihat Pembelian di bawah)."
+    },
+    "rights": {
+      "title": "Hak-Hakmu (GDPR)",
+      "intro": "Berdasarkan Peraturan Perlindungan Data Umum Uni Eropa (General Data Protection Regulation, GDPR), kamu berhak untuk:",
+      "access": "<b>Mengakses</b> datamu: dapat dilihat langsung di aplikasi kapan saja",
+      "export": "<b>Mengekspor</b> datamu: melalui Pengaturan, Manajemen Data, Ekspor (JSON atau CSV)",
+      "delete": "<b>Menghapus</b> datamu: melalui Pengaturan, Manajemen Data, Hapus Semua Data",
+      "rectify": "<b>Memperbaiki</b> datamu: ubah entri mana pun dengan mengetuknya di aplikasi",
+      "footer": "Karena semua data disimpan secara eksklusif di perangkatmu, menggunakan hak-hak ini tidak memerlukan permintaan apa pun kepada kami; kamu memegang kendali penuh."
+    },
+    "retention": {
+      "title": "Penyimpanan Data",
+      "body": "Datamu tetap tersimpan di perangkatmu sampai kamu menghapusnya di dalam aplikasi atau mencopot pemasangan aplikasi. Mencopot pemasangan aplikasi akan menghapus semua data secara permanen."
+    },
+    "children": {
+      "title": "Privasi Anak",
+      "body": "Aplikasi tidak dengan sengaja mengumpulkan data dari anak di bawah usia 16 tahun. Karena tidak ada informasi pribadi yang dikumpulkan dari pengguna mana pun, Aplikasi mematuhi persyaratan usia COPPA dan GDPR."
+    },
+    "changes": {
+      "title": "Perubahan pada Kebijakan Ini",
+      "body": "Jika kami memperbarui kebijakan ini, kami akan memublikasikan versi revisinya di halaman ini dengan tanggal yang diperbarui."
+    },
+    "contact": {
+      "title": "Kontak",
+      "body": "Untuk pertanyaan atau kekhawatiran terkait privasi:"
+    },
+    "purchases": {
+      "title": "Pembelian",
+      "body": [
+        "MyGrowth Pro dijual melalui App Store milik Apple. Apple memproses setiap pembayaran; kami tidak pernah melihat nama, Apple ID, atau detail pembayaranmu.",
+        "Untuk mengetahui pembelian mana yang aktif, Aplikasi menggunakan RevenueCat, Inc. (revenuecat.com), layanan langganan yang memproses data ini atas nama kami. Saat Aplikasi dibuka, dan saat kamu membeli atau memulihkan pembelian, RevenueCat menerima ID anonim acak yang dibuat oleh Aplikasi, riwayat pembelian dan langgananmu dari tanda terima Apple, serta detail teknis dasar: jenis perangkat, sistem operasi, pengaturan wilayah, dan mata uang.",
+        "RevenueCat tidak menerima kebiasaan, catatan harian, atau catatanmu, dan tidak menerima nama, email, atau detail akun. Data ini tidak digunakan untuk pelacakan atau iklan. Lihat kebijakan privasi RevenueCat di revenuecat.com/privacy dan kebijakan privasi Apple di apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Syarat Penggunaan",
+    "lastUpdated": "Terakhir diperbarui: 20 November 2026",
+    "intro": "Selamat datang di MyGrowth (\"Aplikasi\"). Dengan mengunduh atau menggunakan Aplikasi, kamu menyetujui syarat ini.",
+    "acceptance": {
+      "title": "Penerimaan Syarat",
+      "body": "Dengan mengakses atau menggunakan MyGrowth, kamu setuju untuk terikat oleh Syarat Penggunaan ini. Jika kamu tidak setuju, jangan gunakan Aplikasi."
+    },
+    "description": {
+      "title": "Deskripsi Layanan",
+      "body": "MyGrowth adalah aplikasi pelacak kebiasaan pribadi untuk iOS. Aplikasi ini memungkinkanmu mencatat aktivitas harian, memvisualisasikan kemajuanmu melalui grid heatmap dan grafik, serta mengelola data pribadimu, yang semuanya disimpan secara lokal di perangkatmu."
+    },
+    "responsibilities": {
+      "title": "Tanggung Jawab Pengguna",
+      "items": [
+        "Kamu bertanggung jawab atas semua data yang kamu masukkan ke dalam Aplikasi",
+        "Kamu bertanggung jawab untuk menyimpan cadangan datamu menggunakan fitur ekspor",
+        "Kamu tidak boleh menggunakan Aplikasi untuk tujuan yang melanggar hukum",
+        "Kamu tidak boleh mencoba melakukan rekayasa balik, dekompilasi, atau mengutak-atik Aplikasi"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Data dan Privasi",
+      "item1": "Semua data disimpan secara lokal di perangkatmu",
+      "item2": "Kami tidak mengumpulkan, mengirimkan, atau memiliki akses ke kebiasaan, catatan harian, atau catatanmu",
+      "item3": "Untuk detail lengkap, lihat <link>Kebijakan Privasi</link> kami"
+    },
+    "ip": {
+      "title": "Kekayaan Intelektual",
+      "body": "MyGrowth, termasuk desain, kode, dan aset visualnya, merupakan kekayaan intelektual pengembangnya, Sagomak. Kamu diberikan lisensi terbatas, noneksklusif, dan tidak dapat dialihkan untuk menggunakan Aplikasi untuk keperluan pribadi dan nonkomersial."
+    },
+    "iap": {
+      "title": "Pembelian dalam Aplikasi",
+      "body": "Aplikasi dapat menawarkan fitur premium opsional melalui pembelian dalam aplikasi. Semua pembelian diproses oleh Apple melalui App Store dan tunduk pada syarat dan ketentuan Apple. Pengembalian dana ditangani oleh Apple sesuai kebijakan pengembalian dananya. Aplikasi memeriksa status pembelianmu melalui RevenueCat, sebagaimana dijelaskan dalam <link>Kebijakan Privasi</link>."
+    },
+    "warranties": {
+      "title": "Penafian Jaminan",
+      "body": "Aplikasi disediakan \"sebagaimana adanya\" tanpa jaminan apa pun, baik tersurat maupun tersirat. Kami tidak menjamin bahwa Aplikasi akan bebas dari kesalahan, tidak terganggu, atau bebas dari komponen berbahaya."
+    },
+    "liability": {
+      "title": "Batasan Tanggung Jawab",
+      "body": "Sejauh maksimum yang diizinkan oleh hukum, pengembang tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, atau konsekuensial apa pun yang timbul dari penggunaan Aplikasi olehmu, termasuk namun tidak terbatas pada kehilangan data."
+    },
+    "dataLoss": {
+      "title": "Kehilangan Data",
+      "body": "Karena semua data disimpan secara lokal di perangkatmu, kami tidak bertanggung jawab atas kehilangan data akibat kerusakan perangkat, pembaruan iOS, penghapusan aplikasi, atau penyebab lainnya. Kami menyarankan agar kamu mengekspor datamu secara rutin menggunakan fitur ekspor bawaan."
+    },
+    "modifications": {
+      "title": "Perubahan",
+      "body": "Kami berhak memperbarui Syarat ini kapan saja. Penggunaan Aplikasi yang berlanjut setelah perubahan berarti penerimaan atas Syarat yang baru. Versi terbaru akan selalu tersedia di halaman ini."
+    },
+    "termination": {
+      "title": "Pengakhiran",
+      "body": "Kami dapat mengakhiri atau menangguhkan aksesmu ke Aplikasi kapan saja, tanpa pemberitahuan, atas perilaku yang kami yakini melanggar Syarat ini atau merugikan pengguna lain atau Aplikasi."
+    },
+    "governingLaw": {
+      "title": "Hukum yang Berlaku",
+      "body": "Syarat ini diatur oleh hukum Denmark, tanpa memperhatikan prinsip-prinsip konflik hukum."
+    },
+    "contact": {
+      "title": "Kontak",
+      "body": "Untuk pertanyaan tentang Syarat ini:"
+    }
+  },
+  "languageNote": "Ini adalah terjemahan. Jika terdapat perbedaan, versi bahasa Inggris yang berlaku.",
+  "englishLink": "Baca versi bahasa Inggris"
+}

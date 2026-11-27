@@ -1,0 +1,151 @@
+{
+  "locale": "fil",
+  "meta": {
+    "privacy": {
+      "title": "Patakaran sa Privacy, MyGrowth",
+      "description": "Itinatago ng MyGrowth ang mga gawi, tala at note mo sa device mo. Basahin ang buong patakaran sa privacy."
+    },
+    "terms": {
+      "title": "Mga Tuntunin ng Paggamit, MyGrowth",
+      "description": "Mga Tuntunin ng Paggamit para sa MyGrowth iOS app."
+    }
+  },
+  "chrome": {
+    "backHome": "Bumalik sa Home",
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Paggamit",
+    "support": "Suporta"
+  },
+  "privacy": {
+    "title": "Patakaran sa Privacy",
+    "lastUpdated": "Huling na-update: Nobyembre 20, 2026",
+    "intro": "Ang MyGrowth (\"ang App\") ay gawa ng Sagomak at nakatuon sa pagprotekta sa privacy mo. Ipinapaliwanag ng patakarang ito kung paano namin pinangangasiwaan ang data mo.",
+    "short": {
+      "title": "Ang Maikling Bersyon",
+      "body": "Hindi namin kinokolekta ang data ng mga gawi mo. Nananatili sa device mo ang lahat ng sinusubaybayan mo."
+    },
+    "stored": {
+      "title": "Anong Data ang Naka-store",
+      "intro": "Ini-store ng App ang sumusunod na data nang lokal sa iPhone mo:",
+      "items": [
+        "Mga configuration ng gawi (pangalan, unit, target, kulay)",
+        "Mga araw-araw na tala (petsa, value, opsyonal na note)",
+        "Mga kagustuhan sa app (tema, status ng onboarding, mga rekord ng pahintulot)"
+      ],
+      "footer": "Naka-store ang data na ito gamit ang on-device storage ng iOS (UserDefaults). Hindi ito kailanman umaalis sa device mo."
+    },
+    "notCollect": {
+      "title": "Ano ang Hindi Namin Kinokolekta",
+      "items": [
+        "Walang personal na impormasyon (pangalan, email, telepono, lokasyon)",
+        "Walang usage analytics o crash report",
+        "Walang advertising identifier",
+        "Walang cookie o tracking pixel",
+        "Walang gawi, tala o note na kailanman ipinapadala sa anumang server"
+      ]
+    },
+    "thirdParty": {
+      "title": "Mga Serbisyo ng Third Party",
+      "body": "Walang analytics tool, ad network o cloud service ang App. Ang tanging third-party SDK nito ay ang RevenueCat, na ginagamit para suriin ang mga in-app purchase (tingnan ang Mga Pagbili sa ibaba)."
+    },
+    "rights": {
+      "title": "Ang Iyong mga Karapatan (GDPR)",
+      "intro": "Sa ilalim ng General Data Protection Regulation (GDPR) ng European Union, may karapatan kang:",
+      "access": "<b>I-access</b> ang data mo: makikita nang direkta sa app anumang oras",
+      "export": "<b>I-export</b> ang data mo: sa Mga Setting, Pamamahala ng Data, I-export (JSON o CSV)",
+      "delete": "<b>Burahin</b> ang data mo: sa Mga Setting, Pamamahala ng Data, I-clear ang Lahat ng Data",
+      "rectify": "<b>Itama</b> ang data mo: i-edit ang anumang entry sa pamamagitan ng pag-tap dito sa app",
+      "footer": "Dahil eksklusibong naka-store sa device mo ang lahat ng data, hindi mo kailangang humiling sa amin para magamit ang mga karapatang ito; ikaw ang may buong kontrol."
+    },
+    "retention": {
+      "title": "Pagpapanatili ng Data",
+      "body": "Nananatili ang data mo sa device mo hanggang burahin mo ito sa loob ng app o i-uninstall mo ang app. Permanenteng tinatanggal ng pag-uninstall ang lahat ng data."
+    },
+    "children": {
+      "title": "Privacy ng mga Bata",
+      "body": "Hindi sadyang nangongolekta ang App ng data mula sa mga batang wala pang 16 na taong gulang. Dahil walang personal na impormasyong kinokolekta mula sa sinumang user, sumusunod ang App sa mga kinakailangan sa edad ng COPPA at GDPR."
+    },
+    "changes": {
+      "title": "Mga Pagbabago sa Patakarang Ito",
+      "body": "Kung ia-update namin ang patakarang ito, ipo-post namin ang binagong bersyon sa page na ito na may na-update na petsa."
+    },
+    "contact": {
+      "title": "Makipag-ugnayan",
+      "body": "Para sa mga tanong o alalahanin tungkol sa privacy:"
+    },
+    "purchases": {
+      "title": "Mga Pagbili",
+      "body": [
+        "Ibinebenta ang MyGrowth Pro sa App Store ng Apple. Ang Apple ang nagpoproseso ng bawat bayad; hindi namin kailanman nakikita ang pangalan mo, Apple ID o mga detalye ng pagbabayad.",
+        "Para malaman kung aling mga pagbili ang aktibo, ginagamit ng App ang RevenueCat, Inc. (revenuecat.com), isang subscription service na nagpoproseso ng data na ito para sa amin. Kapag nagsimula ang App, at kapag bumili o nag-restore ka ng pagbili, natatanggap ng RevenueCat ang isang random at anonymous na ID na ginawa ng App, ang kasaysayan ng mga pagbili at subscription mo mula sa resibo ng Apple, at mga pangunahing teknikal na detalye: uri ng device, operating system, locale at currency.",
+        "Hindi natatanggap ng RevenueCat ang alinman sa mga gawi, tala o note mo, at walang pangalan, email o detalye ng account. Hindi ginagamit ang data na ito para sa tracking o advertising. Tingnan ang patakaran sa privacy ng RevenueCat sa revenuecat.com/privacy at ang sa Apple sa apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Mga Tuntunin ng Paggamit",
+    "lastUpdated": "Huling na-update: Nobyembre 20, 2026",
+    "intro": "Maligayang pagdating sa MyGrowth (\"ang App\"). Sa pag-download o paggamit ng App, sumasang-ayon ka sa mga tuntuning ito.",
+    "acceptance": {
+      "title": "Pagtanggap sa mga Tuntunin",
+      "body": "Sa pag-access o paggamit ng MyGrowth, sumasang-ayon kang sumailalim sa mga Tuntunin ng Paggamit na ito. Kung hindi ka sumasang-ayon, huwag gamitin ang App."
+    },
+    "description": {
+      "title": "Paglalarawan ng Serbisyo",
+      "body": "Ang MyGrowth ay isang personal na habit-tracking application para sa iOS. Pinapayagan ka nitong magtala ng mga araw-araw na aktibidad, makita ang pag-unlad mo sa pamamagitan ng mga heatmap grid at tsart, at pamahalaan ang personal mong data, na lahat ay naka-store nang lokal sa device mo."
+    },
+    "responsibilities": {
+      "title": "Mga Responsibilidad ng User",
+      "items": [
+        "Responsable ka sa lahat ng data na inilalagay mo sa App",
+        "Responsable ka sa pagpapanatili ng mga backup ng data mo gamit ang export feature",
+        "Hindi mo dapat gamitin ang App para sa anumang labag sa batas na layunin",
+        "Hindi mo dapat subukang i-reverse engineer, i-decompile o pakialaman ang App"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Data at Privacy",
+      "item1": "Naka-store nang lokal sa device mo ang lahat ng data",
+      "item2": "Hindi namin kinokolekta, ipinapadala o naa-access ang mga gawi, tala o note mo",
+      "item3": "Para sa buong detalye, tingnan ang aming <link>Patakaran sa Privacy</link>"
+    },
+    "ip": {
+      "title": "Intellectual Property",
+      "body": "Ang MyGrowth, kasama ang disenyo, code at mga visual asset nito, ay intellectual property ng developer nito, ang Sagomak. Binibigyan ka ng limitado, hindi eksklusibo at hindi maililipat na lisensya para gamitin ang App para sa personal at hindi pangkomersyal na layunin."
+    },
+    "iap": {
+      "title": "Mga In-App Purchase",
+      "body": "Maaaring mag-alok ang App ng mga opsyonal na premium feature sa pamamagitan ng mga in-app purchase. Ang lahat ng pagbili ay pinoproseso ng Apple sa App Store at sakop ng mga tuntunin at kondisyon ng Apple. Ang Apple ang humahawak ng mga refund ayon sa kanilang refund policy. Sinusuri ng App ang status ng pagbili mo sa pamamagitan ng RevenueCat, gaya ng inilalarawan sa <link>Patakaran sa Privacy</link>."
+    },
+    "warranties": {
+      "title": "Pagtatatwa ng mga Warranty",
+      "body": "Ibinibigay ang App \"as is\", nang walang anumang uri ng warranty, hayag man o ipinahihiwatig. Hindi namin ginagarantiya na ang App ay walang error, walang pagkaantala o walang mapanganib na bahagi."
+    },
+    "liability": {
+      "title": "Limitasyon ng Pananagutan",
+      "body": "Hanggang sa pinakamalawak na saklaw na pinahihintulutan ng batas, hindi mananagot ang developer para sa anumang hindi direkta, incidental, espesyal o consequential na pinsalang nagmumula sa paggamit mo ng App, kabilang ngunit hindi limitado sa pagkawala ng data."
+    },
+    "dataLoss": {
+      "title": "Pagkawala ng Data",
+      "body": "Dahil naka-store nang lokal sa device mo ang lahat ng data, hindi kami responsable sa pagkawala ng data dahil sa pagkasira ng device, mga update ng iOS, pagbura ng app o anumang iba pang dahilan. Inirerekomenda naming regular mong i-export ang data mo gamit ang built-in na export feature."
+    },
+    "modifications": {
+      "title": "Mga Pagbabago",
+      "body": "May karapatan kaming i-update ang mga Tuntuning ito anumang oras. Ang patuloy na paggamit ng App pagkatapos ng mga pagbabago ay nangangahulugan ng pagtanggap sa mga bagong Tuntunin. Palaging makikita ang pinakabagong bersyon sa page na ito."
+    },
+    "termination": {
+      "title": "Pagwawakas",
+      "body": "Maaari naming wakasan o suspindihin ang access mo sa App anumang oras, nang walang abiso, dahil sa asal na sa tingin namin ay lumalabag sa mga Tuntuning ito o nakapipinsala sa ibang mga user o sa App."
+    },
+    "governingLaw": {
+      "title": "Namamahalang Batas",
+      "body": "Ang mga Tuntuning ito ay pinamamahalaan ng mga batas ng Denmark, nang hindi isinasaalang-alang ang mga prinsipyo ng conflict of laws."
+    },
+    "contact": {
+      "title": "Makipag-ugnayan",
+      "body": "Para sa mga tanong tungkol sa mga Tuntuning ito:"
+    }
+  },
+  "languageNote": "Isa itong salin. Kung may pagkakaiba, ang bersyong English ang masusunod.",
+  "englishLink": "Basahin ang bersyong English"
+}

@@ -1,0 +1,151 @@
+{
+  "locale": "ro",
+  "meta": {
+    "privacy": {
+      "title": "Politica de Confidențialitate, MyGrowth",
+      "description": "MyGrowth îți păstrează obiceiurile, înregistrările și notele pe dispozitivul tău. Citește politica de confidențialitate completă."
+    },
+    "terms": {
+      "title": "Termeni de utilizare, MyGrowth",
+      "description": "Termenii de utilizare pentru aplicația MyGrowth pentru iOS."
+    }
+  },
+  "chrome": {
+    "backHome": "Înapoi la pagina principală",
+    "privacy": "Politica de Confidențialitate",
+    "terms": "Termeni de utilizare",
+    "support": "Suport"
+  },
+  "privacy": {
+    "title": "Politica de Confidențialitate",
+    "lastUpdated": "Ultima actualizare: 20 noiembrie 2026",
+    "intro": "MyGrowth („Aplicația”) este creată de Sagomak, care se angajează să îți protejeze confidențialitatea. Această politică explică modul în care tratăm datele tale.",
+    "short": {
+      "title": "Pe scurt",
+      "body": "Nu colectăm datele despre obiceiurile tale. Tot ce urmărești rămâne pe dispozitivul tău."
+    },
+    "stored": {
+      "title": "Ce date sunt stocate",
+      "intro": "Aplicația stochează local, pe iPhone-ul tău, următoarele date:",
+      "items": [
+        "Configurările obiceiurilor (nume, unități, obiective, culori)",
+        "Înregistrările zilnice (dată, valoare, note opționale)",
+        "Preferințele aplicației (temă, starea introducerii inițiale, evidența consimțămintelor)"
+      ],
+      "footer": "Aceste date sunt stocate în spațiul de stocare iOS de pe dispozitiv (UserDefaults). Ele nu părăsesc niciodată dispozitivul tău."
+    },
+    "notCollect": {
+      "title": "Ce nu colectăm",
+      "items": [
+        "Nicio informație personală (nume, e-mail, telefon, locație)",
+        "Nicio analiză de utilizare și niciun raport de erori",
+        "Niciun identificator de publicitate",
+        "Niciun cookie și niciun pixel de urmărire",
+        "Niciun obicei, nicio înregistrare și nicio notă nu sunt transmise vreodată către vreun server"
+      ]
+    },
+    "thirdParty": {
+      "title": "Servicii terțe",
+      "body": "Aplicația nu conține instrumente de analiză, rețele de publicitate sau servicii cloud. Singurul său SDK terț este RevenueCat, folosit pentru verificarea achizițiilor din aplicație (vezi secțiunea Achiziții de mai jos)."
+    },
+    "rights": {
+      "title": "Drepturile tale (RGPD)",
+      "intro": "În temeiul Regulamentului general privind protecția datelor (RGPD), ai dreptul:",
+      "access": "<b>De acces</b> la datele tale: vizibile direct în aplicație, în orice moment",
+      "export": "<b>De export</b> al datelor tale: din Setări, Gestionarea datelor, Exportă (JSON sau CSV)",
+      "delete": "<b>De ștergere</b> a datelor tale: din Setări, Gestionarea datelor, Șterge toate datele",
+      "rectify": "<b>De rectificare</b> a datelor tale: editează orice înregistrare atingând-o în aplicație",
+      "footer": "Deoarece toate datele sunt stocate exclusiv pe dispozitivul tău, exercitarea acestor drepturi nu necesită nicio cerere către noi: ai control deplin."
+    },
+    "retention": {
+      "title": "Păstrarea datelor",
+      "body": "Datele tale rămân pe dispozitiv până când le ștergi din aplicație sau dezinstalezi aplicația. Dezinstalarea elimină definitiv toate datele."
+    },
+    "children": {
+      "title": "Confidențialitatea copiilor",
+      "body": "Aplicația nu colectează în mod intenționat date de la copii sub 16 ani. Deoarece nu se colectează informații personale de la niciun utilizator, Aplicația respectă cerințele de vârstă din COPPA și RGPD."
+    },
+    "changes": {
+      "title": "Modificări ale acestei politici",
+      "body": "Dacă actualizăm această politică, vom publica versiunea revizuită pe această pagină, cu o dată actualizată."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "Pentru întrebări sau nelămuriri legate de confidențialitate:"
+    },
+    "purchases": {
+      "title": "Achiziții",
+      "body": [
+        "MyGrowth Pro se vinde prin App Store de la Apple. Apple procesează fiecare plată; noi nu vedem niciodată numele tău, Apple ID-ul sau datele de plată.",
+        "Pentru a ști ce achiziții sunt active, Aplicația folosește RevenueCat, Inc. (revenuecat.com), un serviciu de abonamente care prelucrează aceste date în numele nostru. Când Aplicația pornește și când cumperi sau restaurezi o achiziție, RevenueCat primește un ID anonim aleatoriu creat de Aplicație, istoricul achizițiilor și abonamentelor tale din chitanța Apple și câteva detalii tehnice de bază: tipul dispozitivului, sistemul de operare, setările regionale și moneda.",
+        "RevenueCat nu primește niciunul dintre obiceiurile, înregistrările sau notele tale și nici numele, e-mailul sau detaliile contului. Aceste date nu sunt folosite pentru urmărire sau publicitate. Consultă politica de confidențialitate a RevenueCat la revenuecat.com/privacy și pe cea a Apple la apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Termeni de utilizare",
+    "lastUpdated": "Ultima actualizare: 20 noiembrie 2026",
+    "intro": "Bine ai venit în MyGrowth („Aplicația”). Prin descărcarea sau utilizarea Aplicației, ești de acord cu acești termeni.",
+    "acceptance": {
+      "title": "Acceptarea termenilor",
+      "body": "Prin accesarea sau utilizarea MyGrowth, ești de acord să respecți acești Termeni de utilizare. Dacă nu ești de acord, nu folosi Aplicația."
+    },
+    "description": {
+      "title": "Descrierea serviciului",
+      "body": "MyGrowth este o aplicație personală de urmărire a obiceiurilor pentru iOS. Îți permite să notezi activitățile zilnice, să îți vizualizezi progresul prin grile heatmap și grafice și să îți gestionezi datele personale, toate stocate local pe dispozitivul tău."
+    },
+    "responsibilities": {
+      "title": "Responsabilitățile utilizatorului",
+      "items": [
+        "Ești responsabil pentru toate datele pe care le introduci în Aplicație",
+        "Ești responsabil pentru păstrarea copiilor de rezervă ale datelor tale folosind funcția de export",
+        "Nu ai voie să folosești Aplicația în niciun scop ilegal",
+        "Nu ai voie să încerci să decompilezi Aplicația, să faci inginerie inversă asupra ei sau să intervii asupra ei"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Date și confidențialitate",
+      "item1": "Toate datele sunt stocate local pe dispozitivul tău",
+      "item2": "Nu colectăm, nu transmitem și nu avem acces la obiceiurile, înregistrările sau notele tale",
+      "item3": "Pentru toate detaliile, consultă <link>Politica de Confidențialitate</link>"
+    },
+    "ip": {
+      "title": "Proprietate intelectuală",
+      "body": "MyGrowth, inclusiv designul, codul și elementele sale vizuale, este proprietatea intelectuală a dezvoltatorului său, Sagomak. Ți se acordă o licență limitată, neexclusivă și netransferabilă de a folosi Aplicația în scopuri personale, necomerciale."
+    },
+    "iap": {
+      "title": "Achiziții în aplicație",
+      "body": "Aplicația poate oferi funcții premium opționale prin achiziții în aplicație. Toate achizițiile sunt procesate de Apple prin App Store și se supun termenilor și condițiilor Apple. Rambursările sunt gestionate de Apple conform politicii sale de rambursare. Aplicația verifică starea achizițiilor tale prin RevenueCat, așa cum este descris în <link>Politica de Confidențialitate</link>."
+    },
+    "warranties": {
+      "title": "Exonerarea de garanții",
+      "body": "Aplicația este furnizată „ca atare”, fără garanții de niciun fel, exprese sau implicite. Nu garantăm că Aplicația va fi lipsită de erori, că va funcționa fără întreruperi sau că va fi lipsită de componente dăunătoare."
+    },
+    "liability": {
+      "title": "Limitarea răspunderii",
+      "body": "În măsura maximă permisă de lege, dezvoltatorul nu răspunde pentru niciun fel de daune indirecte, incidentale, speciale sau de consecință care decurg din utilizarea Aplicației de către tine, inclusiv, dar fără a se limita la, pierderea datelor."
+    },
+    "dataLoss": {
+      "title": "Pierderea datelor",
+      "body": "Deoarece toate datele sunt stocate local pe dispozitivul tău, nu suntem responsabili pentru pierderea datelor cauzată de defectarea dispozitivului, actualizări iOS, ștergerea aplicației sau orice altă cauză. Îți recomandăm să îți exporți regulat datele folosind funcția de export integrată."
+    },
+    "modifications": {
+      "title": "Modificări",
+      "body": "Ne rezervăm dreptul de a actualiza acești Termeni în orice moment. Continuarea utilizării Aplicației după modificări reprezintă acceptarea noilor Termeni. Cea mai recentă versiune va fi mereu disponibilă pe această pagină."
+    },
+    "termination": {
+      "title": "Încetare",
+      "body": "Putem înceta sau suspenda accesul tău la Aplicație în orice moment, fără notificare, pentru un comportament despre care considerăm că încalcă acești Termeni sau dăunează altor utilizatori ori Aplicației."
+    },
+    "governingLaw": {
+      "title": "Legea aplicabilă",
+      "body": "Acești Termeni sunt guvernați de legile Danemarcei, fără a ține seama de normele privind conflictul de legi."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "Pentru întrebări despre acești Termeni:"
+    }
+  },
+  "languageNote": "Aceasta este o traducere. În caz de diferențe, prevalează versiunea în limba engleză.",
+  "englishLink": "Citește versiunea în engleză"
+}

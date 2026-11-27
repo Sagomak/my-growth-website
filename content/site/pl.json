@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: odręcznie rysowany tracker nawyków, który zostaje na twoim iPhonie",
+      "description": "MyGrowth zamienia twoje nawyki w odręcznie rysowaną heatmapę, wykresy i statystyki. Prywatność w standardzie: bez konta, bez chmury, dane zostają na urządzeniu."
+    },
+    "support": {
+      "title": "Wsparcie, MyGrowth",
+      "description": "Odpowiedzi na częste pytania o MyGrowth i informacja, jak się z nami skontaktować."
+    },
+    "tutorial": {
+      "title": "Import i kopia zapasowa danych, MyGrowth",
+      "description": "Zaimportuj historię nawyków z pliku CSV, utwórz i przywróć kopię zapasową MyGrowth i poznaj nawyki, od których aplikacja zaczyna."
+    },
+    "notFound": {
+      "title": "Nie znaleziono strony, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "Strona główna MyGrowth",
+    "features": "Funkcje",
+    "privacy": "Prywatność",
+    "pro": "Pro",
+    "faq": "FAQ",
+    "support": "Wsparcie",
+    "menu": "Menu",
+    "theme": {
+      "label": "Motyw",
+      "system": "Systemowy",
+      "light": "Papier",
+      "dark": "Grafit"
+    }
+  },
+  "badge": {
+    "alt": "Pobierz z App Store",
+    "aria": "Pobierz MyGrowth z App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Stajesz się tym, co robisz wielokrotnie.",
+    "sub": "MyGrowth zamienia twoje nawyki w odręcznie rysowaną heatmapę, wykresy i statystyki, żeby było widać, jak codzienna obecność zamienia się w postęp.",
+    "trust": "Prywatność w standardzie. Bez konta, bez chmury.",
+    "phoneAlt": "Dashboard w MyGrowth: pasek tygodnia, cel Stajesz się i dzisiejsze nawyki jako odręcznie rysowane karty."
+  },
+  "year": {
+    "eyebrow": "Twój rok w jednym spojrzeniu",
+    "title": "Jeden szczery obraz całego roku.",
+    "body": "Każdy dzień, w którym się pojawiasz, wypełnia kwadrat. Dzisiejszy kafelek na pasku tygodnia wypełnia się w miarę upływu dnia.",
+    "habit": "Czytanie",
+    "weekLabel": "Ten tydzień",
+    "todayLabel": "Dziś, minęło {pct}% dnia",
+    "legendLess": "Mniej",
+    "legendMore": "Więcej",
+    "gridLabel": "Przykładowa heatmapa: rok czytania, jeden kwadrat na dzień, aż do dziś."
+  },
+  "features": {
+    "eyebrow": "Co jest w środku",
+    "title": "Śledź to, co ważne. Patrz, jak rośnie.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard i Stajesz się",
+        "title": "Kim się stajesz, na jednej stronie.",
+        "body": "Dzisiejsze nawyki jako karty pod twoim celem Stajesz się, we własnej odręcznie rysowanej ramce. Nawyki, które nie są jeszcze zapisane, wyróżniają się, więc od razu widać, co zostało.",
+        "becomingLabel": "Stajesz się",
+        "becomingGoal": "kimś, kto dotrzymuje obietnic"
+      },
+      "grid": {
+        "eyebrow": "Siatka",
+        "title": "Rok wysiłku, jeden szczery obraz.",
+        "body": "Każdy nawyk ma własną heatmapę we własnym kolorze. Wzorce, luki i passy widać od razu, a passy trzymają się twojego harmonogramu, więc dzień odpoczynku nigdy ich nie przerywa."
+      },
+      "charts": {
+        "eyebrow": "Wykresy",
+        "title": "Każdy nawyk zmierzony.",
+        "body": "Konsekwencja, średnie, sumy, dni z osiągniętym celem i najlepsze dni. Linie rysują się same, a słupki rosną od dołu.",
+        "consistency": "Konsekwencja",
+        "lastDays": "ostatnie 30 dni",
+        "minutes": "Minuty dziennie",
+        "chartLabel": "Przykładowy wykres Konsekwencja: odsetek nawyków wykonanych każdego dnia w ostatnich 30 dniach, rosnący z około 40% do około 90%.",
+        "barsLabel": "Przykładowy wykres słupkowy: minuty czytania dziennie w ciągu jednego tygodnia."
+      },
+      "events": {
+        "eyebrow": "Wydarzenia",
+        "title": "Każde miejsce, książka i podróż ma własny kolor.",
+        "body": "Zapisuj miejsca, które odwiedzasz, książki, które czytasz, podróże i koncerty, i patrz, jak cały rok twojego życia układa się w jeden obraz.",
+        "legend": [
+          "Podróże",
+          "Książki",
+          "Koncerty"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widżety i Live Activity",
+        "title": "Na ekranie początkowym i ekranie blokady.",
+        "body": "Widżet Habit Grid, widżet Dziś do zapisywania prosto z ekranu początkowego i minutniki, które działają na ekranie blokady."
+      },
+      "timers": {
+        "eyebrow": "Minutniki i zapisywanie",
+        "title": "Zapis w kilka sekund. Minutniki działają dalej.",
+        "body": "Stuknij kartę, wpisz wartość, zapisz. Czas trwania jest podawany w h, min i s, a uruchomiony minutnik działa dalej, gdy wyjdziesz z aplikacji.",
+        "timer": "Medytacja"
+      },
+      "themes": {
+        "eyebrow": "Papier i grafit",
+        "title": "Ciepły papier za dnia, miękki grafit nocą.",
+        "body": "Tryb jasny leży na ciepłym papierze. Tryb ciemny to miękki grafit zamiast czystej czerni. Słowa są pisane odręcznie, liczby pozostają wyraźne i dokładne.",
+        "paper": "Papier",
+        "graphite": "Grafit"
+      },
+      "widget": {
+        "name": "Czytanie",
+        "label": "Przykładowy widżet Habit Grid dla nawyku Czytanie, mniej więcej trzy miesiące kwadratów."
+      },
+      "languages": {
+        "eyebrow": "Języki",
+        "title": "W twoim języku. Jednym z 25.",
+        "body": "Od angielskiego po japoński, od bengalskiego po albański. Własne kolory i ikony przy każdym nawyku."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Zajrzyj do środka",
+    "label": "Zrzuty ekranu MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Siatka",
+        "alt": "Zakładka Siatka: roczna heatmapa dla Konsekwencji i osobna dla każdego nawyku, każda we własnym kolorze."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Wykresy",
+        "alt": "Zakładka Wykresy: linia Konsekwencji z 90 dni, aktualna i najlepsza passa wszech czasów oraz wykres nawyku."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Każdy nawyk",
+        "alt": "Wykres nawyku Bieganie względem celu 5 km, z polami Pokazane dni, Konsekwencja, Średnia, Całkowity i Najlepszy dzień."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Zapisywanie",
+        "alt": "Okno zapisu dla nawyku Medytacja: godziny, minuty i sekundy, cel 15 min, Wyczyść i Zapisz."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Wydarzenia",
+        "alt": "Zakładka Wydarzenia: podróże, koncerty i książki, każde jako roczna siatka we własnych kolorach."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Grafit",
+        "alt": "Dashboard w trybie ciemnym, na miękkim graficie."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Prywatność",
+    "title": "Twoje dane zostają na iPhonie.",
+    "body": "Bez konta, bez chmury, bez śledzenia. Tylko ty i dowód, że stajesz się tym, kim chcesz być.",
+    "storedTitle": "Zapisane na urządzeniu",
+    "stored": [
+      "Twoje nawyki: nazwy, jednostki, cele, kolory i ikony",
+      "Twoje dzienne wpisy: data, wartość i opcjonalne notatki",
+      "Twoje ustawienia i preferencje"
+    ],
+    "neverTitle": "Nigdy nie zbieramy",
+    "never": [
+      "Twoich nawyków, wpisów ani notatek",
+      "Imienia i nazwiska, adresu e-mail, numeru telefonu ani lokalizacji",
+      "Analityki użycia ani raportów o awariach",
+      "Identyfikatorów reklamowych, plików cookie ani śledzenia"
+    ],
+    "purchases": "Zakupy Pro przechodzą przez Apple i są sprawdzane w RevenueCat za pomocą losowego, anonimowego identyfikatora.",
+    "link": "Przeczytaj politykę prywatności"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, gdy chcesz zobaczyć całą historię.",
+    "body": "MyGrowth możesz pobrać i używać za darmo z maksymalnie trzema nawykami. Pro odblokowuje wszystko.",
+    "freeTitle": "Darmowe",
+    "free": [
+      "3 nawyki",
+      "Bieżący rok",
+      "Wykresy z 30 dni"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Nieograniczone nawyki",
+      "Pełna historia",
+      "Wykresy i średnie z całej historii",
+      "Wydarzenia",
+      "Import CSV i kopia zapasowa",
+      "Kolory niestandardowe",
+      "Nawyki w zaplanowane dni"
+    ],
+    "plans": "Miesięcznie, rocznie albo raz na zawsze.",
+    "price": "Aktualną cenę sprawdzisz w App Store."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Pytania i odpowiedzi.",
+    "items": [
+      {
+        "q": "Jak zapisać nawyk?",
+        "a": "Stuknij dowolną kartę nawyku w zakładce Dashboard. Otworzy się krótkie okno: wpisz wartość (7,5 godziny snu, 2,5 l wody) i stuknij Zapisz. Wpis zostaje zapisany od razu, a heatmapa się aktualizuje."
+      },
+      {
+        "q": "Gdzie są przechowywane moje dane?",
+        "a": "Tylko na twoim iPhonie, w pamięci urządzenia iOS. Nie ma serwerów, synchronizacji z chmurą ani kont. Wszystkie szczegóły znajdziesz w polityce prywatności.",
+        "link": {
+          "href": "privacy",
+          "text": "Przeczytaj politykę prywatności"
+        }
+      },
+      {
+        "q": "Czy mogę zaimportować historię z arkusza kalkulacyjnego?",
+        "a": "Tak, z Pro. Przejdź do Ustawienia, Zarządzanie danymi, Importuj dane i wybierz plik CSV z kolumnami date, habit, unit, value i note. W samouczku znajdziesz szablon.",
+        "link": {
+          "href": "tutorial",
+          "text": "Otwórz samouczek"
+        }
+      },
+      {
+        "q": "Jak zrobić kopię zapasową lub przenieść dane?",
+        "a": "Z Pro opcja Ustawienia, Zarządzanie danymi, Eksportuj kopię zapasową zapisuje wszystkie nawyki i wpisy w jednym pliku CSV. Na nowym urządzeniu zaimportuj go przez Importuj dane."
+      },
+      {
+        "q": "Jak usunąć wszystkie moje dane?",
+        "a": "Przejdź do Ustawienia, Zarządzanie danymi, Wyczyść wszystkie dane. Aplikacja poprosi o potwierdzenie. Tej operacji nie da się cofnąć: usuwa z urządzenia wszystkie nawyki, wpisy i preferencje."
+      },
+      {
+        "q": "Ile kosztuje Pro?",
+        "a": "Pro jest dostępne jako subskrypcja miesięczna lub roczna albo jako jednorazowy zakup. Ceny zależą od kraju; App Store pokazuje aktualną cenę przed zakupem."
+      },
+      {
+        "q": "Czy powstanie wersja na Androida?",
+        "a": "Na razie nie. Wolimy zrobić dobrze jedną platformę niż słabo dwie."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Zacznij dziś. Za rok sobie za to podziękujesz."
+  },
+  "footer": {
+    "studio": "Aplikacja od Sagomak",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "support": "Wsparcie",
+    "tutorial": "Samouczek",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Czcionki na licencji SIL Open Font License",
+    "languages": "Języki"
+  },
+  "support": {
+    "eyebrow": "Wsparcie",
+    "title": "Jak możemy pomóc?",
+    "intro": "Odpowiedzi na częste pytania. Jeśli nie znajdziesz tego, czego szukasz, napisz do nas.",
+    "faqTitle": "Najczęściej zadawane pytania",
+    "contactTitle": "Nadal potrzebujesz pomocy?",
+    "contactBody": "Pytanie, błąd albo pomysł? Czytamy każdego maila.",
+    "emailCta": "Napisz na",
+    "reviewBefore": "Możesz też ",
+    "reviewLink": "zostawić opinię w App Store",
+    "reviewAfter": ". Pomaga bardziej, niż myślisz."
+  },
+  "tutorial": {
+    "eyebrow": "Samouczek",
+    "title": "Zaimportuj swoje dane",
+    "intro": "Już śledzisz nawyki? Przenieś swoją historię w kilka minut. Import i kopia zapasowa są częścią Pro.",
+    "importLogs": {
+      "title": "Import dziennych wpisów",
+      "intro": "Zaimportuj dawne dane swoich nawyków z pliku CSV. Każdy wiersz to wpis z jednego dnia dla jednego nawyku.",
+      "templateLabel": "Format szablonu",
+      "required": "wymagane",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Przykład: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Musi odpowiadać nazwie istniejącego nawyku w aplikacji (wielkość liter nie ma znaczenia)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Jednostka nawyku, dla twojej informacji. Przykłady: godziny, minuty, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Liczba równa 0 lub większa."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Opcjonalny dowolny tekst. Zostaw puste pole albo pomiń kolumnę."
+        }
+      ],
+      "download": "Pobierz szablon (CSV)",
+      "tips": [
+        "Excel, Google Sheets i Numbers działają: eksportuj jako .csv lub .txt.",
+        "Nazwy nawyków muszą się zgadzać: 'Trening' i 'trening' działają, ale 'Treningi' nie pasuje do 'Trening'.",
+        "Jeśli dana data i nawyk już istnieją, import zaktualizuje wartość zamiast dodawać drugą.",
+        "W jednym pliku możesz połączyć kilka nawyków."
+      ]
+    },
+    "backup": {
+      "title": "Kopia zapasowa i przywracanie",
+      "intro": "Wyeksportuj wszystkie nawyki i wpisy do jednego pliku CSV, aby przywrócić je na nowym urządzeniu lub mieć kopię offline.",
+      "exportTitle": "Jak wyeksportować",
+      "exportSteps": [
+        "Przejdź do Ustawienia, Zarządzanie danymi",
+        "Stuknij Eksportuj kopię zapasową",
+        "Zapisz lub udostępnij plik"
+      ],
+      "restoreTitle": "Jak przywrócić",
+      "restoreSteps": [
+        "Przejdź do Ustawienia, Zarządzanie danymi",
+        "Stuknij Importuj dane",
+        "Wybierz plik kopii zapasowej",
+        "Wybierz Scal z istniejącymi albo Zastąp wszystkie dane",
+        "Sprawdź podsumowanie i stuknij Importuj"
+      ],
+      "formatLabel": "Format kopii zapasowej (uproszczony)",
+      "autoDetect": "Aplikacja sama odróżnia kopię zapasową (ma sekcję #HABITS) od zwykłego pliku z wpisami. Jeden przycisk importu obsługuje oba."
+    },
+    "prebuilt": {
+      "title": "Nawyki na start",
+      "intro": "MyGrowth proponuje te nawyki, gotowe do śledzenia:",
+      "cols": [
+        "Nawyk",
+        "Jednostka",
+        "Dzienny cel"
+      ],
+      "note": "Możesz też tworzyć własne nawyki, z własną nazwą, jednostką, ikoną, kolorem i harmonogramem."
+    },
+    "reminders": {
+      "title": "Codzienne przypomnienia",
+      "intro": "MyGrowth może wysyłać ci dwa powiadomienia dziennie:",
+      "items": [
+        [
+          "Poranna Przypomnienie",
+          "podsumowanie dzisiejszych zaplanowanych nawyków. Domyślnie: 9:00."
+        ],
+        [
+          "Wieczorne przypomnienie",
+          "delikatne przypomnienie, by zapisać to, co zostało pominięte. Domyślnie: 21:00."
+        ]
+      ],
+      "footer": "Oba możesz zmienić w Ustawienia, Powiadomienia."
+    },
+    "pace": {
+      "title": "Tempo i szybkość",
+      "intro": "W nawykach takich jak Bieganie czy Jazda na rowerze włącz w ustawieniach nawyku śledzenie czasu, aby zapisywać odległość i czas. Aplikacja wylicza:",
+      "items": [
+        [
+          "Bieganie",
+          "tempo w min/km. 7 km w 38 min to 5:25 min/km."
+        ],
+        [
+          "Jazda na rowerze",
+          "szybkość w km/h. 10 km w 30 min to 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Jak działają passy",
+      "tips": [
+        "Wartość 0 się nie liczy: nawyk trzeba naprawdę wykonać.",
+        "Wartość musi osiągnąć cel: 2 godziny snu przy celu 8 się nie liczą.",
+        "Passy trzymają się twojego harmonogramu. Trenujesz w poniedziałek, środę i piątek, zaliczasz wszystkie trzy i masz passę 3 dni. Wtorek i czwartek jej nie przerywają."
+      ]
+    },
+    "cta": "Czas na import?"
+  },
+  "notFound": {
+    "title": "Tej strony tu nie ma.",
+    "body": "Link może być nieaktualny albo strona została przeniesiona.",
+    "home": "Wróć do MyGrowth"
+  },
+  "legal": {
+    "contact": "Napisz na"
+  },
+  "lang": {
+    "label": "Język",
+    "current": "Polski",
+    "suggest": "Dostępne po polsku",
+    "switchTo": "Przełącz na polski",
+    "dismiss": "Zamknij"
+  },
+  "a11y": {
+    "skip": "Przejdź do treści",
+    "mainNav": "Główna",
+    "languages": "Języki",
+    "timerRunning": "Przykładowy uruchomiony minutnik",
+    "gridLabel": "Przykładowa heatmapa dla nawyku {habit}, jeden kwadrat na dzień.",
+    "eventsLabel": "Przykładowa siatka wydarzeń: pół roku dni w kolorach ich kategorii.",
+    "themeSwitch": "Przełącz na motyw {theme}."
+  }
+}

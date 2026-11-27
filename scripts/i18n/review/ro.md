@@ -1,0 +1,39 @@
+# ro (Română)
+Confidence: medium (natural copy in the App Store register; several glossary terms read badly and were kept as instructed)
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.tutorial.reminders.items[1][0] | Evening nudge | Împingere de Seară | glossary term kept; literal "push", reads oddly, "Memento de seară" would be better in the app |
+| site.tutorial.reminders.items[0][0] | Morning reminder | Alerte de dimineață | glossary term kept; plural "alerts" for a single reminder |
+| site.gallery.items[2].alt | days shown up | Zilele afișate | glossary term kept; it means "displayed days" |
+| site.faq.items[2].a, site.tutorial.backup.restoreSteps[1] | Import Data | Importă Date | glossary capitalisation kept |
+| site.features.items.dashboard.becomingLabel | Becoming | Devii | glossary term; "obiectivul Devii" in running text is stiff |
+| site.features.items.charts.consistency | Consistency | Constanță | glossary term; App Store copy uses "consecvență" |
+| site.nav.theme.light / dark | Paper / Graphite | Hârtie / Grafit | theme names not in glossary; check the app's labels |
+| site.nav.faq | FAQ | Întrebări | shortened for the nav; "Întrebări frecvente" in full elsewhere |
+| site.tutorial.importLogs.tips[1] | 'Work out' does not match 'Workout' | 'Antrenamente' nu se potrivește cu 'Antrenament' | example adapted to a plural form |
+| site.cta.title | A year from now you will be glad you did. | Peste un an îți vei mulțumi. | rewritten to avoid gendered "bucuros" |
+| site.year.body | Every day you show up | Fiecare zi în care ești prezent | "prezent" is masculine; acceptable generic form, check |
+| site.tutorial.backup.restoreSteps[3] | Merge with existing | Combină cu datele existente | no glossary entry; check the app's option label |
+| legal.privacy.rights.* | Your Rights (GDPR) | Drepturile tale (RGPD) | local acronym RGPD used; confirm preference over GDPR |
+| legal.terms.liability.body | consequential damages | daune de consecință | legal term, native lawyer check |
+
+## Reviewer
+Confidence after review: high (copy and legal text are complete and natural; remaining doubts are app glossary terms, not website wording)
+
+Changes: 2
+- site.faq.items[6].a: "Preferăm să construim bine o platformă decât prost două." → "Preferăm să construim bine o singură platformă decât două prost." (natural word order)
+- site.a11y.eventsLabel: "o jumătate de an de zile în culorile categoriilor lor" → "zilele unei jumătăți de an, în culorile categoriilor lor" ("an de zile" is an idiom for "a year" and made the phrase ambiguous)
+
+Confirmed translator choices: RGPD is the official Romanian acronym and correct here; "daune de consecință" is in common use in Romanian EULAs; "Peste un an îți vei mulțumi" is a good gender-neutral CTA; "prezent" as generic masculine is acceptable; "Întrebări" in the nav is fine.
+
+Still flagged for a native speaker:
+
+| Key | English | Translation | Why |
+|---|---|---|---|
+| site.tutorial.reminders.items[0][0] | Morning reminder | Alerte de dimineață | app glossary term is plural; app should say "Memento de dimineață" |
+| site.tutorial.reminders.items[1][0] | Evening nudge | Împingere de Seară | app glossary term is a literal "push"; app should say "Memento de seară" |
+| site.gallery.items[2].alt | days shown up | Zilele afișate | app glossary term means "displayed days"; fix in the app |
+| site.features.items.charts.consistency (and all "Constanță") | Consistency | Constanță | glossary vs App Store "consecvență"; align app, store and site |
+| site.faq.items[2].a, site.tutorial.backup.* | Import Data / Export Backup | Importă Date / Exportă Backup | glossary title case is not Romanian style; fix in the app first |
+| site.tutorial.backup.restoreSteps[3] | Merge with existing | Combină cu datele existente | not in glossary; check the app's option label |

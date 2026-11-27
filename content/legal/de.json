@@ -52,8 +52,8 @@
       "title": "Deine Rechte (DSGVO)",
       "intro": "Nach der Datenschutz-Grundverordnung hast du das Recht:",
       "access": "<b>Zugriff</b> auf deine Daten: jederzeit direkt in der App sichtbar",
-      "export": "<b>Export</b> deiner Daten: über Einstellungen → Datenverwaltung → Exportieren (JSON oder CSV)",
-      "delete": "<b>Löschung</b> deiner Daten: über Einstellungen → Datenverwaltung → Alle Daten löschen",
+      "export": "<b>Export</b> deiner Daten: über Einstellungen, Datenverwaltung, Exportieren (JSON oder CSV)",
+      "delete": "<b>Löschung</b> deiner Daten: über Einstellungen, Datenverwaltung, Alle Daten löschen",
       "rectify": "<b>Berichtigung</b> deiner Daten: bearbeite jeden Eintrag, indem du ihn in der App antippst",
       "footer": "Da alle Daten ausschließlich auf deinem Gerät gespeichert werden, ist für die Ausübung dieser Rechte keine Anfrage an uns nötig: Du hast die volle Kontrolle."
     },
@@ -106,7 +106,7 @@
     "dataPrivacy": {
       "title": "Daten und Datenschutz",
       "item1": "Alle Daten werden lokal auf deinem Gerät gespeichert",
-      "item2": "Wir erheben, übertragen oder haben keinen Zugriff auf deine Gewohnheiten, Einträge oder Notizen",
+      "item2": "Wir erheben und übertragen deine Gewohnheiten, Einträge oder Notizen nicht und haben keinen Zugriff darauf",
       "item3": "Alle Details findest du in unserer <link>Datenschutzrichtlinie</link>"
     },
     "ip": {
@@ -145,5 +145,7 @@
       "title": "Kontakt",
       "body": "Bei Fragen zu diesen Bedingungen:"
     }
-  }
+  },
+  "languageNote": "Dies ist eine Übersetzung. Bei Abweichungen gilt die englische Fassung.",
+  "englishLink": "Englische Fassung lesen"
 }

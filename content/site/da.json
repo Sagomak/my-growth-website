@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: en håndtegnet vanetracker, der bliver på din iPhone",
+      "description": "MyGrowth gør dine vaner til et håndtegnet heatmap, diagrammer og statistik. Privat fra starten: ingen konto, ingen sky, dine data bliver på din enhed."
+    },
+    "support": {
+      "title": "Support, MyGrowth",
+      "description": "Svar på almindelige spørgsmål om MyGrowth, og hvordan du kontakter os."
+    },
+    "tutorial": {
+      "title": "Importér og tag backup af dine data, MyGrowth",
+      "description": "Importér din vanehistorik fra en CSV-fil, tag backup af og gendan MyGrowth, og se de vaner, appen starter med."
+    },
+    "notFound": {
+      "title": "Siden blev ikke fundet, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "MyGrowths forside",
+    "features": "Funktioner",
+    "privacy": "Privatliv",
+    "pro": "Pro",
+    "faq": "FAQ",
+    "support": "Support",
+    "menu": "Menu",
+    "theme": {
+      "label": "Tema",
+      "system": "System",
+      "light": "Papir",
+      "dark": "Grafit"
+    }
+  },
+  "badge": {
+    "alt": "Download i App Store",
+    "aria": "Download MyGrowth i App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Du bliver det, du gentager.",
+    "sub": "MyGrowth gør dine vaner til et håndtegnet heatmap, diagrammer og statistik, så du kan se det at møde op blive til fremgang.",
+    "trust": "Privat fra starten. Ingen konto, ingen sky.",
+    "phoneAlt": "MyGrowths Dashboard: ugebjælken, målet På vej mod og dagens vaner som håndtegnede kort."
+  },
+  "year": {
+    "eyebrow": "Dit år på ét blik",
+    "title": "Ét ærligt billede af et år.",
+    "body": "Hver dag, du møder op, fylder et felt. Dagens felt i ugebjælken fyldes op, efterhånden som dagen går.",
+    "habit": "Læsning",
+    "weekLabel": "Denne uge",
+    "todayLabel": "I dag, {pct} % af dagen er gået",
+    "legendLess": "Mindre",
+    "legendMore": "Mere",
+    "gridLabel": "Eksempel på heatmap: et års læsning, ét felt pr. dag, frem til i dag."
+  },
+  "features": {
+    "eyebrow": "Det får du",
+    "title": "Track det, der betyder noget. Se det vokse.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard og På vej mod",
+        "title": "Den, du er på vej mod at blive, på én side.",
+        "body": "Dagens vaner som kort under dit mål På vej mod, i sin egen håndtegnede ramme. Vaner, du endnu ikke har registreret, skiller sig ud, så du med det samme kan se, hvad der mangler.",
+        "becomingLabel": "På vej mod",
+        "becomingGoal": "at blive en, der holder sine løfter"
+      },
+      "grid": {
+        "eyebrow": "Gitter",
+        "title": "Et års indsats, ét ærligt billede.",
+        "body": "Hver vane får sit eget heatmap i sin egen farve. Mønstre, huller og stimer ses med det samme, og stimer følger din tidsplan, så en hviledag aldrig bryder dem."
+      },
+      "charts": {
+        "eyebrow": "Diagrammer",
+        "title": "Hver vane, målt.",
+        "body": "Konsekvens, gennemsnit, totaler, dage, hvor målet er nået og bedste dage. Linjerne tegner sig selv, og søjlerne vokser op fra bunden.",
+        "consistency": "Konsekvens",
+        "lastDays": "seneste 30 dage",
+        "minutes": "Minutter pr. dag",
+        "chartLabel": "Eksempel på Konsekvens-diagram: andelen af vaner, der er gennemført hver dag de seneste 30 dage, stigende fra cirka 40 % til cirka 90 %.",
+        "barsLabel": "Eksempel på søjlediagram: minutters læsning pr. dag over en uge."
+      },
+      "events": {
+        "eyebrow": "Begivenheder",
+        "title": "Hvert sted, hver bog og rejse får sin farve.",
+        "body": "Registrér de steder, du besøger, de bøger, du læser, rejserne og koncerterne, og se et helt år af dit liv som ét billede.",
+        "legend": [
+          "Rejser",
+          "Bøger",
+          "Koncerter"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widgets og Live Activity",
+        "title": "På din hjemmeskærm og låseskærm.",
+        "body": "En Vanegitter-widget, en I dag-widget til at registrere fra hjemmeskærmen, og timere, der bliver på din låseskærm."
+      },
+      "timers": {
+        "eyebrow": "Timere og registrering",
+        "title": "Registrér på sekunder. Timere kører videre.",
+        "body": "Tryk på et kort, skriv en værdi, gem. Varigheder vises som h, min og s, og en kørende timer fortsætter, når du forlader appen.",
+        "timer": "Meditation"
+      },
+      "themes": {
+        "eyebrow": "Papir og grafit",
+        "title": "Varmt papir om dagen, blød grafit om natten.",
+        "body": "Det lyse tema ligger på varmt papir. Det mørke er en blød grafitgrå i stedet for helt sort. Ord er håndskrevne, tal forbliver skarpe og præcise.",
+        "paper": "Papir",
+        "graphite": "Grafit"
+      },
+      "widget": {
+        "name": "Læsning",
+        "label": "Eksempel på Vanegitter-widget for Læsning, omkring tre måneders felter."
+      },
+      "languages": {
+        "eyebrow": "Sprog",
+        "title": "På dit sprog. Et af 25.",
+        "body": "Fra engelsk til japansk, fra bengali til albansk. Dine egne farver og ikoner på hver vane."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Et kig indenfor",
+    "label": "Skærmbilleder af MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Gitter",
+        "alt": "Fanen Gitter: et årsheatmap for Konsekvens og ét for hver vane, hver i sin egen farve."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Diagrammer",
+        "alt": "Fanen Diagrammer: Konsekvens-linjen over 90 dage, aktive stimer og de bedste nogensinde, og et vanediagram."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Hver vane",
+        "alt": "Et Løb-diagram mod målet på 5 km, med dage vist, konsekvens, gennemsnit, total og bedste dag."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Registrering",
+        "alt": "Registreringsarket for Meditation: timer, minutter og sekunder, målet på 15 min, Ryd og Gem."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Begivenheder",
+        "alt": "Fanen Begivenheder: rejser, koncerter og bøger, hver som et årsgitter i deres egne farver."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Grafit",
+        "alt": "Dashboard i mørkt tema, på blød grafit."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privatliv",
+    "title": "Dine data bliver på din iPhone.",
+    "body": "Ingen konto, ingen sky, ingen tracking. Kun dig og beviset på, at du vokser til den, du gerne vil være.",
+    "storedTitle": "Gemt på din enhed",
+    "stored": [
+      "Dine vaner: navne, enheder, mål, farver og ikoner",
+      "Dine daglige registreringer: dato, værdi og valgfrie noter",
+      "Dine indstillinger og præferencer"
+    ],
+    "neverTitle": "Indsamles aldrig",
+    "never": [
+      "Dine vaner, registreringer eller noter",
+      "Navn, e-mail, telefon eller placering",
+      "Brugsstatistik eller nedbrudsrapporter",
+      "Annonce-id'er, cookies eller tracking"
+    ],
+    "purchases": "Pro-køb går gennem Apple og kontrolleres med RevenueCat ved hjælp af et tilfældigt, anonymt id.",
+    "link": "Læs privatlivspolitikken"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, når du vil have hele historien.",
+    "body": "MyGrowth er gratis at downloade og bruge med op til tre vaner. Pro låser op for det hele.",
+    "freeTitle": "Gratis",
+    "free": [
+      "3 vaner",
+      "Nuværende år",
+      "Diagrammer for 30 dage"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Ubegrænsede vaner",
+      "Fulde historie",
+      "Diagrammer og gennemsnit for alle tider",
+      "Begivenheder",
+      "CSV-import og backup",
+      "Egne farver",
+      "Vaner på planlagte dage"
+    ],
+    "plans": "Månedligt, årligt eller én gang for altid.",
+    "price": "Se den aktuelle pris i App Store."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Spørgsmål og svar.",
+    "items": [
+      {
+        "q": "Hvordan registrerer jeg en vane?",
+        "a": "Tryk på et vanekort på Dashboard. Et lille ark åbnes: skriv din værdi (7,5 timers søvn, 2,5 L vand), og tryk på Gem. Registreringen gemmes med det samme, og dit heatmap opdateres."
+      },
+      {
+        "q": "Hvor gemmes mine data?",
+        "a": "Kun på din iPhone, i iOS' lokale lager på enheden. Der er ingen servere, ingen synkronisering i skyen og ingen konti. Privatlivspolitikken har alle detaljer.",
+        "link": {
+          "href": "privacy",
+          "text": "Læs privatlivspolitikken"
+        }
+      },
+      {
+        "q": "Kan jeg importere min historik fra et regneark?",
+        "a": "Ja, med Pro. Gå til Indstillinger, Datahåndtering, Importer Data, og vælg en CSV-fil med kolonnerne date, habit, unit, value og note. Vejledningen har en skabelon.",
+        "link": {
+          "href": "tutorial",
+          "text": "Åbn vejledningen"
+        }
+      },
+      {
+        "q": "Hvordan tager jeg backup af eller flytter mine data?",
+        "a": "Med Pro gemmer Indstillinger, Datahåndtering, Eksportér backup alle vaner og registreringer i én CSV-fil. Importér den på den nye enhed med Importer Data."
+      },
+      {
+        "q": "Hvordan sletter jeg alle mine data?",
+        "a": "Gå til Indstillinger, Datahåndtering, Slet alle data. Du bliver bedt om at bekræfte. Det er permanent: alle vaner, registreringer og præferencer slettes fra din enhed."
+      },
+      {
+        "q": "Hvad koster Pro?",
+        "a": "Pro fås som månedligt eller årligt abonnement eller som engangskøb. Priserne afhænger af dit land; App Store viser den aktuelle pris, før du køber."
+      },
+      {
+        "q": "Kommer der en Android-version?",
+        "a": "Ikke lige nu. Vi vil hellere lave én platform godt end to dårligt."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start i dag. Om et år vil du være glad for, at du gjorde det."
+  },
+  "footer": {
+    "studio": "En app fra Sagomak",
+    "privacy": "Privatlivspolitik",
+    "terms": "Brugsvilkår",
+    "support": "Support",
+    "tutorial": "Vejledning",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Skrifttyper under SIL Open Font License",
+    "languages": "Sprog"
+  },
+  "support": {
+    "eyebrow": "Support",
+    "title": "Hvordan kan vi hjælpe?",
+    "intro": "Svar på almindelige spørgsmål. Hvis du ikke finder det, du har brug for, så skriv til os.",
+    "faqTitle": "Ofte stillede spørgsmål",
+    "contactTitle": "Brug for mere hjælp?",
+    "contactBody": "Et spørgsmål, en fejl eller en idé? Vi læser hver eneste e-mail.",
+    "emailCta": "Skriv til",
+    "reviewBefore": "Du kan også ",
+    "reviewLink": "skrive en anmeldelse i App Store",
+    "reviewAfter": ". Det hjælper mere, end du tror."
+  },
+  "tutorial": {
+    "eyebrow": "Vejledning",
+    "title": "Importér dine data",
+    "intro": "Tracker du allerede vaner? Hent din historik ind på få minutter. Import og backup er en del af Pro.",
+    "importLogs": {
+      "title": "Importér daglige registreringer",
+      "intro": "Importér tidligere data for dine vaner fra en CSV-fil. Hver række er én dags registrering for én vane.",
+      "templateLabel": "Skabelonformat",
+      "required": "påkrævet",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "ÅÅÅÅ-MM-DD. Eksempel: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Skal svare til navnet på en eksisterende vane i appen (store og små bogstaver er ligegyldige)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Vanens enhed, til din egen orientering. Eksempler: timer, minutter, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Et tal, 0 eller større."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Valgfri fritekst. Lad feltet stå tomt, eller udelad kolonnen."
+        }
+      ],
+      "download": "Download skabelonen (CSV)",
+      "tips": [
+        "Excel, Google Sheets og Numbers virker alle: eksportér som .csv eller .txt.",
+        "Vanenavne skal passe: »Træning« og »træning« virker begge, men »Traening« svarer ikke til »Træning«.",
+        "Hvis en dato og en vane allerede findes, opdaterer importen værdien i stedet for at tilføje en ny.",
+        "Du kan blande flere vaner i én fil."
+      ]
+    },
+    "backup": {
+      "title": "Backup og gendannelse",
+      "intro": "Eksportér alle dine vaner og registreringer som én CSV-fil, så du kan gendanne dem på en ny enhed eller gemme en offlinekopi.",
+      "exportTitle": "Sådan eksporterer du",
+      "exportSteps": [
+        "Gå til Indstillinger, Datahåndtering",
+        "Tryk på Eksportér backup",
+        "Gem eller del filen"
+      ],
+      "restoreTitle": "Sådan gendanner du",
+      "restoreSteps": [
+        "Gå til Indstillinger, Datahåndtering",
+        "Tryk på Importer Data",
+        "Vælg din backupfil",
+        "Vælg Flet med eksisterende eller Erstat alle data",
+        "Tjek oversigten, og tryk på Importér"
+      ],
+      "formatLabel": "Backupformat (forenklet)",
+      "autoDetect": "Appen kan selv kende forskel på en backup (den har en #HABITS-sektion) og en almindelig registreringsfil. Én importknap klarer begge."
+    },
+    "prebuilt": {
+      "title": "Vaner at starte med",
+      "intro": "MyGrowth foreslår disse vaner, klar til at blive tracket:",
+      "cols": [
+        "Vane",
+        "Enhed",
+        "Dagligt mål"
+      ],
+      "note": "Du kan også oprette dine egne vaner med dit eget navn, enhed, ikon, farve og tidsplan."
+    },
+    "reminders": {
+      "title": "Daglige påmindelser",
+      "intro": "MyGrowth kan sende dig to notifikationer om dagen:",
+      "items": [
+        [
+          "Morgenpåmindelse",
+          "et overblik over dagens planlagte vaner. Standard: 9:00."
+        ],
+        [
+          "Aftenpåmindelse",
+          "et venligt skub til at registrere det, du mangler. Standard: 21:00."
+        ]
+      ],
+      "footer": "Begge kan ændres i Indstillinger, Notifikationer."
+    },
+    "pace": {
+      "title": "Tempo og hastighed",
+      "intro": "For vaner som Løb og Cykling kan du slå Spor tid til i vanen for at registrere afstand og tid. Appen beregner:",
+      "items": [
+        [
+          "Løb",
+          "tempo i min/km. 7 km på 38 min er 5:25 min/km."
+        ],
+        [
+          "Cykling",
+          "hastighed i km/h. 10 km på 30 min er 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Sådan virker stimer",
+      "tips": [
+        "En værdi på 0 tæller ikke: du skal faktisk udføre vanen.",
+        "Værdien skal nå målet: 2 timers søvn med et mål på 8 tæller ikke.",
+        "Stimer følger din tidsplan. Træn mandag, onsdag og fredag, gennemfør alle tre, og det er en stime på 3 dage. Tirsdag og torsdag bryder den ikke."
+      ]
+    },
+    "cta": "Klar til at importere?"
+  },
+  "notFound": {
+    "title": "Siden findes ikke.",
+    "body": "Linket kan være gammelt, eller siden er flyttet.",
+    "home": "Tilbage til MyGrowth"
+  },
+  "legal": {
+    "contact": "Skriv til"
+  },
+  "lang": {
+    "label": "Sprog",
+    "current": "Dansk",
+    "suggest": "Tilgængelig på dansk",
+    "switchTo": "Skift til dansk",
+    "dismiss": "Luk"
+  },
+  "a11y": {
+    "skip": "Gå til indhold",
+    "mainNav": "Hovedmenu",
+    "languages": "Sprog",
+    "timerRunning": "Eksempel på en kørende timer",
+    "gridLabel": "Eksempel på heatmap for {habit}, ét felt pr. dag.",
+    "eventsLabel": "Eksempel på begivenhedsgitter: et halvt års dage i deres kategoriers farver.",
+    "themeSwitch": "Skift til {theme}."
+  }
+}

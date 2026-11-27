@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: un registro de hábitos dibujado a mano que se queda en tu iPhone",
+      "description": "MyGrowth convierte tus hábitos en un heatmap dibujado a mano, gráficos y estadísticas. Privado por diseño: sin cuenta, sin nube, tus datos se quedan en tu dispositivo."
+    },
+    "support": {
+      "title": "Soporte, MyGrowth",
+      "description": "Respuestas a las preguntas más frecuentes sobre MyGrowth y cómo contactarnos."
+    },
+    "tutorial": {
+      "title": "Importa y guarda tus datos, MyGrowth",
+      "description": "Importa el historial de tus hábitos desde un archivo CSV, haz copias de seguridad y restaura MyGrowth, y descubre los hábitos con los que empieza."
+    },
+    "notFound": {
+      "title": "Página no encontrada, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "Inicio de MyGrowth",
+    "features": "Funciones",
+    "privacy": "Privacidad",
+    "pro": "Pro",
+    "faq": "Preguntas",
+    "support": "Soporte",
+    "menu": "Menú",
+    "theme": {
+      "label": "Tema",
+      "system": "Sistema",
+      "light": "Papel",
+      "dark": "Grafito"
+    }
+  },
+  "badge": {
+    "alt": "Descargar en el App Store",
+    "aria": "Descarga MyGrowth en el App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Te conviertes en lo que haces con constancia.",
+    "sub": "MyGrowth convierte tus hábitos en un heatmap dibujado a mano, gráficos y estadísticas, para que veas cómo la constancia se convierte en progreso.",
+    "trust": "Privado por diseño. Sin cuenta, sin nube.",
+    "phoneAlt": "El Dashboard de MyGrowth: la franja semanal, la meta de Rumbo a y los hábitos de hoy como tarjetas dibujadas a mano."
+  },
+  "year": {
+    "eyebrow": "Tu año, de un vistazo",
+    "title": "Un año en una sola imagen honesta.",
+    "body": "Cada día que cumples llena un cuadrado. La casilla de hoy en la franja semanal se va llenando a medida que pasa el día.",
+    "habit": "Lectura",
+    "weekLabel": "Esta semana",
+    "todayLabel": "Hoy, ha pasado el {pct} % del día",
+    "legendLess": "Menos",
+    "legendMore": "Más",
+    "gridLabel": "Heatmap de ejemplo: un año de lectura, un cuadrado por día, hasta hoy."
+  },
+  "features": {
+    "eyebrow": "Qué incluye",
+    "title": "Registra lo que importa. Míralo crecer.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard y Rumbo a",
+        "title": "En quién te estás convirtiendo, en una página.",
+        "body": "Los hábitos de hoy como tarjetas bajo tu meta de Rumbo a, en su propio marco dibujado a mano. Los hábitos que aún no has registrado destacan, para que veas de un vistazo lo que te queda.",
+        "becomingLabel": "Rumbo a",
+        "becomingGoal": "ser alguien que cumple sus promesas"
+      },
+      "grid": {
+        "eyebrow": "Cuadrícula",
+        "title": "Un año de esfuerzo, una sola imagen honesta.",
+        "body": "Cada hábito tiene su propio heatmap en su propio color. Los patrones, los huecos y las rachas se ven de un vistazo, y las rachas siguen tu horario, así que un día de descanso nunca las rompe."
+      },
+      "charts": {
+        "eyebrow": "Gráficos",
+        "title": "Cada hábito, medido.",
+        "body": "Constancia, promedios, totales, días con el objetivo logrado y mejores días. Las líneas se dibujan solas y las barras crecen desde abajo.",
+        "consistency": "Constancia",
+        "lastDays": "últimos 30 días",
+        "minutes": "Minutos al día",
+        "chartLabel": "Gráfico de Constancia de ejemplo: la proporción de hábitos completados cada día en los últimos 30 días, que sube de alrededor del 40 % a alrededor del 90 %.",
+        "barsLabel": "Gráfico de barras de ejemplo: minutos de lectura al día durante una semana."
+      },
+      "events": {
+        "eyebrow": "Eventos",
+        "title": "Cada lugar, libro y viaje tiene su propio color.",
+        "body": "Registra los lugares que visitas, los libros que lees, los viajes y los conciertos, y mira cómo un año entero de tu vida aparece en una sola imagen.",
+        "legend": [
+          "Viajes",
+          "Libros",
+          "Conciertos"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widgets y Actividad en vivo",
+        "title": "En tu pantalla de inicio y en la pantalla bloqueada.",
+        "body": "Un widget de Cuadrícula de hábitos, un widget Hoy para registrar desde la pantalla de inicio y temporizadores que viven en tu pantalla bloqueada."
+      },
+      "timers": {
+        "eyebrow": "Temporizadores y registro",
+        "title": "Registra en segundos. Los temporizadores siguen.",
+        "body": "Toca una tarjeta, escribe un valor y guarda. Las duraciones se muestran en h, min y s, y un temporizador en marcha sigue corriendo cuando sales de la app.",
+        "timer": "Meditación"
+      },
+      "themes": {
+        "eyebrow": "Papel y grafito",
+        "title": "Papel cálido de día, grafito suave de noche.",
+        "body": "El modo claro descansa sobre papel cálido. El modo oscuro es un grafito suave en lugar de negro puro. Las palabras van escritas a mano, los números siguen nítidos y exactos.",
+        "paper": "Papel",
+        "graphite": "Grafito"
+      },
+      "widget": {
+        "name": "Lectura",
+        "label": "Widget de Cuadrícula de hábitos de ejemplo para Lectura, unos tres meses de cuadrados."
+      },
+      "languages": {
+        "eyebrow": "Idiomas",
+        "title": "En tu idioma. Y en 24 más.",
+        "body": "Del inglés al japonés, del bengalí al albanés. Tus propios colores e iconos en cada hábito."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Un vistazo por dentro",
+    "label": "Capturas de pantalla de MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Cuadrícula",
+        "alt": "La pestaña Cuadrícula: un heatmap anual para la Constancia y uno por hábito, cada uno en su propio color."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Gráficos",
+        "alt": "La pestaña Gráficos: la línea de Constancia en 90 días, las rachas activas y las mejores de siempre, y el gráfico de un hábito."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Cada hábito",
+        "alt": "Un gráfico de Correr frente a su meta de 5 km, con Días mostrados, constancia, promedio, total y mejor día."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Registro",
+        "alt": "La hoja de registro de Meditación: horas, minutos y segundos, el objetivo de 15 min, Borrar y Guardar."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Eventos",
+        "alt": "La pestaña Eventos: viajes, conciertos y libros, cada uno con una cuadrícula anual en sus propios colores."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Grafito",
+        "alt": "El Dashboard en modo oscuro, sobre grafito suave."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privacidad",
+    "title": "Tus datos se quedan en tu iPhone.",
+    "body": "Sin cuenta, sin nube, sin seguimiento. Solo tú y la prueba de que estás llegando a ser quien quieres ser.",
+    "storedTitle": "Guardado en tu dispositivo",
+    "stored": [
+      "Tus hábitos: nombres, unidades, objetivos, colores e iconos",
+      "Tus registros diarios: fecha, valor y notas opcionales",
+      "Tus ajustes y preferencias"
+    ],
+    "neverTitle": "Nunca recopilado",
+    "never": [
+      "Tus hábitos, registros o notas",
+      "Nombre, correo, teléfono o ubicación",
+      "Estadísticas de uso o informes de fallos",
+      "Identificadores publicitarios, cookies o seguimiento"
+    ],
+    "purchases": "Las compras Pro pasan por Apple y se comprueban con RevenueCat, mediante un ID anónimo aleatorio.",
+    "link": "Lee la política de privacidad"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, cuando quieras la historia completa.",
+    "body": "MyGrowth se descarga gratis y puedes usarlo gratis con hasta tres hábitos. Pro lo desbloquea todo.",
+    "freeTitle": "Gratis",
+    "free": [
+      "3 hábitos",
+      "Año actual",
+      "Gráficos de 30 días"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Hábitos ilimitados",
+      "Historial completo",
+      "Gráficos y promedios de todo el tiempo",
+      "Eventos",
+      "Importación CSV y copia de seguridad",
+      "Colores personalizados",
+      "Hábitos en días programados"
+    ],
+    "plans": "Mensual, anual o un solo pago de por vida.",
+    "price": "Consulta el precio actual en el App Store."
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas, respondidas.",
+    "items": [
+      {
+        "q": "¿Cómo registro un hábito?",
+        "a": "Toca cualquier tarjeta de hábito en el Dashboard. Se abre una hoja breve: escribe tu valor (7,5 horas de sueño, 2,5 L de agua) y toca Guardar. El registro se guarda al instante y tu heatmap se actualiza."
+      },
+      {
+        "q": "¿Dónde se guardan mis datos?",
+        "a": "Solo en tu iPhone, en el almacenamiento local de iOS. No hay servidores, ni sincronización en la nube, ni cuentas. La política de privacidad tiene todos los detalles.",
+        "link": {
+          "href": "privacy",
+          "text": "Lee la política de privacidad"
+        }
+      },
+      {
+        "q": "¿Puedo importar mi historial desde una hoja de cálculo?",
+        "a": "Sí, con Pro. Ve a Configuración, Gestión de Datos, Importar Datos y elige un archivo CSV con las columnas date, habit, unit, value y note. En el tutorial tienes una plantilla.",
+        "link": {
+          "href": "tutorial",
+          "text": "Abre el tutorial"
+        }
+      },
+      {
+        "q": "¿Cómo hago una copia de seguridad o paso mis datos a otro dispositivo?",
+        "a": "Con Pro, Configuración, Gestión de Datos, Exportar copia de seguridad guarda todos tus hábitos y registros en un solo archivo CSV. Impórtalo en el nuevo dispositivo con Importar Datos."
+      },
+      {
+        "q": "¿Cómo borro todos mis datos?",
+        "a": "Ve a Configuración, Gestión de Datos, Borrar Todos los Datos. Se te pedirá que lo confirmes. Es permanente: elimina todos los hábitos, registros y preferencias de tu dispositivo."
+      },
+      {
+        "q": "¿Cuánto cuesta Pro?",
+        "a": "Pro está disponible como suscripción mensual o anual, o como compra única. Los precios dependen de tu país; el App Store te muestra el actual antes de comprar."
+      },
+      {
+        "q": "¿Habrá una versión para Android?",
+        "a": "Por ahora no. Preferimos hacer bien una plataforma que mal dos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Empieza hoy. En un año te alegrarás de haberlo hecho."
+  },
+  "footer": {
+    "studio": "Una app de Sagomak",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "support": "Soporte",
+    "tutorial": "Tutorial",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Fuentes bajo la SIL Open Font License",
+    "languages": "Idiomas"
+  },
+  "support": {
+    "eyebrow": "Soporte",
+    "title": "¿Cómo podemos ayudarte?",
+    "intro": "Respuestas a las preguntas más frecuentes. Si no encuentras lo que necesitas, escríbenos.",
+    "faqTitle": "Preguntas frecuentes",
+    "contactTitle": "¿Aún necesitas ayuda?",
+    "contactBody": "¿Una pregunta, un error o una idea? Leemos todos los correos.",
+    "emailCta": "Escribe a",
+    "reviewBefore": "También puedes ",
+    "reviewLink": "dejar una reseña en el App Store",
+    "reviewAfter": ". Nos ayuda más de lo que imaginas."
+  },
+  "tutorial": {
+    "eyebrow": "Tutorial",
+    "title": "Importa tus datos",
+    "intro": "¿Ya registras tus hábitos? Trae tu historial en pocos minutos. La importación y las copias de seguridad forman parte de Pro.",
+    "importLogs": {
+      "title": "Importar registros diarios",
+      "intro": "Importa datos anteriores de tus hábitos desde un archivo CSV. Cada fila es el registro de un día para un hábito.",
+      "templateLabel": "Formato de la plantilla",
+      "required": "obligatorio",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Ejemplo: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Debe coincidir con el nombre de un hábito que ya exista en la app (no importan las mayúsculas)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "La unidad del hábito, como referencia para ti. Ejemplos: horas, minutos, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Un número, 0 o mayor."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Texto libre opcional. Déjalo en blanco u omite la columna."
+        }
+      ],
+      "download": "Descarga la plantilla (CSV)",
+      "tips": [
+        "Excel, Google Sheets y Numbers funcionan: exporta como .csv o .txt.",
+        "Los nombres de los hábitos deben coincidir: 'Entrenamiento' y 'entrenamiento' funcionan, pero 'Entrena miento' no coincide con 'Entrenamiento'.",
+        "Si una fecha y un hábito ya existen, la importación actualiza el valor en lugar de añadir un segundo.",
+        "Puedes mezclar varios hábitos en un mismo archivo."
+      ]
+    },
+    "backup": {
+      "title": "Copia de seguridad y restauración",
+      "intro": "Exporta todos tus hábitos y registros en un solo archivo CSV, para restaurarlos en un nuevo dispositivo o guardar una copia sin conexión.",
+      "exportTitle": "Cómo exportar",
+      "exportSteps": [
+        "Ve a Configuración, Gestión de Datos",
+        "Toca Exportar copia de seguridad",
+        "Guarda o comparte el archivo"
+      ],
+      "restoreTitle": "Cómo restaurar",
+      "restoreSteps": [
+        "Ve a Configuración, Gestión de Datos",
+        "Toca Importar Datos",
+        "Selecciona tu archivo de copia de seguridad",
+        "Elige Combinar con los existentes o Reemplazar todos los datos",
+        "Revisa el resumen y toca Importar"
+      ],
+      "formatLabel": "Formato de la copia de seguridad (simplificado)",
+      "autoDetect": "La app distingue por sí sola una copia de seguridad (tiene una sección #HABITS) de un archivo de registros normal. Un solo botón de importación sirve para ambos."
+    },
+    "prebuilt": {
+      "title": "Hábitos para empezar",
+      "intro": "MyGrowth te sugiere estos hábitos, listos para registrar:",
+      "cols": [
+        "Hábito",
+        "Unidad",
+        "Objetivo diario"
+      ],
+      "note": "También puedes crear tus propios hábitos, con tu propio nombre, unidad, icono, color y horario."
+    },
+    "reminders": {
+      "title": "Recordatorios diarios",
+      "intro": "MyGrowth puede enviarte dos notificaciones al día:",
+      "items": [
+        [
+          "Recordatorio de la mañana",
+          "un resumen de los hábitos programados para hoy. Por defecto: 9:00."
+        ],
+        [
+          "Recordatorio Nocturno",
+          "un aviso amable para registrar lo que se te pasó. Por defecto: 21:00."
+        ]
+      ],
+      "footer": "Puedes cambiar ambos en Configuración, Notificaciones."
+    },
+    "pace": {
+      "title": "Ritmo y velocidad",
+      "intro": "Para hábitos como Correr y Ciclismo, activa Rastrear tiempo en el hábito para registrar distancia y tiempo. La app calcula:",
+      "items": [
+        [
+          "Correr",
+          "ritmo en min/km. 7 km en 38 min son 5:25 min/km."
+        ],
+        [
+          "Ciclismo",
+          "velocidad en km/h. 10 km en 30 min son 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Cómo funcionan las rachas",
+      "tips": [
+        "Un valor de 0 no cuenta: tienes que hacer el hábito de verdad.",
+        "El valor tiene que alcanzar el objetivo: 2 horas de sueño con un objetivo de 8 no cuentan.",
+        "Las rachas siguen tu horario. Si entrenas lunes, miércoles y viernes y cumples los tres, tienes una racha de 3 días. El martes y el jueves no la rompen."
+      ]
+    },
+    "cta": "¿Listo para importar?"
+  },
+  "notFound": {
+    "title": "Esta página no está aquí.",
+    "body": "Puede que el enlace sea antiguo o que la página se haya movido.",
+    "home": "Volver a MyGrowth"
+  },
+  "legal": {
+    "contact": "Escribe a"
+  },
+  "lang": {
+    "label": "Idioma",
+    "current": "Español",
+    "suggest": "Disponible en español",
+    "switchTo": "Cambiar a español",
+    "dismiss": "Cerrar"
+  },
+  "a11y": {
+    "skip": "Saltar al contenido",
+    "mainNav": "Principal",
+    "languages": "Idiomas",
+    "timerRunning": "Temporizador de ejemplo en marcha",
+    "gridLabel": "Heatmap de ejemplo para {habit}, un cuadrado por día.",
+    "eventsLabel": "Cuadrícula de eventos de ejemplo: medio año de días en los colores de sus categorías.",
+    "themeSwitch": "Cambiar a {theme}."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "locale": "tr",
+  "meta": {
+    "privacy": {
+      "title": "Gizlilik Politikası, MyGrowth",
+      "description": "MyGrowth alışkanlıklarını, kayıtlarını ve notlarını cihazında tutar. Gizlilik politikasının tamamını oku."
+    },
+    "terms": {
+      "title": "Kullanım Şartları, MyGrowth",
+      "description": "MyGrowth iOS uygulamasının Kullanım Şartları."
+    }
+  },
+  "chrome": {
+    "backHome": "Ana sayfaya dön",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "support": "Destek"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son güncelleme: 20 Kasım 2026",
+    "intro": "MyGrowth (\"Uygulama\") Sagomak tarafından geliştirilmiştir ve Sagomak gizliliğini korumayı taahhüt eder. Bu politika, verilerini nasıl ele aldığımızı açıklar.",
+    "short": {
+      "title": "Kısaca",
+      "body": "Alışkanlık verilerini toplamıyoruz. Takip ettiğin her şey cihazında kalır."
+    },
+    "stored": {
+      "title": "Hangi Veriler Saklanır",
+      "intro": "Uygulama aşağıdaki verileri yerel olarak iPhone'unda saklar:",
+      "items": [
+        "Alışkanlık yapılandırmaları (adlar, birimler, hedefler, renkler)",
+        "Günlük kayıtlar (tarih, değer, isteğe bağlı notlar)",
+        "Uygulama tercihleri (tema, tanıtım durumu, onay kayıtları)"
+      ],
+      "footer": "Bu veriler iOS'un cihaz içi depolaması (UserDefaults) kullanılarak saklanır. Cihazından asla çıkmaz."
+    },
+    "notCollect": {
+      "title": "Neleri Toplamıyoruz",
+      "items": [
+        "Kişisel bilgi yok (ad, e-posta, telefon, konum)",
+        "Kullanım analizi veya çökme raporu yok",
+        "Reklam kimliği yok",
+        "Çerez veya takip pikseli yok",
+        "Hiçbir alışkanlık, kayıt veya not hiçbir zaman herhangi bir sunucuya iletilmez"
+      ]
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Hizmetler",
+      "body": "Uygulama hiçbir analiz aracı, reklam ağı veya bulut hizmeti içermez. Tek üçüncü taraf SDK'sı, uygulama içi satın alımları doğrulamak için kullanılan RevenueCat'tir (aşağıdaki Satın Alımlar bölümüne bak)."
+    },
+    "rights": {
+      "title": "Hakların (GDPR)",
+      "intro": "Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) kapsamında şu haklara sahipsin:",
+      "access": "Verilerine <b>erişim</b>: istediğin zaman doğrudan uygulamada görülebilir",
+      "export": "Verilerini <b>dışa aktarma</b>: Ayarlar, Veri Yönetimi, Dışa Aktar (JSON veya CSV) üzerinden",
+      "delete": "Verilerini <b>silme</b>: Ayarlar, Veri Yönetimi, Tüm Verileri Temizle üzerinden",
+      "rectify": "Verilerini <b>düzeltme</b>: uygulamada herhangi bir kayda dokunarak düzenle",
+      "footer": "Tüm veriler yalnızca cihazında saklandığından, bu hakları kullanmak için bize herhangi bir talepte bulunman gerekmez: kontrol tamamen sende."
+    },
+    "retention": {
+      "title": "Verilerin Saklanma Süresi",
+      "body": "Verilerin, uygulama içinden silene ya da uygulamayı kaldırana kadar cihazında kalır. Uygulamayı kaldırmak tüm verileri kalıcı olarak siler."
+    },
+    "children": {
+      "title": "Çocukların Gizliliği",
+      "body": "Uygulama 16 yaşından küçük çocuklardan bilerek veri toplamaz. Hiçbir kullanıcıdan kişisel bilgi toplanmadığından, Uygulama COPPA ve GDPR yaş gerekliliklerine uygundur."
+    },
+    "changes": {
+      "title": "Bu Politikadaki Değişiklikler",
+      "body": "Bu politikayı güncellersek, revize edilmiş sürümü güncellenmiş bir tarihle bu sayfada yayımlarız."
+    },
+    "contact": {
+      "title": "İletişim",
+      "body": "Gizlilikle ilgili soruların veya endişelerin için:"
+    },
+    "purchases": {
+      "title": "Satın Alımlar",
+      "body": [
+        "MyGrowth Pro, Apple'ın App Store'u üzerinden satılır. Her ödemeyi Apple işler; adını, Apple ID'ni veya ödeme bilgilerini hiçbir zaman görmeyiz.",
+        "Hangi satın alımların etkin olduğunu bilmek için Uygulama, bu verileri bizim adımıza işleyen bir abonelik hizmeti olan RevenueCat, Inc. (revenuecat.com) kullanır. Uygulama başladığında ve bir satın alma yaptığında ya da bir satın almayı geri yüklediğinde RevenueCat; Uygulama tarafından oluşturulan rastgele, anonim bir kimliği, Apple makbuzundaki satın alma ve abonelik geçmişini ve temel teknik bilgileri alır: cihaz türü, işletim sistemi, bölge ayarı ve para birimi.",
+        "RevenueCat alışkanlıklarından, kayıtlarından veya notlarından hiçbirini almaz; adını, e-postanı veya hesap bilgilerini de almaz. Bu veriler takip veya reklam için kullanılmaz. RevenueCat'in gizlilik politikası için revenuecat.com/privacy adresine, Apple'ınki için apple.com/legal/privacy adresine bak."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Kullanım Şartları",
+    "lastUpdated": "Son güncelleme: 20 Kasım 2026",
+    "intro": "MyGrowth'a (\"Uygulama\") hoş geldin. Uygulamayı indirerek veya kullanarak bu şartları kabul etmiş olursun.",
+    "acceptance": {
+      "title": "Şartların Kabulü",
+      "body": "MyGrowth'a erişerek veya onu kullanarak bu Kullanım Şartları ile bağlı olmayı kabul edersin. Kabul etmiyorsan Uygulamayı kullanma."
+    },
+    "description": {
+      "title": "Hizmetin Tanımı",
+      "body": "MyGrowth, iOS için kişisel bir alışkanlık takip uygulamasıdır. Günlük etkinliklerini kaydetmeni, ilerlemeni heatmap ızgaraları ve grafiklerle görselleştirmeni ve kişisel verilerini yönetmeni sağlar; bunların tümü yerel olarak cihazında saklanır."
+    },
+    "responsibilities": {
+      "title": "Kullanıcı Sorumlulukları",
+      "items": [
+        "Uygulamaya girdiğin tüm verilerden sen sorumlusun",
+        "Dışa aktarma özelliğini kullanarak verilerinin yedeklerini almaktan sen sorumlusun",
+        "Uygulamayı hiçbir yasa dışı amaçla kullanmamalısın",
+        "Uygulamaya tersine mühendislik uygulamaya, onu kaynak koda dönüştürmeye veya üzerinde değişiklik yapmaya çalışmamalısın"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Veriler ve Gizlilik",
+      "item1": "Tüm veriler yerel olarak cihazında saklanır",
+      "item2": "Alışkanlıklarını, kayıtlarını veya notlarını toplamayız, iletmeyiz ve bunlara erişimimiz yoktur",
+      "item3": "Tüm ayrıntılar için <link>Gizlilik Politikası</link>'na bak"
+    },
+    "ip": {
+      "title": "Fikri Mülkiyet",
+      "body": "Tasarımı, kodu ve görsel öğeleri dahil olmak üzere MyGrowth, geliştiricisi Sagomak'ın fikri mülkiyetidir. Sana, Uygulamayı kişisel ve ticari olmayan amaçlarla kullanman için sınırlı, münhasır olmayan ve devredilemez bir lisans verilir."
+    },
+    "iap": {
+      "title": "Uygulama İçi Satın Alımlar",
+      "body": "Uygulama, uygulama içi satın alımlar yoluyla isteğe bağlı premium özellikler sunabilir. Tüm satın alımlar Apple tarafından App Store üzerinden işlenir ve Apple'ın hüküm ve koşullarına tabidir. İadeler, Apple tarafından kendi iade politikasına göre yürütülür. Uygulama, satın alma durumunu <link>Gizlilik Politikası</link>'nda açıklandığı şekilde RevenueCat aracılığıyla doğrular."
+    },
+    "warranties": {
+      "title": "Garanti Reddi",
+      "body": "Uygulama, açık veya zımni hiçbir garanti olmaksızın \"olduğu gibi\" sunulur. Uygulamanın hatasız, kesintisiz veya zararlı bileşenlerden arınmış olacağını garanti etmeyiz."
+    },
+    "liability": {
+      "title": "Sorumluluğun Sınırlandırılması",
+      "body": "Yasaların izin verdiği azami ölçüde geliştirici, veri kaybı dahil ancak bununla sınırlı olmamak üzere, Uygulamayı kullanmandan kaynaklanan dolaylı, arızi, özel veya sonuç olarak ortaya çıkan hiçbir zarardan sorumlu tutulamaz."
+    },
+    "dataLoss": {
+      "title": "Veri Kaybı",
+      "body": "Tüm veriler yerel olarak cihazında saklandığından; cihaz arızası, iOS güncellemeleri, uygulamanın silinmesi veya başka herhangi bir nedenle oluşan veri kaybından sorumlu değiliz. Verilerini yerleşik dışa aktarma özelliğiyle düzenli olarak dışa aktarmanı öneririz."
+    },
+    "modifications": {
+      "title": "Değişiklikler",
+      "body": "Bu Şartları istediğimiz zaman güncelleme hakkını saklı tutarız. Değişikliklerden sonra Uygulamayı kullanmaya devam etmen, yeni Şartları kabul ettiğin anlamına gelir. En güncel sürüm her zaman bu sayfada bulunur."
+    },
+    "termination": {
+      "title": "Fesih",
+      "body": "Bu Şartları ihlal ettiğini veya diğer kullanıcılara ya da Uygulamaya zarar verdiğini düşündüğümüz davranışlar nedeniyle Uygulamaya erişimini istediğimiz zaman, bildirimde bulunmaksızın sonlandırabilir veya askıya alabiliriz."
+    },
+    "governingLaw": {
+      "title": "Uygulanacak Hukuk",
+      "body": "Bu Şartlar, kanunlar ihtilafı kurallarına bakılmaksızın Danimarka hukukuna tabidir."
+    },
+    "contact": {
+      "title": "İletişim",
+      "body": "Bu Şartlarla ilgili soruların için:"
+    }
+  },
+  "languageNote": "Bu bir çeviridir. Farklılık olması durumunda İngilizce sürüm geçerlidir.",
+  "englishLink": "İngilizce sürümü oku"
+}

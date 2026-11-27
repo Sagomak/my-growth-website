@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: gjurmues zakonesh i vizatuar me dorë që mbetet në iPhone-in tënd",
+      "description": "MyGrowth i kthen zakonet e tua në një hartë nxehtësie të vizatuar me dorë, grafikë dhe statistika. Privat që në konceptim: pa llogari, pa cloud, të dhënat e tua mbeten në pajisjen tënde."
+    },
+    "support": {
+      "title": "Mbështetje, MyGrowth",
+      "description": "Përgjigje për pyetjet e zakonshme rreth MyGrowth dhe si të na kontaktosh."
+    },
+    "tutorial": {
+      "title": "Importo dhe ruaj kopje rezervë të të dhënave, MyGrowth",
+      "description": "Importo historikun e zakoneve nga një skedar CSV, bëj kopje rezervë dhe rikthe MyGrowth, dhe shiko zakonet me të cilat nis."
+    },
+    "notFound": {
+      "title": "Faqja nuk u gjet, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "Kreu i MyGrowth",
+    "features": "Veçoritë",
+    "privacy": "Privatësia",
+    "pro": "Pro",
+    "faq": "Pyetje",
+    "support": "Mbështetje",
+    "menu": "Menyja",
+    "theme": {
+      "label": "Tema",
+      "system": "Sistemi",
+      "light": "Letër",
+      "dark": "Grafit"
+    }
+  },
+  "badge": {
+    "alt": "Shkarko në App Store",
+    "aria": "Shkarko MyGrowth në App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Bëhesh ajo që bën vazhdimisht.",
+    "sub": "MyGrowth i kthen zakonet e tua në një hartë nxehtësie të vizatuar me dorë, grafikë dhe statistika, që ta shohësh si këmbëngulja e përditshme kthehet në përparim.",
+    "trust": "Privat që në konceptim. Pa llogari, pa cloud.",
+    "phoneAlt": "Dashboard i MyGrowth: shiriti i javës, qëllimi „Po bëhesh” dhe zakonet e sotme si karta të vizatuara me dorë."
+  },
+  "year": {
+    "eyebrow": "Viti yt, me një shikim",
+    "title": "Një pamje e sinqertë e një viti.",
+    "body": "Çdo ditë që nuk mungon mbush një katror. Katrori i sotëm në shiritin e javës mbushet ndërsa dita kalon.",
+    "habit": "Leximi",
+    "weekLabel": "Këtë javë",
+    "todayLabel": "Sot, ka kaluar {pct}% e ditës",
+    "legendLess": "Më pak",
+    "legendMore": "Më shumë",
+    "gridLabel": "Shembull harte nxehtësie: një vit leximi, një katror për çdo ditë, deri sot."
+  },
+  "features": {
+    "eyebrow": "Çfarë ka brenda",
+    "title": "Ndiq atë që ka rëndësi. Shiko si rritet.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard dhe Po bëhesh",
+        "title": "Kush po bëhesh, në një faqe.",
+        "body": "Zakonet e sotme si karta nën qëllimin tënd „Po bëhesh”, në kornizën e vet të vizatuar me dorë. Zakonet që ende nuk i ke regjistruar dallohen, që të shohësh me një shikim çfarë ka mbetur.",
+        "becomingLabel": "Po bëhesh",
+        "becomingGoal": "dikush që i mban premtimet"
+      },
+      "grid": {
+        "eyebrow": "Gridi",
+        "title": "Një vit përpjekjesh, një pamje e sinqertë.",
+        "body": "Çdo zakon ka hartën e vet të nxehtësisë me ngjyrën e vet. Modelet, boshllëqet dhe seritë duken me një shikim, dhe seritë ndjekin orarin tënd, kështu që një ditë pushimi nuk i ndërpret kurrë."
+      },
+      "charts": {
+        "eyebrow": "Grafikë",
+        "title": "Çdo zakon, i matur.",
+        "body": "Konsistencë, mesatare, totale, ditët kur arrin qëllimin dhe ditët më të mira. Vijat vizatohen vetë dhe shtyllat rriten nga poshtë.",
+        "consistency": "Konsistencë",
+        "lastDays": "30 ditët e fundit",
+        "minutes": "Minuta në ditë",
+        "chartLabel": "Shembull grafiku i Konsistencës: pjesa e zakoneve të kryera çdo ditë gjatë 30 ditëve të fundit, nga rreth 40% në rreth 90%.",
+        "barsLabel": "Shembull grafiku me shtylla: minuta leximi në ditë gjatë një jave."
+      },
+      "events": {
+        "eyebrow": "Ngjarje",
+        "title": "Çdo vend, libër dhe udhëtim me ngjyrën e vet.",
+        "body": "Regjistro vendet që viziton, librat që lexon, udhëtimet dhe koncertet, dhe shiko një vit të tërë të jetës sate të shfaqet si një pamje e vetme.",
+        "legend": [
+          "Udhëtime",
+          "Libra",
+          "Koncerte"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widget-et dhe Live Activity",
+        "title": "Në ekranin bazë dhe në ekranin e kyçjes.",
+        "body": "Një widget me Gridin e zakonit, një widget Sot për të regjistruar nga ekrani bazë dhe kohëmatës që qëndrojnë në ekranin e kyçjes."
+      },
+      "timers": {
+        "eyebrow": "Kohëmatës dhe regjistrim",
+        "title": "Regjistro në sekonda. Kohëmatësit vazhdojnë.",
+        "body": "Prek një kartë, shkruaj një vlerë, ruaj. Kohëzgjatjet shfaqen në h, min dhe s, dhe një kohëmatës që po punon vazhdon edhe kur del nga aplikacioni.",
+        "timer": "Meditimi"
+      },
+      "themes": {
+        "eyebrow": "Letër dhe grafit",
+        "title": "Letër e ngrohtë ditën, grafit i butë natën.",
+        "body": "Modaliteti i ndritshëm qëndron mbi letër të ngrohtë. Modaliteti i errët është një grafit i butë në vend të së zezës së pastër. Fjalët janë shkruar me dorë, numrat mbeten të qartë dhe të saktë.",
+        "paper": "Letër",
+        "graphite": "Grafit"
+      },
+      "widget": {
+        "name": "Leximi",
+        "label": "Shembull widget-i me Gridin e zakonit Leximi, rreth tre muaj katrorë."
+      },
+      "languages": {
+        "eyebrow": "Gjuhët",
+        "title": "Në gjuhën tënde. Mes 25 gjuhësh.",
+        "body": "Nga anglishtja te japonishtja, nga bengalishtja te shqipja. Ngjyrat dhe ikonat e tua në çdo zakon."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Një vështrim brenda",
+    "label": "Pamje ekrani nga MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Gridi",
+        "alt": "Skeda Gridi: një hartë nxehtësie vjetore për Konsistencën dhe një për çdo zakon, secila me ngjyrën e vet."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Grafikë",
+        "alt": "Skeda Grafikë: vija e Konsistencës për 90 ditë, seria aktive dhe seria më e mirë e të gjitha kohërave, dhe një grafik zakoni."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Çdo zakon",
+        "alt": "Një grafik për Vrapim kundrejt qëllimit prej 5 km, me Ditët e shfaqura, konsistencën, mesataren, totalin dhe ditën më të mirë."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Regjistrimi",
+        "alt": "Fleta e regjistrimit për Meditimin: orë, minuta dhe sekonda, qëllimi 15 min, Pastro dhe Ruaj."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Ngjarje",
+        "alt": "Skeda Ngjarje: udhëtime, koncerte dhe libra, secila një grid vjetor me ngjyrat e veta."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Grafit",
+        "alt": "Dashboard në modalitetin e errët, mbi grafit të butë."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privatësia",
+    "title": "Të dhënat e tua mbeten në iPhone-in tënd.",
+    "body": "Pa llogari, pa cloud, pa gjurmim. Vetëm ti dhe prova se po bëhesh çfarë dëshiron të jesh.",
+    "storedTitle": "Ruhen në pajisjen tënde",
+    "stored": [
+      "Zakonet e tua: emrat, njësitë, qëllimet, ngjyrat dhe ikonat",
+      "Regjistrimet e tua ditore: data, vlera dhe shënime opsionale",
+      "Cilësimet dhe preferencat e tua"
+    ],
+    "neverTitle": "Nuk mblidhen kurrë",
+    "never": [
+      "Zakonet, regjistrimet ose shënimet e tua",
+      "Emri, emaili, telefoni ose vendndodhja",
+      "Analitika përdorimi ose raporte gabimesh",
+      "Identifikues reklamash, cookies ose gjurmim"
+    ],
+    "purchases": "Blerjet Pro kalojnë përmes Apple dhe verifikohen me RevenueCat, duke përdorur një ID anonime të rastësishme.",
+    "link": "Lexo politikën e privatësisë"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, kur do historinë e plotë.",
+    "body": "MyGrowth shkarkohet dhe përdoret falas me deri në tre zakone. Pro hap gjithçka.",
+    "freeTitle": "Falas",
+    "free": [
+      "3 zakone",
+      "Viti aktual",
+      "Grafikë 30-ditorë"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Zakone të pakufizuara",
+      "Historia e plotë",
+      "Grafikë dhe mesatare për të gjitha kohët",
+      "Ngjarje",
+      "Import CSV dhe kopje rezervë",
+      "Ngjyrat e personalizuara",
+      "Zakone në ditë të planifikuara"
+    ],
+    "plans": "Mujore, vjetore ose një herë për gjithë jetën.",
+    "price": "Shiko çmimin aktual në App Store."
+  },
+  "faq": {
+    "eyebrow": "Pyetje",
+    "title": "Pyetjet, me përgjigje.",
+    "items": [
+      {
+        "q": "Si e regjistroj një zakon?",
+        "a": "Prek cilëndo kartë zakoni në Dashboard. Hapet një fletë e shkurtër: shkruaj vlerën (7,5 orë gjumë, 2,5 L ujë) dhe prek Ruaj. Regjistrimi ruhet menjëherë dhe harta jote e nxehtësisë përditësohet."
+      },
+      {
+        "q": "Ku ruhen të dhënat e mia?",
+        "a": "Vetëm në iPhone-in tënd, në hapësirën ruajtëse lokale të iOS. Nuk ka serverë, sinkronizim në cloud apo llogari. Politika e privatësisë i ka të gjitha detajet.",
+        "link": {
+          "href": "privacy",
+          "text": "Lexo politikën e privatësisë"
+        }
+      },
+      {
+        "q": "A mund ta importoj historikun nga një tabelë?",
+        "a": "Po, me Pro. Shko te Cilësimet, Menaxhimi i të Dhënave, Importo Të Dhënat dhe zgjidh një skedar CSV me kolonat date, habit, unit, value dhe note. Udhëzuesi ka një shabllon.",
+        "link": {
+          "href": "tutorial",
+          "text": "Hap udhëzuesin"
+        }
+      },
+      {
+        "q": "Si bëj kopje rezervë ose si i transferoj të dhënat?",
+        "a": "Me Pro, te Cilësimet, Menaxhimi i të Dhënave, Eksporto Backup ruan çdo zakon dhe regjistrim në një skedar CSV. Importoje në pajisjen e re me Importo Të Dhënat."
+      },
+      {
+        "q": "Si i fshij të gjitha të dhënat?",
+        "a": "Shko te Cilësimet, Menaxhimi i të Dhënave, Pastro të Dhënat Të Gjitha. Do të të kërkohet konfirmim. Kjo është e përhershme: fshin çdo zakon, regjistrim dhe preferencë nga pajisja jote."
+      },
+      {
+        "q": "Sa kushton Pro?",
+        "a": "Pro ofrohet si abonim mujor ose vjetor, ose si blerje një herë. Çmimet varen nga vendi yt; App Store të tregon çmimin aktual para se të blesh."
+      },
+      {
+        "q": "A do të ketë version për Android?",
+        "a": "Jo për momentin. Preferojmë të ndërtojmë mirë një platformë sesa dy keq."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Fillo sot. Pas një viti do të gëzohesh që e bëre."
+  },
+  "footer": {
+    "studio": "Një aplikacion i Sagomak",
+    "privacy": "Politika e Privatësisë",
+    "terms": "Kushtet e Përdorimit",
+    "support": "Mbështetje",
+    "tutorial": "Udhëzues",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Fontet sipas licencës SIL Open Font License",
+    "languages": "Gjuhët"
+  },
+  "support": {
+    "eyebrow": "Mbështetje",
+    "title": "Si mund të të ndihmojmë?",
+    "intro": "Përgjigje për pyetjet e zakonshme. Nëse nuk gjen atë që të duhet, na shkruaj.",
+    "faqTitle": "Pyetjet më të shpeshta",
+    "contactTitle": "Ende të duhet ndihmë?",
+    "contactBody": "Një pyetje, një gabim apo një ide? I lexojmë të gjitha emailet.",
+    "emailCta": "Shkruaj te",
+    "reviewBefore": "Mund edhe të ",
+    "reviewLink": "lësh një vlerësim në App Store",
+    "reviewAfter": ". Ndihmon më shumë nga sa mendon."
+  },
+  "tutorial": {
+    "eyebrow": "Udhëzues",
+    "title": "Importo të dhënat",
+    "intro": "I ndjek tashmë zakonet? Sill historikun brenda pak minutash. Importi dhe kopja rezervë janë pjesë e Pro.",
+    "importLogs": {
+      "title": "Importo regjistrimet ditore",
+      "intro": "Importo të dhëna të kaluara për zakonet e tua nga një skedar CSV. Çdo rresht është regjistrimi i një dite për një zakon.",
+      "templateLabel": "Formati i shabllonit",
+      "required": "e detyrueshme",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Shembull: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Duhet të përputhet me emrin e një zakoni ekzistues në aplikacion (shkronjat e mëdha ose të vogla nuk kanë rëndësi)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Njësia e zakonit, për referencë. Shembuj: orë, minuta, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Një numër, 0 ose më i madh."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Tekst i lirë opsional. Lëre bosh ose hiqe kolonën fare."
+        }
+      ],
+      "download": "Shkarko shabllonin (CSV)",
+      "tips": [
+        "Excel, Google Sheets dhe Numbers funksionojnë të gjitha: eksporto si .csv ose .txt.",
+        "Emrat e zakoneve duhet të përputhen: 'Stërvitje' dhe 'stërvitje' funksionojnë të dyja, 'Stër vitje' nuk përputhet me 'Stërvitje'.",
+        "Nëse një datë dhe një zakon ekzistojnë tashmë, importi përditëson vlerën në vend që të shtojë një të dytë.",
+        "Mund të përziesh disa zakone në një skedar."
+      ]
+    },
+    "backup": {
+      "title": "Kopje rezervë dhe rikthim",
+      "intro": "Eksporto të gjitha zakonet dhe regjistrimet si një skedar CSV, për t'i rikthyer në një pajisje të re ose për të mbajtur një kopje offline.",
+      "exportTitle": "Si të eksportosh",
+      "exportSteps": [
+        "Shko te Cilësimet, Menaxhimi i të Dhënave",
+        "Prek Eksporto Backup",
+        "Ruaje ose ndaje skedarin"
+      ],
+      "restoreTitle": "Si të rikthesh",
+      "restoreSteps": [
+        "Shko te Cilësimet, Menaxhimi i të Dhënave",
+        "Prek Importo Të Dhënat",
+        "Zgjidh skedarin e kopjes rezervë",
+        "Zgjidh Bashko me ekzistueset ose Zëvendëso të gjitha të dhënat",
+        "Kontrollo përmbledhjen dhe prek Importo"
+      ],
+      "formatLabel": "Formati i kopjes rezervë (i thjeshtuar)",
+      "autoDetect": "Aplikacioni e dallon vetë një kopje rezervë (ka një seksion #HABITS) nga një skedar i thjeshtë regjistrimesh. Një buton i vetëm importi i trajton të dyja."
+    },
+    "prebuilt": {
+      "title": "Zakone për të filluar",
+      "intro": "MyGrowth të sugjeron këto zakone, gati për t'u ndjekur:",
+      "cols": [
+        "Zakon",
+        "Njësia",
+        "Qëllimi ditor"
+      ],
+      "note": "Mund të krijosh edhe zakonet e tua, me emrin, njësinë, ikonën, ngjyrën dhe orarin tënd."
+    },
+    "reminders": {
+      "title": "Kujtesa ditore",
+      "intro": "MyGrowth mund të të dërgojë dy njoftime në ditë:",
+      "items": [
+        [
+          "Kujtesa e Mëngjesit",
+          "një përmbledhje e zakoneve të planifikuara për sot. Parazgjedhja: 9:00."
+        ],
+        [
+          "Nxitja e Mbrëmjes",
+          "një kujtesë e butë për të regjistruar atë që të ka mbetur. Parazgjedhja: 21:00."
+        ]
+      ],
+      "footer": "Të dyja mund të ndryshohen te Cilësimet, Njoftimet."
+    },
+    "pace": {
+      "title": "Ritmi dhe shpejtësia",
+      "intro": "Për zakone si Vrapim dhe Bicikletë, aktivizo matjen e kohës te zakoni për të regjistruar distancën dhe kohën. Aplikacioni llogarit:",
+      "items": [
+        [
+          "Vrapim",
+          "ritmin në min/km. 7 km në 38 min janë 5:25 min/km."
+        ],
+        [
+          "Bicikletë",
+          "shpejtësinë në km/h. 10 km në 30 min janë 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Si funksionojnë seritë",
+      "tips": [
+        "Një vlerë 0 nuk llogaritet: duhet ta kryesh vërtet zakonin.",
+        "Vlera duhet të arrijë qëllimin: 2 orë gjumë me qëllim 8 orë nuk llogariten.",
+        "Seritë ndjekin orarin tënd. Stërvitu të hënën, të mërkurën dhe të premten, kryeji të tria, dhe ke një seri 3-ditore. E marta dhe e enjtja nuk e ndërpresin."
+      ]
+    },
+    "cta": "Gati për import?"
+  },
+  "notFound": {
+    "title": "Kjo faqe nuk është këtu.",
+    "body": "Lidhja mund të jetë e vjetër, ose faqja është zhvendosur.",
+    "home": "Kthehu te MyGrowth"
+  },
+  "legal": {
+    "contact": "Shkruaj te"
+  },
+  "lang": {
+    "label": "Gjuha",
+    "current": "Shqip",
+    "suggest": "E disponueshme në shqip",
+    "switchTo": "Kalo në shqip",
+    "dismiss": "Mbyll"
+  },
+  "a11y": {
+    "skip": "Kalo te përmbajtja",
+    "mainNav": "Kryesore",
+    "languages": "Gjuhët",
+    "timerRunning": "Shembull kohëmatësi në punë",
+    "gridLabel": "Shembull harte nxehtësie për {habit}, një katror për çdo ditë.",
+    "eventsLabel": "Shembull gridi ngjarjesh: gjysmë viti ditësh me ngjyrat e kategorive të tyre.",
+    "themeSwitch": "Kalo te {theme}."
+  }
+}

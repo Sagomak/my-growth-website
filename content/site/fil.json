@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: habit tracker na iginuhit sa kamay at nananatili sa iPhone mo",
+      "description": "Ginagawang heatmap na iginuhit sa kamay, mga tsart at estadistika ng MyGrowth ang mga gawi mo. Pribado mula sa simula: walang account, walang cloud, nananatili ang data mo sa device mo."
+    },
+    "support": {
+      "title": "Suporta, MyGrowth",
+      "description": "Mga sagot sa karaniwang tanong tungkol sa MyGrowth, at kung paano kami makokontak."
+    },
+    "tutorial": {
+      "title": "I-import at i-back up ang data mo, MyGrowth",
+      "description": "I-import ang kasaysayan ng mga gawi mo mula sa CSV file, i-back up at i-restore ang MyGrowth, at tingnan ang mga gawing kasama na sa simula."
+    },
+    "notFound": {
+      "title": "Hindi nahanap ang page, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "Home ng MyGrowth",
+    "features": "Mga Feature",
+    "privacy": "Privacy",
+    "pro": "Pro",
+    "faq": "FAQ",
+    "support": "Suporta",
+    "menu": "Menu",
+    "theme": {
+      "label": "Tema",
+      "system": "System",
+      "light": "Papel",
+      "dark": "Graphite"
+    }
+  },
+  "badge": {
+    "alt": "I-download sa App Store",
+    "aria": "I-download ang MyGrowth sa App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Nagiging ikaw kung ano ang paulit-ulit mong ginagawa.",
+    "sub": "Ginagawang heatmap na iginuhit sa kamay, mga tsart at estadistika ng MyGrowth ang mga gawi mo, para makita mong nagiging pag-unlad ang araw-araw mong pagsisikap.",
+    "trust": "Pribado mula sa simula. Walang account, walang cloud.",
+    "phoneAlt": "Ang Dashboard ng MyGrowth: ang strip ng linggo, ang layuning Nagiging at ang mga gawi ngayong araw bilang mga card na iginuhit sa kamay."
+  },
+  "year": {
+    "eyebrow": "Ang taon mo, sa isang sulyap",
+    "title": "Isang tapat na larawan ng isang taon.",
+    "body": "Bawat araw na ginagawa mo ang gawi mo, may napupunong isang kahon. Ang kahon ngayong araw sa strip ng linggo ay napupuno habang lumilipas ang araw.",
+    "habit": "Pagbasa",
+    "weekLabel": "Ngayong linggo",
+    "todayLabel": "Ngayon, lumipas na ang {pct}% ng araw",
+    "legendLess": "Kaunti",
+    "legendMore": "Marami",
+    "gridLabel": "Halimbawang heatmap: isang taon ng pagbasa, isang kahon bawat araw, nagtatapos ngayon."
+  },
+  "features": {
+    "eyebrow": "Ano ang nasa loob",
+    "title": "Subaybayan ang mahalaga. Panoorin itong lumago.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard at Nagiging",
+        "title": "Kung sino ang nagiging ikaw, sa isang page.",
+        "body": "Ang mga gawi ngayong araw bilang mga card sa ilalim ng layunin mong Nagiging, sa sarili nitong frame na iginuhit sa kamay. Namumukod ang mga gawing hindi mo pa naitatala, kaya kita mo agad kung ano pa ang natitira.",
+        "becomingLabel": "Nagiging",
+        "becomingGoal": "isang taong tumutupad sa pangako"
+      },
+      "grid": {
+        "eyebrow": "Grid",
+        "title": "Isang taon ng pagsisikap, isang tapat na larawan.",
+        "body": "May sariling heatmap ang bawat gawi, sa sarili nitong kulay. Kita agad ang mga pattern, puwang at sunod-sunod, at sumusunod ang sunod-sunod sa iskedyul mo, kaya hindi ito napuputol ng araw ng pahinga."
+      },
+      "charts": {
+        "eyebrow": "Mga Tsart",
+        "title": "Bawat gawi, nasusukat.",
+        "body": "Konsistensi, average, kabuuan, mga araw na naabot ang target at pinakamagandang araw. Kusang iginuguhit ang mga linya at tumataas ang mga bar mula sa ibaba.",
+        "consistency": "Konsistensi",
+        "lastDays": "huling 30 araw",
+        "minutes": "Minuto bawat araw",
+        "chartLabel": "Halimbawang tsart ng Konsistensi: ang bahagi ng mga gawing nagawa bawat araw sa huling 30 araw, tumataas mula mga 40% hanggang mga 90%.",
+        "barsLabel": "Halimbawang bar chart: mga minuto ng pagbasa bawat araw sa loob ng isang linggo."
+      },
+      "events": {
+        "eyebrow": "Mga Kaganapan",
+        "title": "May sariling kulay ang bawat lugar, libro at biyahe.",
+        "body": "Itala ang mga lugar na pinupuntahan mo, ang mga librong binabasa mo, ang mga biyahe at mga concert, at panoorin ang isang buong taon ng buhay mo na lumilitaw bilang isang larawan.",
+        "legend": [
+          "Mga Biyahe",
+          "Mga Libro",
+          "Mga Concert"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Mga Widget at Live Activity",
+        "title": "Nasa Home Screen at Lock Screen mo.",
+        "body": "Isang Habit Grid widget, isang Ngayon widget para makapagtala mula sa Home Screen, at mga timer na nakikita sa Lock Screen mo."
+      },
+      "timers": {
+        "eyebrow": "Mga timer at pagtatala",
+        "title": "Magtala sa loob ng ilang segundo. Tuloy ang takbo ng timer.",
+        "body": "I-tap ang card, i-type ang value, i-save. Ipinapakita ang tagal bilang h, min at s, at tuloy ang takbo ng timer kahit umalis ka sa app.",
+        "timer": "Meditasyon"
+      },
+      "themes": {
+        "eyebrow": "Papel at graphite",
+        "title": "Mainit na papel sa araw, malambot na graphite sa gabi.",
+        "body": "Nasa mainit na papel ang light mode. Malambot na graphite ang dark mode sa halip na purong itim. Sulat-kamay ang mga salita, malinaw at eksakto ang mga numero.",
+        "paper": "Papel",
+        "graphite": "Graphite"
+      },
+      "widget": {
+        "name": "Pagbasa",
+        "label": "Halimbawang Habit Grid widget para sa Pagbasa, mga tatlong buwan ng mga kahon."
+      },
+      "languages": {
+        "eyebrow": "Mga Wika",
+        "title": "Sa wika mo. 25 lahat.",
+        "body": "Mula English hanggang Japanese, Bengali hanggang Albanian. Sarili mong mga kulay at icon sa bawat gawi."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Silipin ang loob",
+    "label": "Mga screenshot ng MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Grid",
+        "alt": "Ang tab na Grid: isang heatmap ng taon para sa Konsistensi at isa para sa bawat gawi, bawat isa sa sarili nitong kulay."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Mga Tsart",
+        "alt": "Ang tab na Mga Tsart: ang linya ng Konsistensi sa loob ng 90 araw, ang aktibo at pinakamahabang sunod-sunod sa lahat ng panahon, at isang tsart ng gawi."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Bawat gawi",
+        "alt": "Isang tsart ng Pagtakbo laban sa layuning 5 km, kasama ang mga araw na ipinakita, konsistensi, karaniwan, kabuuan at pinakamagandang araw."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Pagtatala",
+        "alt": "Ang log sheet para sa Meditasyon: oras, minuto at segundo, ang 15 min na target, Linisin at I-save."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Mga Kaganapan",
+        "alt": "Ang tab na Mga Kaganapan: mga biyahe, concert at libro, bawat isa ay grid ng taon sa sarili nitong kulay."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Graphite",
+        "alt": "Ang Dashboard sa dark mode, sa malambot na graphite."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Privacy",
+    "title": "Nananatili sa iPhone mo ang data mo.",
+    "body": "Walang account, walang cloud, walang tracking. Ikaw lang at ang patunay na nagiging ikaw ang taong gusto mong maging.",
+    "storedTitle": "Naka-store sa device mo",
+    "stored": [
+      "Ang mga gawi mo: pangalan, unit, target, kulay at icon",
+      "Ang mga araw-araw mong tala: petsa, value at opsyonal na note",
+      "Ang mga setting at kagustuhan mo"
+    ],
+    "neverTitle": "Hindi kailanman kinokolekta",
+    "never": [
+      "Ang mga gawi, tala o note mo",
+      "Pangalan, email, telepono o lokasyon",
+      "Usage analytics o crash report",
+      "Advertising identifier, cookie o tracking"
+    ],
+    "purchases": "Dumadaan sa Apple ang mga pagbili ng Pro at sinusuri gamit ang RevenueCat, sa pamamagitan ng random at anonymous na ID.",
+    "link": "Basahin ang patakaran sa privacy"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, kapag gusto mo ang buong kuwento.",
+    "body": "Libreng i-download ang MyGrowth at libreng gamitin para sa hanggang tatlong gawi. Binubuksan ng Pro ang lahat.",
+    "freeTitle": "Libre",
+    "free": [
+      "3 gawi",
+      "Kasalukuyang taon",
+      "Mga tsart ng 30 araw"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Walang limit na mga gawi",
+      "Buong kasaysayan",
+      "Mga tsart at average sa lahat ng panahon",
+      "Mga Kaganapan",
+      "CSV import at backup",
+      "Mga Pasadyang Kulay",
+      "Mga gawi sa mga nakatakdang araw"
+    ],
+    "plans": "Buwanan, taunan o isang bayad habambuhay.",
+    "price": "Tingnan ang kasalukuyang presyo sa App Store."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Mga tanong, sinagot.",
+    "items": [
+      {
+        "q": "Paano ako magtatala ng gawi?",
+        "a": "I-tap ang kahit anong card ng gawi sa Dashboard. May bubukas na maikling sheet: i-type ang value mo (7.5 oras ng tulog, 2.5 L ng tubig) at i-tap ang I-save. Agad na naitatala ang entry at naa-update ang heatmap mo."
+      },
+      {
+        "q": "Saan naka-store ang data ko?",
+        "a": "Sa iPhone mo lang, sa on-device storage ng iOS. Walang server, walang cloud sync at walang account. Nasa patakaran sa privacy ang buong detalye.",
+        "link": {
+          "href": "privacy",
+          "text": "Basahin ang patakaran sa privacy"
+        }
+      },
+      {
+        "q": "Puwede ko bang i-import ang kasaysayan ko mula sa spreadsheet?",
+        "a": "Oo, gamit ang Pro. Pumunta sa Mga Setting, Pamamahala ng Data, I-import ang Data, at pumili ng CSV file na may mga column na date, habit, unit, value at note. May template sa tutorial.",
+        "link": {
+          "href": "tutorial",
+          "text": "Buksan ang tutorial"
+        }
+      },
+      {
+        "q": "Paano ko iba-back up o ililipat ang data ko?",
+        "a": "Gamit ang Pro, sine-save ng Mga Setting, Pamamahala ng Data, I-export ang Backup ang bawat gawi at tala sa iisang CSV file. I-import ito sa bagong device gamit ang I-import ang Data."
+      },
+      {
+        "q": "Paano ko buburahin ang lahat ng data ko?",
+        "a": "Pumunta sa Mga Setting, Pamamahala ng Data, I-clear ang Lahat ng Data. Hihingan ka ng kumpirmasyon. Permanente ito: buburahin nito ang bawat gawi, tala at kagustuhan sa device mo."
+      },
+      {
+        "q": "Magkano ang Pro?",
+        "a": "Available ang Pro bilang buwanan o taunang subscription, o isang beses na pagbili. Depende sa bansa mo ang presyo; ipinapakita ng App Store ang kasalukuyang presyo bago ka bumili."
+      },
+      {
+        "q": "Magkakaroon ba ng Android version?",
+        "a": "Hindi pa sa ngayon. Mas gusto naming gawing mahusay ang isang platform kaysa gawin nang pabaya ang dalawa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Magsimula ngayon. Pagkalipas ng isang taon, matutuwa kang ginawa mo ito."
+  },
+  "footer": {
+    "studio": "Isang app ng Sagomak",
+    "privacy": "Patakaran sa Privacy",
+    "terms": "Mga Tuntunin ng Paggamit",
+    "support": "Suporta",
+    "tutorial": "Tutorial",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Mga font sa ilalim ng SIL Open Font License",
+    "languages": "Mga Wika"
+  },
+  "support": {
+    "eyebrow": "Suporta",
+    "title": "Paano ka namin matutulungan?",
+    "intro": "Mga sagot sa karaniwang tanong. Kung hindi mo mahanap ang kailangan mo, sumulat ka sa amin.",
+    "faqTitle": "Mga madalas itanong",
+    "contactTitle": "Kailangan mo pa ba ng tulong?",
+    "contactBody": "May tanong, bug o ideya? Binabasa namin ang bawat email.",
+    "emailCta": "Sumulat sa",
+    "reviewBefore": "Puwede ka ring ",
+    "reviewLink": "mag-iwan ng review sa App Store",
+    "reviewAfter": ". Mas malaki ang tulong nito kaysa sa inaakala mo."
+  },
+  "tutorial": {
+    "eyebrow": "Tutorial",
+    "title": "I-import ang data mo",
+    "intro": "Nagsusubaybay ka na ng mga gawi? Dalhin dito ang kasaysayan mo sa loob ng ilang minuto. Bahagi ng Pro ang import at backup.",
+    "importLogs": {
+      "title": "I-import ang mga araw-araw na tala",
+      "intro": "I-import ang mga nakaraang data ng mga gawi mo mula sa CSV file. Ang bawat row ay tala ng isang araw para sa isang gawi.",
+      "templateLabel": "Format ng template",
+      "required": "kailangan",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Halimbawa: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Dapat tumugma sa pangalan ng isang gawing nasa app na (hindi mahalaga ang malaki o maliit na titik)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Ang unit ng gawi, para sa sanggunian mo. Mga halimbawa: oras, minuto, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Isang numero, 0 o higit pa."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Opsyonal na malayang teksto. Iwanang blangko o alisin ang column."
+        }
+      ],
+      "download": "I-download ang template (CSV)",
+      "tips": [
+        "Gumagana ang Excel, Google Sheets at Numbers: i-export bilang .csv o .txt.",
+        "Dapat tumugma ang pangalan ng gawi: gumagana pareho ang 'Ehersisyo' at 'ehersisyo', pero hindi tumutugma ang 'Ehersisyo sa umaga' sa 'Ehersisyo'.",
+        "Kung may tala na para sa petsa at gawing iyon, ina-update ng import ang value sa halip na magdagdag ng pangalawa.",
+        "Puwede mong pagsamahin ang ilang gawi sa iisang file."
+      ]
+    },
+    "backup": {
+      "title": "Mag-back up at mag-restore",
+      "intro": "I-export ang lahat ng gawi at tala mo bilang iisang CSV file, para i-restore sa bagong device o itabi bilang offline na kopya.",
+      "exportTitle": "Paano mag-export",
+      "exportSteps": [
+        "Pumunta sa Mga Setting, Pamamahala ng Data",
+        "I-tap ang I-export ang Backup",
+        "I-save o i-share ang file"
+      ],
+      "restoreTitle": "Paano mag-restore",
+      "restoreSteps": [
+        "Pumunta sa Mga Setting, Pamamahala ng Data",
+        "I-tap ang I-import ang Data",
+        "Piliin ang backup file mo",
+        "Piliin ang Isama sa kasalukuyan o Palitan ang lahat ng data",
+        "Suriin ang buod at i-tap ang I-importa"
+      ],
+      "formatLabel": "Format ng backup (pinasimple)",
+      "autoDetect": "Kusang nakikilala ng app ang backup (may #HABITS section ito) mula sa karaniwang file ng mga tala. Iisang import button ang humahawak sa dalawa."
+    },
+    "prebuilt": {
+      "title": "Mga gawing pansimula",
+      "intro": "Iminumungkahi ng MyGrowth ang mga gawing ito, handa nang subaybayan:",
+      "cols": [
+        "Gawi",
+        "Unit",
+        "Target bawat araw"
+      ],
+      "note": "Puwede ka ring gumawa ng sarili mong mga gawi, na may sarili mong pangalan, unit, icon, kulay at iskedyul."
+    },
+    "reminders": {
+      "title": "Mga araw-araw na paalala",
+      "intro": "Puwedeng magpadala sa iyo ang MyGrowth ng dalawang abiso bawat araw:",
+      "items": [
+        [
+          "Paalaala sa Umaga",
+          "buod ng mga gawing nakatakda ngayong araw. Default: 9:00."
+        ],
+        [
+          "Paalala sa Gabi",
+          "isang magaan na paalala na itala ang mga nakaligtaan mo. Default: 21:00."
+        ]
+      ],
+      "footer": "Mababago ang dalawa sa Mga Setting, Mga Abiso."
+    },
+    "pace": {
+      "title": "Pace at bilis",
+      "intro": "Para sa mga gawing tulad ng Pagtakbo at Biking, i-on ang Subaybayan ang oras sa gawi para maitala ang distansya at oras. Kinakalkula ng app ang:",
+      "items": [
+        [
+          "Pagtakbo",
+          "pace sa min/km. Ang 7 km sa 38 min ay 5:25 min/km."
+        ],
+        [
+          "Biking",
+          "bilis sa km/h. Ang 10 km sa 30 min ay 20.0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Paano gumagana ang sunod-sunod",
+      "tips": [
+        "Hindi binibilang ang value na 0: kailangan mong talagang gawin ang gawi.",
+        "Dapat maabot ng value ang target: hindi binibilang ang 2 oras na tulog kung 8 ang target.",
+        "Sumusunod ang sunod-sunod sa iskedyul mo. Mag-ehersisyo tuwing Lunes, Miyerkoles at Biyernes, gawin ang tatlo, at 3 araw na sunod-sunod iyon. Hindi ito napuputol ng Martes at Huwebes."
+      ]
+    },
+    "cta": "Handa ka na bang mag-import?"
+  },
+  "notFound": {
+    "title": "Wala rito ang page na ito.",
+    "body": "Maaaring luma na ang link, o nailipat na ang page.",
+    "home": "Bumalik sa MyGrowth"
+  },
+  "legal": {
+    "contact": "Sumulat sa"
+  },
+  "lang": {
+    "label": "Wika",
+    "current": "Filipino",
+    "suggest": "Available sa Filipino",
+    "switchTo": "Lumipat sa Filipino",
+    "dismiss": "Isara"
+  },
+  "a11y": {
+    "skip": "Lumaktaw sa nilalaman",
+    "mainNav": "Pangunahin",
+    "languages": "Mga Wika",
+    "timerRunning": "Halimbawang timer na tumatakbo",
+    "gridLabel": "Halimbawang heatmap para sa {habit}, isang kahon bawat araw.",
+    "eventsLabel": "Halimbawang grid ng mga kaganapan: kalahating taon ng mga araw sa mga kulay ng kanilang kategorya.",
+    "themeSwitch": "Lumipat sa {theme}."
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "home": {
+      "title": "MyGrowth: ứng dụng theo dõi thói quen vẽ tay, chỉ ở trên iPhone của bạn",
+      "description": "MyGrowth biến thói quen của bạn thành heatmap vẽ tay, biểu đồ và thống kê. Riêng tư ngay từ thiết kế: không tài khoản, không đám mây, dữ liệu ở lại trên thiết bị của bạn."
+    },
+    "support": {
+      "title": "Hỗ trợ, MyGrowth",
+      "description": "Giải đáp các câu hỏi thường gặp về MyGrowth và cách liên hệ với chúng tôi."
+    },
+    "tutorial": {
+      "title": "Nhập và sao lưu dữ liệu, MyGrowth",
+      "description": "Nhập lịch sử thói quen từ tệp CSV, sao lưu và khôi phục MyGrowth, và xem các thói quen có sẵn để bắt đầu."
+    },
+    "notFound": {
+      "title": "Không tìm thấy trang, MyGrowth"
+    }
+  },
+  "nav": {
+    "home": "Trang chủ MyGrowth",
+    "features": "Tính năng",
+    "privacy": "Quyền riêng tư",
+    "pro": "Pro",
+    "faq": "Hỏi đáp",
+    "support": "Hỗ trợ",
+    "menu": "Menu",
+    "theme": {
+      "label": "Giao diện",
+      "system": "Hệ thống",
+      "light": "Giấy",
+      "dark": "Than chì"
+    }
+  },
+  "badge": {
+    "alt": "Tải về trên App Store",
+    "aria": "Tải MyGrowth trên App Store"
+  },
+  "hero": {
+    "eyebrow": "MyGrowth 3.0",
+    "title": "Bạn trở thành điều bạn lặp lại.",
+    "sub": "MyGrowth biến thói quen của bạn thành heatmap vẽ tay, biểu đồ và thống kê, để bạn thấy việc có mặt mỗi ngày trở thành tiến bộ.",
+    "trust": "Riêng tư ngay từ thiết kế. Không tài khoản, không đám mây.",
+    "phoneAlt": "Dashboard của MyGrowth: dải tuần, mục tiêu Trở thành và các thói quen hôm nay dưới dạng thẻ vẽ tay."
+  },
+  "year": {
+    "eyebrow": "Cả năm của bạn, trong một cái nhìn",
+    "title": "Một bức tranh chân thật về một năm.",
+    "body": "Mỗi ngày bạn có mặt sẽ tô kín một ô. Ô của hôm nay trên dải tuần đầy dần theo thời gian trong ngày.",
+    "habit": "Đọc",
+    "weekLabel": "Tuần này",
+    "todayLabel": "Hôm nay, đã qua {pct}% ngày",
+    "legendLess": "Ít",
+    "legendMore": "Nhiều",
+    "gridLabel": "Heatmap ví dụ: một năm đọc sách, mỗi ngày một ô, kết thúc vào hôm nay."
+  },
+  "features": {
+    "eyebrow": "Có gì bên trong",
+    "title": "Theo dõi điều quan trọng. Nhìn nó lớn dần.",
+    "items": {
+      "dashboard": {
+        "eyebrow": "Dashboard và Trở thành",
+        "title": "Con người bạn đang trở thành, trên một trang.",
+        "body": "Các thói quen hôm nay hiện thành thẻ bên dưới mục tiêu Trở thành của bạn, trong khung vẽ tay riêng. Những thói quen bạn chưa ghi lại sẽ nổi bật, để bạn thấy ngay còn lại gì.",
+        "becomingLabel": "Trở thành",
+        "becomingGoal": "người luôn giữ lời hứa"
+      },
+      "grid": {
+        "eyebrow": "Lưới",
+        "title": "Một năm nỗ lực, một bức tranh chân thật.",
+        "body": "Mỗi thói quen có heatmap riêng với màu riêng. Quy luật, khoảng trống và chuỗi ngày hiện ra trong nháy mắt, và chuỗi ngày đi theo lịch của bạn, nên một ngày nghỉ không bao giờ làm đứt chuỗi."
+      },
+      "charts": {
+        "eyebrow": "Biểu đồ",
+        "title": "Mọi thói quen đều được đo lường.",
+        "body": "Sự nhất quán, trung bình, tổng cộng, số ngày đạt mục tiêu và ngày tốt nhất. Đường biểu đồ tự vẽ ra, còn các cột mọc lên từ dưới.",
+        "consistency": "Sự nhất quán",
+        "lastDays": "30 ngày qua",
+        "minutes": "Phút mỗi ngày",
+        "chartLabel": "Biểu đồ Sự nhất quán ví dụ: tỷ lệ thói quen hoàn thành mỗi ngày trong 30 ngày qua, tăng từ khoảng 40% lên khoảng 90%.",
+        "barsLabel": "Biểu đồ cột ví dụ: số phút đọc sách mỗi ngày trong một tuần."
+      },
+      "events": {
+        "eyebrow": "Sự kiện",
+        "title": "Mỗi nơi chốn, cuốn sách và chuyến đi một màu riêng.",
+        "body": "Ghi lại những nơi bạn đến, những cuốn sách bạn đọc, các chuyến đi và buổi hòa nhạc, rồi nhìn cả một năm cuộc đời bạn hiện lên thành một bức tranh.",
+        "legend": [
+          "Chuyến đi",
+          "Sách",
+          "Hòa nhạc"
+        ]
+      },
+      "widgets": {
+        "eyebrow": "Widget và Live Activity",
+        "title": "Trên Màn hình chính và Màn hình khóa.",
+        "body": "Widget Lưới thói quen, widget Hôm nay để ghi lại ngay từ Màn hình chính, và bộ đếm giờ hiện trên Màn hình khóa."
+      },
+      "timers": {
+        "eyebrow": "Bộ đếm giờ và ghi chép",
+        "title": "Ghi lại trong vài giây. Bộ đếm vẫn chạy.",
+        "body": "Chạm vào thẻ, nhập giá trị, lưu. Thời lượng hiển thị theo giờ, phút và giây, và bộ đếm giờ vẫn chạy tiếp khi bạn rời ứng dụng.",
+        "timer": "Thiền"
+      },
+      "themes": {
+        "eyebrow": "Giấy và than chì",
+        "title": "Giấy tông ấm ban ngày, than chì dịu mắt ban đêm.",
+        "body": "Chế độ sáng nằm trên nền giấy tông ấm. Chế độ tối là màu xám than chì dịu mắt thay cho đen tuyền. Chữ viết theo nét tay, còn các con số vẫn sắc nét và chính xác.",
+        "paper": "Giấy",
+        "graphite": "Than chì"
+      },
+      "widget": {
+        "name": "Đọc",
+        "label": "Widget Lưới thói quen ví dụ cho Đọc, khoảng ba tháng ô vuông."
+      },
+      "languages": {
+        "eyebrow": "Ngôn ngữ",
+        "title": "Bằng ngôn ngữ của bạn. 25 ngôn ngữ.",
+        "body": "Từ tiếng Anh đến tiếng Nhật, từ tiếng Bengal đến tiếng Albania. Màu sắc và biểu tượng riêng cho mỗi thói quen."
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Nhìn vào bên trong",
+    "label": "Ảnh chụp màn hình MyGrowth 3.0",
+    "items": [
+      {
+        "src": "/screens/grid.webp",
+        "caption": "Lưới",
+        "alt": "Tab Lưới: heatmap cả năm cho Sự nhất quán và một heatmap cho từng thói quen, mỗi cái một màu riêng."
+      },
+      {
+        "src": "/screens/charts.webp",
+        "caption": "Biểu đồ",
+        "alt": "Tab Biểu đồ: đường Sự nhất quán trong 90 ngày, chuỗi ngày hiện tại và dài nhất từ trước đến nay, cùng biểu đồ của một thói quen."
+      },
+      {
+        "src": "/screens/habit-chart.webp",
+        "caption": "Từng thói quen",
+        "alt": "Biểu đồ Chạy so với mục tiêu 5 km, kèm Ngày đã hiển thị, sự nhất quán, trung bình, tổng cộng và ngày tốt nhất."
+      },
+      {
+        "src": "/screens/log-sheet.webp",
+        "caption": "Ghi chép",
+        "alt": "Bảng ghi cho Thiền: giờ, phút và giây, mục tiêu 15 phút, Xóa và Lưu."
+      },
+      {
+        "src": "/screens/events.webp",
+        "caption": "Sự kiện",
+        "alt": "Tab Sự kiện: du lịch, hòa nhạc và sách, mỗi mục là một lưới cả năm với màu riêng."
+      },
+      {
+        "src": "/screens/dashboard-dark.webp",
+        "caption": "Than chì",
+        "alt": "Dashboard ở chế độ tối, trên nền than chì dịu mắt."
+      }
+    ]
+  },
+  "privacy": {
+    "eyebrow": "Quyền riêng tư",
+    "title": "Dữ liệu của bạn ở lại trên iPhone.",
+    "body": "Không tài khoản, không đám mây, không theo dõi. Chỉ có bạn và bằng chứng rằng bạn đang trở thành người bạn muốn.",
+    "storedTitle": "Lưu trên thiết bị của bạn",
+    "stored": [
+      "Thói quen của bạn: tên, đơn vị, mục tiêu, màu sắc và biểu tượng",
+      "Nhật ký hằng ngày: ngày, giá trị và ghi chú tùy chọn",
+      "Cài đặt và tùy chọn của bạn"
+    ],
+    "neverTitle": "Không bao giờ thu thập",
+    "never": [
+      "Thói quen, nhật ký hay ghi chú của bạn",
+      "Tên, email, số điện thoại hay vị trí",
+      "Phân tích sử dụng hay báo cáo sự cố",
+      "Mã định danh quảng cáo, cookie hay theo dõi"
+    ],
+    "purchases": "Giao dịch mua Pro được thực hiện qua Apple và được kiểm tra bằng RevenueCat, với một ID ẩn danh ngẫu nhiên.",
+    "link": "Đọc chính sách bảo mật"
+  },
+  "pro": {
+    "eyebrow": "MyGrowth Pro",
+    "title": "Pro, khi bạn muốn thấy toàn bộ câu chuyện.",
+    "body": "MyGrowth miễn phí tải về và sử dụng với tối đa ba thói quen. Pro mở khóa mọi thứ.",
+    "freeTitle": "Miễn phí",
+    "free": [
+      "3 thói quen",
+      "Năm hiện tại",
+      "Biểu đồ 30 ngày"
+    ],
+    "proTitle": "Pro",
+    "proItems": [
+      "Thói quen không giới hạn",
+      "Lịch sử đầy đủ",
+      "Biểu đồ và trung bình toàn thời gian",
+      "Sự kiện",
+      "Nhập CSV và sao lưu",
+      "Màu tùy chỉnh",
+      "Thói quen theo ngày đã lên lịch"
+    ],
+    "plans": "Hàng tháng, hàng năm hoặc trọn đời.",
+    "price": "Xem giá hiện tại trên App Store."
+  },
+  "faq": {
+    "eyebrow": "Hỏi đáp",
+    "title": "Câu hỏi, có lời đáp.",
+    "items": [
+      {
+        "q": "Làm sao để ghi lại một thói quen?",
+        "a": "Chạm vào bất kỳ thẻ thói quen nào trên Dashboard. Một bảng nhỏ sẽ mở ra: nhập giá trị (7,5 giờ ngủ, 2,5 lít nước) và chạm Lưu. Mục ghi được lưu ngay và heatmap của bạn được cập nhật."
+      },
+      {
+        "q": "Dữ liệu của tôi được lưu ở đâu?",
+        "a": "Chỉ trên iPhone của bạn, trong bộ nhớ trên thiết bị của iOS. Không có máy chủ, không đồng bộ đám mây và không tài khoản. Chính sách bảo mật có đầy đủ chi tiết.",
+        "link": {
+          "href": "privacy",
+          "text": "Đọc chính sách bảo mật"
+        }
+      },
+      {
+        "q": "Tôi có thể nhập lịch sử từ bảng tính không?",
+        "a": "Có, với Pro. Vào Cài đặt, Quản lý Dữ liệu, Nhập Dữ Liệu, rồi chọn một tệp CSV có các cột date, habit, unit, value và note. Bài hướng dẫn có sẵn một tệp mẫu.",
+        "link": {
+          "href": "tutorial",
+          "text": "Mở bài hướng dẫn"
+        }
+      },
+      {
+        "q": "Làm sao để sao lưu hoặc chuyển dữ liệu?",
+        "a": "Với Pro, Cài đặt, Quản lý Dữ liệu, Xuất bản sao lưu sẽ lưu mọi thói quen và mục ghi vào một tệp CSV. Trên thiết bị mới, nhập tệp đó bằng Nhập Dữ Liệu."
+      },
+      {
+        "q": "Làm sao để xóa toàn bộ dữ liệu?",
+        "a": "Vào Cài đặt, Quản lý Dữ liệu, Xóa Tất Cả Dữ Liệu. Bạn sẽ được yêu cầu xác nhận. Thao tác này là vĩnh viễn: mọi thói quen, mục ghi và tùy chọn sẽ bị xóa khỏi thiết bị của bạn."
+      },
+      {
+        "q": "Pro giá bao nhiêu?",
+        "a": "Pro có gói đăng ký hàng tháng hoặc hàng năm, hoặc mua một lần. Giá tùy theo quốc gia của bạn; App Store hiển thị giá hiện tại trước khi bạn mua."
+      },
+      {
+        "q": "Có phiên bản Android không?",
+        "a": "Hiện tại thì chưa. Chúng tôi muốn làm tốt một nền tảng hơn là làm dở cả hai."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bắt đầu hôm nay. Một năm nữa, bạn sẽ vui vì đã bắt đầu."
+  },
+  "footer": {
+    "studio": "Một ứng dụng của Sagomak",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "support": "Hỗ trợ",
+    "tutorial": "Hướng dẫn",
+    "copyright": "© {year} Sagomak",
+    "fonts": "Phông chữ theo giấy phép SIL Open Font License",
+    "languages": "Ngôn ngữ"
+  },
+  "support": {
+    "eyebrow": "Hỗ trợ",
+    "title": "Chúng tôi có thể giúp gì?",
+    "intro": "Giải đáp các câu hỏi thường gặp. Nếu không tìm thấy điều bạn cần, hãy viết cho chúng tôi.",
+    "faqTitle": "Câu hỏi thường gặp",
+    "contactTitle": "Vẫn cần trợ giúp?",
+    "contactBody": "Một câu hỏi, một lỗi hay một ý tưởng? Chúng tôi đọc mọi email.",
+    "emailCta": "Viết cho",
+    "reviewBefore": "Bạn cũng có thể ",
+    "reviewLink": "để lại đánh giá trên App Store",
+    "reviewAfter": ". Điều đó giúp ích nhiều hơn bạn nghĩ."
+  },
+  "tutorial": {
+    "eyebrow": "Hướng dẫn",
+    "title": "Nhập dữ liệu của bạn",
+    "intro": "Bạn đã theo dõi thói quen từ trước? Mang lịch sử của bạn vào chỉ trong vài phút. Nhập và sao lưu là tính năng của Pro.",
+    "importLogs": {
+      "title": "Nhập nhật ký hằng ngày",
+      "intro": "Nhập dữ liệu cũ cho các thói quen của bạn từ một tệp CSV. Mỗi dòng là mục ghi của một ngày cho một thói quen.",
+      "templateLabel": "Định dạng tệp mẫu",
+      "required": "bắt buộc",
+      "columns": [
+        {
+          "col": "date",
+          "required": true,
+          "desc": "YYYY-MM-DD. Ví dụ: 2026-03-15"
+        },
+        {
+          "col": "habit",
+          "required": true,
+          "desc": "Phải trùng với tên một thói quen đã có trong ứng dụng (không phân biệt chữ hoa, chữ thường)."
+        },
+        {
+          "col": "unit",
+          "required": false,
+          "desc": "Đơn vị của thói quen, để bạn tham khảo. Ví dụ: giờ, phút, km"
+        },
+        {
+          "col": "value",
+          "required": true,
+          "desc": "Một số, từ 0 trở lên."
+        },
+        {
+          "col": "note",
+          "required": false,
+          "desc": "Văn bản tự do, không bắt buộc. Để trống hoặc bỏ hẳn cột này."
+        }
+      ],
+      "download": "Tải tệp mẫu (CSV)",
+      "tips": [
+        "Excel, Google Sheets và Numbers đều dùng được: xuất ra .csv hoặc .txt.",
+        "Tên thói quen phải trùng khớp: 'Tập luyện' và 'tập luyện' đều được, nhưng 'Tậpluyện' không khớp với 'Tập luyện'.",
+        "Nếu ngày và thói quen đã tồn tại, việc nhập sẽ cập nhật giá trị thay vì thêm một mục thứ hai.",
+        "Bạn có thể gộp nhiều thói quen trong một tệp."
+      ]
+    },
+    "backup": {
+      "title": "Sao lưu và khôi phục",
+      "intro": "Xuất toàn bộ thói quen và nhật ký thành một tệp CSV, để khôi phục trên thiết bị mới hoặc giữ một bản sao ngoại tuyến.",
+      "exportTitle": "Cách xuất",
+      "exportSteps": [
+        "Vào Cài đặt, Quản lý Dữ liệu",
+        "Chạm Xuất bản sao lưu",
+        "Lưu hoặc chia sẻ tệp"
+      ],
+      "restoreTitle": "Cách khôi phục",
+      "restoreSteps": [
+        "Vào Cài đặt, Quản lý Dữ liệu",
+        "Chạm Nhập Dữ Liệu",
+        "Chọn tệp sao lưu của bạn",
+        "Chọn Gộp với dữ liệu hiện có hoặc Thay thế tất cả dữ liệu",
+        "Kiểm tra bản tóm tắt và chạm Nhập khẩu"
+      ],
+      "formatLabel": "Định dạng sao lưu (rút gọn)",
+      "autoDetect": "Ứng dụng tự phân biệt tệp sao lưu (có mục #HABITS) với tệp nhật ký thông thường. Một nút nhập duy nhất xử lý cả hai."
+    },
+    "prebuilt": {
+      "title": "Thói quen để bắt đầu",
+      "intro": "MyGrowth gợi ý những thói quen này, sẵn sàng để theo dõi:",
+      "cols": [
+        "Thói quen",
+        "Đơn vị",
+        "Mục tiêu hằng ngày"
+      ],
+      "note": "Bạn cũng có thể tạo thói quen của riêng mình, với tên, đơn vị, biểu tượng, màu sắc và lịch của riêng bạn."
+    },
+    "reminders": {
+      "title": "Nhắc nhở hằng ngày",
+      "intro": "MyGrowth có thể gửi cho bạn hai thông báo mỗi ngày:",
+      "items": [
+        [
+          "Nhắc nhở buổi sáng",
+          "tóm tắt các thói quen đã lên lịch hôm nay. Mặc định: 9:00."
+        ],
+        [
+          "Nhắc Nhở Buổi Tối",
+          "lời nhắc nhẹ nhàng để ghi lại những gì bạn còn bỏ sót. Mặc định: 21:00."
+        ]
+      ],
+      "footer": "Có thể thay đổi cả hai trong Cài đặt, Thông báo."
+    },
+    "pace": {
+      "title": "Tốc độ và vận tốc",
+      "intro": "Với các thói quen như Chạy và Đi xe đạp, hãy bật Theo dõi thời gian trong thói quen để ghi quãng đường và thời gian. Ứng dụng sẽ tính:",
+      "items": [
+        [
+          "Chạy",
+          "tốc độ theo phút/km. 7 km trong 38 phút là 5:25 phút/km."
+        ],
+        [
+          "Đi xe đạp",
+          "vận tốc theo km/h. 10 km trong 30 phút là 20,0 km/h."
+        ]
+      ]
+    },
+    "streaks": {
+      "title": "Chuỗi ngày hoạt động thế nào",
+      "tips": [
+        "Giá trị 0 không được tính: bạn phải thực sự làm thói quen đó.",
+        "Giá trị phải đạt mục tiêu: ngủ 2 giờ với mục tiêu 8 giờ thì không được tính.",
+        "Chuỗi ngày đi theo lịch của bạn. Tập vào thứ Hai, thứ Tư và thứ Sáu, hoàn thành cả ba, và bạn có chuỗi 3 ngày. Thứ Ba và thứ Năm không làm đứt chuỗi."
+      ]
+    },
+    "cta": "Sẵn sàng nhập dữ liệu?"
+  },
+  "notFound": {
+    "title": "Trang này không có ở đây.",
+    "body": "Có thể liên kết đã cũ, hoặc trang đã được chuyển đi.",
+    "home": "Quay lại MyGrowth"
+  },
+  "legal": {
+    "contact": "Viết cho"
+  },
+  "lang": {
+    "label": "Ngôn ngữ",
+    "current": "Tiếng Việt",
+    "suggest": "Có sẵn bằng tiếng Việt",
+    "switchTo": "Chuyển sang tiếng Việt",
+    "dismiss": "Bỏ qua"
+  },
+  "a11y": {
+    "skip": "Chuyển đến nội dung",
+    "mainNav": "Chính",
+    "languages": "Ngôn ngữ",
+    "timerRunning": "Bộ đếm giờ ví dụ đang chạy",
+    "gridLabel": "Heatmap ví dụ cho {habit}, mỗi ngày một ô.",
+    "eventsLabel": "Lưới sự kiện ví dụ: nửa năm các ngày mang màu của danh mục tương ứng.",
+    "themeSwitch": "Chuyển sang {theme}."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "locale": "vi",
+  "meta": {
+    "privacy": {
+      "title": "Chính sách bảo mật, MyGrowth",
+      "description": "MyGrowth giữ thói quen, nhật ký và ghi chú của bạn trên thiết bị của bạn. Đọc toàn văn chính sách bảo mật."
+    },
+    "terms": {
+      "title": "Điều khoản sử dụng, MyGrowth",
+      "description": "Điều khoản sử dụng ứng dụng MyGrowth trên iOS."
+    }
+  },
+  "chrome": {
+    "backHome": "Quay lại Trang chủ",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "support": "Hỗ trợ"
+  },
+  "privacy": {
+    "title": "Chính sách bảo mật",
+    "lastUpdated": "Cập nhật lần cuối: ngày 20 tháng 11 năm 2026",
+    "intro": "MyGrowth (\"Ứng dụng\") do Sagomak phát triển và cam kết bảo vệ quyền riêng tư của bạn. Chính sách này giải thích cách chúng tôi xử lý dữ liệu của bạn.",
+    "short": {
+      "title": "Tóm tắt",
+      "body": "Chúng tôi không thu thập dữ liệu thói quen của bạn. Mọi thứ bạn theo dõi đều ở lại trên thiết bị của bạn."
+    },
+    "stored": {
+      "title": "Dữ liệu nào được lưu trữ",
+      "intro": "Ứng dụng lưu trữ cục bộ các dữ liệu sau trên iPhone của bạn:",
+      "items": [
+        "Cấu hình thói quen (tên, đơn vị, mục tiêu, màu sắc)",
+        "Các mục nhật ký hằng ngày (ngày, giá trị, ghi chú tùy chọn)",
+        "Tùy chọn ứng dụng (giao diện, trạng thái hướng dẫn ban đầu, hồ sơ đồng ý)"
+      ],
+      "footer": "Dữ liệu này được lưu bằng bộ nhớ trên thiết bị của iOS (UserDefaults). Dữ liệu không bao giờ rời khỏi thiết bị của bạn."
+    },
+    "notCollect": {
+      "title": "Những gì chúng tôi không thu thập",
+      "items": [
+        "Không có thông tin cá nhân (tên, email, số điện thoại, vị trí)",
+        "Không có phân tích sử dụng hay báo cáo sự cố",
+        "Không có mã định danh quảng cáo",
+        "Không có cookie hay pixel theo dõi",
+        "Không bao giờ có thói quen, nhật ký hay ghi chú nào được truyền đến bất kỳ máy chủ nào"
+      ]
+    },
+    "thirdParty": {
+      "title": "Dịch vụ bên thứ ba",
+      "body": "Ứng dụng không chứa công cụ phân tích, mạng quảng cáo hay dịch vụ đám mây nào. SDK bên thứ ba duy nhất là RevenueCat, được dùng để kiểm tra giao dịch mua trong ứng dụng (xem mục Giao dịch mua bên dưới)."
+    },
+    "rights": {
+      "title": "Quyền của bạn (GDPR)",
+      "intro": "Theo Quy định chung về bảo vệ dữ liệu (GDPR), bạn có quyền:",
+      "access": "<b>Truy cập</b> dữ liệu của bạn: hiển thị trực tiếp trong ứng dụng bất cứ lúc nào",
+      "export": "<b>Xuất</b> dữ liệu của bạn: qua Cài đặt, Quản lý Dữ liệu, Xuất (JSON hoặc CSV)",
+      "delete": "<b>Xóa</b> dữ liệu của bạn: qua Cài đặt, Quản lý Dữ liệu, Xóa Tất Cả Dữ Liệu",
+      "rectify": "<b>Chỉnh sửa</b> dữ liệu của bạn: sửa bất kỳ mục nào bằng cách chạm vào mục đó trong ứng dụng",
+      "footer": "Vì mọi dữ liệu chỉ được lưu trên thiết bị của bạn, việc thực hiện các quyền này không cần gửi yêu cầu cho chúng tôi: bạn hoàn toàn kiểm soát."
+    },
+    "retention": {
+      "title": "Lưu giữ dữ liệu",
+      "body": "Dữ liệu của bạn được giữ trên thiết bị cho đến khi bạn xóa trong ứng dụng hoặc gỡ cài đặt ứng dụng. Việc gỡ cài đặt sẽ xóa vĩnh viễn toàn bộ dữ liệu."
+    },
+    "children": {
+      "title": "Quyền riêng tư của trẻ em",
+      "body": "Ứng dụng không cố ý thu thập dữ liệu từ trẻ em dưới 16 tuổi. Vì không thu thập thông tin cá nhân nào từ bất kỳ người dùng nào, Ứng dụng tuân thủ các yêu cầu về độ tuổi của COPPA và GDPR."
+    },
+    "changes": {
+      "title": "Thay đổi đối với Chính sách này",
+      "body": "Nếu cập nhật chính sách này, chúng tôi sẽ đăng phiên bản sửa đổi trên trang này kèm ngày cập nhật mới."
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "body": "Nếu có câu hỏi hoặc lo ngại về quyền riêng tư:"
+    },
+    "purchases": {
+      "title": "Giao dịch mua",
+      "body": [
+        "MyGrowth Pro được bán qua App Store của Apple. Apple xử lý mọi khoản thanh toán; chúng tôi không bao giờ thấy tên, Apple ID hay thông tin thanh toán của bạn.",
+        "Để biết giao dịch mua nào đang có hiệu lực, Ứng dụng sử dụng RevenueCat, Inc. (revenuecat.com), một dịch vụ quản lý gói đăng ký xử lý dữ liệu này thay mặt chúng tôi. Khi Ứng dụng khởi động, và khi bạn mua hoặc khôi phục giao dịch mua, RevenueCat nhận được một ID ẩn danh ngẫu nhiên do Ứng dụng tạo ra, lịch sử mua hàng và đăng ký của bạn từ biên lai của Apple, cùng các thông tin kỹ thuật cơ bản: loại thiết bị, hệ điều hành, ngôn ngữ và khu vực, và đơn vị tiền tệ.",
+        "RevenueCat không nhận bất kỳ thói quen, nhật ký hay ghi chú nào của bạn, cũng không nhận tên, email hay thông tin tài khoản. Dữ liệu này không được dùng để theo dõi hay quảng cáo. Xem chính sách bảo mật của RevenueCat tại revenuecat.com/privacy và của Apple tại apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Điều khoản sử dụng",
+    "lastUpdated": "Cập nhật lần cuối: ngày 20 tháng 11 năm 2026",
+    "intro": "Chào mừng bạn đến với MyGrowth (\"Ứng dụng\"). Khi tải xuống hoặc sử dụng Ứng dụng, bạn đồng ý với các điều khoản này.",
+    "acceptance": {
+      "title": "Chấp nhận Điều khoản",
+      "body": "Khi truy cập hoặc sử dụng MyGrowth, bạn đồng ý chịu sự ràng buộc của các Điều khoản sử dụng này. Nếu bạn không đồng ý, đừng sử dụng Ứng dụng."
+    },
+    "description": {
+      "title": "Mô tả Dịch vụ",
+      "body": "MyGrowth là ứng dụng theo dõi thói quen cá nhân dành cho iOS. Ứng dụng cho phép bạn ghi lại các hoạt động hằng ngày, trực quan hóa tiến bộ qua lưới heatmap và biểu đồ, và quản lý dữ liệu cá nhân của bạn, tất cả đều được lưu cục bộ trên thiết bị của bạn."
+    },
+    "responsibilities": {
+      "title": "Trách nhiệm của Người dùng",
+      "items": [
+        "Bạn chịu trách nhiệm về mọi dữ liệu bạn nhập vào Ứng dụng",
+        "Bạn chịu trách nhiệm duy trì bản sao lưu dữ liệu của mình bằng tính năng xuất",
+        "Bạn không được sử dụng Ứng dụng cho bất kỳ mục đích bất hợp pháp nào",
+        "Bạn không được tìm cách dịch ngược, giải mã biên dịch hoặc can thiệp vào Ứng dụng"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Dữ liệu và Quyền riêng tư",
+      "item1": "Mọi dữ liệu đều được lưu cục bộ trên thiết bị của bạn",
+      "item2": "Chúng tôi không thu thập, không truyền tải và không có quyền truy cập vào thói quen, nhật ký hay ghi chú của bạn",
+      "item3": "Để biết đầy đủ chi tiết, xem <link>Chính sách bảo mật</link> của chúng tôi"
+    },
+    "ip": {
+      "title": "Sở hữu trí tuệ",
+      "body": "MyGrowth, bao gồm thiết kế, mã nguồn và tài sản hình ảnh, là tài sản trí tuệ của nhà phát triển, Sagomak. Bạn được cấp một giấy phép có giới hạn, không độc quyền, không thể chuyển nhượng để sử dụng Ứng dụng cho mục đích cá nhân, phi thương mại."
+    },
+    "iap": {
+      "title": "Mua hàng trong ứng dụng",
+      "body": "Ứng dụng có thể cung cấp các tính năng cao cấp tùy chọn thông qua mua hàng trong ứng dụng. Mọi giao dịch mua đều do Apple xử lý qua App Store và tuân theo các điều khoản và điều kiện của Apple. Việc hoàn tiền do Apple xử lý theo chính sách hoàn tiền của Apple. Ứng dụng kiểm tra trạng thái mua hàng của bạn thông qua RevenueCat, như được mô tả trong <link>Chính sách bảo mật</link>."
+    },
+    "warranties": {
+      "title": "Từ chối Bảo đảm",
+      "body": "Ứng dụng được cung cấp \"nguyên trạng\" mà không có bất kỳ bảo đảm nào, dù rõ ràng hay ngụ ý. Chúng tôi không đảm bảo rằng Ứng dụng sẽ không có lỗi, không bị gián đoạn hoặc không chứa thành phần có hại."
+    },
+    "liability": {
+      "title": "Giới hạn Trách nhiệm",
+      "body": "Trong phạm vi tối đa pháp luật cho phép, nhà phát triển sẽ không chịu trách nhiệm đối với bất kỳ thiệt hại gián tiếp, ngẫu nhiên, đặc biệt hoặc mang tính hệ quả nào phát sinh từ việc bạn sử dụng Ứng dụng, bao gồm nhưng không giới hạn ở việc mất dữ liệu."
+    },
+    "dataLoss": {
+      "title": "Mất dữ liệu",
+      "body": "Vì mọi dữ liệu đều được lưu cục bộ trên thiết bị của bạn, chúng tôi không chịu trách nhiệm về việc mất dữ liệu do hỏng thiết bị, cập nhật iOS, xóa ứng dụng hay bất kỳ nguyên nhân nào khác. Chúng tôi khuyên bạn thường xuyên xuất dữ liệu bằng tính năng xuất có sẵn."
+    },
+    "modifications": {
+      "title": "Sửa đổi",
+      "body": "Chúng tôi có quyền cập nhật các Điều khoản này bất cứ lúc nào. Việc tiếp tục sử dụng Ứng dụng sau khi có thay đổi đồng nghĩa với việc chấp nhận các Điều khoản mới. Phiên bản mới nhất sẽ luôn có trên trang này."
+    },
+    "termination": {
+      "title": "Chấm dứt",
+      "body": "Chúng tôi có thể chấm dứt hoặc tạm ngừng quyền truy cập Ứng dụng của bạn bất cứ lúc nào, không cần thông báo, đối với hành vi mà chúng tôi cho là vi phạm các Điều khoản này hoặc gây hại cho người dùng khác hay cho Ứng dụng."
+    },
+    "governingLaw": {
+      "title": "Luật áp dụng",
+      "body": "Các Điều khoản này được điều chỉnh bởi pháp luật Đan Mạch, không xét đến các nguyên tắc xung đột pháp luật."
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "body": "Nếu có câu hỏi về các Điều khoản này:"
+    }
+  },
+  "languageNote": "Đây là bản dịch. Trong trường hợp có khác biệt, bản tiếng Anh sẽ được ưu tiên áp dụng.",
+  "englishLink": "Đọc bản tiếng Anh"
+}

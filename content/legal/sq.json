@@ -1,0 +1,151 @@
+{
+  "locale": "sq",
+  "meta": {
+    "privacy": {
+      "title": "Politika e Privatësisë, MyGrowth",
+      "description": "MyGrowth i mban zakonet, regjistrimet dhe shënimet e tua në pajisjen tënde. Lexo politikën e plotë të privatësisë."
+    },
+    "terms": {
+      "title": "Kushtet e Përdorimit, MyGrowth",
+      "description": "Kushtet e Përdorimit për aplikacionin MyGrowth për iOS."
+    }
+  },
+  "chrome": {
+    "backHome": "Kthehu në faqen kryesore",
+    "privacy": "Politika e Privatësisë",
+    "terms": "Kushtet e Përdorimit",
+    "support": "Mbështetje"
+  },
+  "privacy": {
+    "title": "Politika e Privatësisë",
+    "lastUpdated": "Përditësuar së fundi: 20 nëntor 2026",
+    "intro": "MyGrowth („Aplikacioni”) është krijuar nga Sagomak dhe është i angazhuar për mbrojtjen e privatësisë sate. Kjo politikë shpjegon si i trajtojmë të dhënat e tua.",
+    "short": {
+      "title": "Shkurtimisht",
+      "body": "Ne nuk mbledhim të dhënat e zakoneve të tua. Gjithçka që ndjek mbetet në pajisjen tënde."
+    },
+    "stored": {
+      "title": "Çfarë të dhënash ruhen",
+      "intro": "Aplikacioni ruan të dhënat e mëposhtme në mënyrë lokale në iPhone-in tënd:",
+      "items": [
+        "Konfigurimet e zakoneve (emrat, njësitë, qëllimet, ngjyrat)",
+        "Regjistrimet ditore (data, vlera, shënime opsionale)",
+        "Preferencat e aplikacionit (tema, statusi i hyrjes fillestare, të dhënat e pëlqimit)"
+      ],
+      "footer": "Këto të dhëna ruhen në hapësirën ruajtëse lokale të iOS (UserDefaults). Ato nuk largohen kurrë nga pajisja jote."
+    },
+    "notCollect": {
+      "title": "Çfarë nuk mbledhim",
+      "items": [
+        "Asnjë informacion personal (emër, email, telefon, vendndodhje)",
+        "Asnjë analitikë përdorimi ose raport gabimesh",
+        "Asnjë identifikues reklamash",
+        "Asnjë cookie ose piksel gjurmimi",
+        "Asnjë zakon, regjistrim apo shënim nuk transmetohet ndonjëherë në ndonjë server"
+      ]
+    },
+    "thirdParty": {
+      "title": "Shërbime të palëve të treta",
+      "body": "Aplikacioni nuk përmban mjete analitike, rrjete reklamash ose shërbime cloud. I vetmi SDK i palës së tretë është RevenueCat, që përdoret për të verifikuar blerjet brenda aplikacionit (shih Blerjet më poshtë)."
+    },
+    "rights": {
+      "title": "Të drejtat e tua (GDPR)",
+      "intro": "Sipas Rregullores së Përgjithshme për Mbrojtjen e të Dhënave (GDPR), ke të drejtë:",
+      "access": "të <b>aksesosh</b> të dhënat e tua: të dukshme drejtpërdrejt në aplikacion në çdo kohë",
+      "export": "të <b>eksportosh</b> të dhënat e tua: te Cilësimet, Menaxhimi i të Dhënave, Eksporto (JSON ose CSV)",
+      "delete": "të <b>fshish</b> të dhënat e tua: te Cilësimet, Menaxhimi i të Dhënave, Pastro të Dhënat Të Gjitha",
+      "rectify": "të <b>korrigjosh</b> të dhënat e tua: ndrysho çdo regjistrim duke e prekur në aplikacion",
+      "footer": "Duke qenë se të gjitha të dhënat ruhen vetëm në pajisjen tënde, ushtrimi i këtyre të drejtave nuk kërkon asnjë kërkesë drejtuar neve: ke kontroll të plotë."
+    },
+    "retention": {
+      "title": "Ruajtja e të dhënave",
+      "body": "Të dhënat e tua mbeten në pajisjen tënde derisa t'i fshish brenda aplikacionit ose të çinstalosh aplikacionin. Çinstalimi i heq përgjithmonë të gjitha të dhënat."
+    },
+    "children": {
+      "title": "Privatësia e fëmijëve",
+      "body": "Aplikacioni nuk mbledh me dijeni të dhëna nga fëmijë nën 16 vjeç. Duke qenë se nuk mblidhet asnjë informacion personal nga asnjë përdorues, Aplikacioni është në përputhje me kërkesat e COPPA dhe GDPR për moshën."
+    },
+    "changes": {
+      "title": "Ndryshimet në këtë politikë",
+      "body": "Nëse e përditësojmë këtë politikë, do të publikojmë versionin e rishikuar në këtë faqe me një datë të përditësuar."
+    },
+    "contact": {
+      "title": "Kontakti",
+      "body": "Për pyetje ose shqetësime rreth privatësisë:"
+    },
+    "purchases": {
+      "title": "Blerjet",
+      "body": [
+        "MyGrowth Pro shitet përmes App Store të Apple. Apple përpunon çdo pagesë; ne nuk e shohim kurrë emrin, Apple ID ose të dhënat e tua të pagesës.",
+        "Për të ditur cilat blerje janë aktive, Aplikacioni përdor RevenueCat, Inc. (revenuecat.com), një shërbim abonimesh që i përpunon këto të dhëna në emrin tonë. Kur Aplikacioni niset, dhe kur blen ose rikthen një blerje, RevenueCat merr një ID anonime të rastësishme të krijuar nga Aplikacioni, historikun e blerjeve dhe abonimeve nga fatura e Apple dhe detaje teknike bazë: llojin e pajisjes, sistemin operativ, cilësimet rajonale dhe monedhën.",
+        "RevenueCat nuk merr asnjë nga zakonet, regjistrimet ose shënimet e tua, dhe asnjë emër, email ose të dhëna llogarie. Këto të dhëna nuk përdoren për gjurmim ose reklamim. Shih politikën e privatësisë së RevenueCat në revenuecat.com/privacy dhe atë të Apple në apple.com/legal/privacy."
+      ]
+    }
+  },
+  "terms": {
+    "title": "Kushtet e Përdorimit",
+    "lastUpdated": "Përditësuar së fundi: 20 nëntor 2026",
+    "intro": "Mirë se vjen në MyGrowth („Aplikacioni”). Duke shkarkuar ose përdorur Aplikacionin, pranon këto kushte.",
+    "acceptance": {
+      "title": "Pranimi i kushteve",
+      "body": "Duke aksesuar ose përdorur MyGrowth, pranon të jesh i detyruar nga këto Kushte të Përdorimit. Nëse nuk pajtohesh, mos e përdor Aplikacionin."
+    },
+    "description": {
+      "title": "Përshkrimi i shërbimit",
+      "body": "MyGrowth është një aplikacion personal për ndjekjen e zakoneve për iOS. Të lejon të regjistrosh aktivitetet ditore, të vizualizosh përparimin përmes hartave të nxehtësisë dhe grafikëve, dhe të menaxhosh të dhënat e tua personale, të gjitha të ruajtura në mënyrë lokale në pajisjen tënde."
+    },
+    "responsibilities": {
+      "title": "Përgjegjësitë e përdoruesit",
+      "items": [
+        "Je përgjegjës për të gjitha të dhënat që fut në Aplikacion",
+        "Je përgjegjës për mbajtjen e kopjeve rezervë të të dhënave të tua duke përdorur funksionin e eksportit",
+        "Nuk duhet ta përdorësh Aplikacionin për asnjë qëllim të paligjshëm",
+        "Nuk duhet të përpiqesh të bësh inxhinieri të kundërt, ta dekompilosh ose ta manipulosh Aplikacionin"
+      ]
+    },
+    "dataPrivacy": {
+      "title": "Të dhënat dhe privatësia",
+      "item1": "Të gjitha të dhënat ruhen në mënyrë lokale në pajisjen tënde",
+      "item2": "Ne nuk i mbledhim, nuk i transmetojmë dhe nuk kemi akses në zakonet, regjistrimet ose shënimet e tua",
+      "item3": "Për të gjitha detajet, shih <link>Politikën e Privatësisë</link>"
+    },
+    "ip": {
+      "title": "Pronësia intelektuale",
+      "body": "MyGrowth, përfshirë dizajnin, kodin dhe elementet e tij vizuale, është pronë intelektuale e zhvilluesit të tij, Sagomak. Të jepet një licencë e kufizuar, jo ekskluzive dhe e patransferueshme për ta përdorur Aplikacionin për qëllime personale dhe jo tregtare."
+    },
+    "iap": {
+      "title": "Blerjet brenda aplikacionit",
+      "body": "Aplikacioni mund të ofrojë veçori premium opsionale përmes blerjeve brenda aplikacionit. Të gjitha blerjet përpunohen nga Apple përmes App Store dhe u nënshtrohen termave dhe kushteve të Apple. Rimbursimet trajtohen nga Apple sipas politikës së saj të rimbursimit. Aplikacioni e verifikon statusin e blerjeve të tua përmes RevenueCat, siç përshkruhet në <link>Politikën e Privatësisë</link>."
+    },
+    "warranties": {
+      "title": "Mohimi i garancive",
+      "body": "Aplikacioni ofrohet „ashtu siç është”, pa garanci të asnjë lloji, të shprehura ose të nënkuptuara. Ne nuk garantojmë që Aplikacioni do të jetë pa gabime, pa ndërprerje ose pa komponentë të dëmshëm."
+    },
+    "liability": {
+      "title": "Kufizimi i përgjegjësisë",
+      "body": "Në masën maksimale të lejuar nga ligji, zhvilluesi nuk mban përgjegjësi për asnjë dëm të tërthortë, rastësor, të veçantë ose pasues që rrjedh nga përdorimi yt i Aplikacionit, përfshirë, por pa u kufizuar në, humbjen e të dhënave."
+    },
+    "dataLoss": {
+      "title": "Humbja e të dhënave",
+      "body": "Duke qenë se të gjitha të dhënat ruhen në mënyrë lokale në pajisjen tënde, ne nuk jemi përgjegjës për humbjen e të dhënave për shkak të defektit të pajisjes, përditësimeve të iOS, fshirjes së aplikacionit ose çdo shkaku tjetër. Të rekomandojmë t'i eksportosh rregullisht të dhënat e tua me funksionin e integruar të eksportit."
+    },
+    "modifications": {
+      "title": "Ndryshimet",
+      "body": "Ne rezervojmë të drejtën t'i përditësojmë këto Kushte në çdo kohë. Përdorimi i vazhdueshëm i Aplikacionit pas ndryshimeve përbën pranim të Kushteve të reja. Versioni më i fundit do të jetë gjithmonë i disponueshëm në këtë faqe."
+    },
+    "termination": {
+      "title": "Ndërprerja",
+      "body": "Mund ta ndërpresim ose ta pezullojmë aksesin tënd në Aplikacion në çdo kohë, pa njoftim, për sjellje që besojmë se shkel këto Kushte ose është e dëmshme për përdoruesit e tjerë ose për Aplikacionin."
+    },
+    "governingLaw": {
+      "title": "Ligji i zbatueshëm",
+      "body": "Këto Kushte rregullohen nga ligjet e Danimarkës, pa marrë parasysh parimet e konfliktit të ligjeve."
+    },
+    "contact": {
+      "title": "Kontakti",
+      "body": "Për pyetje rreth këtyre Kushteve:"
+    }
+  },
+  "languageNote": "Ky është një përkthim. Në rast mospërputhjesh, mbizotëron versioni në anglisht.",
+  "englishLink": "Lexo versionin në anglisht"
+}
