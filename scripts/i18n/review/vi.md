@@ -45,3 +45,26 @@ Still flagged for a native speaker:
 | site.skyline.title | A year of consistency | Một năm của sự nhất quán | Glossary "Sự nhất quán" is stiff in a short handwritten title |
 | site.skyline.skyline / hintOrbit / footer.skyline | 3D skyline | Skyline 3D | Kept "skyline" in English; no established Vietnamese term |
 | site.skyline.aria | Example Consistency for every day... | Sự nhất quán ví dụ cho mỗi ngày... | Glossary term plus "ví dụ" reads a bit literal |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title / hero.sub / charts.title | build consistency / See your consistency grow | rèn sự kiên trì / Nhìn sự kiên trì của bạn lớn dần | Glossary "Sự nhất quán" reads stiff for the generic idea; used "sự kiên trì" (perseverance) and kept the glossary term only for the chart metric in charts.body |
+| site.hero.trust | One small step a day. A year of proof. | Mỗi ngày một bước nhỏ. Một năm làm bằng chứng. | Slogan rhythm |
+| site.features.title | Show up daily. Watch it add up. | Có mặt mỗi ngày. Nhìn thành quả cộng dồn. | "add up" idiom |
+| site.features.items.widgets.title | Your habits, one glance away. | Thói quen của bạn, chỉ cần một cái nhìn. | Idiom |
+| site.features.items.events.body | a year of living fill in | một năm sống được lấp đầy | Abstract phrase, check naturalness |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.hero.sub | …và trở thành người bạn muốn. | …và trở thành con người bạn mong muốn. | "người bạn muốn" can misparse as "người bạn" (friend) and is truncated |
+| site.features.title | …Nhìn thành quả cộng dồn. | …Nhìn thành quả tích lũy dần. | "tích lũy dần" is the natural phrasing for "add up" |
+| site.features.items.widgets.title | Thói quen của bạn, chỉ cần một cái nhìn. | Thói quen của bạn, liếc mắt là thấy. | Idiomatic "at a glance" |
+| site.features.items.events.body | …nhìn một năm sống được lấp đầy, từng ngày một. | …nhìn một năm cuộc sống được lấp đầy dần, từng ngày một. | "một năm sống" was awkward |
+
+Accepted as is: "sự kiên trì" for the general idea (meta title, hero.sub, charts.title), "Sự nhất quán" kept for the chart metric; hero.trust.
+
+Confidence: high

@@ -46,3 +46,25 @@ Still flagged for a native speaker:
 | site.skyline.range | {a} to {b} | {a} până la {b} | "de la {a} până la {b}" may read better depending on context. |
 | site.skyline.tooltip | {pct} on {date} | {date}: {pct} | Reordered with a colon to avoid preposition choice before a weekday-first date. |
 | site.skyline.hintOrbit | ...double click to reset | ...dublu clic ca să resetezi | Check "dublu clic" vs "clic dublu". |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: urmărește-ți obiceiurile zilnic și construiește constanță | 67 characters, slightly over the 65 target; Romanian has no shorter natural form. |
+| site.features.title | Show up daily. Watch it add up. | Fii prezent zilnic. Privește cum se adună. | Masculine "prezent" (matches the existing "ești prezent" in year.body). |
+| site.features.items.widgets.title | Your habits, one glance away. | Obiceiurile tale, la o privire distanță. | Calque of "one glance away"; alternative "mereu la vedere". |
+| site.year.body | Small days add up. | Zilele mici se adună. | Literal; "Pas cu pas, zilele se adună" is an option. |
+
+## Review: new message, 2026-11-27
+
+Second reviewer. Meaning, privacy body, glossary (Constanță, Serie, Astăzi, Habit Grid), informal register and dashes checked on all listed keys; removed privacy keys are gone.
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.items.widgets.title | Obiceiurile tale, la o privire distanță. | Obiceiurile tale, la doar o privire. | Calque of "one glance away"; "la doar o privire" is the natural form. |
+| site.year.body | ... Zilele mici se adună. | ... Pas cu pas, zilele se adună. | "Zilele mici" reads oddly; translator's own alternative is more natural. |
+
+Still doubtful: meta.home.title is 67 characters (target about 65); no shorter natural form without losing meaning. "ești prezent" / "Fii prezent" are masculine, kept because the existing year.body already used it.
+
+Confidence: high.

@@ -98,3 +98,25 @@ Doubts:
 | site.skyline.tooltip, empty | {pct} on {date} | {date}: {pct} / {date}: καμία καταγραφή | reordered: "στις" cannot precede a weekday date |
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | Στα σερί μετράνε οι μέρες που φτάνουν ή ξεπερνούν τον στόχο του {goal}. | rephrased; "σερί" per glossary |
 | site.footer.skyline | Skyline chart adapted from | Το γράφημα skyline βασίζεται στο | article "στο" assumes a neuter reading of the English link title |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | Εμφανίσου κάθε μέρα. Δες το να αθροίζεται. | idiom "add up" literal (αθροίζεται); "Εμφανίσου" follows existing "εμφανίζεσαι" |
+| site.year.body (last sentence) | Small days add up. | Οι μικρές μέρες αθροίζονται. | same idiom |
+| site.hero.trust | One small step a day. A year of proof. | Ένα μικρό βήμα τη μέρα. Μια χρονιά αποδείξεων. | rhythm check |
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: κατέγραφε συνήθειες κάθε μέρα και χτίσε σταθερότητα | continuous imperative "κατέγραφε" chosen for "track daily" |
+| site.features.items.widgets.body | keep your Habit Grid in sight | κράτα το Πλέγμα Συνήθειας μπροστά στα μάτια σου | widget name from existing site copy, not glossary |
+| site.features.items.timers.body | so no session is lost | ώστε να μη χάνεται καμία συνεδρία | "συνεδρία" for session may read formal |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.title | Εμφανίσου κάθε μέρα. Δες το να αθροίζεται. | Εμφανίσου κάθε μέρα. Δες τα να μαζεύονται. | «αθροίζεται» is arithmetic (summed); «μαζεύονται» is the everyday "add up / pile up" |
+| site.year.body (last sentence) | Οι μικρές μέρες αθροίζονται. | Οι μικρές μέρες μαζεύονται. | same idiom, kept consistent with features.title |
+
+Still doubtful: «συνεδρία» for "session" in timers.body is a little formal; left as is because no lighter word keeps the meaning. «Εμφανίσου» for "Show up" is literal but matches the existing «εμφανίζεσαι». Privacy body checked: exact meaning.
+
+Confidence: medium.

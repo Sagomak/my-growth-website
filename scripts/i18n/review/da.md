@@ -58,3 +58,23 @@ Still flagged for a native speaker:
 | site.skyline.avg | Average consistency | Gennemsnitlig konsekvens | same glossary issue as above |
 | site.skyline.longest / current | Longest run / Current run | Længste stime / Nuværende stime | glossary Streak = Stime; "stime" is uncommon for streaks in Danish ("stribe" is more usual) |
 | site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered; Danish full date "torsdag den 12. november 2026" reads best first |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | Mød op hver dag. Se det blive til noget. | "add up" rendered as "see it become something" |
+| site.features.eyebrow | How it helps | Sådan hjælper den dig | "den" refers to the app (appen); may read vaguely on its own |
+| site.hero.trust | One small step a day. A year of proof. | Et lille skridt om dagen. Et år som bevis. | "proof" has no rhythmic Danish equivalent |
+| site.year.body | ... Small days add up. | ... Små dage bliver til meget. | idiomatic rewrite |
+| site.features.items.widgets.body | ... with the Today widget ... | ... med I dag-widgetten ... | definite form of the glossary "I dag" widget, as in existing copy |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.eyebrow | Sådan hjælper den dig | Sådan hjælper appen dig | "den" had no referent in a standalone eyebrow |
+
+Still doubtful: none significant. "Et år som bevis" and "Se det blive til noget" are good idiomatic renderings. Privacy body exact. Glossary terms (Vanegitter, I dag-widgetten, hjemmeskærmen, låseskærm, stime, konsekvens, På vej mod) correct.
+
+Confidence: high

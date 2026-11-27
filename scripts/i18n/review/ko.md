@@ -58,3 +58,25 @@ Still flagged for a native speaker:
 | site.skyline.levelEmpty / empty | Nothing logged | 기록 없음 | Glossary "Not logged" is 로그인하지 않음 ("not logged in"), wrong; used 기록 없음 |
 | site.skyline.title | A year of consistency | 일관성의 한 해 | Glossary 일관성 is stiff for a title; 꾸준함 would be more natural |
 | site.skyline.range | {a} to {b} | {a}부터 {b}까지 | Avoided ~ so nothing reads as a dash |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title / hero.sub / charts.title | build consistency / See your consistency grow | 꾸준함을 쌓으세요 / 꾸준함이 자라는 걸 확인하세요. | Glossary 일관성 reads oddly for the generic idea; used 꾸준함, kept 일관성 only for the chart metric in charts.body |
+| site.hero.trust | One small step a day. A year of proof. | 하루에 작은 한 걸음. 일 년의 증거. | Slogan rhythm |
+| site.features.items.charts.body | Swipe back through your history | 기록을 거슬러 넘겨 보며 | Check naturalness |
+| site.features.items.languages.body | with your own colours and icons on every habit | 모든 습관에 나만의 색과 아이콘을 담아. | Ends on a connective form as a tagline; check |
+| site.year.eyebrow | Every day counts | 하루하루가 소중합니다 | Idiom, rendered as "every day is precious" |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.hero.trust | 하루에 작은 한 걸음. 일 년의 증거. | 매일 작은 한 걸음. 일 년이 증명합니다. | Second half was a bare noun phrase that read stiffly; now "a year proves it" |
+| site.features.items.charts.body | …기록을 거슬러 넘겨 보며… | …스와이프로 지난 기록을 거슬러 보며… | "넘겨 보며" was awkward and "swipe" was lost |
+| site.features.items.languages.body | …모든 습관에 나만의 색과 아이콘을 담아. | …모든 습관에 나만의 색과 아이콘을 입혀 보세요. | Connective ending read unfinished; -세요 matches the site register |
+
+Accepted as is: 꾸준함 for the general idea, 일관성 for the chart metric; year.eyebrow 하루하루가 소중합니다.
+
+Confidence: high

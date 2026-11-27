@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: ứng dụng theo dõi thói quen vẽ tay, chỉ ở trên iPhone của bạn",
-      "description": "MyGrowth biến thói quen của bạn thành heatmap vẽ tay, biểu đồ và thống kê. Riêng tư ngay từ thiết kế: không tài khoản, không đám mây, dữ liệu ở lại trên thiết bị của bạn."
+      "title": "MyGrowth: theo dõi thói quen mỗi ngày, rèn sự kiên trì",
+      "description": "Ghi lại thói quen trong vài giây, nhìn thấy mọi ngày nỗ lực trên một lưới vẽ tay, và thấy sự kiên trì dần định hình con người bạn muốn trở thành."
     },
     "support": {
       "title": "Hỗ trợ, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Bạn trở thành điều bạn lặp lại.",
-    "sub": "MyGrowth biến thói quen của bạn thành heatmap vẽ tay, biểu đồ và thống kê, để bạn thấy việc có mặt mỗi ngày trở thành tiến bộ.",
-    "trust": "Riêng tư ngay từ thiết kế. Không tài khoản, không đám mây.",
+    "sub": "Theo dõi thói quen mỗi ngày, rèn sự kiên trì, và trở thành con người bạn mong muốn.",
+    "trust": "Mỗi ngày một bước nhỏ. Một năm làm bằng chứng.",
     "phoneAlt": "Dashboard của MyGrowth: dải tuần, mục tiêu Trở thành và các thói quen hôm nay dưới dạng thẻ vẽ tay."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Sự nhất quán ví dụ cho mỗi ngày từ {a} đến {b}, trung bình {avg}. Dùng các phím mũi tên để đọc từng ngày."
   },
   "year": {
-    "eyebrow": "Cả năm của bạn, trong một cái nhìn",
-    "title": "Một bức tranh chân thật về một năm.",
-    "body": "Mỗi ngày bạn có mặt sẽ tô kín một ô. Ô của hôm nay trên dải tuần đầy dần theo thời gian trong ngày.",
+    "eyebrow": "Mỗi ngày đều đáng giá",
+    "title": "Mọi thứ bắt đầu từ hôm nay.",
+    "body": "Mỗi ngày bạn có mặt sẽ tô kín một ô, và ô của hôm nay trên dải tuần đầy dần theo thời gian trong ngày. Những ngày nhỏ cộng lại thành điều lớn.",
     "habit": "Đọc",
     "weekLabel": "Tuần này",
     "todayLabel": "Hôm nay, đã qua {pct}% ngày",
@@ -75,25 +75,25 @@
     "gridLabel": "Heatmap ví dụ: một năm đọc sách, mỗi ngày một ô, kết thúc vào hôm nay."
   },
   "features": {
-    "eyebrow": "Có gì bên trong",
-    "title": "Theo dõi điều quan trọng. Nhìn nó lớn dần.",
+    "eyebrow": "Ứng dụng giúp bạn thế nào",
+    "title": "Có mặt mỗi ngày. Nhìn thành quả tích lũy dần.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard và Trở thành",
-        "title": "Con người bạn đang trở thành, trên một trang.",
-        "body": "Các thói quen hôm nay hiện thành thẻ bên dưới mục tiêu Trở thành của bạn, trong khung vẽ tay riêng. Những thói quen bạn chưa ghi lại sẽ nổi bật, để bạn thấy ngay còn lại gì.",
+        "title": "Con người bạn đang trở thành, mỗi sáng.",
+        "body": "Viết ra người bạn muốn trở thành, và thấy điều đó phía trên các thói quen hôm nay mỗi lần mở ứng dụng. Những thói quen bạn chưa ghi lại sẽ nổi bật, để bạn biết hôm nay còn lại gì.",
         "becomingLabel": "Trở thành",
         "becomingGoal": "người luôn giữ lời hứa"
       },
       "grid": {
         "eyebrow": "Lưới",
-        "title": "Một năm nỗ lực, một bức tranh chân thật.",
-        "body": "Mỗi thói quen có heatmap riêng với màu riêng. Quy luật, khoảng trống và chuỗi ngày hiện ra trong nháy mắt, và chuỗi ngày đi theo lịch của bạn, nên một ngày nghỉ không bao giờ làm đứt chuỗi."
+        "title": "Mọi ngày nỗ lực, trên một trang.",
+        "body": "Mỗi thói quen có một năm ô vuông với màu riêng. Nhìn những khoảng trống khép lại và chuỗi ngày dài thêm, và một ngày nghỉ đã lên kế hoạch không bao giờ làm đứt chuỗi."
       },
       "charts": {
         "eyebrow": "Biểu đồ",
-        "title": "Mọi thói quen đều được đo lường.",
-        "body": "Sự nhất quán, trung bình, tổng cộng, số ngày đạt mục tiêu và ngày tốt nhất. Đường biểu đồ tự vẽ ra, còn các cột mọc lên từ dưới.",
+        "title": "Nhìn sự kiên trì của bạn lớn dần.",
+        "body": "Sự nhất quán, trung bình, tổng cộng, số ngày đạt mục tiêu và những ngày tốt nhất của bạn. Vuốt ngược lại lịch sử và xem bạn đã đi được bao xa.",
         "consistency": "Sự nhất quán",
         "lastDays": "30 ngày qua",
         "minutes": "Phút mỗi ngày",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Sự kiện",
-        "title": "Mỗi nơi chốn, cuốn sách và chuyến đi một màu riêng.",
-        "body": "Ghi lại những nơi bạn đến, những cuốn sách bạn đọc, các chuyến đi và buổi hòa nhạc, rồi nhìn cả một năm cuộc đời bạn hiện lên thành một bức tranh.",
+        "title": "Một năm của bạn qua nơi chốn, sách và chuyến đi.",
+        "body": "Cho mỗi nơi chốn, cuốn sách, chuyến đi và buổi hòa nhạc một màu riêng, và nhìn một năm cuộc sống được lấp đầy dần, từng ngày một.",
         "legend": [
           "Chuyến đi",
           "Sách",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widget và Live Activity",
-        "title": "Trên Màn hình chính và Màn hình khóa.",
-        "body": "Widget Lưới thói quen, widget Hôm nay để ghi lại ngay từ Màn hình chính, và bộ đếm giờ hiện trên Màn hình khóa."
+        "title": "Thói quen của bạn, liếc mắt là thấy.",
+        "body": "Ghi lại từ Màn hình chính với widget Hôm nay, luôn để Lưới thói quen trong tầm mắt, và theo dõi bộ đếm giờ đang chạy trên Màn hình khóa."
       },
       "timers": {
         "eyebrow": "Bộ đếm giờ và ghi chép",
-        "title": "Ghi lại trong vài giây. Bộ đếm vẫn chạy.",
-        "body": "Chạm vào thẻ, nhập giá trị, lưu. Thời lượng hiển thị theo giờ, phút và giây, và bộ đếm giờ vẫn chạy tiếp khi bạn rời ứng dụng.",
+        "title": "Ghi lại trong vài giây, mỗi ngày.",
+        "body": "Chạm vào thẻ, nhập giá trị, lưu. Bộ đếm giờ vẫn chạy tiếp khi bạn rời ứng dụng, nên không phiên nào bị mất.",
         "timer": "Thiền"
       },
       "themes": {
         "eyebrow": "Giấy và than chì",
         "title": "Giấy tông ấm ban ngày, than chì dịu mắt ban đêm.",
-        "body": "Chế độ sáng nằm trên nền giấy tông ấm. Chế độ tối là màu xám than chì dịu mắt thay cho đen tuyền. Chữ viết theo nét tay, còn các con số vẫn sắc nét và chính xác.",
+        "body": "Phong cách vẽ tay khiến việc mở ứng dụng mỗi ngày thành một niềm vui nhỏ. Chữ viết theo nét tay, còn các con số vẫn sắc nét và chính xác.",
         "paper": "Giấy",
         "graphite": "Than chì"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Ngôn ngữ",
         "title": "Bằng ngôn ngữ của bạn. 25 ngôn ngữ.",
-        "body": "Từ tiếng Anh đến tiếng Nhật, từ tiếng Bengal đến tiếng Albania. Màu sắc và biểu tượng riêng cho mỗi thói quen."
+        "body": "Từ tiếng Anh đến tiếng Nhật, từ tiếng Bengal đến tiếng Albania, với màu sắc và biểu tượng riêng cho mỗi thói quen."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Quyền riêng tư",
-    "title": "Dữ liệu của bạn ở lại trên iPhone.",
-    "body": "Không tài khoản, không đám mây, không theo dõi. Chỉ có bạn và bằng chứng rằng bạn đang trở thành người bạn muốn.",
-    "storedTitle": "Lưu trên thiết bị của bạn",
-    "stored": [
-      "Thói quen của bạn: tên, đơn vị, mục tiêu, màu sắc và biểu tượng",
-      "Nhật ký hằng ngày: ngày, giá trị và ghi chú tùy chọn",
-      "Cài đặt và tùy chọn của bạn"
-    ],
-    "neverTitle": "Không bao giờ thu thập",
-    "never": [
-      "Thói quen, nhật ký hay ghi chú của bạn",
-      "Tên, email, số điện thoại hay vị trí",
-      "Phân tích sử dụng hay báo cáo sự cố",
-      "Mã định danh quảng cáo, cookie hay theo dõi"
-    ],
+    "title": "Thói quen của bạn là của riêng bạn.",
+    "body": "Mọi thứ bạn ghi lại đều ở trên iPhone của bạn: không tài khoản, không đám mây, không theo dõi.",
     "purchases": "Giao dịch mua Pro được thực hiện qua Apple và được kiểm tra bằng RevenueCat, với một ID ẩn danh ngẫu nhiên.",
     "link": "Đọc chính sách bảo mật"
   },

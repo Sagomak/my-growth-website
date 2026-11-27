@@ -53,3 +53,24 @@ Still flagged for a native speaker:
 | site.footer.skyline | Skyline chart adapted from | スカイラインチャートの原案： | Japanese puts the source first; rendered as a label "original of the skyline chart:" so it reads before the link |
 | site.skyline.levelEmpty / empty | Nothing logged | 記録なし | Glossary "Not logged" (ログされていません) is unnatural; used 記録なし |
 | site.skyline.range | {a} to {b} | {a}から{b}まで | Avoided 〜 so nothing reads as a dash |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title / hero.sub / charts.title | build consistency / See your consistency grow | 続ける力を育てよう / 続ける力が育つのを、その目で。 | Glossary 一貫性 is unnatural for the generic idea; used 続ける力 / 継続, kept 一貫性 only for the chart metric in charts.body |
+| site.hero.trust | One small step a day. A year of proof. | 一日に、小さな一歩。一年分の、確かな証。 | Slogan rhythm, check the commas |
+| site.features.eyebrow | How it helps | MyGrowthができること | Rewritten as "What MyGrowth can do" |
+| site.features.items.timers.title | Log in seconds, every day. | 記録は数秒。毎日、気軽に。 | Adds "casually" for rhythm |
+| site.features.items.timers.body | so no session is lost | どのセッションも無駄になりません | "lost" rendered as "wasted" |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.hero.trust | 一日に、小さな一歩。一年分の、確かな証。 | 一日ひとつ、小さな一歩。一年分の、確かな証。 | 「一日に、」 dangled; 「一日ひとつ」 is natural and keeps the two-part rhythm |
+| site.features.items.timers.body | …どのセッションも無駄になりません。 | …セッションが失われることはありません。 | 無駄 means "wasted", not "lost" |
+
+Accepted as is: 続ける力 for the general idea, 一貫性 only for the chart metric; features.eyebrow 「MyGrowthができること」 (standard Japanese section label); timers.title 「毎日、気軽に。」 adds a light nuance but suits the register.
+
+Confidence: high

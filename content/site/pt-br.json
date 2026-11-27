@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: um rastreador de hábitos desenhado à mão que fica no seu iPhone",
-      "description": "O MyGrowth transforma seus hábitos em um heatmap desenhado à mão, gráficos e estatísticas. Privado por natureza: sem conta, sem nuvem, seus dados ficam no seu dispositivo."
+      "title": "MyGrowth: acompanhe seus hábitos todo dia e ganhe constância",
+      "description": "Registre seus hábitos em segundos, veja cada dia de esforço em uma grade desenhada à mão e acompanhe sua constância moldar a pessoa que você quer se tornar."
     },
     "support": {
       "title": "Suporte, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Você se torna o que faz com constância.",
-    "sub": "O MyGrowth transforma seus hábitos em um heatmap desenhado à mão, gráficos e estatísticas, para você ver o aparecer virar progresso.",
-    "trust": "Privado por natureza. Sem conta, sem nuvem.",
+    "sub": "Acompanhe seus hábitos todos os dias, ganhe constância e torne-se quem você quer ser.",
+    "trust": "Um pequeno passo por dia. Um ano como prova.",
     "phoneAlt": "O Dashboard do MyGrowth: a faixa da semana, a meta Rumo a e os hábitos de hoje como cartões desenhados à mão."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Constância de exemplo para cada dia, de {a} a {b}, com média de {avg}. Use as setas do teclado para ler cada dia."
   },
   "year": {
-    "eyebrow": "Seu ano, de relance",
-    "title": "Um retrato honesto de um ano.",
-    "body": "Cada dia em que você aparece preenche um quadrinho. O quadrinho de hoje na faixa da semana vai se enchendo conforme o dia passa.",
+    "eyebrow": "Cada dia conta",
+    "title": "Tudo começa hoje.",
+    "body": "Cada dia em que você aparece preenche um quadrinho, e o quadrinho de hoje na faixa da semana vai se enchendo conforme o dia passa. Dias pequenos também somam.",
     "habit": "Lendo",
     "weekLabel": "Esta semana",
     "todayLabel": "Hoje, {pct}% do dia já passou",
@@ -75,25 +75,25 @@
     "gridLabel": "Exemplo de heatmap: um ano de leitura, um quadrinho por dia, terminando hoje."
   },
   "features": {
-    "eyebrow": "O que tem dentro",
-    "title": "Acompanhe o que importa. Veja tudo crescer.",
+    "eyebrow": "Como isso ajuda você",
+    "title": "Apareça todo dia. Veja tudo somar.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard e Rumo a",
-        "title": "Quem você está se tornando, em uma página.",
-        "body": "Os hábitos de hoje como cartões sob a sua meta Rumo a, com uma moldura própria desenhada à mão. Os hábitos que você ainda não registrou se destacam, para você ver de relance o que falta.",
+        "title": "Quem você está se tornando, toda manhã.",
+        "body": "Escreva quem você quer se tornar e veja isso acima dos hábitos de hoje sempre que abrir o app. Os hábitos que você ainda não registrou se destacam, para você saber o que falta hoje.",
         "becomingLabel": "Rumo a",
         "becomingGoal": "ser alguém que cumpre o que promete"
       },
       "grid": {
         "eyebrow": "Grade",
-        "title": "Um ano de esforço, um retrato honesto.",
-        "body": "Cada hábito ganha seu próprio heatmap, na sua própria cor. Padrões, falhas e sequências aparecem de relance, e as sequências seguem a sua programação, então um dia de descanso nunca as quebra."
+        "title": "Cada dia de esforço, em uma página.",
+        "body": "Cada hábito ganha um ano de quadrinhos na sua própria cor. Veja as falhas se fecharem e as sequências crescerem, e um dia de descanso planejado nunca quebra uma sequência."
       },
       "charts": {
         "eyebrow": "Gráficos",
-        "title": "Cada hábito, medido.",
-        "body": "Constância, médias, totais, dias com meta atingida e melhores dias. As linhas se desenham sozinhas e as barras crescem de baixo para cima.",
+        "title": "Veja sua constância crescer.",
+        "body": "Constância, médias, totais, dias com meta atingida e seus melhores dias. Deslize pelo seu histórico e veja o quanto você já avançou.",
         "consistency": "Constância",
         "lastDays": "últimos 30 dias",
         "minutes": "Minutos por dia",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Eventos",
-        "title": "Cada lugar, livro e viagem com a sua cor.",
-        "body": "Registre os lugares que você visita, os livros que lê, as viagens e os shows, e veja um ano inteiro da sua vida aparecer como uma única imagem.",
+        "title": "Seu ano em lugares, livros e viagens.",
+        "body": "Dê a cada lugar, livro, viagem e show a sua própria cor e veja um ano de vida se preencher, um dia de cada vez.",
         "legend": [
           "Viagens",
           "Livros",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widgets e Atividade ao Vivo",
-        "title": "Na Tela de Início e na Tela Bloqueada.",
-        "body": "Um widget de Grade do hábito, um widget Hoje para registrar direto da Tela de Início e cronômetros que ficam na Tela Bloqueada."
+        "title": "Seus hábitos, de relance.",
+        "body": "Registre direto da Tela de Início com o widget Hoje, mantenha sua Grade do hábito à vista e acompanhe um cronômetro rodando na Tela Bloqueada."
       },
       "timers": {
         "eyebrow": "Cronômetros e registro",
-        "title": "Registre em segundos. Cronômetros seguem rodando.",
-        "body": "Toque em um cartão, digite um valor, salve. As durações aparecem em h, min e s, e um cronômetro continua rodando quando você sai do app.",
+        "title": "Registre em segundos, todo dia.",
+        "body": "Toque em um cartão, digite um valor, salve. Um cronômetro continua rodando quando você sai do app, então nenhuma sessão se perde.",
         "timer": "Meditação"
       },
       "themes": {
         "eyebrow": "Papel e grafite",
         "title": "Papel quente de dia, grafite suave à noite.",
-        "body": "O modo claro fica sobre um papel em tons quentes. O modo escuro é um grafite suave no lugar do preto puro. As palavras são escritas à mão, os números continuam nítidos e exatos.",
+        "body": "Um visual desenhado à mão que torna um pequeno prazer abrir o app todo dia. As palavras são escritas à mão, os números continuam nítidos e exatos.",
         "paper": "Papel",
         "graphite": "Grafite"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Idiomas",
         "title": "No seu idioma. São 25.",
-        "body": "Do inglês ao japonês, do bengali ao albanês. Suas próprias cores e ícones em cada hábito."
+        "body": "Do inglês ao japonês, do bengali ao albanês, com suas próprias cores e ícones em cada hábito."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Privacidade",
-    "title": "Seus dados ficam no seu iPhone.",
-    "body": "Sem conta, sem nuvem, sem rastreamento. Só você e a prova de que está se tornando quem deseja ser.",
-    "storedTitle": "Guardado no seu dispositivo",
-    "stored": [
-      "Seus hábitos: nomes, unidades, metas, cores e ícones",
-      "Seus registros diários: data, valor e notas opcionais",
-      "Suas configurações e preferências"
-    ],
-    "neverTitle": "Nunca coletado",
-    "never": [
-      "Seus hábitos, registros ou notas",
-      "Nome, e-mail, telefone ou localização",
-      "Análises de uso ou relatórios de falhas",
-      "Identificadores de publicidade, cookies ou rastreamento"
-    ],
+    "title": "Seus hábitos são seus.",
+    "body": "Tudo o que você registra fica no seu iPhone: sem conta, sem nuvem, sem rastreamento.",
     "purchases": "As compras do Pro passam pela Apple e são verificadas com a RevenueCat, usando um ID anônimo aleatório.",
     "link": "Leia a política de privacidade"
   },

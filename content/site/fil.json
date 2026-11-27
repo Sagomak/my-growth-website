@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: habit tracker na iginuhit sa kamay at nananatili sa iPhone mo",
-      "description": "Ginagawang heatmap na iginuhit sa kamay, mga tsart at estadistika ng MyGrowth ang mga gawi mo. Pribado mula sa simula: walang account, walang cloud, nananatili ang data mo sa device mo."
+      "title": "MyGrowth: subaybayan ang mga gawi araw-araw, buuin ang konsistensi",
+      "description": "Itala ang mga gawi mo sa loob ng ilang segundo, tingnan ang bawat araw ng pagsisikap sa grid na iginuhit sa kamay, at panoorin kung paano hinuhubog ng konsistensi mo ang taong gusto mong maging."
     },
     "support": {
       "title": "Suporta, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Nagiging ikaw kung ano ang paulit-ulit mong ginagawa.",
-    "sub": "Ginagawang heatmap na iginuhit sa kamay, mga tsart at estadistika ng MyGrowth ang mga gawi mo, para makita mong nagiging pag-unlad ang araw-araw mong pagsisikap.",
-    "trust": "Pribado mula sa simula. Walang account, walang cloud.",
+    "sub": "Subaybayan ang mga gawi mo araw-araw, buuin ang konsistensi, at maging ang taong gusto mong maging.",
+    "trust": "Isang maliit na hakbang bawat araw. Isang taon ng patunay.",
     "phoneAlt": "Ang Dashboard ng MyGrowth: ang strip ng linggo, ang layuning Nagiging at ang mga gawi ngayong araw bilang mga card na iginuhit sa kamay."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Halimbawang Konsistensi para sa bawat araw mula {a} hanggang {b}, na may average na {avg}. Gamitin ang mga arrow key para basahin ang bawat araw."
   },
   "year": {
-    "eyebrow": "Ang taon mo, sa isang sulyap",
-    "title": "Isang tapat na larawan ng isang taon.",
-    "body": "Bawat araw na ginagawa mo ang gawi mo, may napupunong isang kahon. Ang kahon ngayong araw sa strip ng linggo ay napupuno habang lumilipas ang araw.",
+    "eyebrow": "Mahalaga ang bawat araw",
+    "title": "Ngayon ang simula.",
+    "body": "Bawat araw na ginagawa mo ang gawi mo, may napupunong isang kahon, at ang kahon ngayong araw sa strip ng linggo ay napupuno habang lumilipas ang araw. Naiipon ang maliliit na araw.",
     "habit": "Pagbasa",
     "weekLabel": "Ngayong linggo",
     "todayLabel": "Ngayon, lumipas na ang {pct}% ng araw",
@@ -75,25 +75,25 @@
     "gridLabel": "Halimbawang heatmap: isang taon ng pagbasa, isang kahon bawat araw, nagtatapos ngayon."
   },
   "features": {
-    "eyebrow": "Ano ang nasa loob",
-    "title": "Subaybayan ang mahalaga. Panoorin itong lumago.",
+    "eyebrow": "Paano ito nakakatulong",
+    "title": "Gawin araw-araw. Panoorin itong maipon.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard at Nagiging",
-        "title": "Kung sino ang nagiging ikaw, sa isang page.",
-        "body": "Ang mga gawi ngayong araw bilang mga card sa ilalim ng layunin mong Nagiging, sa sarili nitong frame na iginuhit sa kamay. Namumukod ang mga gawing hindi mo pa naitatala, kaya kita mo agad kung ano pa ang natitira.",
+        "title": "Kung sino ang nagiging ikaw, tuwing umaga.",
+        "body": "Isulat kung sino ang gusto mong maging, at makikita mo ito sa itaas ng mga gawi ngayong araw tuwing bubuksan mo ang app. Namumukod ang mga gawing hindi mo pa naitatala, kaya alam mo kung ano pa ang natitira ngayong araw.",
         "becomingLabel": "Nagiging",
         "becomingGoal": "isang taong tumutupad sa pangako"
       },
       "grid": {
         "eyebrow": "Grid",
-        "title": "Isang taon ng pagsisikap, isang tapat na larawan.",
-        "body": "May sariling heatmap ang bawat gawi, sa sarili nitong kulay. Kita agad ang mga pattern, puwang at sunod-sunod, at sumusunod ang sunod-sunod sa iskedyul mo, kaya hindi ito napuputol ng araw ng pahinga."
+        "title": "Bawat araw ng pagsisikap, sa isang page.",
+        "body": "May isang taon ng mga kahon ang bawat gawi, sa sarili nitong kulay. Panoorin ang pagsara ng mga puwang at ang paghaba ng sunod-sunod, at hindi kailanman napuputol ng nakaplanong araw ng pahinga ang sunod-sunod mo."
       },
       "charts": {
         "eyebrow": "Mga Tsart",
-        "title": "Bawat gawi, nasusukat.",
-        "body": "Konsistensi, average, kabuuan, mga araw na naabot ang target at pinakamagandang araw. Kusang iginuguhit ang mga linya at tumataas ang mga bar mula sa ibaba.",
+        "title": "Panoorin ang paglago ng konsistensi mo.",
+        "body": "Konsistensi, average, kabuuan, mga araw na naabot ang target at ang pinakamagagandang araw mo. Mag-swipe pabalik sa kasaysayan mo at tingnan kung gaano na kalayo ang narating mo.",
         "consistency": "Konsistensi",
         "lastDays": "huling 30 araw",
         "minutes": "Minuto bawat araw",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Mga Kaganapan",
-        "title": "May sariling kulay ang bawat lugar, libro at biyahe.",
-        "body": "Itala ang mga lugar na pinupuntahan mo, ang mga librong binabasa mo, ang mga biyahe at mga concert, at panoorin ang isang buong taon ng buhay mo na lumilitaw bilang isang larawan.",
+        "title": "Ang taon mo sa mga lugar, libro at biyahe.",
+        "body": "Bigyan ng sariling kulay ang bawat lugar, libro, biyahe at concert, at panoorin ang isang taon ng buhay mo na unti-unting napupuno, araw-araw.",
         "legend": [
           "Mga Biyahe",
           "Mga Libro",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Mga Widget at Live Activity",
-        "title": "Nasa Home Screen at Lock Screen mo.",
-        "body": "Isang Habit Grid widget, isang Ngayon widget para makapagtala mula sa Home Screen, at mga timer na nakikita sa Lock Screen mo."
+        "title": "Ang mga gawi mo, isang sulyap lang ang layo.",
+        "body": "Magtala mula sa Home Screen gamit ang Ngayon widget, panatilihing nakikita ang Habit Grid mo, at sundan ang tumatakbong timer sa Lock Screen mo."
       },
       "timers": {
         "eyebrow": "Mga timer at pagtatala",
-        "title": "Magtala sa loob ng ilang segundo. Tuloy ang takbo ng timer.",
-        "body": "I-tap ang card, i-type ang value, i-save. Ipinapakita ang tagal bilang h, min at s, at tuloy ang takbo ng timer kahit umalis ka sa app.",
+        "title": "Magtala sa loob ng ilang segundo, araw-araw.",
+        "body": "I-tap ang card, i-type ang value, i-save. Tuloy ang takbo ng timer kahit umalis ka sa app, kaya walang session na nawawala.",
         "timer": "Meditasyon"
       },
       "themes": {
         "eyebrow": "Papel at graphite",
         "title": "Mainit na papel sa araw, malambot na graphite sa gabi.",
-        "body": "Nasa mainit na papel ang light mode. Malambot na graphite ang dark mode sa halip na purong itim. Sulat-kamay ang mga salita, malinaw at eksakto ang mga numero.",
+        "body": "Isang itsurang iginuhit sa kamay na ginagawang maliit na kasiyahan ang pagbukas ng app araw-araw. Sulat-kamay ang mga salita, malinaw at eksakto ang mga numero.",
         "paper": "Papel",
         "graphite": "Graphite"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Mga Wika",
         "title": "Sa wika mo. 25 lahat.",
-        "body": "Mula English hanggang Japanese, Bengali hanggang Albanian. Sarili mong mga kulay at icon sa bawat gawi."
+        "body": "Mula English hanggang Japanese, Bengali hanggang Albanian, kasama ang sarili mong mga kulay at icon sa bawat gawi."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Privacy",
-    "title": "Nananatili sa iPhone mo ang data mo.",
-    "body": "Walang account, walang cloud, walang tracking. Ikaw lang at ang patunay na nagiging ikaw ang taong gusto mong maging.",
-    "storedTitle": "Naka-store sa device mo",
-    "stored": [
-      "Ang mga gawi mo: pangalan, unit, target, kulay at icon",
-      "Ang mga araw-araw mong tala: petsa, value at opsyonal na note",
-      "Ang mga setting at kagustuhan mo"
-    ],
-    "neverTitle": "Hindi kailanman kinokolekta",
-    "never": [
-      "Ang mga gawi, tala o note mo",
-      "Pangalan, email, telepono o lokasyon",
-      "Usage analytics o crash report",
-      "Advertising identifier, cookie o tracking"
-    ],
+    "title": "Sa iyo ang mga gawi mo.",
+    "body": "Lahat ng itinatala mo ay nananatili sa iPhone mo: walang account, walang cloud, walang tracking.",
     "purchases": "Dumadaan sa Apple ang mga pagbili ng Pro at sinusuri gamit ang RevenueCat, sa pamamagitan ng random at anonymous na ID.",
     "link": "Basahin ang patakaran sa privacy"
   },

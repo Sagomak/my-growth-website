@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: odręcznie rysowany tracker nawyków, który zostaje na twoim iPhonie",
-      "description": "MyGrowth zamienia twoje nawyki w odręcznie rysowaną heatmapę, wykresy i statystyki. Prywatność w standardzie: bez konta, bez chmury, dane zostają na urządzeniu."
+      "title": "MyGrowth: śledź nawyki codziennie i buduj konsekwencję",
+      "description": "Zapisuj nawyki w kilka sekund, oglądaj każdy dzień wysiłku na odręcznie rysowanej siatce i patrz, jak konsekwencja kształtuje osobę, którą chcesz się stać."
     },
     "support": {
       "title": "Wsparcie, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Stajesz się tym, co robisz wielokrotnie.",
-    "sub": "MyGrowth zamienia twoje nawyki w odręcznie rysowaną heatmapę, wykresy i statystyki, żeby było widać, jak codzienna obecność zamienia się w postęp.",
-    "trust": "Prywatność w standardzie. Bez konta, bez chmury.",
+    "sub": "Śledź swoje nawyki każdego dnia, buduj konsekwencję i stań się tym, kim chcesz być.",
+    "trust": "Jeden mały krok dziennie. Rok dowodów.",
     "phoneAlt": "Dashboard w MyGrowth: pasek tygodnia, cel Stajesz się i dzisiejsze nawyki jako odręcznie rysowane karty."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Przykładowa Konsekwencja dla każdego dnia od {a} do {b}, średnio {avg}. Użyj strzałek, by odczytać kolejne dni."
   },
   "year": {
-    "eyebrow": "Twój rok w jednym spojrzeniu",
-    "title": "Jeden szczery obraz całego roku.",
-    "body": "Każdy dzień, w którym się pojawiasz, wypełnia kwadrat. Dzisiejszy kafelek na pasku tygodnia wypełnia się w miarę upływu dnia.",
+    "eyebrow": "Każdy dzień się liczy",
+    "title": "Wszystko zaczyna się dziś.",
+    "body": "Każdy dzień, w którym się pojawiasz, wypełnia kwadrat, a dzisiejszy kafelek na pasku tygodnia wypełnia się w miarę upływu dnia. Drobne kroki się sumują.",
     "habit": "Czytanie",
     "weekLabel": "Ten tydzień",
     "todayLabel": "Dziś, minęło {pct}% dnia",
@@ -75,25 +75,25 @@
     "gridLabel": "Przykładowa heatmapa: rok czytania, jeden kwadrat na dzień, aż do dziś."
   },
   "features": {
-    "eyebrow": "Co jest w środku",
-    "title": "Śledź to, co ważne. Patrz, jak rośnie.",
+    "eyebrow": "W czym pomaga",
+    "title": "Działaj codziennie. Patrz, jak to się sumuje.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard i Stajesz się",
-        "title": "Kim się stajesz, na jednej stronie.",
-        "body": "Dzisiejsze nawyki jako karty pod twoim celem Stajesz się, we własnej odręcznie rysowanej ramce. Nawyki, które nie są jeszcze zapisane, wyróżniają się, więc od razu widać, co zostało.",
+        "title": "Kim się stajesz, każdego ranka.",
+        "body": "Zapisz, kim chcesz się stać, i oglądaj to nad dzisiejszymi nawykami za każdym razem, gdy otwierasz aplikację. Nawyki, które nie są jeszcze zapisane, wyróżniają się, więc wiesz, co zostało na dziś.",
         "becomingLabel": "Stajesz się",
         "becomingGoal": "kimś, kto dotrzymuje obietnic"
       },
       "grid": {
         "eyebrow": "Siatka",
-        "title": "Rok wysiłku, jeden szczery obraz.",
-        "body": "Każdy nawyk ma własną heatmapę we własnym kolorze. Wzorce, luki i passy widać od razu, a passy trzymają się twojego harmonogramu, więc dzień odpoczynku nigdy ich nie przerywa."
+        "title": "Każdy dzień wysiłku na jednej stronie.",
+        "body": "Każdy nawyk dostaje rok kwadratów we własnym kolorze. Patrz, jak luki się zamykają, a passy rosną. Zaplanowany dzień odpoczynku nigdy nie przerywa passy."
       },
       "charts": {
         "eyebrow": "Wykresy",
-        "title": "Każdy nawyk zmierzony.",
-        "body": "Konsekwencja, średnie, sumy, dni z osiągniętym celem i najlepsze dni. Linie rysują się same, a słupki rosną od dołu.",
+        "title": "Zobacz, jak rośnie twoja konsekwencja.",
+        "body": "Konsekwencja, średnie, sumy, dni z osiągniętym celem i twoje najlepsze dni. Przewiń historię wstecz i zobacz, ile już za tobą.",
         "consistency": "Konsekwencja",
         "lastDays": "ostatnie 30 dni",
         "minutes": "Minuty dziennie",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Wydarzenia",
-        "title": "Każde miejsce, książka i podróż ma własny kolor.",
-        "body": "Zapisuj miejsca, które odwiedzasz, książki, które czytasz, podróże i koncerty, i patrz, jak cały rok twojego życia układa się w jeden obraz.",
+        "title": "Twój rok w miejscach, książkach i podróżach.",
+        "body": "Nadaj każdemu miejscu, książce, podróży i koncertowi własny kolor i patrz, jak rok życia wypełnia się dzień po dniu.",
         "legend": [
           "Podróże",
           "Książki",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widżety i Live Activity",
-        "title": "Na ekranie początkowym i ekranie blokady.",
-        "body": "Widżet Habit Grid, widżet Dziś do zapisywania prosto z ekranu początkowego i minutniki, które działają na ekranie blokady."
+        "title": "Twoje nawyki zawsze pod ręką.",
+        "body": "Zapisuj z ekranu początkowego widżetem Dziś, miej widżet Habit Grid zawsze na oku i śledź działający minutnik na ekranie blokady."
       },
       "timers": {
         "eyebrow": "Minutniki i zapisywanie",
-        "title": "Zapis w kilka sekund. Minutniki działają dalej.",
-        "body": "Stuknij kartę, wpisz wartość, zapisz. Czas trwania jest podawany w h, min i s, a uruchomiony minutnik działa dalej, gdy wyjdziesz z aplikacji.",
+        "title": "Zapis w kilka sekund, każdego dnia.",
+        "body": "Stuknij kartę, wpisz wartość, zapisz. Uruchomiony minutnik działa dalej, gdy wyjdziesz z aplikacji, więc żadna sesja nie przepada.",
         "timer": "Medytacja"
       },
       "themes": {
         "eyebrow": "Papier i grafit",
         "title": "Ciepły papier za dnia, miękki grafit nocą.",
-        "body": "Tryb jasny leży na ciepłym papierze. Tryb ciemny to miękki grafit zamiast czystej czerni. Słowa są pisane odręcznie, liczby pozostają wyraźne i dokładne.",
+        "body": "Odręczny wygląd, dzięki któremu codzienne otwieranie aplikacji to mała przyjemność. Słowa są pisane odręcznie, liczby pozostają wyraźne i dokładne.",
         "paper": "Papier",
         "graphite": "Grafit"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Języki",
         "title": "W twoim języku. Jednym z 25.",
-        "body": "Od angielskiego po japoński, od bengalskiego po albański. Własne kolory i ikony przy każdym nawyku."
+        "body": "Od angielskiego po japoński, od bengalskiego po albański, z własnymi kolorami i ikonami przy każdym nawyku."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Prywatność",
-    "title": "Twoje dane zostają na iPhonie.",
-    "body": "Bez konta, bez chmury, bez śledzenia. Tylko ty i dowód, że stajesz się tym, kim chcesz być.",
-    "storedTitle": "Zapisane na urządzeniu",
-    "stored": [
-      "Twoje nawyki: nazwy, jednostki, cele, kolory i ikony",
-      "Twoje dzienne wpisy: data, wartość i opcjonalne notatki",
-      "Twoje ustawienia i preferencje"
-    ],
-    "neverTitle": "Nigdy nie zbieramy",
-    "never": [
-      "Twoich nawyków, wpisów ani notatek",
-      "Imienia i nazwiska, adresu e-mail, numeru telefonu ani lokalizacji",
-      "Analityki użycia ani raportów o awariach",
-      "Identyfikatorów reklamowych, plików cookie ani śledzenia"
-    ],
+    "title": "Twoje nawyki należą do ciebie.",
+    "body": "Wszystko, co zapisujesz, zostaje na twoim iPhonie: bez konta, bez chmury, bez śledzenia.",
     "purchases": "Zakupy Pro przechodzą przez Apple i są sprawdzane w RevenueCat za pomocą losowego, anonimowego identyfikatora.",
     "link": "Przeczytaj politykę prywatności"
   },

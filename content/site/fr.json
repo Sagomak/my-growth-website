@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth : un suivi d'habitudes dessiné à la main qui reste sur ton iPhone",
-      "description": "MyGrowth transforme tes habitudes en une heatmap dessinée à la main, des graphiques et des statistiques. Privé par conception : pas de compte, pas de cloud, tes données restent sur ton appareil."
+      "title": "MyGrowth : suis tes habitudes chaque jour et gagne en constance",
+      "description": "Saisis tes habitudes en quelques secondes, vois chaque jour d'effort sur une grille dessinée à la main et regarde ta constance façonner la personne que tu veux devenir."
     },
     "support": {
       "title": "Aide, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Tu deviens ce que tu fais chaque jour.",
-    "sub": "MyGrowth transforme tes habitudes en une heatmap dessinée à la main, des graphiques et des statistiques, pour voir ta régularité se transformer en progrès.",
-    "trust": "Privé par conception. Pas de compte, pas de cloud.",
+    "sub": "Suis tes habitudes chaque jour, gagne en constance et deviens qui tu veux être.",
+    "trust": "Un petit pas par jour. Une année de preuves.",
     "phoneAlt": "Le Dashboard de MyGrowth : la bande de la semaine, l'objectif Deviens et les habitudes du jour sous forme de cartes dessinées à la main."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Constance d'exemple pour chaque jour du {a} au {b}, avec une moyenne de {avg}. Utilise les flèches du clavier pour lire chaque jour."
   },
   "year": {
-    "eyebrow": "Ton année, d'un coup d'œil",
-    "title": "Une année, en une image honnête.",
-    "body": "Chaque jour où tu es au rendez-vous remplit une case. La case du jour dans la bande de la semaine se remplit au fil de la journée.",
+    "eyebrow": "Chaque jour compte",
+    "title": "Tout commence aujourd'hui.",
+    "body": "Chaque jour où tu es au rendez-vous remplit une case, et la case du jour dans la bande de la semaine se remplit au fil de la journée. Les petits jours s'additionnent.",
     "habit": "Lecture",
     "weekLabel": "Cette semaine",
     "todayLabel": "Aujourd'hui, {pct} % de la journée écoulée",
@@ -75,25 +75,25 @@
     "gridLabel": "Exemple de heatmap : une année de lecture, une case par jour, jusqu'à aujourd'hui."
   },
   "features": {
-    "eyebrow": "Ce que tu y trouves",
-    "title": "Suis ce qui compte. Regarde-le grandir.",
+    "eyebrow": "Comment ça t'aide",
+    "title": "Sois là chaque jour. Regarde les jours s'additionner.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard et Deviens",
-        "title": "Qui tu deviens, sur une seule page.",
-        "body": "Les habitudes du jour en cartes sous ton objectif Deviens, dans son propre cadre dessiné à la main. Les habitudes pas encore saisies ressortent, pour voir d'un coup d'œil ce qu'il te reste.",
+        "title": "Qui tu deviens, chaque matin.",
+        "body": "Écris qui tu veux devenir, et retrouve-le au-dessus des habitudes du jour chaque fois que tu ouvres l'app. Les habitudes pas encore saisies ressortent, pour que tu saches ce qu'il te reste à faire aujourd'hui.",
         "becomingLabel": "Deviens",
         "becomingGoal": "quelqu'un qui tient ses promesses"
       },
       "grid": {
         "eyebrow": "Grille",
-        "title": "Une année d'effort, une image honnête.",
-        "body": "Chaque habitude a sa propre heatmap, dans sa propre couleur. Tendances, trous et séries se lisent d'un coup d'œil, et les séries suivent ton programme : un jour de repos ne les casse jamais."
+        "title": "Chaque jour d'effort, sur une seule page.",
+        "body": "Chaque habitude a son année de cases, dans sa propre couleur. Regarde les trous se combler et les séries grandir, et un jour de repos prévu ne casse jamais une série."
       },
       "charts": {
         "eyebrow": "Graphiques",
-        "title": "Chaque habitude, mesurée.",
-        "body": "Constance, moyennes, totaux, jours où la cible est atteinte et meilleurs jours. Les courbes se tracent toutes seules et les barres poussent depuis le bas.",
+        "title": "Regarde ta constance grandir.",
+        "body": "Constance, moyennes, totaux, jours où la cible est atteinte et tes meilleurs jours. Remonte ton historique et vois tout le chemin parcouru.",
         "consistency": "Constance",
         "lastDays": "30 derniers jours",
         "minutes": "Minutes par jour",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Événements",
-        "title": "Chaque lieu, livre et voyage a sa couleur.",
-        "body": "Note les lieux que tu visites, les livres que tu lis, les voyages et les concerts, et regarde une année entière de ta vie apparaître en une seule image.",
+        "title": "Ton année en lieux, livres et voyages.",
+        "body": "Donne à chaque lieu, livre, voyage et concert sa propre couleur, et regarde une année de vie se remplir, jour après jour.",
         "legend": [
           "Voyages",
           "Livres",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widgets et Activité en direct",
-        "title": "Sur ton écran d'accueil et ton écran verrouillé.",
-        "body": "Un widget Grille d'habitude, un widget Aujourd'hui pour saisir depuis l'écran d'accueil, et des minuteurs qui restent affichés sur ton écran verrouillé."
+        "title": "Tes habitudes, en un coup d'œil.",
+        "body": "Saisis depuis l'écran d'accueil avec le widget Aujourd'hui, garde ta Grille d'habitude sous les yeux et suis un minuteur en cours sur ton écran verrouillé."
       },
       "timers": {
         "eyebrow": "Minuteurs et saisie",
-        "title": "Saisis en quelques secondes. Les minuteurs continuent.",
-        "body": "Touche une carte, entre une valeur, sauvegarde. Les durées s'affichent en h, min et s, et un minuteur lancé continue quand tu quittes l'app.",
+        "title": "Saisis en quelques secondes, chaque jour.",
+        "body": "Touche une carte, entre une valeur, sauvegarde. Un minuteur lancé continue quand tu quittes l'app, donc aucune séance n'est perdue.",
         "timer": "Méditation"
       },
       "themes": {
         "eyebrow": "Papier et graphite",
         "title": "Papier chaud le jour, graphite doux la nuit.",
-        "body": "Le mode clair repose sur un papier aux tons chauds. Le mode sombre est un graphite doux plutôt qu'un noir pur. Les mots sont manuscrits, les chiffres restent nets et précis.",
+        "body": "Un style dessiné à la main qui fait de chaque ouverture de l'app un petit plaisir. Les mots sont manuscrits, les chiffres restent nets et précis.",
         "paper": "Papier",
         "graphite": "Graphite"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Langues",
         "title": "Dans ta langue. 25 au choix.",
-        "body": "De l'anglais au japonais, du bengali à l'albanais. Tes propres couleurs et icônes sur chaque habitude."
+        "body": "De l'anglais au japonais, du bengali à l'albanais, avec tes propres couleurs et icônes sur chaque habitude."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Confidentialité",
-    "title": "Tes données restent sur ton iPhone.",
-    "body": "Pas de compte, pas de cloud, pas de suivi. Juste toi et la preuve que tu deviens qui tu veux être.",
-    "storedTitle": "Stocké sur ton appareil",
-    "stored": [
-      "Tes habitudes : noms, unités, cibles, couleurs et icônes",
-      "Tes saisies quotidiennes : date, valeur et notes facultatives",
-      "Tes réglages et préférences"
-    ],
-    "neverTitle": "Jamais collecté",
-    "never": [
-      "Tes habitudes, saisies ou notes",
-      "Nom, e-mail, téléphone ou position",
-      "Statistiques d'utilisation ou rapports de plantage",
-      "Identifiants publicitaires, cookies ou pistage"
-    ],
+    "title": "Tes habitudes t'appartiennent.",
+    "body": "Tout ce que tu saisis reste sur ton iPhone : pas de compte, pas de cloud, pas de suivi.",
     "purchases": "Les achats Pro passent par Apple et sont vérifiés avec RevenueCat, à l'aide d'un identifiant anonyme aléatoire.",
     "link": "Lire la politique de confidentialité"
   },

@@ -57,3 +57,25 @@ Still flagged for a native speaker:
 | site.skyline.tooltip | {pct} on {date} | {date}: {pct} | "më {date}" clashes with a weekday-first date, so reordered with a colon. |
 | site.skyline.title | A year of consistency | Një vit konsistencë | Check whether "Një vit konsistence" (genitive) is more natural. |
 | site.skyline.hintOrbit | ...double click to reset | ...kliko dy herë për ta rikthyer | "rikthyer" (restore) for "reset"; "rivendosur" is the alternative. |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | Ji aty çdo ditë. Shiko si shtohet. | "Show up" has no neat equivalent; subject of "shtohet" is implicit. Needs a native check. |
+| site.hero.trust | One small step a day. A year of proof. | Një hap i vogël në ditë. Një vit me prova. | "prova" can read as "tests/trials"; "dëshmi" is an alternative. |
+| site.year.body | Small days add up. | Ditët e vogla mblidhen bashkë. | Literal rendering. |
+| site.features.items.widgets.title | Your habits, one glance away. | Zakonet e tua, një shikim larg. | Calque; no App Store reference for sq. |
+| site.meta.home.description | ...on a hand-drawn grid... | ...në një grid të vizatuar me dorë... | "grid" lowercase loan, from glossary "Gridi". |
+
+## Review: new message, 2026-11-27
+
+Second reviewer. Meaning, privacy body, glossary (Konsistencë, Seri, Sot, Gridi), informal "ti" register and dashes checked on all listed keys; removed privacy keys are gone.
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.items.widgets.title | Zakonet e tua, një shikim larg. | Zakonet e tua, me një shikim. | Calque of "one glance away"; "me një shikim" (at a glance) is idiomatic and matches earlier site copy. |
+
+Still doubtful: "Ji aty çdo ditë" (features.title) and "Një vit me prova" (hero.trust, "dëshmi" is the alternative) need a native check; no App Store reference exists for sq.
+
+Confidence: medium.

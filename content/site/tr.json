@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: iPhone'unda kalan, elle çizilmiş alışkanlık takipçisi",
-      "description": "MyGrowth alışkanlıklarını elle çizilmiş bir heatmap'e, grafiklere ve istatistiklere dönüştürür. Gizlilik temelden gelir: hesap yok, bulut yok, verilerin cihazında kalır."
+      "title": "MyGrowth: alışkanlıklarını her gün takip et, süreklilik kazan",
+      "description": "Alışkanlıklarını saniyeler içinde kaydet, emek verdiğin her günü elle çizilmiş bir ızgarada gör ve sürekliliğinin seni olmak istediğin kişiye dönüştürmesini izle."
     },
     "support": {
       "title": "Destek, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Tekrar tekrar yaptığın şey olursun.",
-    "sub": "MyGrowth alışkanlıklarını elle çizilmiş bir heatmap'e, grafiklere ve istatistiklere dönüştürür; böylece her gün orada olmanın ilerlemeye dönüşmesini izlersin.",
-    "trust": "Gizlilik temelden gelir. Hesap yok, bulut yok.",
+    "sub": "Alışkanlıklarını her gün takip et, süreklilik kazan ve olmak istediğin kişi ol.",
+    "trust": "Günde küçük bir adım. Bir yıllık kanıt.",
     "phoneAlt": "MyGrowth Dashboard'u: hafta şeridi, Hedef ve bugünün alışkanlıkları elle çizilmiş kartlar olarak."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "{a} ile {b} arasındaki her gün için örnek Süreklilik, ortalama {avg}. Her günü okumak için ok tuşlarını kullan."
   },
   "year": {
-    "eyebrow": "Bir bakışta yılın",
-    "title": "Bir yılın tek ve dürüst resmi.",
-    "body": "Orada olduğun her gün bir kareyi doldurur. Hafta şeridindeki bugünün kutucuğu, gün ilerledikçe dolar.",
+    "eyebrow": "Her gün önemli",
+    "title": "Her şey bugün başlar.",
+    "body": "Orada olduğun her gün bir kareyi doldurur ve hafta şeridindeki bugünün kutucuğu gün ilerledikçe dolar. Küçük günler birikir.",
     "habit": "Okuma",
     "weekLabel": "Bu hafta",
     "todayLabel": "Bugün, günün %{pct} kısmı geçti",
@@ -75,25 +75,25 @@
     "gridLabel": "Örnek heatmap: bugüne kadar bir yıllık okuma, her gün için bir kare."
   },
   "features": {
-    "eyebrow": "İçinde neler var",
-    "title": "Önemli olanı takip et. Büyümesini izle.",
+    "eyebrow": "Sana nasıl yardımcı olur",
+    "title": "Her gün orada ol. Biriktiğini izle.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard ve Hedef",
-        "title": "Dönüştüğün kişi, tek sayfada.",
-        "body": "Bugünün alışkanlıkları, elle çizilmiş kendi çerçevesindeki Hedef'inin altında kartlar halinde. Henüz kaydetmediğin alışkanlıklar öne çıkar, böylece neyin kaldığını bir bakışta görürsün.",
+        "title": "Dönüştüğün kişi, her sabah.",
+        "body": "Olmak istediğin kişiyi yaz ve uygulamayı her açtığında onu bugünün alışkanlıklarının üstünde gör. Henüz kaydetmediğin alışkanlıklar öne çıkar, böylece bugün neyin kaldığını bilirsin.",
         "becomingLabel": "Hedef",
         "becomingGoal": "sözünü tutan biri"
       },
       "grid": {
         "eyebrow": "Izgara",
-        "title": "Bir yıllık emek, tek bir dürüst resim.",
-        "body": "Her alışkanlığın kendi renginde kendi heatmap'i var. Örüntüler, boşluklar ve seriler bir bakışta görünür; seriler programını takip eder, böylece bir dinlenme günü onları asla bozmaz."
+        "title": "Emek verdiğin her gün, tek sayfada.",
+        "body": "Her alışkanlığın kendi renginde bir yıllık kareleri olur. Boşlukların kapanmasını ve serilerin uzamasını izle; planlı bir dinlenme günü seriyi asla bozmaz."
       },
       "charts": {
         "eyebrow": "Grafikler",
-        "title": "Her alışkanlık, ölçülmüş.",
-        "body": "Süreklilik, ortalamalar, toplamlar, hedefe ulaşılan günler ve en iyi günler. Çizgiler kendi kendini çizer, çubuklar aşağıdan yukarı büyür.",
+        "title": "Sürekliliğinin arttığını gör.",
+        "body": "Süreklilik, ortalamalar, toplamlar, hedefe ulaşılan günler ve en iyi günlerin. Geçmişinde geriye kaydır ve ne kadar yol aldığını gör.",
         "consistency": "Süreklilik",
         "lastDays": "son 30 gün",
         "minutes": "Günlük dakika",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Etkinlikler",
-        "title": "Her yer, kitap ve yolculuk kendi renginde.",
-        "body": "Gittiğin yerleri, okuduğun kitapları, yolculukları ve konserleri kaydet, hayatının koca bir yılının tek bir resim olarak ortaya çıkışını izle.",
+        "title": "Yerler, kitaplar ve yolculuklarla dolu yılın.",
+        "body": "Her yere, kitaba, yolculuğa ve konsere kendi rengini ver ve yaşadığın bir yılın gün gün dolmasını izle.",
         "legend": [
           "Yolculuklar",
           "Kitaplar",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widget'lar ve Live Activity",
-        "title": "Ana ekranında ve kilit ekranında.",
-        "body": "Bir Habit Grid widget'ı, ana ekrandan kayıt yapmak için bir Bugün widget'ı ve kilit ekranında yaşayan zamanlayıcılar."
+        "title": "Alışkanlıkların, bir bakış uzağında.",
+        "body": "Bugün widget'ıyla ana ekrandan kayıt yap, Habit Grid widget'ını göz önünde tut ve çalışan bir zamanlayıcıyı kilit ekranında takip et."
       },
       "timers": {
         "eyebrow": "Zamanlayıcılar ve kayıt",
-        "title": "Saniyeler içinde kaydet. Zamanlayıcılar çalışmaya devam eder.",
-        "body": "Bir karta dokun, değeri yaz, kaydet. Süreler h, min ve s olarak gösterilir ve çalışan bir zamanlayıcı uygulamadan çıktığında da işlemeye devam eder.",
+        "title": "Saniyeler içinde kaydet, her gün.",
+        "body": "Bir karta dokun, değeri yaz, kaydet. Çalışan bir zamanlayıcı uygulamadan çıktığında da işlemeye devam eder, böylece hiçbir seans kaybolmaz.",
         "timer": "Meditasyon"
       },
       "themes": {
         "eyebrow": "Kâğıt ve grafit",
         "title": "Gündüz sıcak kâğıt, gece yumuşak grafit.",
-        "body": "Açık mod sıcak tonlu bir kâğıdın üzerinde. Koyu mod saf siyah yerine yumuşak bir grafit. Yazılar el yazısıyla, sayılar net ve kesin.",
+        "body": "Uygulamayı her gün açmayı küçük bir keyfe dönüştüren elle çizilmiş bir görünüm. Yazılar el yazısıyla, sayılar net ve kesin.",
         "paper": "Kâğıt",
         "graphite": "Grafit"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Diller",
         "title": "Senin dilinde. 25 dilden biri.",
-        "body": "İngilizceden Japoncaya, Bengalceden Arnavutçaya. Her alışkanlıkta kendi renklerin ve simgelerin."
+        "body": "İngilizceden Japoncaya, Bengalceden Arnavutçaya, her alışkanlıkta kendi renklerin ve simgelerinle."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Gizlilik",
-    "title": "Verilerin iPhone'unda kalır.",
-    "body": "Hesap yok, bulut yok, takip yok. Sadece sen ve olmak istediğin kişiye dönüştüğünün kanıtı.",
-    "storedTitle": "Cihazında saklananlar",
-    "stored": [
-      "Alışkanlıkların: adlar, birimler, hedefler, renkler ve simgeler",
-      "Günlük kayıtların: tarih, değer ve isteğe bağlı notlar",
-      "Ayarların ve tercihlerin"
-    ],
-    "neverTitle": "Asla toplanmayanlar",
-    "never": [
-      "Alışkanlıkların, kayıtların veya notların",
-      "Ad, e-posta, telefon veya konum",
-      "Kullanım analizleri veya çökme raporları",
-      "Reklam kimlikleri, çerezler veya takip"
-    ],
+    "title": "Alışkanlıkların sana ait.",
+    "body": "Kaydettiğin her şey iPhone'unda kalır: hesap yok, bulut yok, takip yok.",
     "purchases": "Pro satın alımları Apple üzerinden yapılır ve rastgele, anonim bir kimlik kullanılarak RevenueCat ile doğrulanır.",
     "link": "Gizlilik politikasını oku"
   },

@@ -59,3 +59,23 @@ Still flagged for a native speaker:
 | site.footer.skyline | Skyline chart adapted from | Skyline-Diagramm basierend auf | "adaptiert von" sounds translated; check it reads well before the English link text |
 | site.skyline.hintFlat | Hover a day for details, or use the arrow keys | Fahre über einen Tag für Details oder nutze die Pfeiltasten | "Fahre mit der Maus über" is fuller; shortened for the hint line |
 | site.skyline.aria | ... | Beispielwerte für Beständigkeit an jedem Tag von {a} bis {b}, im Durchschnitt {avg}. ... | "Beispielwerte" added for natural phrasing |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | Bleib täglich dran. Sieh, was daraus wird. | "add up" rendered as "see what comes of it"; "summiert sich" sounded flat in a headline |
+| site.hero.trust | One small step a day. A year of proof. | Ein kleiner Schritt pro Tag. Ein Jahr als Beweis. | "a year of proof" has no clean German equivalent |
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: Gewohnheiten täglich tracken, Beständigkeit aufbauen | infinitive style (common for German titles) instead of du imperative; "tracken" is an anglicism already used in the App Store copy |
+| site.features.items.timers.body | ... so no session is lost. | ... so geht keine Einheit verloren. | "Einheit" (training unit) chosen for "session"; "Sitzung" sounds clinical |
+| site.year.body | ... Small days add up. | ... Auch kleine Tage summieren sich. | "kleine Tage" is a slightly unusual phrase |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.items.timers.body | ... Ein laufender Timer läuft weiter, ... | ... Ein gestarteter Timer läuft weiter, ... | avoids "laufender ... läuft" repetition |
+
+Still doubtful: site.year.body "Auch kleine Tage summieren sich." is a slightly unusual phrase but understandable; "Auch kleine Tage zählen" would clash with the eyebrow "Jeder Tag zählt", kept. meta.home.title infinitive style accepted (62 chars). Privacy body exact. Glossary terms (Gewohnheitsraster, Heute-Widget, Home-Bildschirm, Sperrbildschirm, Serie, Beständigkeit) correct; du register consistent.
+
+Confidence: high

@@ -62,8 +62,8 @@ export function Nav({ t, locale, page }: { t: Site; locale: Locale; page: Page }
   const home = pathFor(locale, "");
   const links = [
     { href: `${home}#features`, label: t.nav.features },
-    { href: `${home}#privacy`, label: t.nav.privacy },
     { href: `${home}#faq`, label: t.nav.faq },
+    { href: `${home}#privacy`, label: t.nav.privacy },
     { href: pathFor(locale, "support"), label: t.nav.support },
   ];
   return (

@@ -58,3 +58,23 @@ Still flagged for a native speaker:
 | site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered with a colon, since "il giovedì 12 novembre" reads awkwardly |
 | site.skyline.levelEmpty | Nothing logged | Nessuna registrazione | glossary "Not logged" is "Non registrato"; chose the noun form for a legend swatch |
 | site.skyline.flat | Flat heatmap | Heatmap piatta | "piatta" could read as "dull"; "Heatmap 2D" is an alternative |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | Esserci ogni giorno. Vederlo crescere. | infinitives instead of imperatives; "Presentati" would read as "introduce yourself"; "add up" rendered as "grow" |
+| site.hero.trust | One small step a day. A year of proof. | Un piccolo passo al giorno. Un anno che lo dimostra. | "Un anno di prove" reads as "a year of tests/trials" |
+| site.year.body | ... Small days add up. | ... Anche i giorni piccoli si sommano. | "giorni piccoli" is slightly unusual; alternative "Ogni piccolo giorno conta" |
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: traccia le abitudini ogni giorno e costruisci costanza | "costruisci costanza" is a calque but common in coaching copy; 64 chars |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.year.body | ... Anche i giorni piccoli si sommano. | ... Anche i giorni più piccoli si sommano. | "i giorni più piccoli" ("even the smallest days") reads more natural than "i giorni piccoli" |
+| site.features.items.themes.body | Un look disegnato a mano che rende aprire l'app ogni giorno un piccolo piacere. ... | Un look disegnato a mano che rende un piccolo piacere aprire l'app ogni giorno. ... | word order: "rendere aprire" was awkward |
+
+Still doubtful: site.features.title uses infinitives ("Esserci ogni giorno. Vederlo crescere.") while the rest is imperative; natural for an Italian headline, kept. "costruisci costanza" in meta.home.title and hero.sub is a calque but common in coaching copy, kept. Privacy body checked: exact. Glossary terms (Griglia delle abitudini, widget Oggi, schermata Home, schermata di blocco, Serie, Costanza) correct.
+
+Confidence: high

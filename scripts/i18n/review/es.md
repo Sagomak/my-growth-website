@@ -54,3 +54,17 @@ Still flagged for a native speaker:
 | site.skyline.range | {a} to {b} | del {a} al {b} | lowercase "del" if the string opens a line on its own |
 | site.skyline.avg | Average consistency | Constancia promedio | glossary Average = Promedio; "Constancia media" is equally natural |
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | Las rachas cuentan los días que alcanzan o superan la meta del {goal}. | glossary Goal = Meta (site elsewhere says "objetivo") |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | Cumple cada día. Mira cómo suma. | "show up" rendered as "cumplir", matching year.body; "aparecer" sounds odd |
+| site.hero.trust | One small step a day. A year of proof. | Un pequeño paso al día. Un año que lo demuestra. | "un año de pruebas" could read as "a year of tests" |
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: registra tus hábitos a diario y gana constancia | "build" rendered as "gana" (gain), more natural |
+
+## Review: new message, 2026-11-27
+
+No changes. All keys match the English meaning; privacy body exact; glossary terms (Cuadrícula de hábitos, widget Hoy, Racha, Constancia) and Apple terms (pantalla de inicio, pantalla bloqueada) correct; tú register consistent. The translator's choices ("Cumple cada día", "Un año que lo demuestra", "gana constancia") are natural and accepted.
+
+Confidence: high

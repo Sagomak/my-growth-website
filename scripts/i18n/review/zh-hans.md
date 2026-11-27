@@ -55,3 +55,23 @@ Still flagged for a native speaker:
 | site.skyline.title | A year of consistency | 一致性的一年 | Glossary 一致性 is stiff for a title; 坚持的一年 would be more natural |
 | site.skyline.skyline / footer.skyline | 3D skyline | 3D天际线 / 天际线图改编自 | 天际线 is a literal rendering of "skyline"; check it reads as a chart |
 | site.skyline.highlight | Highlight days: {level} | 突出显示：{level} | Dropped "days" for brevity in an aria label |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title / hero.sub / charts.title | build consistency / See your consistency grow | 让坚持成为日常 / 看着你的坚持不断成长。 | Glossary 一致性 is unnatural for the generic idea; used 坚持 (as the App Store copy does), kept 一致性 only for the chart metric in charts.body |
+| site.hero.trust | One small step a day. A year of proof. | 每天一小步，一年的见证。 | 见证 (witness) for "proof" |
+| site.features.items.dashboard.title | Who you are becoming, every morning. | 每天早上，看见正在成为的自己。 | Reordered, slightly longer than English |
+| site.features.items.events.title | Your year in places, books and trips. | 地方、书和旅行串起你的一年。 | Rewritten as "places, books and trips string together your year" |
+| site.year.eyebrow | Every day counts | 每一天都算数 | Idiom, check register |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.hero.sub | 每天记录习惯，养成坚持，成为你想成为的人。 | 每天记录习惯，学会坚持，成为你想成为的人。 | 养成坚持 is an odd collocation (养成 takes 习惯); 学会坚持 is natural |
+
+Accepted as is: 坚持 for the general idea (matches App Store), 一致性 for the chart metric; hero.trust 见证; dashboard.title reorder; events.title rewrite (reads well); year.eyebrow 每一天都算数 (natural, informal register matches the site).
+
+Confidence: high

@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: ein handgezeichneter Gewohnheitstracker, der auf deinem iPhone bleibt",
-      "description": "MyGrowth verwandelt deine Gewohnheiten in eine handgezeichnete Heatmap, Diagramme und Statistiken. Privat von Grund auf: kein Konto, keine Cloud, deine Daten bleiben auf deinem Gerät."
+      "title": "MyGrowth: Gewohnheiten täglich tracken, Beständigkeit aufbauen",
+      "description": "Trag deine Gewohnheiten in Sekunden ein, sieh jeden Tag voller Einsatz auf einem handgezeichneten Raster und erlebe, wie deine Beständigkeit den Menschen formt, der du werden willst."
     },
     "support": {
       "title": "Support, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Du wirst, was du wiederholt tust.",
-    "sub": "MyGrowth verwandelt deine Gewohnheiten in eine handgezeichnete Heatmap, Diagramme und Statistiken, damit du siehst, wie aus Dranbleiben Fortschritt wird.",
-    "trust": "Privat von Grund auf. Kein Konto, keine Cloud.",
+    "sub": "Verfolge deine Gewohnheiten jeden Tag, bau Beständigkeit auf und werde, wer du sein willst.",
+    "trust": "Ein kleiner Schritt pro Tag. Ein Jahr als Beweis.",
     "phoneAlt": "Das MyGrowth-Dashboard: der Wochenstreifen, das Ziel unter „Werde zu“ und die Gewohnheiten von heute als handgezeichnete Karten."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Beispielwerte für Beständigkeit an jedem Tag von {a} bis {b}, im Durchschnitt {avg}. Mit den Pfeiltasten liest du jeden Tag einzeln."
   },
   "year": {
-    "eyebrow": "Dein Jahr auf einen Blick",
-    "title": "Ein ehrliches Bild von einem Jahr.",
-    "body": "Jeder Tag, an dem du dranbleibst, füllt ein Kästchen. Die Kachel für heute im Wochenstreifen füllt sich, während der Tag vergeht.",
+    "eyebrow": "Jeder Tag zählt",
+    "title": "Heute fängt es an.",
+    "body": "Jeder Tag, an dem du dranbleibst, füllt ein Kästchen, und die Kachel für heute im Wochenstreifen füllt sich, während der Tag vergeht. Auch kleine Tage summieren sich.",
     "habit": "Lesen",
     "weekLabel": "Diese Woche",
     "todayLabel": "Heute, {pct} % des Tages vorbei",
@@ -75,25 +75,25 @@
     "gridLabel": "Beispiel-Heatmap: ein Jahr Lesen, ein Kästchen pro Tag, bis heute."
   },
   "features": {
-    "eyebrow": "Was drin ist",
-    "title": "Verfolge, was zählt. Sieh es wachsen.",
+    "eyebrow": "So hilft es dir",
+    "title": "Bleib täglich dran. Sieh, was daraus wird.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard und Werde zu",
-        "title": "Wer du wirst, auf einer Seite.",
-        "body": "Die Gewohnheiten von heute als Karten unter deinem Ziel bei „Werde zu“, in einem eigenen handgezeichneten Rahmen. Gewohnheiten, die du noch nicht eingetragen hast, heben sich ab, so siehst du auf einen Blick, was noch fehlt.",
+        "title": "Wer du wirst, jeden Morgen.",
+        "body": "Schreib auf, wer du werden willst, und sieh es jedes Mal über den Gewohnheiten von heute, wenn du die App öffnest. Gewohnheiten, die du noch nicht eingetragen hast, heben sich ab, so weißt du, was heute noch fehlt.",
         "becomingLabel": "Werde zu",
         "becomingGoal": "jemandem, der seine Versprechen hält"
       },
       "grid": {
         "eyebrow": "Raster",
-        "title": "Ein Jahr Einsatz, ein ehrliches Bild.",
-        "body": "Jede Gewohnheit bekommt ihre eigene Heatmap in ihrer eigenen Farbe. Muster, Lücken und Serien siehst du auf einen Blick, und Serien folgen deinem Zeitplan, sodass ein Ruhetag sie nie unterbricht."
+        "title": "Jeder Tag voller Einsatz, auf einer Seite.",
+        "body": "Jede Gewohnheit bekommt ein Jahr aus Kästchen in ihrer eigenen Farbe. Sieh zu, wie sich Lücken schließen und Serien wachsen, und ein geplanter Ruhetag unterbricht nie eine Serie."
       },
       "charts": {
         "eyebrow": "Diagramme",
-        "title": "Jede Gewohnheit, gemessen.",
-        "body": "Beständigkeit, Durchschnitte, Gesamtwerte, Tage am Ziel und beste Tage. Linien zeichnen sich selbst, und Balken wachsen von unten.",
+        "title": "Sieh deine Beständigkeit wachsen.",
+        "body": "Beständigkeit, Durchschnitte, Gesamtwerte, Tage am Ziel und deine besten Tage. Wisch zurück durch deinen Verlauf und sieh, wie weit du gekommen bist.",
         "consistency": "Beständigkeit",
         "lastDays": "letzte 30 Tage",
         "minutes": "Minuten pro Tag",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Ereignisse",
-        "title": "Jeder Ort, jedes Buch, jede Reise in eigener Farbe.",
-        "body": "Trag die Orte ein, die du besuchst, die Bücher, die du liest, die Reisen und die Konzerte, und sieh ein ganzes Jahr deines Lebens als ein einziges Bild.",
+        "title": "Dein Jahr in Orten, Büchern und Reisen.",
+        "body": "Gib jedem Ort, jedem Buch, jeder Reise und jedem Konzert eine eigene Farbe und sieh zu, wie sich ein Jahr voller Leben füllt, Tag für Tag.",
         "legend": [
           "Reisen",
           "Bücher",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widgets und Live-Aktivität",
-        "title": "Auf deinem Home-Bildschirm und Sperrbildschirm.",
-        "body": "Ein Gewohnheitsraster-Widget, ein Heute-Widget zum Eintragen direkt vom Home-Bildschirm und Timer, die auf deinem Sperrbildschirm weiterlaufen."
+        "title": "Deine Gewohnheiten, nur einen Blick entfernt.",
+        "body": "Trag mit dem Heute-Widget direkt vom Home-Bildschirm ein, behalte dein Gewohnheitsraster im Blick und verfolge einen laufenden Timer auf deinem Sperrbildschirm."
       },
       "timers": {
         "eyebrow": "Timer und Eintragen",
-        "title": "In Sekunden eingetragen. Timer laufen weiter.",
-        "body": "Karte antippen, Wert eingeben, speichern. Dauern werden als h, min und s angezeigt, und ein laufender Timer läuft weiter, wenn du die App verlässt.",
+        "title": "In Sekunden eingetragen, jeden Tag.",
+        "body": "Karte antippen, Wert eingeben, speichern. Ein gestarteter Timer läuft weiter, wenn du die App verlässt, so geht keine Einheit verloren.",
         "timer": "Meditation"
       },
       "themes": {
         "eyebrow": "Papier und Graphit",
         "title": "Warmes Papier am Tag, sanftes Graphit bei Nacht.",
-        "body": "Der helle Modus liegt auf warmem Papier. Der dunkle Modus ist ein sanftes Graphit statt reinem Schwarz. Wörter erscheinen in Handschrift, Zahlen bleiben klar und exakt.",
+        "body": "Ein handgezeichneter Look, der das tägliche Öffnen der App zu einer kleinen Freude macht. Wörter erscheinen in Handschrift, Zahlen bleiben klar und exakt.",
         "paper": "Papier",
         "graphite": "Graphit"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Sprachen",
         "title": "In deiner Sprache. Eine von 25.",
-        "body": "Von Englisch bis Japanisch, von Bengalisch bis Albanisch. Deine eigenen Farben und Symbole für jede Gewohnheit."
+        "body": "Von Englisch bis Japanisch, von Bengalisch bis Albanisch, mit deinen eigenen Farben und Symbolen für jede Gewohnheit."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Datenschutz",
-    "title": "Deine Daten bleiben auf deinem iPhone.",
-    "body": "Kein Konto, keine Cloud, kein Tracking. Nur du und der Beweis, dass du wirst, wer du sein willst.",
-    "storedTitle": "Auf deinem Gerät gespeichert",
-    "stored": [
-      "Deine Gewohnheiten: Namen, Einheiten, Ziele, Farben und Symbole",
-      "Deine täglichen Einträge: Datum, Wert und optionale Notizen",
-      "Deine Einstellungen und Vorlieben"
-    ],
-    "neverTitle": "Nie erhoben",
-    "never": [
-      "Deine Gewohnheiten, Einträge oder Notizen",
-      "Name, E-Mail, Telefon oder Standort",
-      "Nutzungsstatistiken oder Absturzberichte",
-      "Werbe-IDs, Cookies oder Tracking"
-    ],
+    "title": "Deine Gewohnheiten gehören dir.",
+    "body": "Alles, was du einträgst, bleibt auf deinem iPhone: kein Konto, keine Cloud, kein Tracking.",
     "purchases": "Pro-Käufe laufen über Apple und werden mit RevenueCat geprüft, über eine zufällige anonyme ID.",
     "link": "Datenschutzrichtlinie lesen"
   },

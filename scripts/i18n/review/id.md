@@ -53,3 +53,25 @@ Still flagged for a native speaker:
 | site.skyline.skyline | 3D skyline | Skyline 3D | Loanword kept (also in hintOrbit and footer). |
 | site.skyline.longest | Longest run | Rentetan terpanjang | Glossary "Streak" = "Rentetan"; reads a little formal. |
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | Rentetan menghitung hari yang mencapai tujuan {goal} atau lebih. | Glossary "Goal" = "Tujuan"; "target" may be more natural for a percentage. |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.year.body | Small days add up. | Sedikit demi sedikit, lama-lama menjadi bukit. | Replaced with the common proverb; longer than English. |
+| site.features.items.dashboard.body | Write down who you want to become | Tulis ingin menjadi siapa dirimu | Natural but colloquial word order. |
+| site.features.items.widgets.title | Your habits, one glance away. | Kebiasaanmu, cukup sekali lihat. | Idiom adapted. |
+| site.features.eyebrow | How it helps | Manfaatnya untukmu | Rendered as "The benefit for you". |
+
+## Review: new message, 2026-11-27
+
+Second reviewer. Meaning, privacy body, glossary (Konsistensi, Rentetan, Hari ini, Grid Kebiasaan, Layar Utama, Layar Kunci), informal "kamu" register and dashes checked on all listed keys; removed privacy keys are gone.
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.items.dashboard.body | Tulis ingin menjadi siapa dirimu, ... | Tuliskan kamu ingin menjadi siapa, ... | Original word order is awkward; new form is natural spoken Indonesian. |
+| site.features.items.grid.title | Setiap hari usaha, dalam satu halaman. | Setiap hari usahamu, dalam satu halaman. | "hari usaha" can read as "business day"; matches "setiap hari usahamu" in meta.home.description. |
+
+Still doubtful: the proverb in year.body ("Sedikit demi sedikit, lama-lama menjadi bukit") is longer than the English but a good fit; kept.
+
+Confidence: high.

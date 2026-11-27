@@ -57,3 +57,24 @@ Still flagged for a native speaker:
 | site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered with a colon, since "em quinta-feira" would need "na" |
 | site.skyline.skyline | 3D skyline | Skyline 3D | masculine "o skyline" used in hintOrbit |
 | site.skyline.hintOrbit | Drag to turn the skyline, double click to reset | Arraste para girar o skyline, clique duas vezes para redefinir | "clique duas vezes" avoids "duplo clique"; both are natural |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.eyebrow | How it helps | Como isso ajuda você | slightly wordy; "Como te ajuda" is more colloquial but mixes te/você |
+| site.features.title | Show up daily. Watch it add up. | Apareça todo dia. Veja tudo somar. | "aparecer" for "show up", as in the existing site and App Store copy |
+| site.hero.trust | One small step a day. A year of proof. | Um pequeno passo por dia. Um ano de provas. | "provas" can also mean "exams" |
+| site.features.items.widgets.title | Your habits, one glance away. | Seus hábitos, a um olhar de distância. | literal; alternative "Seus hábitos sempre à vista" |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.hero.trust | Um pequeno passo por dia. Um ano de provas. | Um pequeno passo por dia. Um ano como prova. | "provas" can read as "exams"; singular "como prova" is unambiguous |
+| site.features.items.widgets.title | Seus hábitos, a um olhar de distância. | Seus hábitos, de relance. | literal calque; "de relance" is idiomatic and matches the App Store copy |
+| site.features.items.themes.body | Um visual desenhado à mão que faz de abrir o app todo dia um pequeno prazer. ... | Um visual desenhado à mão que torna um pequeno prazer abrir o app todo dia. ... | "faz de abrir" was ungrammatical-sounding |
+
+Still doubtful: site.features.eyebrow "Como isso ajuda você" is a bit wordy but keeps the você register, kept. "aparecer" for "show up" follows the App Store copy. Privacy body exact. Glossary terms (Grade do hábito, widget Hoje, Tela de Início, Tela Bloqueada, Sequência, Constância) correct.
+
+Confidence: high

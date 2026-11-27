@@ -67,3 +67,29 @@ Still flagged for a native speaker:
 | site.footer.skyline | Skyline chart adapted from | स्काइलाइन चार्टको स्रोत: | Nepali puts the source before "adapted"; rendered as "Source of the skyline chart:" so it reads before the link |
 | site.skyline.title | A year of consistency | सततताको एक वर्ष | Glossary सततता; site body text also uses निरन्तरता, check which reads better as a title |
 | site.skyline.empty / levelEmpty | Nothing logged | केही दर्ता गरिएको छैन / केही दर्ता छैन | Glossary "Not logged" (लगाइएको छैन) reads as "not worn"; not used |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title / hero.sub | build consistency | निरन्तरता बनाउनुहोस् | Generic idea uses निरन्तरता (as the site already does); glossary सततता kept only for the Consistency chart metric |
+| site.features.items.grid.body | the streaks grow | स्ट्रिक लामो हुँदै | Glossary has लगातार for Streak, but the site already uses स्ट्रिक 9 times; kept स्ट्रिक for consistency, native check wanted |
+| site.hero.trust | One small step a day. A year of proof. | दिनको एउटा सानो कदम। एक वर्षको प्रमाण। | Rhythm of a slogan; no App Store reference for ne |
+| site.features.title | Show up daily. Watch it add up. | हरेक दिन लागिरहनुहोस्। जोडिँदै गएको हेर्नुहोस्। | "add up" idiom rendered as "watch it accumulate" |
+| site.year.body | Small days add up. | साना दिनहरू जोडिँदै ठूलो बन्छन्। | Idiom, rendered as "small days add up into something big" |
+| site.features.items.events.body | a year of living fill in | जिउँदै गरेको एक वर्ष दिनदिनै भरिँदै | Abstract phrase, check naturalness |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.meta.home.description | …र तपाईंको निरन्तरताले तपाईं जस्तो बन्न चाहनुहुन्छ त्यस्तै व्यक्ति बनाउँदै गएको हेर्नुहोस्। | …र तपाईंको निरन्तरताले तपाईंलाई चाहेको व्यक्ति बनाउँदै गएको हेर्नुहोस्। | Relative clause was clunky; shorter and clearer |
+| site.year.body | तपाईंले निरन्तरता दिएको हरेक दिनले… | तपाईं लागिपरेको हरेक दिनले… | "gave continuity" lacked an object; लागिपर्नु renders "show up" and echoes features.title |
+| site.features.title | …जोडिँदै गएको हेर्नुहोस्। | …प्रगति जोडिँदै गएको हेर्नुहोस्। | Second sentence had no subject; "watch progress add up" |
+| site.features.items.events.body | …जिउँदै गरेको एक वर्ष दिनदिनै भरिँदै… | …जीवनको एक वर्ष दिनदिनै भरिँदै… | "a year of life" reads more naturally than "a year being lived" |
+| site.features.items.widgets.body | “आज” विजेटबाट होम स्क्रिनबाटै लग गर्नुहोस्… | होम स्क्रिनमा रहेको “आज” विजेटबाट लग गर्नुहोस्… | Removed the double बाट |
+
+Accepted as is: निरन्तरता for the general idea, सततता for the chart metric; स्ट्रिक over glossary लगातार (site uses स्ट्रिक throughout); hero.trust and year.body idiom.
+Still doubtful: "निरन्तरता बनाउनुहोस्" (build consistency) is understandable but a native may prefer a different verb; no App Store reference for ne.
+
+Confidence: medium

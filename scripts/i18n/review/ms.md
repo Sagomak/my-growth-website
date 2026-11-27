@@ -59,3 +59,25 @@ Still flagged for a native speaker:
 | site.skyline.hintFlat | Hover a day for details... | Halakan tetikus pada satu hari untuk butiran... | "hover" has no standard Malay term. |
 | site.skyline.levelEmpty | Nothing logged | Tidak dicatat | Glossary "Not logged"; verify it fits as a legend label. |
 | site.skyline.title | A year of consistency | Setahun konsistensi | Same as id; "Setahun yang konsisten" is the alternative. |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.year.body | Small days add up. | Sedikit-sedikit, lama-lama jadi bukit. | Replaced with the common proverb. |
+| site.features.title | Show up daily. Watch it add up. | Hadir setiap hari. Lihat ia bertambah. | "ia" has an implicit referent. |
+| site.features.eyebrow | How it helps | Bagaimana ia membantu | Slightly literal. |
+| site.features.items.widgets.title | Your habits, one glance away. | Tabiatmu, hanya sekilas pandang. | Idiom adapted. |
+
+## Review: new message, 2026-11-27
+
+Second reviewer. Meaning, privacy body, glossary (Konsistensi, Rentetan, Hari ini, Grid Tabiat, Skrin Utama, Skrin Kunci), informal "kamu" register and dashes checked on all listed keys; removed privacy keys are gone.
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.title | Hadir setiap hari. Lihat ia bertambah. | Hadir setiap hari. Lihat hasilnya bertambah. | "ia" had no clear referent; "hasilnya" (the results) is clear and natural. |
+| site.features.items.grid.title | Setiap hari usaha, dalam satu halaman. | Setiap hari usahamu, dalam satu halaman. | Clearer; matches "setiap hari usahamu" in meta.home.description. |
+
+Still doubtful: features.eyebrow "Bagaimana ia membantu" is slightly literal but acceptable; "tiada awan" for "no cloud" kept as it predates this change.
+
+Confidence: high.

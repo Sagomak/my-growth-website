@@ -63,3 +63,24 @@ Still flagged for a native speaker:
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | স্ট্রিকে সেই দিনগুলো গোনা হয়, যেদিন {goal} লক্ষ্য ছোঁয়া বা ছাড়ানো হয়েছে। | rephrased |
 | site.skyline.tooltip | {pct} on {date} | {date}: {pct} | reordered |
 | site.footer.skyline | Skyline chart adapted from | স্কাইলাইন চার্টের ভিত্তি: | Bengali puts "from" after the noun, so rewritten as "basis of the skyline chart:" before the link |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | রোজ লেগে থাকুন। দেখুন কীভাবে জমে ওঠে। | idiom "add up" rendered as জমে ওঠে |
+| site.year.body (last sentence) | Small days add up. | ছোট ছোট দিন মিলেই বড় কিছু হয়। | idiom rephrased |
+| site.meta.home.description | ...watch your consistency shape the person you want to become. | ...আপনাকে আপনার কাঙ্ক্ষিত মানুষে পরিণত করছে। | "কাঙ্ক্ষিত মানুষ" slightly formal |
+| site.features.items.grid.body | streaks | স্ট্রিক | glossary Streak is "ধারাবাহিকতা" (same as Consistency); kept স্ট্রিক as in existing site copy to avoid the clash |
+| site.features.items.events.body | a year of living | যাপিত একটি বছর | literary register, check |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.meta.home.description | ...আপনাকে আপনার কাঙ্ক্ষিত মানুষে পরিণত করছে। | ...আপনাকে সেই মানুষ করে তুলছে, যা আপনি হতে চান। | «কাঙ্ক্ষিত মানুষে পরিণত» is formal; new wording is warmer and echoes hero.sub («যা আপনি হতে চান») |
+| site.features.items.events.body | ...আর দেখুন যাপিত একটি বছর দিনে দিনে ভরে উঠছে। | ...আর দেখুন জীবনের একটি বছর দিনে দিনে ভরে উঠছে। | «যাপিত» is literary; «জীবনের একটি বছর» is plain "a year of living" |
+
+Still doubtful: স্ট্রিক kept over glossary «ধারাবাহিকতা» to avoid clashing with Consistency (agree with translator). Privacy body checked: exact meaning.
+
+Confidence: medium.

@@ -72,3 +72,23 @@ Still flagged for a native speaker:
 | site.skyline.longest, current, goal | Longest run / Current run | Pinakamahabang sunod-sunod / Kasalukuyang sunod-sunod | glossary "Sunod-sunod" as a noun; may read better as "Pinakamahabang sunod-sunod na araw" |
 | site.skyline.tooltip, empty | {pct} on {date} | {pct} sa {date} / Walang naitala sa {date} | "sa" vs "noong" before a full date |
 | site.footer.skyline | Skyline chart adapted from | Hinango ang skyline chart mula sa | must read naturally before the English link title |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | Gawin araw-araw. Panoorin itong maipon. | "add up" idiom rendered as "maipon" (accumulate) |
+| site.year.body (last sentence) | Small days add up. | Naiipon ang maliliit na araw. | same idiom; literal-ish |
+| site.year.title | Today is where it starts. | Ngayon ang simula. | shortened |
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: subaybayan ang gawi araw-araw, buuin ang konsistensi | "buuin ang konsistensi" for "build consistency"; glossary term Konsistensi kept |
+| site.features.items.timers.body | so no session is lost | kaya walang session na nawawala | English loanword "session" |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.meta.home.title | MyGrowth: subaybayan ang gawi araw-araw, buuin ang konsistensi | MyGrowth: subaybayan ang mga gawi araw-araw, buuin ang konsistensi | "your habits" is plural; "ang mga gawi" matches hero.sub. 66 characters, one over the soft limit |
+
+Still doubtful: "Panoorin itong maipon" (features.title) is acceptable but plain; "session" loanword in timers.body is kept as common Taglish usage. Privacy body checked: exact meaning.
+
+Confidence: medium.

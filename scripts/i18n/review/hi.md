@@ -62,3 +62,25 @@ Still flagged for a native speaker:
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | स्ट्रीक में वे दिन गिने जाते हैं जब {goal} का लक्ष्य पूरा हुआ या उससे ज़्यादा रहा। | rephrased |
 | site.skyline.aria | Example Consistency for every day ... | {a} से {b} तक हर दिन की उदाहरण स्थिरता, ... | "उदाहरण स्थिरता" a bit stiff |
 | site.footer.skyline | Skyline chart adapted from | स्काईलाइन चार्ट का आधार: | Hindi puts "from" after the noun, so rewritten as "basis of the skyline chart:" before the link |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.title | Show up daily. Watch it add up. | रोज़ हाज़िर रहें। उसे जुड़ते देखें। | idiom "add up" rendered as जुड़ते |
+| site.year.body (last sentence) | Small days add up. | छोटे-छोटे दिन जुड़ते जाते हैं। | same idiom |
+| site.meta.home.description | ...watch your consistency shape the person you want to become. | ...अपनी स्थिरता को आपको वह इंसान बनाते देखें जो आप बनना चाहते हैं। | sentence construction, please check flow |
+| site.features.items.grid.body | streaks | स्ट्रीक | glossary Streak is "लगातार"; kept स्ट्रीक as in existing site and App Store copy |
+| site.features.items.timers.body | so no session is lost | इसलिए कोई सत्र नहीं छूटता | "सत्र" for session |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.meta.home.description | ...और अपनी स्थिरता को आपको वह इंसान बनाते देखें जो आप बनना चाहते हैं। | ...और देखें कि आपकी स्थिरता कैसे आपको वह इंसान बना रही है जो आप बनना चाहते हैं। | the अपनी ... आपको construction was clunky; same meaning, natural flow |
+| site.features.title | रोज़ हाज़िर रहें। उसे जुड़ते देखें। | रोज़ हाज़िर रहें। देखें, कैसे सब जुड़ता जाता है। | «उसे» had no clear referent; new line reads as "watch it all add up" |
+| site.features.items.widgets.body | ...और लॉक स्क्रीन पर चलते टाइमर पर नज़र रखें। | ...और लॉक स्क्रीन पर चलते टाइमर को देखते रहें। | removes the repeated «नज़र» (already in «नज़र के सामने») |
+
+Still doubtful: स्ट्रीक vs glossary «लगातार» (kept स्ट्रीक, as in existing site and App Store copy); «सत्र» for session is acceptable. Privacy body checked: exact meaning.
+
+Confidence: medium.

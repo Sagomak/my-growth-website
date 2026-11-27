@@ -242,14 +242,8 @@ main > section.wrap { padding-top: 56px; padding-bottom: 56px; }
 .theme-pair figcaption { font-size: 20px; font-weight: 700; color: var(--text-2); }
 
 /* Privacy ----------------------------------------------------------------- */
-.privacy-cols { display: grid; gap: 16px; }
-.privacy-card { padding: 24px 22px; }
-@media (min-width: 760px) { .privacy-cols { grid-template-columns: 1fr 1fr; } }
-.ticks, .crosses { list-style: none; display: grid; gap: 12px; }
-.ticks li, .crosses li { display: grid; grid-template-columns: 14px 1fr; gap: 10px; align-items: baseline; font-size: 17px; }
-.ticks li svg { transform: translateY(1px); }
-.crosses li svg { color: var(--text-muted); transform: translateY(1px); }
-.privacy-note { margin-top: 20px; font-size: 16px; max-width: 70ch; }
+.privacy .section-head { margin-bottom: 16px; }
+.privacy-note { margin-top: 0; font-size: 16px; max-width: 70ch; }
 .privacy .cta-link { display: inline-block; margin-top: 10px; }
 
 /* FAQ --------------------------------------------------------------------- */
@@ -351,7 +345,7 @@ table.simple td { color: var(--text); }
 @keyframes grow { to { transform: scaleY(1); } }
 
 /* Grid items never grow past their track because of wide SVG content. */
-.feature-row > *, .grid-visual > *, .charts-visual > *, .bento > *, .privacy-cols > *, .hero > * { min-width: 0; }
+.feature-row > *, .grid-visual > *, .charts-visual > *, .bento > *, .hero > * { min-width: 0; }
 
 /* Language switcher ------------------------------------------------------- */
 .lang { position: relative; }

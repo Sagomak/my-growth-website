@@ -97,3 +97,26 @@ Doubts:
 | site.skyline.range | {a} to {b} | {a} ile {b} arası | Avoids suffix harmony on dates ("'dan/'den"); check after a stat label. |
 | site.skyline.levelUnder | Under {pct} | {pct} altı | Legend label; "{pct} altında" is the fuller alternative. |
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | Seriler, {goal} hedefine ulaştığın ya da onu geçtiğin günleri sayar. | Dative suffix sits on "hedef", so it works with any {goal} value. |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.features.items.events.title | Your year in places, books and trips. | Yerlerle, kitaplarla ve yolculuklarla yılın. | Word order inverted for Turkish; reads a little poetic. |
+| site.features.items.grid.body | Each habit gets a year of squares in its own colour. | Her alışkanlık kendi renginde bir yıllık karelere sahip olur. | "sahip olur" is a bit formal; alternative "Her alışkanlığın kendi renginde bir yıllık karesi olur." |
+| site.features.title | Show up daily. Watch it add up. | Her gün orada ol. Biriktiğini izle. | "Biriktiğini" has an implicit object. |
+| site.features.eyebrow | How it helps | Sana nasıl yardım eder | Eyebrow without question mark; check it reads as a label. |
+
+## Review: new message, 2026-11-27
+
+Second reviewer. Meaning, privacy body, glossary (Süreklilik, Seri, Bugün, Habit Grid), informal "sen" register and dashes checked on all listed keys; removed privacy keys are gone.
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.eyebrow | Sana nasıl yardım eder | Sana nasıl yardımcı olur | "yardımcı olur" is the standard phrasing for a product helping; reads better as a label. |
+| site.features.items.grid.body | Her alışkanlık kendi renginde bir yıllık karelere sahip olur. | Her alışkanlığın kendi renginde bir yıllık kareleri olur. | "sahip olur" is stiff; translator's alternative, warmer. |
+| site.features.items.events.title | Yerlerle, kitaplarla ve yolculuklarla yılın. | Yerler, kitaplar ve yolculuklarla dolu yılın. | Original reads as a fragment; "dolu" (full of) makes it a natural title. |
+
+Still doubtful: "Her gün orada ol" (features.title) mirrors the existing "Orada olduğun her gün"; acceptable motivational phrasing.
+
+Confidence: high.

@@ -100,3 +100,23 @@ Doubts:
 | site.skyline.range | {a} to {b} | du {a} au {b} | "du 1 nov." where French would write "1er"; lowercase "du" if it opens a line |
 | site.skyline.skyline | 3D skyline | Skyline 3D | feminine "la skyline" used in hintOrbit; gender of the anglicism varies |
 | site.skyline.hintOrbit | Drag to turn the skyline, double click to reset | Fais glisser pour faire tourner la skyline, double-clique pour la réinitialiser | "double-clique" uses an in-word hyphen (allowed by the brief) |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title | MyGrowth: track your habits ... | MyGrowth : suis tes habitudes chaque jour et gagne en constance | kept the French space before the colon, as in the existing title; the brief says "MyGrowth:" |
+| site.features.title | Show up daily. Watch it add up. | Sois là chaque jour. Regarde tout s'additionner. | "s'additionner" is a bit literal; alternative "Regarde le résultat grandir" |
+| site.year.body | ... Small days add up. | ... Les petits jours s'additionnent. | "petits jours" is unusual in French |
+| site.features.items.timers.body | ... so no session is lost. | ... donc aucune séance n'est perdue. | "séance" for session |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.title | Sois là chaque jour. Regarde tout s'additionner. | Sois là chaque jour. Regarde les jours s'additionner. | "tout s'additionner" was vague; "les jours" is concrete and ties to the grid |
+| site.features.items.dashboard.body | ... ressortent, pour savoir ce qu'il te reste à faire aujourd'hui. | ... ressortent, pour que tu saches ce qu'il te reste à faire aujourd'hui. | "pour savoir" had no matching subject (the habits do not know) |
+
+Still doubtful: site.year.body "Les petits jours s'additionnent." is unusual in French but readable, kept. "MyGrowth :" with the space before the colon is accepted French typography. Privacy body exact. Glossary terms (Grille d'habitude, widget Aujourd'hui, écran d'accueil, écran verrouillé, Série, Constance) correct; tu register consistent.
+
+Confidence: high

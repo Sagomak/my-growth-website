@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: un tracker de obiceiuri desenat de mână, care rămâne pe iPhone-ul tău",
-      "description": "MyGrowth îți transformă obiceiurile într-un heatmap desenat de mână, grafice și statistici. Privat din start: fără cont, fără cloud, datele rămân pe dispozitivul tău."
+      "title": "MyGrowth: urmărește-ți obiceiurile zilnic și construiește constanță",
+      "description": "Notează-ți obiceiurile în câteva secunde, vezi fiecare zi de efort pe o grilă desenată de mână și privește cum constanța te transformă în omul care vrei să devii."
     },
     "support": {
       "title": "Suport, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Devii ceea ce faci în mod repetat.",
-    "sub": "MyGrowth îți transformă obiceiurile într-un heatmap desenat de mână, grafice și statistici, ca să vezi cum prezența zilnică devine progres.",
-    "trust": "Privat din start. Fără cont, fără cloud.",
+    "sub": "Urmărește-ți obiceiurile în fiecare zi, construiește constanță și devino cine vrei să fii.",
+    "trust": "Un pas mic pe zi. Un an de dovezi.",
     "phoneAlt": "Dashboard-ul MyGrowth: banda săptămânii, obiectivul Devii și obiceiurile de azi ca niște carduri desenate de mână."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Exemplu de Constanță pentru fiecare zi de la {a} la {b}, cu o medie de {avg}. Folosește tastele săgeți ca să citești fiecare zi."
   },
   "year": {
-    "eyebrow": "Anul tău, dintr-o privire",
-    "title": "O imagine sinceră a unui an întreg.",
-    "body": "Fiecare zi în care ești prezent umple un pătrat. Pătratul de azi din banda săptămânii se umple pe măsură ce trece ziua.",
+    "eyebrow": "Fiecare zi contează",
+    "title": "Totul începe azi.",
+    "body": "Fiecare zi în care ești prezent umple un pătrat, iar pătratul de azi din banda săptămânii se umple pe măsură ce trece ziua. Pas cu pas, zilele se adună.",
     "habit": "Citit",
     "weekLabel": "Săptămâna aceasta",
     "todayLabel": "Astăzi, a trecut {pct}% din zi",
@@ -75,25 +75,25 @@
     "gridLabel": "Exemplu de heatmap: un an de citit, câte un pătrat pe zi, până azi."
   },
   "features": {
-    "eyebrow": "Ce găsești înăuntru",
-    "title": "Urmărește ce contează. Privește cum crește.",
+    "eyebrow": "Cum te ajută",
+    "title": "Fii prezent zilnic. Privește cum se adună.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard și Devii",
-        "title": "Cine devii, pe o singură pagină.",
-        "body": "Obiceiurile de azi, sub formă de carduri, sub obiectivul tău Devii, în propriul chenar desenat de mână. Obiceiurile pe care nu le-ai notat încă ies în evidență, ca să vezi dintr-o privire ce mai ai de făcut.",
+        "title": "Cine devii, în fiecare dimineață.",
+        "body": "Scrie cine vrei să devii și vezi asta deasupra obiceiurilor de azi de fiecare dată când deschizi aplicația. Obiceiurile pe care nu le-ai notat încă ies în evidență, ca să știi ce mai ai de făcut azi.",
         "becomingLabel": "Devii",
         "becomingGoal": "un om care își ține promisiunile"
       },
       "grid": {
         "eyebrow": "Grilă",
-        "title": "Un an de efort, o imagine sinceră.",
-        "body": "Fiecare obicei are propriul heatmap, în propria culoare. Tiparele, golurile și seriile se văd dintr-o privire, iar seriile îți urmează programul, așa că o zi de odihnă nu le întrerupe niciodată."
+        "title": "Fiecare zi de efort, pe o singură pagină.",
+        "body": "Fiecare obicei primește un an de pătrate, în propria culoare. Privește cum golurile se închid și seriile cresc, iar o zi de odihnă planificată nu întrerupe niciodată o serie."
       },
       "charts": {
         "eyebrow": "Grafice",
-        "title": "Fiecare obicei, măsurat.",
-        "body": "Constanță, medii, totaluri, zile cu obiectiv atins și cele mai bune zile. Liniile se desenează singure, iar barele cresc de jos în sus.",
+        "title": "Vezi cum îți crește constanța.",
+        "body": "Constanță, medii, totaluri, zile cu obiectiv atins și cele mai bune zile ale tale. Glisează înapoi prin istoric și vezi cât de departe ai ajuns.",
         "consistency": "Constanță",
         "lastDays": "ultimele 30 de zile",
         "minutes": "Minute pe zi",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Evenimente",
-        "title": "Fiecare loc, carte și călătorie are culoarea ei.",
-        "body": "Notează locurile pe care le vizitezi, cărțile pe care le citești, călătoriile și concertele, și privește cum un an întreg din viața ta apare ca o singură imagine.",
+        "title": "Anul tău în locuri, cărți și călătorii.",
+        "body": "Dă fiecărui loc, carte, călătorie și concert culoarea lui și privește cum un an trăit se umple, zi după zi.",
         "legend": [
           "Călătorii",
           "Cărți",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widgeturi și Live Activity",
-        "title": "Pe ecranul principal și pe ecranul de blocare.",
-        "body": "Un widget Habit Grid, un widget Astăzi pentru a nota direct de pe ecranul principal și cronometre care stau pe ecranul de blocare."
+        "title": "Obiceiurile tale, la doar o privire.",
+        "body": "Notează de pe ecranul principal cu widgetul Astăzi, ține widgetul Habit Grid la vedere și urmărește un cronometru pornit pe ecranul de blocare."
       },
       "timers": {
         "eyebrow": "Cronometre și înregistrare",
-        "title": "Notezi în câteva secunde. Cronometrele merg mai departe.",
-        "body": "Atinge un card, scrie o valoare, salvează. Duratele apar în h, min și s, iar un cronometru pornit merge mai departe când ieși din aplicație.",
+        "title": "Notezi în câteva secunde, în fiecare zi.",
+        "body": "Atinge un card, scrie o valoare, salvează. Un cronometru pornit merge mai departe când ieși din aplicație, așa că nicio sesiune nu se pierde.",
         "timer": "Meditație"
       },
       "themes": {
         "eyebrow": "Hârtie și grafit",
         "title": "Hârtie caldă ziua, grafit catifelat noaptea.",
-        "body": "Modul luminos stă pe o hârtie în tonuri calde. Modul întunecat e un grafit catifelat în loc de negru pur. Cuvintele sunt scrise de mână, cifrele rămân clare și exacte.",
+        "body": "Un aspect desenat de mână care face din deschiderea zilnică a aplicației o mică plăcere. Cuvintele sunt scrise de mână, cifrele rămân clare și exacte.",
         "paper": "Hârtie",
         "graphite": "Grafit"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Limbi",
         "title": "În limba ta. Una din 25.",
-        "body": "De la engleză la japoneză, de la bengaleză la albaneză. Propriile culori și pictograme pe fiecare obicei."
+        "body": "De la engleză la japoneză, de la bengaleză la albaneză, cu propriile culori și pictograme pe fiecare obicei."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Confidențialitate",
-    "title": "Datele tale rămân pe iPhone.",
-    "body": "Fără cont, fără cloud, fără urmărire. Doar tu și dovada că devii cine vrei să fii.",
-    "storedTitle": "Stocate pe dispozitivul tău",
-    "stored": [
-      "Obiceiurile tale: nume, unități, obiective, culori și pictograme",
-      "Înregistrările zilnice: dată, valoare și note opționale",
-      "Setările și preferințele tale"
-    ],
-    "neverTitle": "Nu colectăm niciodată",
-    "never": [
-      "Obiceiurile, înregistrările sau notele tale",
-      "Nume, e-mail, telefon sau locație",
-      "Analize de utilizare sau rapoarte de erori",
-      "Identificatori de publicitate, cookie-uri sau urmărire"
-    ],
+    "title": "Obiceiurile tale sunt ale tale.",
+    "body": "Tot ce notezi rămâne pe iPhone-ul tău: fără cont, fără cloud, fără urmărire.",
     "purchases": "Achizițiile Pro trec prin Apple și sunt verificate cu RevenueCat, folosind un ID anonim aleatoriu.",
     "link": "Citește politica de confidențialitate"
   },

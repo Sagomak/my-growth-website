@@ -54,3 +54,25 @@ Still flagged for a native speaker:
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | В серию входят дни с результатом не ниже цели {goal}. | rephrased |
 | site.skyline.levelEmpty | Nothing logged | Нет записей | glossary "Not logged" is «Не зафиксировано»; shorter form chosen for the legend |
 | site.footer.skyline | Skyline chart adapted from | Диаграмма skyline создана на основе | followed by the English link title |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: отслеживайте привычки каждый день и обретайте постоянство | 67 chars, slightly over 65; "обретайте постоянство" for "build consistency" |
+| site.features.title | Show up daily. Watch it add up. | Каждый день по шагу. Смотрите, как растёт итог. | idiom "add up" rephrased |
+| site.year.body (last sentence) | Small days add up. | Из маленьких дней складывается большое. | idiom rephrased |
+| site.hero.trust | One small step a day. A year of proof. | Один маленький шаг в день. Целый год доказательств. | rhythm check |
+| site.features.items.timers.body | so no session is lost | так что ни одно занятие не потеряется | "session" as «занятие» |
+| site.privacy.title | Your habits are yours. | Ваши привычки принадлежат только вам. | "только" added for emphasis |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.meta.home.title | MyGrowth: отслеживайте привычки каждый день и обретайте постоянство | MyGrowth: отслеживайте привычки ежедневно и обретайте постоянство | brings the title from 67 to 65 characters with the same meaning |
+| site.features.title | Каждый день по шагу. Смотрите, как растёт итог. | Каждый день по шагу. Смотрите, как копится результат. | «растёт итог» reads like accounting; «копится результат» is the natural "add up" |
+
+Still doubtful: privacy.title adds «только» (kept, natural emphasis, no new claim). Privacy body checked: exact meaning. Home Screen / Lock Screen follow Apple's Russian names (экран «Домой», экран блокировки).
+
+Confidence: high.

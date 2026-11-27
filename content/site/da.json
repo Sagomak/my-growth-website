@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: en håndtegnet vanetracker, der bliver på din iPhone",
-      "description": "MyGrowth gør dine vaner til et håndtegnet heatmap, diagrammer og statistik. Privat fra starten: ingen konto, ingen sky, dine data bliver på din enhed."
+      "title": "MyGrowth: track dine vaner hver dag og opbyg konsekvens",
+      "description": "Registrér dine vaner på sekunder, se hver dags indsats i et håndtegnet gitter, og se din konsekvens forme den person, du gerne vil blive."
     },
     "support": {
       "title": "Support, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Du bliver det, du gentager.",
-    "sub": "MyGrowth gør dine vaner til et håndtegnet heatmap, diagrammer og statistik, så du kan se det at møde op blive til fremgang.",
-    "trust": "Privat fra starten. Ingen konto, ingen sky.",
+    "sub": "Track dine vaner hver dag, opbyg konsekvens, og bliv den, du gerne vil være.",
+    "trust": "Et lille skridt om dagen. Et år som bevis.",
     "phoneAlt": "MyGrowths Dashboard: ugebjælken, målet På vej mod og dagens vaner som håndtegnede kort."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Eksempel på Konsekvens for hver dag fra {a} til {b}, med et gennemsnit på {avg}. Brug piletasterne til at læse hver dag."
   },
   "year": {
-    "eyebrow": "Dit år på ét blik",
-    "title": "Ét ærligt billede af et år.",
-    "body": "Hver dag, du møder op, fylder et felt. Dagens felt i ugebjælken fyldes op, efterhånden som dagen går.",
+    "eyebrow": "Hver dag tæller",
+    "title": "Det starter i dag.",
+    "body": "Hver dag, du møder op, fylder et felt, og dagens felt i ugebjælken fyldes op, efterhånden som dagen går. Små dage bliver til meget.",
     "habit": "Læsning",
     "weekLabel": "Denne uge",
     "todayLabel": "I dag, {pct} % af dagen er gået",
@@ -75,25 +75,25 @@
     "gridLabel": "Eksempel på heatmap: et års læsning, ét felt pr. dag, frem til i dag."
   },
   "features": {
-    "eyebrow": "Det får du",
-    "title": "Track det, der betyder noget. Se det vokse.",
+    "eyebrow": "Sådan hjælper appen dig",
+    "title": "Mød op hver dag. Se det blive til noget.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard og På vej mod",
-        "title": "Den, du er på vej mod at blive, på én side.",
-        "body": "Dagens vaner som kort under dit mål På vej mod, i sin egen håndtegnede ramme. Vaner, du endnu ikke har registreret, skiller sig ud, så du med det samme kan se, hvad der mangler.",
+        "title": "Den, du er på vej mod at blive, hver morgen.",
+        "body": "Skriv, hvem du gerne vil blive, og se det over dagens vaner, hver gang du åbner appen. Vaner, du endnu ikke har registreret, skiller sig ud, så du ved, hvad der mangler i dag.",
         "becomingLabel": "På vej mod",
         "becomingGoal": "at blive en, der holder sine løfter"
       },
       "grid": {
         "eyebrow": "Gitter",
-        "title": "Et års indsats, ét ærligt billede.",
-        "body": "Hver vane får sit eget heatmap i sin egen farve. Mønstre, huller og stimer ses med det samme, og stimer følger din tidsplan, så en hviledag aldrig bryder dem."
+        "title": "Hver dags indsats, på én side.",
+        "body": "Hver vane får et år af felter i sin egen farve. Se hullerne lukke sig og stimerne vokse, og en planlagt hviledag bryder aldrig en stime."
       },
       "charts": {
         "eyebrow": "Diagrammer",
-        "title": "Hver vane, målt.",
-        "body": "Konsekvens, gennemsnit, totaler, dage, hvor målet er nået og bedste dage. Linjerne tegner sig selv, og søjlerne vokser op fra bunden.",
+        "title": "Se din konsekvens vokse.",
+        "body": "Konsekvens, gennemsnit, totaler, dage, hvor målet er nået, og dine bedste dage. Swipe tilbage gennem din historik, og se, hvor langt du er nået.",
         "consistency": "Konsekvens",
         "lastDays": "seneste 30 dage",
         "minutes": "Minutter pr. dag",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Begivenheder",
-        "title": "Hvert sted, hver bog og rejse får sin farve.",
-        "body": "Registrér de steder, du besøger, de bøger, du læser, rejserne og koncerterne, og se et helt år af dit liv som ét billede.",
+        "title": "Dit år i steder, bøger og rejser.",
+        "body": "Giv hvert sted, hver bog, rejse og koncert sin egen farve, og se et år af dit liv fylde sig ud, én dag ad gangen.",
         "legend": [
           "Rejser",
           "Bøger",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widgets og Live Activity",
-        "title": "På din hjemmeskærm og låseskærm.",
-        "body": "En Vanegitter-widget, en I dag-widget til at registrere fra hjemmeskærmen, og timere, der bliver på din låseskærm."
+        "title": "Dine vaner, kun et blik væk.",
+        "body": "Registrér fra hjemmeskærmen med I dag-widgetten, hav dit Vanegitter for øje, og følg en kørende timer på din låseskærm."
       },
       "timers": {
         "eyebrow": "Timere og registrering",
-        "title": "Registrér på sekunder. Timere kører videre.",
-        "body": "Tryk på et kort, skriv en værdi, gem. Varigheder vises som h, min og s, og en kørende timer fortsætter, når du forlader appen.",
+        "title": "Registrér på sekunder, hver dag.",
+        "body": "Tryk på et kort, skriv en værdi, gem. En kørende timer fortsætter, når du forlader appen, så ingen session går tabt.",
         "timer": "Meditation"
       },
       "themes": {
         "eyebrow": "Papir og grafit",
         "title": "Varmt papir om dagen, blød grafit om natten.",
-        "body": "Det lyse tema ligger på varmt papir. Det mørke er en blød grafitgrå i stedet for helt sort. Ord er håndskrevne, tal forbliver skarpe og præcise.",
+        "body": "Et håndtegnet udseende, der gør det til en lille glæde at åbne appen hver dag. Ord er håndskrevne, tal forbliver skarpe og præcise.",
         "paper": "Papir",
         "graphite": "Grafit"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Sprog",
         "title": "På dit sprog. Et af 25.",
-        "body": "Fra engelsk til japansk, fra bengali til albansk. Dine egne farver og ikoner på hver vane."
+        "body": "Fra engelsk til japansk, fra bengali til albansk, med dine egne farver og ikoner på hver vane."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Privatliv",
-    "title": "Dine data bliver på din iPhone.",
-    "body": "Ingen konto, ingen sky, ingen tracking. Kun dig og beviset på, at du vokser til den, du gerne vil være.",
-    "storedTitle": "Gemt på din enhed",
-    "stored": [
-      "Dine vaner: navne, enheder, mål, farver og ikoner",
-      "Dine daglige registreringer: dato, værdi og valgfrie noter",
-      "Dine indstillinger og præferencer"
-    ],
-    "neverTitle": "Indsamles aldrig",
-    "never": [
-      "Dine vaner, registreringer eller noter",
-      "Navn, e-mail, telefon eller placering",
-      "Brugsstatistik eller nedbrudsrapporter",
-      "Annonce-id'er, cookies eller tracking"
-    ],
+    "title": "Dine vaner er dine.",
+    "body": "Alt, hvad du registrerer, bliver på din iPhone: ingen konto, ingen sky, ingen tracking.",
     "purchases": "Pro-køb går gennem Apple og kontrolleres med RevenueCat ved hjælp af et tilfældigt, anonymt id.",
     "link": "Læs privatlivspolitikken"
   },

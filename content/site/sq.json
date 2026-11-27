@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: gjurmues zakonesh i vizatuar me dorë që mbetet në iPhone-in tënd",
-      "description": "MyGrowth i kthen zakonet e tua në një hartë nxehtësie të vizatuar me dorë, grafikë dhe statistika. Privat që në konceptim: pa llogari, pa cloud, të dhënat e tua mbeten në pajisjen tënde."
+      "title": "MyGrowth: ndiq zakonet çdo ditë dhe ndërto konsistencë",
+      "description": "Regjistro zakonet në pak sekonda, shih çdo ditë përpjekjeje në një grid të vizatuar me dorë dhe vëzhgo si konsistenca të formëson në personin që dëshiron të bëhesh."
     },
     "support": {
       "title": "Mbështetje, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Bëhesh ajo që bën vazhdimisht.",
-    "sub": "MyGrowth i kthen zakonet e tua në një hartë nxehtësie të vizatuar me dorë, grafikë dhe statistika, që ta shohësh si këmbëngulja e përditshme kthehet në përparim.",
-    "trust": "Privat që në konceptim. Pa llogari, pa cloud.",
+    "sub": "Ndiq zakonet çdo ditë, ndërto konsistencë dhe bëhu njeriu që dëshiron të jesh.",
+    "trust": "Një hap i vogël në ditë. Një vit me prova.",
     "phoneAlt": "Dashboard i MyGrowth: shiriti i javës, qëllimi „Po bëhesh” dhe zakonet e sotme si karta të vizatuara me dorë."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Konsistencë shembull për çdo ditë nga {a} deri më {b}, me mesatare {avg}. Përdor tastet e shigjetave për të lexuar çdo ditë."
   },
   "year": {
-    "eyebrow": "Viti yt, me një shikim",
-    "title": "Një pamje e sinqertë e një viti.",
-    "body": "Çdo ditë që nuk mungon mbush një katror. Katrori i sotëm në shiritin e javës mbushet ndërsa dita kalon.",
+    "eyebrow": "Çdo ditë ka rëndësi",
+    "title": "Gjithçka nis sot.",
+    "body": "Çdo ditë që nuk mungon mbush një katror, dhe katrori i sotëm në shiritin e javës mbushet ndërsa dita kalon. Ditët e vogla mblidhen bashkë.",
     "habit": "Leximi",
     "weekLabel": "Këtë javë",
     "todayLabel": "Sot, ka kaluar {pct}% e ditës",
@@ -75,25 +75,25 @@
     "gridLabel": "Shembull harte nxehtësie: një vit leximi, një katror për çdo ditë, deri sot."
   },
   "features": {
-    "eyebrow": "Çfarë ka brenda",
-    "title": "Ndiq atë që ka rëndësi. Shiko si rritet.",
+    "eyebrow": "Si të ndihmon",
+    "title": "Ji aty çdo ditë. Shiko si shtohet.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard dhe Po bëhesh",
-        "title": "Kush po bëhesh, në një faqe.",
-        "body": "Zakonet e sotme si karta nën qëllimin tënd „Po bëhesh”, në kornizën e vet të vizatuar me dorë. Zakonet që ende nuk i ke regjistruar dallohen, që të shohësh me një shikim çfarë ka mbetur.",
+        "title": "Kush po bëhesh, çdo mëngjes.",
+        "body": "Shkruaj kush dëshiron të bëhesh dhe shihe mbi zakonet e sotme sa herë që hap aplikacionin. Zakonet që ende nuk i ke regjistruar dallohen, që ta dish çfarë ka mbetur për sot.",
         "becomingLabel": "Po bëhesh",
         "becomingGoal": "dikush që i mban premtimet"
       },
       "grid": {
         "eyebrow": "Gridi",
-        "title": "Një vit përpjekjesh, një pamje e sinqertë.",
-        "body": "Çdo zakon ka hartën e vet të nxehtësisë me ngjyrën e vet. Modelet, boshllëqet dhe seritë duken me një shikim, dhe seritë ndjekin orarin tënd, kështu që një ditë pushimi nuk i ndërpret kurrë."
+        "title": "Çdo ditë përpjekjeje, në një faqe.",
+        "body": "Çdo zakon merr një vit katrorësh me ngjyrën e vet. Shiko boshllëqet të mbyllen dhe seritë të rriten, dhe një ditë pushimi e planifikuar nuk e ndërpret kurrë një seri."
       },
       "charts": {
         "eyebrow": "Grafikë",
-        "title": "Çdo zakon, i matur.",
-        "body": "Konsistencë, mesatare, totale, ditët kur arrin qëllimin dhe ditët më të mira. Vijat vizatohen vetë dhe shtyllat rriten nga poshtë.",
+        "title": "Shiko si rritet konsistenca jote.",
+        "body": "Konsistencë, mesatare, totale, ditët kur arrin qëllimin dhe ditët e tua më të mira. Rrëshqit pas nëpër historikun tënd dhe shiko sa larg ke arritur.",
         "consistency": "Konsistencë",
         "lastDays": "30 ditët e fundit",
         "minutes": "Minuta në ditë",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Ngjarje",
-        "title": "Çdo vend, libër dhe udhëtim me ngjyrën e vet.",
-        "body": "Regjistro vendet që viziton, librat që lexon, udhëtimet dhe koncertet, dhe shiko një vit të tërë të jetës sate të shfaqet si një pamje e vetme.",
+        "title": "Viti yt në vende, libra dhe udhëtime.",
+        "body": "Jepi çdo vendi, libri, udhëtimi dhe koncerti ngjyrën e vet, dhe shiko një vit jete të mbushet, ditë pas dite.",
         "legend": [
           "Udhëtime",
           "Libra",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widget-et dhe Live Activity",
-        "title": "Në ekranin bazë dhe në ekranin e kyçjes.",
-        "body": "Një widget me Gridin e zakonit, një widget Sot për të regjistruar nga ekrani bazë dhe kohëmatës që qëndrojnë në ekranin e kyçjes."
+        "title": "Zakonet e tua, me një shikim.",
+        "body": "Regjistro nga ekrani bazë me widgetin Sot, mbaje widgetin me Gridin e zakonit para syve dhe ndiq kohëmatësin që po punon në ekranin e kyçjes."
       },
       "timers": {
         "eyebrow": "Kohëmatës dhe regjistrim",
-        "title": "Regjistro në sekonda. Kohëmatësit vazhdojnë.",
-        "body": "Prek një kartë, shkruaj një vlerë, ruaj. Kohëzgjatjet shfaqen në h, min dhe s, dhe një kohëmatës që po punon vazhdon edhe kur del nga aplikacioni.",
+        "title": "Regjistro në sekonda, çdo ditë.",
+        "body": "Prek një kartë, shkruaj një vlerë, ruaj. Një kohëmatës që po punon vazhdon edhe kur del nga aplikacioni, kështu që asnjë seancë nuk humbet.",
         "timer": "Meditimi"
       },
       "themes": {
         "eyebrow": "Letër dhe grafit",
         "title": "Letër e ngrohtë ditën, grafit i butë natën.",
-        "body": "Modaliteti i ndritshëm qëndron mbi letër të ngrohtë. Modaliteti i errët është një grafit i butë në vend të së zezës së pastër. Fjalët janë shkruar me dorë, numrat mbeten të qartë dhe të saktë.",
+        "body": "Një pamje e vizatuar me dorë që e bën hapjen e aplikacionit çdo ditë një kënaqësi të vogël. Fjalët janë shkruar me dorë, numrat mbeten të qartë dhe të saktë.",
         "paper": "Letër",
         "graphite": "Grafit"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Gjuhët",
         "title": "Në gjuhën tënde. Mes 25 gjuhësh.",
-        "body": "Nga anglishtja te japonishtja, nga bengalishtja te shqipja. Ngjyrat dhe ikonat e tua në çdo zakon."
+        "body": "Nga anglishtja te japonishtja, nga bengalishtja te shqipja, me ngjyrat dhe ikonat e tua në çdo zakon."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Privatësia",
-    "title": "Të dhënat e tua mbeten në iPhone-in tënd.",
-    "body": "Pa llogari, pa cloud, pa gjurmim. Vetëm ti dhe prova se po bëhesh çfarë dëshiron të jesh.",
-    "storedTitle": "Ruhen në pajisjen tënde",
-    "stored": [
-      "Zakonet e tua: emrat, njësitë, qëllimet, ngjyrat dhe ikonat",
-      "Regjistrimet e tua ditore: data, vlera dhe shënime opsionale",
-      "Cilësimet dhe preferencat e tua"
-    ],
-    "neverTitle": "Nuk mblidhen kurrë",
-    "never": [
-      "Zakonet, regjistrimet ose shënimet e tua",
-      "Emri, emaili, telefoni ose vendndodhja",
-      "Analitika përdorimi ose raporte gabimesh",
-      "Identifikues reklamash, cookies ose gjurmim"
-    ],
+    "title": "Zakonet e tua janë të tuat.",
+    "body": "Gjithçka që regjistron mbetet në iPhone-in tënd: pa llogari, pa cloud, pa gjurmim.",
     "purchases": "Blerjet Pro kalojnë përmes Apple dhe verifikohen me RevenueCat, duke përdorur një ID anonime të rastësishme.",
     "link": "Lexo politikën e privatësisë"
   },

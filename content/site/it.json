@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: un tracker di abitudini disegnato a mano che resta sul tuo iPhone",
-      "description": "MyGrowth trasforma le tue abitudini in una heatmap disegnata a mano, grafici e statistiche. Privato fin dalla progettazione: nessun account, nessun cloud, i tuoi dati restano sul tuo dispositivo."
+      "title": "MyGrowth: traccia le abitudini ogni giorno e costruisci costanza",
+      "description": "Registra le tue abitudini in pochi secondi, vedi ogni giorno di impegno su una griglia disegnata a mano e guarda la tua costanza dare forma alla persona che vuoi diventare."
     },
     "support": {
       "title": "Supporto, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Diventi ciò che fai con costanza.",
-    "sub": "MyGrowth trasforma le tue abitudini in una heatmap disegnata a mano, grafici e statistiche, così puoi vedere la costanza diventare progresso.",
-    "trust": "Privato fin dalla progettazione. Nessun account, nessun cloud.",
+    "sub": "Traccia le tue abitudini ogni giorno, costruisci costanza e diventa chi vuoi essere.",
+    "trust": "Un piccolo passo al giorno. Un anno che lo dimostra.",
     "phoneAlt": "La Dashboard di MyGrowth: la striscia della settimana, l'obiettivo Diventi e le abitudini di oggi come card disegnate a mano."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Costanza di esempio per ogni giorno dal {a} al {b}, con una media del {avg}. Usa i tasti freccia per leggere ogni giorno."
   },
   "year": {
-    "eyebrow": "Il tuo anno, a colpo d'occhio",
-    "title": "Un anno in un'unica immagine onesta.",
-    "body": "Ogni giorno in cui ci sei riempie un quadrato. Il riquadro di oggi nella striscia della settimana si riempie man mano che passa la giornata.",
+    "eyebrow": "Ogni giorno conta",
+    "title": "Tutto comincia oggi.",
+    "body": "Ogni giorno in cui ci sei riempie un quadrato, e il riquadro di oggi nella striscia della settimana si riempie man mano che passa la giornata. Anche i giorni più piccoli si sommano.",
     "habit": "Leggere",
     "weekLabel": "Questa settimana",
     "todayLabel": "Oggi, trascorso il {pct}% della giornata",
@@ -75,25 +75,25 @@
     "gridLabel": "Heatmap di esempio: un anno di lettura, un quadrato al giorno, fino a oggi."
   },
   "features": {
-    "eyebrow": "Cosa c'è dentro",
-    "title": "Traccia ciò che conta. Guardalo crescere.",
+    "eyebrow": "Come ti aiuta",
+    "title": "Esserci ogni giorno. Vederlo crescere.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard e Diventi",
-        "title": "Chi stai diventando, in una pagina.",
-        "body": "Le abitudini di oggi come card sotto il tuo obiettivo Diventi, nella sua cornice disegnata a mano. Le abitudini non ancora registrate risaltano, così vedi a colpo d'occhio cosa ti resta da fare.",
+        "title": "Chi stai diventando, ogni mattina.",
+        "body": "Scrivi chi vuoi diventare e lo vedrai sopra le abitudini di oggi ogni volta che apri l'app. Le abitudini non ancora registrate risaltano, così sai cosa ti resta da fare oggi.",
         "becomingLabel": "Diventi",
         "becomingGoal": "una persona che mantiene le promesse"
       },
       "grid": {
         "eyebrow": "Griglia",
-        "title": "Un anno di impegno, un'unica immagine onesta.",
-        "body": "Ogni abitudine ha la sua heatmap nel suo colore. Schemi, vuoti e serie si vedono a colpo d'occhio, e le serie seguono il tuo programma, così un giorno di riposo non le interrompe mai."
+        "title": "Ogni giorno di impegno, in una pagina.",
+        "body": "Ogni abitudine ha un anno di quadrati nel suo colore. Guarda i vuoti chiudersi e le serie crescere, e un giorno di riposo programmato non interrompe mai una serie."
       },
       "charts": {
         "eyebrow": "Grafici",
-        "title": "Ogni abitudine, misurata.",
-        "body": "Costanza, medie, totali, giorni con obiettivo raggiunto e giorni migliori. Le linee si disegnano da sole e le barre crescono dal basso.",
+        "title": "Guarda crescere la tua costanza.",
+        "body": "Costanza, medie, totali, giorni con obiettivo raggiunto e i tuoi giorni migliori. Scorri indietro nella tua storia e guarda quanta strada hai fatto.",
         "consistency": "Costanza",
         "lastDays": "ultimi 30 giorni",
         "minutes": "Minuti al giorno",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Eventi",
-        "title": "Ogni luogo, libro e viaggio ha il suo colore.",
-        "body": "Registra i luoghi che visiti, i libri che leggi, i viaggi e i concerti, e guarda un intero anno della tua vita apparire come un'unica immagine.",
+        "title": "Il tuo anno in luoghi, libri e viaggi.",
+        "body": "Dai a ogni luogo, libro, viaggio e concerto il suo colore, e guarda un anno di vita riempirsi, un giorno alla volta.",
         "legend": [
           "Viaggi",
           "Libri",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widget e Attività in tempo reale",
-        "title": "Nella schermata Home e nella schermata di blocco.",
-        "body": "Un widget Griglia delle abitudini, un widget Oggi per registrare dalla schermata Home e timer che restano sulla schermata di blocco."
+        "title": "Le tue abitudini, a colpo d'occhio.",
+        "body": "Registra dalla schermata Home con il widget Oggi, tieni d'occhio la tua Griglia delle abitudini e segui un timer in corso sulla schermata di blocco."
       },
       "timers": {
         "eyebrow": "Timer e registrazione",
-        "title": "Registra in pochi secondi. I timer continuano.",
-        "body": "Tocca una card, scrivi un valore, salva. Le durate si leggono in h, min e s, e un timer avviato continua a scorrere quando esci dall'app.",
+        "title": "Registra in pochi secondi, ogni giorno.",
+        "body": "Tocca una card, scrivi un valore, salva. Un timer avviato continua a scorrere quando esci dall'app, così nessuna sessione va persa.",
         "timer": "Meditazione"
       },
       "themes": {
         "eyebrow": "Carta e grafite",
         "title": "Carta calda di giorno, grafite morbida di notte.",
-        "body": "La modalità chiara poggia su una carta dai toni caldi. Quella scura è una grafite morbida al posto del nero puro. Le parole sono scritte a mano, i numeri restano nitidi ed esatti.",
+        "body": "Un look disegnato a mano che rende un piccolo piacere aprire l'app ogni giorno. Le parole sono scritte a mano, i numeri restano nitidi ed esatti.",
         "paper": "Carta",
         "graphite": "Grafite"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Lingue",
         "title": "Nella tua lingua. Sono 25.",
-        "body": "Dall'inglese al giapponese, dal bengalese all'albanese. I tuoi colori e le tue icone su ogni abitudine."
+        "body": "Dall'inglese al giapponese, dal bengalese all'albanese, con i tuoi colori e le tue icone su ogni abitudine."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Privacy",
-    "title": "I tuoi dati restano sul tuo iPhone.",
-    "body": "Nessun account, nessun cloud, nessun tracciamento. Solo tu e la prova che stai diventando chi vuoi essere.",
-    "storedTitle": "Salvato sul tuo dispositivo",
-    "stored": [
-      "Le tue abitudini: nomi, unità, obiettivi, colori e icone",
-      "Le tue registrazioni giornaliere: data, valore e note facoltative",
-      "Le tue impostazioni e preferenze"
-    ],
-    "neverTitle": "Mai raccolto",
-    "never": [
-      "Le tue abitudini, registrazioni o note",
-      "Nome, email, telefono o posizione",
-      "Statistiche d'uso o segnalazioni di arresto anomalo",
-      "Identificatori pubblicitari, cookie o tracciamento"
-    ],
+    "title": "Le tue abitudini sono tue.",
+    "body": "Tutto ciò che registri resta sul tuo iPhone: nessun account, nessun cloud, nessun tracciamento.",
     "purchases": "Gli acquisti Pro passano da Apple e vengono verificati con RevenueCat, tramite un ID anonimo casuale.",
     "link": "Leggi l'informativa sulla privacy"
   },

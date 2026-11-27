@@ -48,3 +48,26 @@ Still flagged for a native speaker:
 | site.skyline.range | {a} to {b} | od {a} do {b} | "od" added; check it reads well after a stat label. |
 | site.skyline.levelEmpty | Nothing logged | Brak wpisów | Glossary "Not logged" is "Nie zalogowano" (means "not signed in"), so not used. |
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | Do passy liczą się dni, w których osiągasz cel {goal} lub więcej. | Rephrased; "Passa" glossary term used for "run". |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.year.body | Small days add up. | Małe dni się sumują. | Literal; a native may prefer "Drobne kroki się sumują." |
+| site.features.title | Show up daily. Watch it add up. | Pojawiaj się codziennie. Patrz, jak to się sumuje. | "Pojawiaj się" mirrors "się pojawiasz" in year.body; "to" is vague, as in English. |
+| site.hero.trust | One small step a day. A year of proof. | Jeden mały krok dziennie. Rok dowodów. | "Rok dowodów" is short but slightly abstract. |
+| site.features.items.widgets.title | Your habits, one glance away. | Twoje nawyki zawsze pod ręką. | Idiom swapped ("always at hand"); no natural "one glance away". |
+
+## Review: new message, 2026-11-27
+
+Second reviewer. Meaning, privacy body, glossary (Konsekwencja, Passa, Dziś, Habit Grid), informal "ty" register and dashes checked on all listed keys; removed privacy keys are gone.
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.title | Pojawiaj się codziennie. Patrz, jak to się sumuje. | Działaj codziennie. Patrz, jak to się sumuje. | "Pojawiaj się" as an imperative reads as "make appearances"; "Działaj" is the natural motivational verb. |
+| site.year.body | ... Małe dni się sumują. | ... Drobne kroki się sumują. | "Małe dni" is a calque; "drobne kroki" echoes hero.trust ("mały krok"). |
+| site.features.items.charts.body | Przesuń wstecz przez historię ... | Przewiń historię wstecz ... | More idiomatic for scrolling back through history. |
+
+Still doubtful: "w którym się pojawiasz" in year.body is kept because it predates this change; a native may prefer "w którym działasz". "Rok dowodów" (hero.trust) is acceptable but abstract.
+
+Confidence: high.

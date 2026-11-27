@@ -1,6 +1,6 @@
 # MyGrowth
 
-> MyGrowth (MyGrowth: Habit & Life Tracker) is an iOS habit tracker by Sagomak. It turns habits into a hand-drawn heatmap, charts and statistics. All habit data stays on the device: no account, no cloud, no tracking.
+> MyGrowth (MyGrowth: Habit & Life Tracker) is an iOS habit tracker by Sagomak. Log your habits in seconds, see every day of effort on a hand-drawn grid, and watch your consistency shape the person you want to become.
 
 - App Store: https://apps.apple.com/app/id6761617617
 - Version: 3.0.0 (hand-drawn design: warm paper light mode, soft graphite dark mode)

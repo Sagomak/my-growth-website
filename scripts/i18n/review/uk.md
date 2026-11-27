@@ -59,3 +59,23 @@ Still flagged for a native speaker:
 | site.skyline.goal | Runs count the days at or above the {goal} goal. | До серії входять дні з результатом не нижче мети {goal}. | rephrased |
 | site.skyline.levelEmpty | Nothing logged | Немає записів | glossary "Not logged" is «Не зафіксовано»; shorter form chosen |
 | site.footer.skyline | Skyline chart adapted from | Діаграму skyline створено на основі | followed by the English link title |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.meta.home.title | MyGrowth: track your habits daily and build consistency | MyGrowth: відстежуйте звички щодня й набувайте постійності | "набувайте постійності" for "build consistency" |
+| site.features.title | Show up daily. Watch it add up. | Щодня по кроку. Дивіться, як росте підсумок. | idiom "add up" rephrased |
+| site.year.body (last sentence) | Small days add up. | З маленьких днів складається велике. | idiom rephrased |
+| site.features.items.widgets.body | Log from the Home Screen with the Today widget... | Записуйте просто з Початкового екрана у віджеті «Сьогодні»... | Home/Lock Screen names follow existing site copy (not in glossary) |
+| site.privacy.title | Your habits are yours. | Ваші звички належать лише вам. | "лише" added for emphasis |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.features.title | Щодня по кроку. Дивіться, як росте підсумок. | Щодня по кроку. Дивіться, як накопичується результат. | «росте підсумок» reads like accounting; «накопичується результат» is the natural "add up" (parallel to ru) |
+
+Still doubtful: privacy.title adds «лише» (kept, natural emphasis). Privacy body checked: exact meaning. Початковий екран / Замкнений екран match Apple's Ukrainian names.
+
+Confidence: high.

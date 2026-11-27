@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: a hand-drawn habit tracker that stays on your iPhone",
-      "description": "MyGrowth turns your habits into a hand-drawn heatmap, charts and statistics. Private by design: no account, no cloud, your data stays on your device."
+      "title": "MyGrowth: track your habits daily and build consistency",
+      "description": "Log your habits in seconds, see every day of effort on a hand-drawn grid, and watch your consistency shape the person you want to become."
     },
     "support": {
       "title": "Support, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "You become what you repeatedly do.",
-    "sub": "MyGrowth turns your habits into a hand-drawn heatmap, charts and statistics, so you can watch showing up turn into progress.",
-    "trust": "Private by design. No account, no cloud.",
+    "sub": "Track your habits every day, build consistency, and become who you want to be.",
+    "trust": "One small step a day. A year of proof.",
     "phoneAlt": "The MyGrowth Dashboard: the week strip, the Becoming goal and today's habits as hand-drawn cards."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Example Consistency for every day from {a} to {b}, averaging {avg}. Use the arrow keys to read each day."
   },
   "year": {
-    "eyebrow": "Your year, at a glance",
-    "title": "One honest picture of a year.",
-    "body": "Every day you show up fills a square. Today's tile in the week strip fills up as the day goes by.",
+    "eyebrow": "Every day counts",
+    "title": "Today is where it starts.",
+    "body": "Every day you show up fills a square, and today's tile in the week strip fills up as the day goes by. Small days add up.",
     "habit": "Reading",
     "weekLabel": "This week",
     "todayLabel": "Today, {pct}% of the day gone",
@@ -75,25 +75,25 @@
     "gridLabel": "Example heatmap: a year of reading, one square per day, ending today."
   },
   "features": {
-    "eyebrow": "What is inside",
-    "title": "Track what matters. Watch it grow.",
+    "eyebrow": "How it helps",
+    "title": "Show up daily. Watch it add up.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard and Becoming",
-        "title": "Who you are becoming, on one page.",
-        "body": "Today's habits as cards under your Becoming goal, in its own hand-drawn frame. Habits you have not logged yet stand out, so you see at a glance what is left.",
+        "title": "Who you are becoming, every morning.",
+        "body": "Write down who you want to become, and see it above today's habits every time you open the app. Habits you have not logged yet stand out, so you know what is left today.",
         "becomingLabel": "Becoming",
         "becomingGoal": "someone who keeps their promises"
       },
       "grid": {
         "eyebrow": "Grid",
-        "title": "A year of effort, one honest picture.",
-        "body": "Every habit gets its own heatmap in its own colour. Patterns, gaps and streaks show at a glance, and streaks follow your schedule, so a rest day never breaks them."
+        "title": "Every day of effort, on one page.",
+        "body": "Each habit gets a year of squares in its own colour. Watch the gaps close and the streaks grow, and a planned rest day never breaks a streak."
       },
       "charts": {
         "eyebrow": "Charts",
-        "title": "Every habit, measured.",
-        "body": "Consistency, averages, totals, days on target and best days. Lines draw themselves in and bars grow from the bottom.",
+        "title": "See your consistency grow.",
+        "body": "Consistency, averages, totals, days on target and your best days. Swipe back through your history and see how far you have come.",
         "consistency": "Consistency",
         "lastDays": "last 30 days",
         "minutes": "Minutes per day",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Events",
-        "title": "Every place, book and trip gets its own colour.",
-        "body": "Log the places you visit, the books you read, the trips and the concerts, and watch a whole year of your life appear as one picture.",
+        "title": "Your year in places, books and trips.",
+        "body": "Give every place, book, trip and concert its own colour, and watch a year of living fill in, one day at a time.",
         "legend": [
           "Trips",
           "Books",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widgets and Live Activity",
-        "title": "On your Home Screen and Lock Screen.",
-        "body": "A Habit Grid widget, a Today widget to log from the Home Screen, and timers that live on your Lock Screen."
+        "title": "Your habits, one glance away.",
+        "body": "Log from the Home Screen with the Today widget, keep your Habit Grid in sight, and follow a running timer on your Lock Screen."
       },
       "timers": {
         "eyebrow": "Timers and logging",
-        "title": "Log in seconds. Timers keep running.",
-        "body": "Tap a card, type a value, save. Durations read as h, min and s, and a running timer keeps going when you leave the app.",
+        "title": "Log in seconds, every day.",
+        "body": "Tap a card, type a value, save. A running timer keeps going when you leave the app, so no session is lost.",
         "timer": "Meditation"
       },
       "themes": {
         "eyebrow": "Paper and graphite",
         "title": "Warm paper by day, soft graphite by night.",
-        "body": "Light mode sits on warm paper. Dark mode is a soft graphite instead of pure black. Words are handwritten, numbers stay crisp and exact.",
+        "body": "A hand-drawn look that makes opening the app every day a small pleasure. Words are handwritten, numbers stay crisp and exact.",
         "paper": "Paper",
         "graphite": "Graphite"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Languages",
         "title": "In your language. 25 of them.",
-        "body": "From English to Japanese, Bengali to Albanian. Your own colours and icons on every habit."
+        "body": "From English to Japanese, Bengali to Albanian, with your own colours and icons on every habit."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Privacy",
-    "title": "Your data stays on your iPhone.",
-    "body": "No account, no cloud, no tracking. Just you and the proof that you are becoming who you want to be.",
-    "storedTitle": "Stored on your device",
-    "stored": [
-      "Your habits: names, units, targets, colours and icons",
-      "Your daily logs: date, value and optional notes",
-      "Your settings and preferences"
-    ],
-    "neverTitle": "Never collected",
-    "never": [
-      "Your habits, logs or notes",
-      "Name, email, phone or location",
-      "Usage analytics or crash reports",
-      "Advertising identifiers, cookies or tracking"
-    ],
+    "title": "Your habits are yours.",
+    "body": "Everything you log stays on your iPhone: no account, no cloud, no tracking.",
     "purchases": "Pro purchases go through Apple and are checked with RevenueCat, using a random anonymous ID.",
     "link": "Read the privacy policy"
   },

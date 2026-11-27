@@ -221,38 +221,17 @@ export default async function Home({ params }: Props) {
           </div>
         </section>
 
-        {/* Privacy */}
-        <section id="privacy" className="privacy wrap" aria-labelledby="privacy-title">
-          <SectionHead id="privacy-title" seed="privacy" eyebrow={t.privacy.eyebrow} title={t.privacy.title} body={t.privacy.body} />
-          <div className="privacy-cols">
-            <InkFrame seed="privacy.stored" className="privacy-card" hint={[520, 230]}>
-              <h3 className="card-title">{t.privacy.storedTitle}</h3>
-              <ul className="ticks">
-                {t.privacy.stored.map((s, i) => (
-                  <li key={s}><Node seed={`privacy.s.${i}`} size={8} /><span>{s}</span></li>
-                ))}
-              </ul>
-            </InkFrame>
-            <InkFrame seed="privacy.never" className="privacy-card" hint={[520, 230]}>
-              <h3 className="card-title">{t.privacy.neverTitle}</h3>
-              <ul className="crosses">
-                {t.privacy.never.map((s) => (
-                  <li key={s}>
-                    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.8L9.4 9.2M9.3 2.6L2.7 9.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
-                    <span>{s}</span>
-                  </li>
-                ))}
-              </ul>
-            </InkFrame>
-          </div>
-          <p className="privacy-note muted">{t.privacy.purchases}</p>
-          <p><Link prefetch={false} className="cta-link hand" href={pathFor(locale, "privacy")}>{t.privacy.link}<span aria-hidden="true"> ›</span></Link></p>
-        </section>
-
         {/* FAQ */}
         <section id="faq" className="faq wrap" aria-labelledby="faq-title">
           <SectionHead id="faq-title" seed="faq" eyebrow={t.faq.eyebrow} title={t.faq.title} />
           <Faq items={t.faq.items} locale={locale} />
+        </section>
+
+        {/* Privacy: secondary, after the FAQ */}
+        <section id="privacy" className="privacy wrap" aria-labelledby="privacy-title">
+          <SectionHead id="privacy-title" seed="privacy" eyebrow={t.privacy.eyebrow} title={t.privacy.title} body={t.privacy.body} />
+          <p className="privacy-note muted">{t.privacy.purchases}</p>
+          <p><Link prefetch={false} className="cta-link hand" href={pathFor(locale, "privacy")}>{t.privacy.link}<span aria-hidden="true"> ›</span></Link></p>
         </section>
 
         {/* Closing CTA */}

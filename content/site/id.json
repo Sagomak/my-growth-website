@@ -1,8 +1,8 @@
 {
   "meta": {
     "home": {
-      "title": "MyGrowth: pelacak kebiasaan gambar tangan yang tetap di iPhone-mu",
-      "description": "MyGrowth mengubah kebiasaanmu menjadi heatmap gambar tangan, grafik, dan statistik. Privat sejak awal: tanpa akun, tanpa cloud, datamu tetap di perangkatmu."
+      "title": "MyGrowth: lacak kebiasaanmu setiap hari dan bangun konsistensi",
+      "description": "Catat kebiasaanmu dalam hitungan detik, lihat setiap hari usahamu di grid gambar tangan, dan saksikan konsistensimu membentukmu menjadi diri yang kamu tuju."
     },
     "support": {
       "title": "Dukungan, MyGrowth",
@@ -37,8 +37,8 @@
   "hero": {
     "eyebrow": "MyGrowth 3.0.0",
     "title": "Kamu menjadi apa yang kamu lakukan berulang kali.",
-    "sub": "MyGrowth mengubah kebiasaanmu menjadi heatmap gambar tangan, grafik, dan statistik, sehingga kamu bisa melihat usahamu setiap hari berubah menjadi kemajuan.",
-    "trust": "Privat sejak awal. Tanpa akun, tanpa cloud.",
+    "sub": "Lacak kebiasaanmu setiap hari, bangun konsistensi, dan jadilah pribadi yang kamu inginkan.",
+    "trust": "Satu langkah kecil setiap hari. Setahun bukti nyata.",
     "phoneAlt": "Dashboard MyGrowth: strip mingguan, tujuan Menjadi, dan kebiasaan hari ini sebagai kartu gambar tangan."
   },
   "skyline": {
@@ -64,9 +64,9 @@
     "aria": "Contoh Konsistensi untuk setiap hari dari {a} sampai {b}, dengan rata-rata {avg}. Gunakan tombol panah untuk membaca tiap hari."
   },
   "year": {
-    "eyebrow": "Setahunmu dalam sekali lihat",
-    "title": "Gambaran jujur tentang setahun.",
-    "body": "Setiap hari kamu hadir, satu kotak terisi. Kotak hari ini di strip mingguan terisi seiring berjalannya hari.",
+    "eyebrow": "Setiap hari berarti",
+    "title": "Semuanya dimulai hari ini.",
+    "body": "Setiap hari kamu hadir, satu kotak terisi, dan kotak hari ini di strip mingguan terisi seiring berjalannya hari. Sedikit demi sedikit, lama-lama menjadi bukit.",
     "habit": "Membaca",
     "weekLabel": "Minggu ini",
     "todayLabel": "Hari ini, {pct}% hari sudah berlalu",
@@ -75,25 +75,25 @@
     "gridLabel": "Contoh heatmap: setahun membaca, satu kotak per hari, berakhir hari ini."
   },
   "features": {
-    "eyebrow": "Apa saja di dalamnya",
-    "title": "Lacak yang penting. Lihat ia bertumbuh.",
+    "eyebrow": "Manfaatnya untukmu",
+    "title": "Hadir setiap hari. Lihat hasilnya bertambah.",
     "items": {
       "dashboard": {
         "eyebrow": "Dashboard dan Menjadi",
-        "title": "Dirimu kelak, dalam satu halaman.",
-        "body": "Kebiasaan hari ini tampil sebagai kartu di bawah tujuan Menjadi, dalam bingkai gambar tangannya sendiri. Kebiasaan yang belum kamu catat tampil menonjol, jadi kamu langsung tahu apa yang tersisa.",
+        "title": "Dirimu kelak, setiap pagi.",
+        "body": "Tuliskan kamu ingin menjadi siapa, lalu lihat tujuan itu di atas kebiasaan hari ini setiap kali kamu membuka aplikasi. Kebiasaan yang belum kamu catat tampil menonjol, jadi kamu tahu apa yang tersisa hari ini.",
         "becomingLabel": "Menjadi",
         "becomingGoal": "orang yang menepati janjinya"
       },
       "grid": {
         "eyebrow": "Grid",
-        "title": "Setahun usaha, satu gambar yang jujur.",
-        "body": "Setiap kebiasaan punya heatmap sendiri dengan warnanya sendiri. Pola, celah, dan rentetan terlihat sekilas, dan rentetan mengikuti jadwalmu, jadi hari istirahat tidak pernah memutusnya."
+        "title": "Setiap hari usahamu, dalam satu halaman.",
+        "body": "Setiap kebiasaan mendapat setahun kotak dengan warnanya sendiri. Lihat celah tertutup dan rentetan makin panjang, dan hari istirahat yang direncanakan tidak pernah memutus rentetan."
       },
       "charts": {
         "eyebrow": "Grafik",
-        "title": "Setiap kebiasaan, terukur.",
-        "body": "Konsistensi, rata-rata, total, hari target tercapai, dan hari terbaik. Garis menggambar dirinya sendiri dan batang tumbuh dari bawah.",
+        "title": "Lihat konsistensimu bertumbuh.",
+        "body": "Konsistensi, rata-rata, total, hari target tercapai, dan hari terbaikmu. Geser ke belakang menelusuri riwayatmu dan lihat sudah sejauh mana kamu melangkah.",
         "consistency": "Konsistensi",
         "lastDays": "30 hari terakhir",
         "minutes": "Menit per hari",
@@ -102,8 +102,8 @@
       },
       "events": {
         "eyebrow": "Peristiwa",
-        "title": "Setiap tempat, buku, dan perjalanan punya warnanya sendiri.",
-        "body": "Catat tempat yang kamu kunjungi, buku yang kamu baca, perjalanan, dan konser, lalu lihat setahun penuh hidupmu muncul sebagai satu gambar.",
+        "title": "Setahunmu dalam tempat, buku, dan perjalanan.",
+        "body": "Beri setiap tempat, buku, perjalanan, dan konser warnanya sendiri, lalu lihat setahun hidupmu terisi, hari demi hari.",
         "legend": [
           "Perjalanan",
           "Buku",
@@ -112,19 +112,19 @@
       },
       "widgets": {
         "eyebrow": "Widget dan Live Activity",
-        "title": "Di Layar Utama dan Layar Kunci.",
-        "body": "Widget Grid Kebiasaan, widget Hari ini untuk mencatat langsung dari Layar Utama, dan pengatur waktu yang tampil di Layar Kunci."
+        "title": "Kebiasaanmu, cukup sekali lihat.",
+        "body": "Catat dari Layar Utama dengan widget Hari ini, biarkan Grid Kebiasaan tetap terlihat, dan pantau pengatur waktu yang berjalan di Layar Kunci."
       },
       "timers": {
         "eyebrow": "Pengatur waktu dan pencatatan",
-        "title": "Catat dalam hitungan detik. Pengatur waktu tetap berjalan.",
-        "body": "Ketuk kartu, ketik nilai, simpan. Durasi ditampilkan sebagai h, min, dan s, dan pengatur waktu tetap berjalan saat kamu keluar dari aplikasi.",
+        "title": "Catat dalam hitungan detik, setiap hari.",
+        "body": "Ketuk kartu, ketik nilai, simpan. Pengatur waktu tetap berjalan saat kamu keluar dari aplikasi, jadi tidak ada sesi yang hilang.",
         "timer": "Meditasi"
       },
       "themes": {
         "eyebrow": "Kertas dan grafit",
         "title": "Kertas hangat di siang hari, grafit lembut di malam hari.",
-        "body": "Mode terang berlatar kertas bernuansa hangat. Mode gelap berwarna grafit lembut, bukan hitam pekat. Kata-kata bergaya tulisan tangan, angka tetap tajam dan akurat.",
+        "body": "Tampilan gambar tangan yang membuat membuka aplikasi setiap hari jadi kesenangan kecil. Kata-kata bergaya tulisan tangan, angka tetap tajam dan akurat.",
         "paper": "Kertas",
         "graphite": "Grafit"
       },
@@ -135,7 +135,7 @@
       "languages": {
         "eyebrow": "Bahasa",
         "title": "Dalam bahasamu. Ada 25 bahasa.",
-        "body": "Dari Inggris hingga Jepang, dari Bengali hingga Albania. Warna dan ikonmu sendiri di setiap kebiasaan."
+        "body": "Dari Inggris hingga Jepang, dari Bengali hingga Albania, dengan warna dan ikonmu sendiri di setiap kebiasaan."
       }
     }
   },
@@ -177,21 +177,8 @@
   },
   "privacy": {
     "eyebrow": "Privasi",
-    "title": "Datamu tetap di iPhone-mu.",
-    "body": "Tanpa akun, tanpa cloud, tanpa pelacakan. Hanya kamu dan bukti bahwa kamu sedang menjadi diri yang kamu tuju.",
-    "storedTitle": "Disimpan di perangkatmu",
-    "stored": [
-      "Kebiasaanmu: nama, satuan, target, warna, dan ikon",
-      "Catatan harianmu: tanggal, nilai, dan catatan opsional",
-      "Pengaturan dan preferensimu"
-    ],
-    "neverTitle": "Tidak pernah dikumpulkan",
-    "never": [
-      "Kebiasaan, catatan harian, atau catatan pribadimu",
-      "Nama, email, nomor telepon, atau lokasi",
-      "Analitik penggunaan atau laporan error",
-      "ID iklan, cookie, atau pelacakan"
-    ],
+    "title": "Kebiasaanmu adalah milikmu.",
+    "body": "Semua yang kamu catat tetap di iPhone-mu: tanpa akun, tanpa cloud, tanpa pelacakan.",
     "purchases": "Pembelian Pro diproses melalui Apple dan diverifikasi dengan RevenueCat, menggunakan ID anonim acak.",
     "link": "Baca kebijakan privasi"
   },

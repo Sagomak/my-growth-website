@@ -50,3 +50,25 @@ Still flagged for a native speaker:
 | site.skyline.tooltip / empty | {pct} on {date} | {pct} เมื่อ{date} | Thai full date already starts with วัน...; check the join with no space reads well |
 | site.skyline.skyline / footer.skyline | 3D skyline | สกายไลน์ 3 มิติ | Transliterated "skyline"; no common Thai term for this chart type |
 | site.skyline.flat | Flat heatmap | heatmap แบบแบน | Keeps the English "heatmap" as the existing site copy does |
+
+## New message, 2026-11-27
+
+| Key | English | Translation | Why flagged |
+|---|---|---|---|
+| site.hero.trust | One small step a day. A year of proof. | วันละก้าวเล็กๆ หนึ่งปีแห่งหลักฐาน | Slogan rhythm; "หลักฐาน" may sound legalistic |
+| site.features.title | Show up daily. Watch it add up. | ลงมือทุกวัน แล้วดูมันสะสมขึ้น | "add up" idiom rendered as "accumulate" |
+| site.features.items.widgets.title | Your habits, one glance away. | นิสัยของคุณ แค่เหลือบมอง | Idiom, check it reads as "at a glance" |
+| site.features.items.timers.body | so no session is lost | จึงไม่มีเซสชันไหนหายไป | Loanword เซสชัน, check naturalness |
+| site.features.items.events.body | a year of living fill in | หนึ่งปีของการใช้ชีวิตค่อยๆ เติมเต็มทีละวัน | Abstract phrase |
+
+## Review: new message, 2026-11-27
+
+| Key | Before | After | Why |
+|---|---|---|---|
+| site.hero.trust | วันละก้าวเล็กๆ หนึ่งปีแห่งหลักฐาน | วันละก้าวเล็กๆ หนึ่งปีคือข้อพิสูจน์ | หลักฐาน sounds legal/evidentiary; ข้อพิสูจน์ = proof, keeps the rhythm |
+| site.features.title | ลงมือทุกวัน แล้วดูมันสะสมขึ้น | ลงมือทุกวัน แล้วดูผลค่อยๆ สะสม | "มัน" had no referent; "watch the results gradually add up" |
+| site.features.items.widgets.title | นิสัยของคุณ แค่เหลือบมอง | นิสัยของคุณ แค่เหลือบมองก็เห็น | Fragment read as incomplete; now "just a glance and you see them" |
+
+Accepted as is: เซสชัน (common in Thai app UI), events.body, glossary สถิติต่อเนื่อง for Streak (App Store uses สตรีค; site is consistent with the glossary).
+
+Confidence: high
