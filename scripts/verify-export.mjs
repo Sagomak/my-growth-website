@@ -19,6 +19,7 @@ const ASSETS = ["/mhs-import-template.csv", "/og-image.png", "/app-icon.png", "/
   "/favicon-32.png", "/favicon-192.png", "/favicon-512.png", "/app-store-badge-en.svg", "/app-store-badge-it.svg",
   "/app-store-badge-es.svg", "/app-store-badge-de.svg", "/MyHabitStats-Promo.webp", "/robots.txt", "/sitemap.xml", "/llms.txt"];
 const vercel = JSON.parse(readFileSync("vercel.json", "utf8"));
+const OG = JSON.parse(readFileSync("lib/og.json", "utf8"));
 const redirected = (path) => vercel.redirects.some((r) => {
   const re = new RegExp("^" + r.source.replace(/:(\w+)\(([^)]+)\)/g, "($2)") + "$");
   return re.test(path) || re.test(path.replace(/\/$/, ""));
@@ -45,7 +46,11 @@ for (const [code, tag] of LOCS) for (const p of ["", "privacy/", "terms/", "supp
   const alts = (h.match(/<link rel="alternate" hrefLang="/g) || []).length;
   if (alts !== LOCS.length + 1) fail.push(`/${code}/${p}: ${alts} hreflang links, want ${LOCS.length + 1}`);
   if (!h.includes('hrefLang="x-default"')) fail.push(`/${code}/${p}: no x-default`);
+  // Open Graph and Twitter cards point at the current, versioned image.
+  if (!h.includes(`property="og:image" content="https://mygrowth.sagomak.com${OG.image}"`)) fail.push(`/${code}/${p}: og:image is not ${OG.image}`);
+  if (!h.includes(`name="twitter:image" content="https://mygrowth.sagomak.com${OG.image}"`)) fail.push(`/${code}/${p}: twitter:image is not ${OG.image}`);
 }
+if (!existsSync(join(OUT, OG.image))) fail.push(`missing Open Graph image ${OG.image}`);
 const home = readFileSync(join(OUT, "en/index.html"), "utf8");
 if (!home.includes('name="apple-itunes-app" content="app-id=6761617617"')) fail.push("Smart App Banner meta missing");
 if (!home.includes("application/ld+json")) fail.push("JSON-LD missing");

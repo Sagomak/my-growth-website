@@ -1,3 +1,4 @@
+import og from "@/lib/og.json";
 import { APP_STORE_URL, APP_VERSION, SITE_URL, STUDIO, LANGUAGES } from "@/lib/site";
 import { info, pathFor, LOCALE_INFO, type Locale } from "@/lib/i18n";
 import type { Site } from "@/lib/dict";
@@ -20,7 +21,7 @@ export function softwareApp(t: Site, locale: Locale) {
     installUrl: APP_STORE_URL,
     sameAs: [APP_STORE_URL],
     image: `${SITE_URL}/app-icon.png`,
-    screenshot: `${SITE_URL}/og-image.png`,
+    screenshot: `${SITE_URL}${og.image}`,
     operatingSystem: "iOS",
     applicationCategory: "LifestyleApplication",
     softwareVersion: APP_VERSION,

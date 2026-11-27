@@ -11,6 +11,7 @@
     "typecheck": "tsc --noEmit",
     "check": "node scripts/check-copy.mjs && node scripts/check-i18n.mjs && node scripts/check-contrast.mjs && node --test \"tests/*.test.ts\"",
     "verify:export": "node scripts/verify-export.mjs",
+    "og": "python3 scripts/og/shot.py",
     "prebuild": "node scripts/skyline-data.mjs && node scripts/i18n/gen-index.mjs --strict",
     "predev": "node scripts/skyline-data.mjs && node scripts/i18n/gen-index.mjs",
     "pretypecheck": "node scripts/skyline-data.mjs"

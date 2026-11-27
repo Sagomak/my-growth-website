@@ -1,3 +1,4 @@
+import og from "@/lib/og.json";
 import type { Metadata } from "next";
 import { LOCALE_INFO, info, pathFor, type Locale, type Page } from "@/lib/i18n";
 import { SITE_URL } from "@/lib/site";
@@ -24,8 +25,8 @@ export function pageMetadata(locale: Locale, page: Page, title: string, descript
       description,
       locale: info(locale).og,
       alternateLocale: LOCALE_INFO.filter((l) => l.code !== locale).map((l) => l.og),
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "MyGrowth" }],
+      images: [{ url: og.image, width: og.width, height: og.height, alt: "MyGrowth: You become what you repeatedly do." }],
     },
-    twitter: { card: "summary_large_image", title, description, images: ["/og-image.png"] },
+    twitter: { card: "summary_large_image", title, description, images: [og.image] },
   };
 }
