@@ -88,6 +88,16 @@ const quadPath = (ctx: CanvasRenderingContext2D, p: Float32Array, o: number, r: 
 
 /** Flat-view geometry, shared with the static placeholder so the swap is seamless. */
 export const FLAT = { top: 20, gutterMin: 440, cell: 0.8 };
+/** World units in front of the grid kept free for the 3D month labels. */
+const LABEL_BAND = 2.6;
+const LABEL_GAP = 4;
+
+/** The largest size, 8 to 11 px, at which every label fits the room it has. */
+const fitFont = (room: number[], widths: number[]) => {
+  let px = 11;
+  room.forEach((r, i) => { if (widths[i] > 0) px = Math.min(px, (r - LABEL_GAP) / widths[i]); });
+  return Math.max(8, Math.floor(px * 2) / 2);
+};
 
 export function createEngine(
   root: HTMLElement, stage: HTMLElement, canvas: HTMLCanvasElement, tip: HTMLElement,
@@ -106,7 +116,10 @@ export function createEngine(
   let yaw = 0, elev = 0, yawGoal = 0, elevGoal = 0;
   // layout
   let W = 0, H = 0, dpr = 1, gutter = 0, labelW = 30, wide = false;
+  let family = "sans-serif";
   let font = "400 11px sans-serif";
+  // Month label widths at 1 px, for sizing the labels to the space they have.
+  let monthW: number[] = [];
   // colours: [empty, l1, l2, l3, l4] x rgb, eased toward the goal
   const col = new Float32Array(15);
   const colGoal = new Float32Array(15);
@@ -145,7 +158,8 @@ export function createEngine(
     fg = toRGB(v("--text"), FG_FALLBACK);
     bg = toRGB(v("--surface"), BG_FALLBACK);
     muted = toRGB(v("--text-2"), mixRGB(bg, fg, 0.6));
-    font = "400 11px " + (v("--sans") || "sans-serif");
+    family = v("--sans") || "sans-serif";
+    font = "400 11px " + family;
     const all: RGB[] = ["--g0", "--g1", "--g2", "--g3", "--g4"].map((name) => toRGB(v(name), FG_FALLBACK));
     for (let k = 0; k < 5; k++) for (let ch = 0; ch < 3; ch++) colGoal[k * 3 + ch] = all[k][ch];
     if (!colReady || reduced) {
@@ -154,6 +168,8 @@ export function createEngine(
     }
     ctx.font = font;
     labelW = Math.ceil(Math.max(20, ...cfg.current.weekdays.map((r) => ctx.measureText(r.label).width))) + 8;
+    ctx.font = "400 100px " + family;
+    monthW = cfg.current.months.map((m) => ctx.measureText(m.label).width / 100);
     kick();
   };
 
@@ -175,9 +191,9 @@ export function createEngine(
       add(x0, y0, z); add(x0 + w, y0, z); add(x0, y0 + w, z);
       add(x0 + w, y0 + w, 0); add(x0, y0 + w, 0); add(x0 + w, y0, 0);
     }
-    // room for the month labels along the front edge in 3D
-    add(0, 7 + 1.5 * e, 0);
-    add(weeks, 7 + 1.5 * e, 0);
+    // A band of its own for the month labels along the front edge in 3D.
+    add(0, 7 + LABEL_BAND * e, 0);
+    add(weeks, 7 + LABEL_BAND * e, 0);
     return { minx, maxx, miny, maxy };
   };
 
@@ -282,39 +298,49 @@ export function createEngine(
       }
     }
 
-    // Labels: along the top and left when flat, along the front edge in 3D. They fade, never pop.
-    ctx.font = font;
+    // Labels: along the top and left when flat, along the front edge in 3D.
+    // Every month gets one, sized to the room it has. They fade, never pop.
     const a2 = 1 - smoothstep(0, 0.4, e);
     const a3 = smoothstep(0.62, 1, e);
     const months = cfg.current.months;
     if (a2 > 0.004) {
+      const xs = months.map((m) => px(m.week + off, -0.3));
+      const room = months.map((m, i) => (i + 1 < months.length ? xs[i + 1] - xs[i] : W - xs[i] + LABEL_GAP));
+      const size = fitFont(room, monthW);
+      ctx.font = "400 " + size + "px " + family;
       ctx.fillStyle = rgba(muted, a2);
       ctx.textAlign = "left";
       ctx.textBaseline = "bottom";
-      let edge = -Infinity;
-      for (const m of months) {
-        const x = px(m.week + off, -0.3);
-        const tw = ctx.measureText(m.label).width;
-        if (x < edge || x + tw > W) continue;
+      months.forEach((m, i) => {
+        const x = Math.min(xs[i], W - monthW[i] * size - 1);
         ctx.fillText(m.label, x, py(m.week + off, -0.3, 0) - 3);
-        edge = x + tw + 6;
-      }
+      });
+      ctx.font = font;
       ctx.textAlign = "right";
       ctx.textBaseline = "middle";
       if (gutter > 0) for (const r of cfg.current.weekdays) ctx.fillText(r.label, px(0, r.day + 0.5) - 6, py(0, r.day + 0.5, 0));
     }
     if (a3 > 0.004) {
+      // Text runs along the edge, so a word never drifts into the next weeks' bars.
+      const ux = cs * s, uy = sn * se * s;
+      const unit = Math.hypot(ux, uy);
+      const room = months.map((m, i) => ((i + 1 < months.length ? months[i + 1].week : weeks) - m.week) * unit);
+      const size = fitFont(room, monthW);
+      ctx.font = "400 " + size + "px " + family;
       ctx.fillStyle = rgba(muted, a3);
       ctx.textAlign = "left";
       ctx.textBaseline = "top";
-      let edge = -Infinity;
-      for (const m of months) {
-        const x = px(m.week + 0.5, 7.3);
-        const tw = ctx.measureText(m.label).width;
-        if (x < edge || x + tw > W) continue;
-        ctx.fillText(m.label, x, py(m.week + 0.5, 7.3, 0) + 2);
-        edge = x + tw + 10;
-      }
+      const angle = Math.atan2(uy, ux);
+      months.forEach((m, i) => {
+        const len = (monthW[i] * size) / unit;
+        const at = Math.min(m.week + 0.15, weeks - len);
+        ctx.save();
+        ctx.translate(px(at, 7.35), py(at, 7.35, 0));
+        ctx.rotate(angle);
+        ctx.fillText(m.label, 0, 0);
+        ctx.restore();
+      });
+      ctx.font = font;
     }
 
     // The tooltip rides the active cell through morphs and orbits.
