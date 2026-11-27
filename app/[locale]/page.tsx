@@ -8,10 +8,11 @@ import { pageMetadata } from "@/lib/seo";
 import { HABIT, rampVars } from "@/lib/colors";
 import { AppStoreBadge, Eyebrow, SectionHead } from "@/components/Chrome";
 import { Shell } from "@/components/Shell";
-import { InkFrame, Node, InkDivider } from "@/components/Ink";
+import { InkFrame, Node } from "@/components/Ink";
 import { Phone } from "@/components/Phone";
 import { Heatmap } from "@/components/Heatmap";
 import { WeekStrip } from "@/components/WeekStrip";
+import { ConsistencySkyline } from "@/components/ConsistencySkyline";
 import { ConsistencyChart, BarsChart } from "@/components/Charts";
 import { Timer } from "@/components/Timer";
 import { EventsMosaic } from "@/components/EventsMosaic";
@@ -58,28 +59,23 @@ export default async function Home({ params }: Props) {
             </p>
           </div>
           <div className="hero-visual">
-            <Phone src="/screens/dashboard.webp" srcDark="/screens/dashboard-dark.webp" alt={t.hero.phoneAlt} priority width={320} vw={64} />
+            <ConsistencySkyline locale={locale} />
           </div>
         </section>
 
         {/* Your year */}
         <section className="year wrap" aria-labelledby="year-title">
-          <InkFrame seed="home.year" className="year-card" hint={[1056, 330]}>
-            <div className="year-head">
-              <div>
+          <InkFrame seed="home.year" className="year-card" hint={[1056, 520]}>
+            <div className="year-layout">
+              <div className="year-copy">
                 <Eyebrow seed="year">{t.year.eyebrow}</Eyebrow>
                 <h2 id="year-title" className="year-title">{t.year.title}</h2>
                 <p className="muted">{t.year.body}</p>
+                <WeekStrip initialNow={now} label={t.year.weekLabel} todayLabel={t.year.todayLabel} lang={tag} />
               </div>
-              <WeekStrip initialNow={now} label={t.year.weekLabel} todayLabel={t.year.todayLabel} lang={tag} />
-            </div>
-            <InkDivider seed="year.divider" className="year-divider" />
-            <p className="year-habit hand">{T("Reading")}</p>
-            <Heatmap habit="reading" initialNow={now} label={t.year.gridLabel} lang={tag} />
-            <div className="legend" aria-hidden="true">
-              <span>{t.year.legendLess}</span>
-              {[0, 1, 2, 3, 4].map((l) => <i key={l} className={`legend-cell ramp-green l${l}`} />)}
-              <span>{t.year.legendMore}</span>
+              <div className="year-phone">
+                <Phone src="/screens/dashboard.webp" srcDark="/screens/dashboard-dark.webp" alt={t.hero.phoneAlt} width={280} vw={64} />
+              </div>
             </div>
           </InkFrame>
         </section>

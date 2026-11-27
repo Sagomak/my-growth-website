@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { APP_STORE_URL } from "@/lib/site";
+
+/** The hero skyline is adapted from this MIT component; its terms ask for a visible link. */
+const SKYLINE_SOURCE = "https://21st.dev/@kedhareswer/components/contribution-skyline";
 import { pathFor, type Locale, type Page } from "@/lib/i18n";
 import { fill, type Site } from "@/lib/dict";
 import { Node, InkUnderline } from "@/components/Ink";
@@ -117,6 +120,7 @@ export function Footer({ t, locale, legalLabels }: { t: Site; locale: Locale; le
       <div className="wrap footer-fine">
         <p>{fill(t.footer.copyright, { year })}</p>
         <p>{t.footer.fonts}: <a href="/licenses/Caveat-OFL.txt">Caveat</a>, <a href="/licenses/Nunito-OFL.txt">Nunito</a></p>
+        <p>{t.footer.skyline} <a href={SKYLINE_SOURCE} lang="en">Contribution Skyline by Kedhareswer Naidu (21st.dev)</a></p>
       </div>
     </footer>
   );
