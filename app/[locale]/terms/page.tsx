@@ -1,32 +1,36 @@
 import type { Metadata } from "next";
-import { DocShell } from "@/components/DocShell";
+import { Shell } from "@/components/Shell";
 import { Rich } from "@/components/Rich";
-import { legal, legalAlternates } from "@/lib/legal";
-import { LEGAL_LOCALES, SUPPORT_EMAIL, isLocale, type Locale } from "@/lib/site";
+import { LanguageNote } from "@/app/[locale]/privacy/page";
+import { legal } from "@/lib/dict";
+import { pageMetadata } from "@/lib/seo";
+import { LOCALES, pathFor, type Locale } from "@/lib/i18n";
+import { SUPPORT_EMAIL } from "@/lib/site";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return LEGAL_LOCALES.map((locale) => ({ locale }));
+  return LOCALES.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const l = (isLocale(locale) ? locale : "en") as Locale;
-  const m = legal(l).meta.terms;
-  return { title: m.title, description: m.description, alternates: legalAlternates(l, "terms"), openGraph: { title: m.title, description: m.description, images: ["/og-image.png"] } };
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const locale = (await params).locale as Locale;
+  const m = legal(locale).meta.terms;
+  return pageMetadata(locale, "terms", m.title, m.description);
 }
 
-export default async function Terms({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  const l = locale as Locale;
-  const T = legal(l).terms;
-  const privacyHref = `/${l}/privacy/`;
+export default async function Terms({ params }: Props) {
+  const locale = (await params).locale as Locale;
+  const T = legal(locale).terms;
+  const privacyHref = pathFor(locale, "privacy");
   const plain = [T.acceptance, T.description] as const;
   const after = [T.ip, T.iap, T.warranties, T.liability, T.dataLoss, T.modifications, T.termination, T.governingLaw] as const;
   return (
-    <DocShell locale={l}>
+    <Shell locale={locale} page="terms" doc>
       <h1>{T.title}</h1>
       <p className="doc-meta">{T.lastUpdated}</p>
+      <LanguageNote locale={locale} page="terms" />
       <p className="doc-intro">{T.intro}</p>
       {plain.map((s) => <section key={s.title} className="doc-section"><h2>{s.title}</h2><p>{s.body}</p></section>)}
       <section className="doc-section">
@@ -46,6 +50,6 @@ export default async function Terms({ params }: { params: Promise<{ locale: stri
         <h2>{T.contact.title}</h2>
         <p>{T.contact.body} <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></p>
       </section>
-    </DocShell>
+    </Shell>
   );
 }

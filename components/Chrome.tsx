@@ -1,15 +1,21 @@
 import Link from "next/link";
-import { en } from "@/content/en";
 import { APP_STORE_URL } from "@/lib/site";
+import { pathFor, type Locale, type Page } from "@/lib/i18n";
+import { fill, type Site } from "@/lib/dict";
 import { Node, InkUnderline } from "@/components/Ink";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { LangSwitch } from "@/components/LangSwitch";
 
-/** The official Apple badge, unaltered, sized by height. */
-export function AppStoreBadge({ height = 48, className }: { height?: number; className?: string }) {
+/** Apple's official badge, unaltered, sized by height. Apple supplies it per
+ *  language; the site has the en, it, es and de artwork, English elsewhere. */
+const BADGE_LOCALES = ["en", "it", "es", "de"];
+export function AppStoreBadge({ t, locale, height = 48 }: { t: Site; locale: Locale; height?: number }) {
+  const l = BADGE_LOCALES.includes(locale) ? locale : "en";
+  const ratio = 119.66407 / 40; // all four artworks share Apple's 119.66 x 40 box
   return (
-    <a href={APP_STORE_URL} className={`badge ${className ?? ""}`} aria-label={en.badge.aria}>
+    <a href={APP_STORE_URL} className="badge" aria-label={t.badge.aria}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="/app-store-badge-en.svg" alt={en.badge.alt} width={Math.round((height * 119.66407) / 40)} height={height} />
+      <img src={`/app-store-badge-${l}.svg`} alt={t.badge.alt} height={height} width={Math.round(height * ratio)} />
     </a>
   );
 }
@@ -49,35 +55,36 @@ export function SectionHead({ id, eyebrow, title, body, seed }: { id?: string; e
   );
 }
 
-const NAV = [
-  { href: "/en/#features", label: en.nav.features },
-  { href: "/en/#privacy", label: en.nav.privacy },
-  { href: "/en/#pro", label: en.nav.pro },
-  { href: "/en/#faq", label: en.nav.faq },
-  { href: "/en/support/", label: en.nav.support },
-];
-
-export function Nav() {
+export function Nav({ t, locale, page }: { t: Site; locale: Locale; page: Page }) {
+  const home = pathFor(locale, "");
+  const links = [
+    { href: `${home}#features`, label: t.nav.features },
+    { href: `${home}#privacy`, label: t.nav.privacy },
+    { href: `${home}#pro`, label: t.nav.pro },
+    { href: `${home}#faq`, label: t.nav.faq },
+    { href: pathFor(locale, "support"), label: t.nav.support },
+  ];
   return (
     <header className="nav">
       <div className="wrap nav-row">
-        <Link prefetch={false} href="/en/" className="nav-brand" aria-label={en.nav.home}>
+        <Link prefetch={false} href={home} className="nav-brand" aria-label={t.nav.home}>
           <AppIcon size={34} priority />
-          <span className="hand">MyGrowth</span>
+          <span className="hand brand-word" lang="en">MyGrowth</span>
         </Link>
-        <nav aria-label="Main" className="nav-links">
+        <nav aria-label={t.a11y.mainNav} className="nav-links">
           <ul>
-            {NAV.map((n) => (
+            {links.map((n) => (
               <li key={n.href}><a href={n.href} className="hand">{n.label}</a></li>
             ))}
           </ul>
         </nav>
         <div className="nav-end">
-          <ThemeToggle />
+          <LangSwitch locale={locale} page={page} label={t.lang.label} listLabel={t.a11y.languages} />
+          <ThemeToggle labels={t.nav.theme} switchTemplate={t.a11y.themeSwitch} />
           <details className="nav-menu">
-            <summary className="hand">{en.nav.menu}</summary>
+            <summary className="hand">{t.nav.menu}</summary>
             <ul>
-              {NAV.map((n) => (
+              {links.map((n) => (
                 <li key={n.href}><a href={n.href} className="hand">{n.label}</a></li>
               ))}
             </ul>
@@ -88,29 +95,28 @@ export function Nav() {
   );
 }
 
-export function Footer({ legal }: { legal?: { privacy: string; terms: string; support: string; base: string } }) {
+export function Footer({ t, locale, legalLabels }: { t: Site; locale: Locale; legalLabels?: { privacy: string; terms: string } }) {
   const year = new Date().getFullYear();
-  const base = legal?.base ?? "/en";
   return (
     <footer className="footer">
       <div className="wrap footer-row">
         <div className="footer-brand">
           <AppIcon size={28} />
           <div>
-            <p className="hand footer-name">MyGrowth</p>
-            <p className="footer-studio">{en.footer.studio}</p>
+            <p className="hand footer-name brand-word" lang="en">MyGrowth</p>
+            <p className="footer-studio">{t.footer.studio}</p>
           </div>
         </div>
         <ul className="footer-links">
-          <li><Link prefetch={false} href={`${base}/privacy/`}>{legal?.privacy ?? en.footer.privacy}</Link></li>
-          <li><Link prefetch={false} href={`${base}/terms/`}>{legal?.terms ?? en.footer.terms}</Link></li>
-          <li><Link prefetch={false} href="/en/support/">{legal?.support ?? en.footer.support}</Link></li>
-          <li><Link prefetch={false} href="/en/tutorial/">{en.footer.tutorial}</Link></li>
+          <li><Link prefetch={false} href={pathFor(locale, "privacy")}>{legalLabels?.privacy ?? t.footer.privacy}</Link></li>
+          <li><Link prefetch={false} href={pathFor(locale, "terms")}>{legalLabels?.terms ?? t.footer.terms}</Link></li>
+          <li><Link prefetch={false} href={pathFor(locale, "support")}>{t.footer.support}</Link></li>
+          <li><Link prefetch={false} href={pathFor(locale, "tutorial")}>{t.footer.tutorial}</Link></li>
         </ul>
       </div>
       <div className="wrap footer-fine">
-        <p>{en.footer.copyright(year)}</p>
-        <p>{en.footer.fonts}: <a href="/licenses/Caveat-OFL.txt">Caveat</a>, <a href="/licenses/Nunito-OFL.txt">Nunito</a></p>
+        <p>{fill(t.footer.copyright, { year })}</p>
+        <p>{t.footer.fonts}: <a href="/licenses/Caveat-OFL.txt">Caveat</a>, <a href="/licenses/Nunito-OFL.txt">Nunito</a></p>
       </div>
     </footer>
   );

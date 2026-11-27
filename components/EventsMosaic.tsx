@@ -7,7 +7,7 @@ const WEEKS = 26, CELL = 10, GAP = 3;
 
 /** Half a year of events: a day takes its category's colour. Fixed pattern
  *  from a seed (no dates involved), cells exact. */
-export function EventsMosaic({ legend }: { legend: string[] }) {
+export function EventsMosaic({ legend, label }: { legend: string[]; label: string }) {
   const r = new SketchRandom(seedFrom("events.mosaic"));
   const cells: { x: number; y: number; c: number }[] = [];
   let run = -1, left = 0;
@@ -27,7 +27,7 @@ export function EventsMosaic({ legend }: { legend: string[] }) {
   return (
     <div className="events" style={vars}>
       <svg viewBox={`0 0 ${w} ${h}`} className="events-svg" role="img"
-        aria-label={`Example events grid: half a year of days coloured by ${legend.join(", ")}.`}>
+        aria-label={label}>
         {cells.map((k, i) => (
           <rect key={i} x={k.x} y={k.y} width={CELL} height={CELL} rx="2.2" className={k.c < 0 ? "ev-empty" : `ev ev${k.c}`} />
         ))}

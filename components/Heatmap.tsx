@@ -6,7 +6,6 @@ import { DAY, isoDay, level, startOfDay, weekday } from "@/lib/sample";
 import { rampVars } from "@/lib/colors";
 import { useInView } from "@/components/Reveal";
 
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 type Props = {
   habit: string;
@@ -23,11 +22,13 @@ type Props = {
   /** Draw the squares only after mount (below-the-fold grids keep the
    *  static HTML small; the box keeps its size, so nothing shifts). */
   deferCells?: boolean;
+  /** Page language, for month names. */
+  lang?: string;
 };
 
 /** A year grid ending today, one square per day (the app's HeatmapCanvasGrid).
  *  Cells are exact; only today's circle is drawn by hand. */
-export function Heatmap({ habit, color, initialNow, label, cell = 12, gap = 3, maxWeeks = 53, months = true, className, deferCells = false }: Props) {
+export function Heatmap({ habit, color, initialNow, label, cell = 12, gap = 3, maxWeeks = 53, months = true, className, deferCells = false, lang = "en" }: Props) {
   const [now, setNow] = useState(() => new Date(initialNow));
   const [weeks, setWeeks] = useState(maxWeeks);
   const [mounted, setMounted] = useState(false);
@@ -69,7 +70,7 @@ export function Heatmap({ habit, color, initialNow, label, cell = 12, gap = 3, m
         const x = c * (cell + gap), y = r * (cell + gap);
         column.push({ y, l: level(habit, key, t), key });
         if (r === 0 && d.getMonth() !== lastMonth) {
-          if (c > 0 || d.getDate() <= 7) labels.push({ x, text: MONTHS[d.getMonth()] });
+          if (c > 0 || d.getDate() <= 7) labels.push({ x, text: new Intl.DateTimeFormat(lang, { month: "short" }).format(d).replace(/\.$/, "") });
           lastMonth = d.getMonth();
         }
         if (d.getTime() === today.getTime()) todayPos = { x, y };
@@ -78,7 +79,7 @@ export function Heatmap({ habit, color, initialNow, label, cell = 12, gap = 3, m
     // Drop a month label that would collide with the next one.
     const spaced = labels.filter((m, i) => i === labels.length - 1 || labels[i + 1].x - m.x >= 3 * (cell + gap));
     return { cells: out, todayCell: todayPos, monthLabels: spaced };
-  }, [now, weeks, habit, cell, gap]);
+  }, [now, weeks, habit, cell, gap, lang]);
 
   const w = weeks * (cell + gap) - gap;
   const top = months ? 16 : 0;

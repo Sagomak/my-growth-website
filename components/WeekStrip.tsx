@@ -4,15 +4,17 @@ import { useEffect, useState } from "react";
 import { inkRect, gaugeFill, CONTROL } from "@/lib/ink";
 import { dayLevel, isoDay, level, startOfDay, weekday } from "@/lib/sample";
 
-const LETTERS = ["M", "T", "W", "T", "F", "S", "S"];
 const TW = 40, TH = 54;
 
 /** The Dashboard week strip. Today's tile is a gauge that fills from the
  *  bottom with the share of the local day gone (DayGauge), updated once a
  *  minute, never animated on a tick. */
-export function WeekStrip({ initialNow, label, todayLabel }: {
-  initialNow: string; label: string; todayLabel: string;
+export function WeekStrip({ initialNow, label, todayLabel, lang = "en" }: {
+  initialNow: string; label: string; todayLabel: string; lang?: string;
 }) {
+  // Narrow weekday names in the page language, Monday first (2024-01-01 was a Monday).
+  const letters = Array.from({ length: 7 }, (_, i) =>
+    new Intl.DateTimeFormat(lang, { weekday: "narrow" }).format(new Date(2024, 0, 1 + i)));
   const [now, setNow] = useState(() => new Date(initialNow));
   useEffect(() => {
     // Static HTML carries the build time; move to the visitor's clock once.
@@ -34,7 +36,7 @@ export function WeekStrip({ initialNow, label, todayLabel }: {
 
   return (
     <ol className="week" aria-label={label}>
-      {LETTERS.map((letter, i) => {
+      {letters.map((letter, i) => {
         const d = new Date(monday.getFullYear(), monday.getMonth(), monday.getDate() + i);
         const isToday = d.getTime() === today.getTime();
         const future = d > today;
@@ -57,7 +59,7 @@ export function WeekStrip({ initialNow, label, todayLabel }: {
               )}
               <path d={p.ink} className={isToday ? "week-ink-today" : "week-ink"} />
             </svg>
-            <span className="week-date num">{d.getDate()}</span>
+            <span className="week-date num">{new Intl.NumberFormat(lang).format(d.getDate())}</span>
             {isToday && <span className="sr-only">{todayLabel.replace("{pct}", String(pct))}</span>}
           </li>
         );

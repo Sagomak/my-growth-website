@@ -1,9 +1,10 @@
 import { InkFrame, Chevron } from "@/components/Ink";
+import { pathFor, type Locale } from "@/lib/i18n";
 
 type Item = { q: string; a: string; link?: { href: string; text: string } };
 
 /** Native disclosure, so it works without JS and with every assistive tech. */
-export function Faq({ items, base }: { items: readonly Item[]; base: string }) {
+export function Faq({ items, locale }: { items: readonly Item[]; locale: Locale }) {
   return (
     <div className="faq-list">
       {items.map((it, i) => (
@@ -15,7 +16,7 @@ export function Faq({ items, base }: { items: readonly Item[]; base: string }) {
             </summary>
             <div className="faq-a">
               <p>{it.a}</p>
-              {it.link && <p><a className="cta-link hand" href={`${base}/${it.link.href}/`}>{it.link.text}<span aria-hidden="true"> ›</span></a></p>}
+              {it.link && <p><a className="cta-link hand" href={pathFor(locale, it.link.href as "privacy" | "tutorial")}>{it.link.text}<span aria-hidden="true"> ›</span></a></p>}
             </div>
           </details>
         </InkFrame>

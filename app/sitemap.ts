@@ -1,17 +1,16 @@
 import type { MetadataRoute } from "next";
-import { LEGAL_LOCALES, SITE_URL } from "@/lib/site";
+import { SITE_URL } from "@/lib/site";
+import { LOCALE_INFO, PAGES, pathFor } from "@/lib/i18n";
 
 export const dynamic = "force-static";
 
+/** All 25 languages x 5 pages, each with its hreflang alternates. */
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
-  const en = ["", "/support", "/tutorial"].map((p) => ({
-    url: `${SITE_URL}/en${p}/`, lastModified, priority: p === "" ? 1 : 0.6,
-  }));
-  const legal = (["privacy", "terms"] as const).flatMap((page) =>
-    LEGAL_LOCALES.map((l) => ({
-      url: `${SITE_URL}/${l}/${page}/`, lastModified, priority: 0.3,
-      alternates: { languages: Object.fromEntries(LEGAL_LOCALES.map((x) => [x, `${SITE_URL}/${x}/${page}/`])) },
-    })));
-  return [...en, ...legal];
+  return PAGES.flatMap((page) => LOCALE_INFO.map((l) => ({
+    url: `${SITE_URL}${pathFor(l.code, page)}`,
+    lastModified,
+    priority: page === "" ? 1 : page === "support" || page === "tutorial" ? 0.6 : 0.3,
+    alternates: { languages: Object.fromEntries(LOCALE_INFO.map((x) => [x.hreflang, `${SITE_URL}${pathFor(x.code, page)}`])) },
+  })));
 }

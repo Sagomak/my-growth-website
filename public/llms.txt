@@ -6,7 +6,7 @@
 - Version: 3.0.0 (hand-drawn design: warm paper light mode, soft graphite dark mode)
 - Platform: iPhone (iOS)
 - Price: free to download; MyGrowth Pro is an optional in-app purchase (monthly, yearly or one-time). Current prices are shown on the App Store.
-- Languages: 25
+- Languages: 25, app and website: English, Italiano, Español, Deutsch, Français, Português (Brasil), Dansk, Polski, Română, Shqip, Türkçe, Bahasa Indonesia, Bahasa Melayu, Filipino, Русский, Українська, Ελληνικά, हिन्दी, বাংলা, नेपाली, ไทย, Tiếng Việt, 日本語, 한국어, 简体中文
 - Studio: Sagomak. Contact: hello@sagomak.com
 
 ## Features
@@ -27,6 +27,9 @@
 - Purchases are processed by Apple. The app checks purchase status with RevenueCat using a random anonymous ID; RevenueCat receives no habit data.
 
 ## Pages
+
+Every page exists in all 25 languages at /<code>/... (codes: en it es de fr pt-br da pl ro sq tr id ms fil ru uk el hi bn ne th vi ja ko zh-hans). English:
+
 
 - [Home](https://mygrowth.sagomak.com/en/)
 - [Privacy Policy](https://mygrowth.sagomak.com/en/privacy/)

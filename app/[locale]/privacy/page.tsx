@@ -1,31 +1,45 @@
 import type { Metadata } from "next";
-import { DocShell } from "@/components/DocShell";
+import Link from "next/link";
+import { Shell } from "@/components/Shell";
 import { InkFrame } from "@/components/Ink";
 import { Rich } from "@/components/Rich";
-import { legal, legalAlternates } from "@/lib/legal";
-import { LEGAL_LOCALES, SUPPORT_EMAIL, isLocale, type Locale } from "@/lib/site";
-import { en } from "@/content/en";
+import { legal } from "@/lib/dict";
+import { pageMetadata } from "@/lib/seo";
+import { LEGACY_LEGAL, LOCALES, pathFor, type Locale } from "@/lib/i18n";
+import { SUPPORT_EMAIL } from "@/lib/site";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return LEGAL_LOCALES.map((locale) => ({ locale }));
+  return LOCALES.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const l = (isLocale(locale) ? locale : "en") as Locale;
-  const m = legal(l).meta.privacy;
-  return { title: m.title, description: m.description, alternates: legalAlternates(l, "privacy"), openGraph: { title: m.title, description: m.description, images: ["/og-image.png"] } };
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const locale = (await params).locale as Locale;
+  const m = legal(locale).meta.privacy;
+  return pageMetadata(locale, "privacy", m.title, m.description);
 }
 
-export default async function Privacy({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  const l = locale as Locale;
-  const P = legal(l).privacy;
+/** Translations made for this site carry the note that English prevails. */
+export function LanguageNote({ locale, page }: { locale: Locale; page: "privacy" | "terms" }) {
+  if (locale === "en" || LEGACY_LEGAL.includes(locale)) return null;
+  const L = legal(locale);
   return (
-    <DocShell locale={l}>
+    <p className="doc-note">
+      {L.languageNote} <Link prefetch={false} href={pathFor("en", page)} hrefLang="en">{L.englishLink}</Link>
+    </p>
+  );
+}
+
+export default async function Privacy({ params }: Props) {
+  const locale = (await params).locale as Locale;
+  const P = legal(locale).privacy;
+  return (
+    <Shell locale={locale} page="privacy" doc>
       <h1>{P.title}</h1>
       <p className="doc-meta">{P.lastUpdated}</p>
+      <LanguageNote locale={locale} page="privacy" />
       <p className="doc-intro">{P.intro}</p>
 
       <section className="doc-section">
@@ -72,8 +86,8 @@ export default async function Privacy({ params }: { params: Promise<{ locale: st
       <section className="doc-section">
         <h2>{P.contact.title}</h2>
         <p>{P.contact.body} <a href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a></p>
-        <p className="doc-meta">{l === "en" ? en.footer.studio : "Sagomak"}</p>
+        <p className="doc-meta">Sagomak</p>
       </section>
-    </DocShell>
+    </Shell>
   );
 }

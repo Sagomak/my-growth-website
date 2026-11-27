@@ -3,7 +3,9 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import "../components.css";
-import { APP_ID, LOCALES, SITE_URL, isLocale } from "@/lib/site";
+import { APP_ID, SITE_URL } from "@/lib/site";
+import { LOCALES, info, isLocale } from "@/lib/i18n";
+import { site } from "@/lib/dict";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -44,18 +46,21 @@ const HEAD_SCRIPT = `(function(){var d=document.documentElement;d.classList.add(
 export default async function RootLayout({ children, params }: { children: ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
+  const l = info(locale);
   // Development only: this branch, and the import in it, is removed from the
   // production build, so the static export carries no Agentation code.
   const DevAgentation = process.env.NODE_ENV === "development"
     ? (await import("@/components/DevAgentation")).default
     : null;
   return (
-    <html lang={locale} suppressHydrationWarning>
+    // Words use Caveat in the 16 locales the app uses it for; the other 9 set
+    // words in the rounded sans, as the app does (`no-hand`).
+    <html lang={l.hreflang} className={l.hand ? undefined : "no-hand"} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: HEAD_SCRIPT }} />
       </head>
       <body>
-        <a href="#main" className="skip">Skip to content</a>
+        <a href="#main" className="skip">{site(locale).a11y.skip}</a>
         {children}
         {DevAgentation && <DevAgentation />}
       </body>

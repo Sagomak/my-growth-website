@@ -3,7 +3,9 @@ import Link from "next/link";
 import "./globals.css";
 import "./components.css";
 import { Nav, Footer } from "@/components/Chrome";
-import { en } from "@/content/en";
+import { site } from "@/lib/dict";
+
+const en = site("en");
 
 export const metadata: Metadata = { title: en.meta.notFound.title, robots: { index: false } };
 
@@ -14,13 +16,13 @@ export default function GlobalNotFound() {
     <html lang="en" suppressHydrationWarning>
       <head><script dangerouslySetInnerHTML={{ __html: HEAD_SCRIPT }} /></head>
       <body>
-        <Nav />
+        <Nav t={en} locale="en" page="" />
         <main id="main" className="wrap doc notfound">
           <h1>{en.notFound.title}</h1>
           <p className="doc-intro">{en.notFound.body}</p>
           <p><Link prefetch={false} className="button" href="/en/">{en.notFound.home}</Link></p>
         </main>
-        <Footer />
+        <Footer t={en} locale="en" />
       </body>
     </html>
   );

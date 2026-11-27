@@ -45,10 +45,10 @@ export function ConsistencyChart({ label, title, sub }: { label: string; title: 
 }
 
 const BARS = [22, 35, 18, 41, 30, 47, 38];
-const DAYS = ["M", "T", "W", "T", "F", "S", "S"];
 
 /** Bars grow from the baseline (1.2 s, the app's draw-in curve). */
-export function BarsChart({ label, title, color }: { label: string; title: string; color: string }) {
+export function BarsChart({ label, title, color, lang = "en" }: { label: string; title: string; color: string; lang?: string }) {
+  const days = Array.from({ length: 7 }, (_, i) => new Intl.DateTimeFormat(lang, { weekday: "narrow" }).format(new Date(2024, 0, 1 + i)));
   const [ref, inView] = useInView<HTMLDivElement>(0.35);
   const w = 220, h = 140, top = 8, bottom = 22, max = 50;
   const bw = 18, step = (w - 16) / BARS.length;
@@ -63,7 +63,7 @@ export function BarsChart({ label, title, color }: { label: string; title: strin
             <g key={i}>
               <rect x={bx} y={h - bottom - bh} width={bw} height={bh} rx="4" className="bar"
                 style={{ "--i": i } as CSSProperties} />
-              <text x={bx + bw / 2} y={h - 6} className="chart-axis hand-axis" textAnchor="middle">{DAYS[i]}</text>
+              <text x={bx + bw / 2} y={h - 6} className="chart-axis hand-axis" textAnchor="middle">{days[i]}</text>
             </g>
           );
         })}

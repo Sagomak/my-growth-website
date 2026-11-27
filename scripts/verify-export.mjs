@@ -13,6 +13,8 @@ const files = [];
 
 // Old site: 4 locales x (home, privacy, terms, support, tutorial), plus assets.
 const OLD = ["", "/privacy", "/terms", "/support", "/tutorial"].flatMap((p) => ["en", "it", "es", "de"].map((l) => `/${l}${p}/`));
+// New site: 25 locales x 5 pages, each with html lang, 25 hreflang links and x-default.
+const LOCS = [...readFileSync("lib/i18n.ts", "utf8").matchAll(/code: "([a-z-]+)", hreflang: "([A-Za-z-]+)"/g)].map((m) => [m[1], m[2]]);
 const ASSETS = ["/mhs-import-template.csv", "/og-image.png", "/app-icon.png", "/apple-touch-icon.png", "/favicon.ico",
   "/favicon-32.png", "/favicon-192.png", "/favicon-512.png", "/app-store-badge-en.svg", "/app-store-badge-it.svg",
   "/app-store-badge-es.svg", "/app-store-badge-de.svg", "/MyHabitStats-Promo.webp", "/robots.txt", "/sitemap.xml", "/llms.txt"];
@@ -33,13 +35,24 @@ for (const f of files) {
   if (/agentation/i.test(s)) fail.push(`Agentation code in ${f}`);
   if (/myellelab/i.test(s)) fail.push(`old brand or address in ${f}`);
 }
+let pages = 0;
+for (const [code, tag] of LOCS) for (const p of ["", "privacy/", "terms/", "support/", "tutorial/"]) {
+  const f = join(OUT, code, p, "index.html");
+  if (!existsSync(f)) { fail.push(`missing page /${code}/${p}`); continue; }
+  pages++;
+  const h = readFileSync(f, "utf8");
+  if (!h.includes(`<html lang="${tag}"`)) fail.push(`/${code}/${p}: html lang is not ${tag}`);
+  const alts = (h.match(/<link rel="alternate" hrefLang="/g) || []).length;
+  if (alts !== LOCS.length + 1) fail.push(`/${code}/${p}: ${alts} hreflang links, want ${LOCS.length + 1}`);
+  if (!h.includes('hrefLang="x-default"')) fail.push(`/${code}/${p}: no x-default`);
+}
 const home = readFileSync(join(OUT, "en/index.html"), "utf8");
 if (!home.includes('name="apple-itunes-app" content="app-id=6761617617"')) fail.push("Smart App Banner meta missing");
 if (!home.includes("application/ld+json")) fail.push("JSON-LD missing");
 if (!home.includes('rel="canonical" href="https://mygrowth.sagomak.com/en/"')) fail.push("canonical missing");
-for (const l of ["en", "it", "es", "de"]) {
+for (const [l] of LOCS) {
   const s = readFileSync(join(OUT, l, "privacy/index.html"), "utf8");
   if (!s.includes("hello@sagomak.com") || !s.includes("RevenueCat")) fail.push(`${l} privacy lacks contact or Purchases section`);
 }
 if (fail.length) { console.error(fail.join("\n")); process.exit(1); }
-console.log(`export: ${OLD.length + 1} old paths covered, ${ASSETS.length} assets present, no Agentation, no old brand`);
+console.log(`export: ${pages} pages in ${LOCS.length} languages, ${OLD.length + 1} old paths covered, ${ASSETS.length} assets present, no Agentation, no old brand`);

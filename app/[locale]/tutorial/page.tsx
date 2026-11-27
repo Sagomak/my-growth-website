@@ -1,21 +1,22 @@
 import type { Metadata } from "next";
-import { DocShell } from "@/components/DocShell";
+import { Shell } from "@/components/Shell";
 import { InkFrame } from "@/components/Ink";
-import { en } from "@/content/en";
+import { site, term } from "@/lib/dict";
+import { pageMetadata } from "@/lib/seo";
+import { LOCALES, type Locale } from "@/lib/i18n";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return [{ locale: "en" }];
+  return LOCALES.map((locale) => ({ locale }));
 }
 
-export const metadata: Metadata = {
-  title: en.meta.tutorial.title,
-  description: en.meta.tutorial.description,
-  alternates: { canonical: "/en/tutorial/" },
-  openGraph: { title: en.meta.tutorial.title, description: en.meta.tutorial.description, images: ["/og-image.png"] },
-};
+type Props = { params: Promise<{ locale: string }> };
 
-const T = en.tutorial;
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const locale = (await params).locale as Locale;
+  const m = site(locale).meta.tutorial;
+  return pageMetadata(locale, "tutorial", m.title, m.description);
+}
 const TEMPLATE = `date,habit,unit,value,note
 2026-01-15,Sleep,hours,7.5,
 2026-01-15,Workout,minutes,45,Leg day
@@ -30,16 +31,20 @@ Workout,minutes,💪,#f97316,45.0,"1,3,5",2026-04-04
 date,habit,unit,value,note
 2025-08-26,Sleep,hours,8.33,
 2025-09-15,Workout,minutes,45,Leg day`;
-// The app's suggested habits (Habit.defaults), example data left untranslated.
+// The app's suggested habits (Habit.defaults); names and units as the app
+// shows them in each language (its string catalog). The CSV examples stay as
+// they are: they show the file format.
 const DEFAULTS = [
   ["Sleep", "hours", "8"], ["Workout", "minutes", "45"], ["Meditation", "minutes", "15"],
   ["Running", "km", "5"], ["Calories", "kcal", "2000"], ["Water", "liters", "2.5"],
   ["Reading", "pages", "25"], ["Biking", "km", "10"], ["Intervals", "sprints", "6"],
 ];
 
-export default function Tutorial() {
+export default async function Tutorial({ params }: Props) {
+  const locale = (await params).locale as Locale;
+  const T = site(locale).tutorial;
   return (
-    <DocShell>
+    <Shell locale={locale} page="tutorial" doc>
       <h1>{T.title}</h1>
       <p className="doc-intro">{T.intro}</p>
 
@@ -77,7 +82,7 @@ export default function Tutorial() {
         <p>{T.prebuilt.intro}</p>
         <table className="simple">
           <thead><tr>{T.prebuilt.cols.map((c) => <th key={c} scope="col">{c}</th>)}</tr></thead>
-          <tbody>{DEFAULTS.map((r) => <tr key={r[0]}>{r.map((v, i) => <td key={i} className={i === 2 ? "num" : undefined}>{v}</td>)}</tr>)}</tbody>
+          <tbody>{DEFAULTS.map((r) => <tr key={r[0]}><td>{term(locale, r[0])}</td><td>{term(locale, r[1])}</td><td className="num">{new Intl.NumberFormat(locale === "zh-hans" ? "zh-Hans" : locale === "pt-br" ? "pt-BR" : locale).format(Number(r[2]))}</td></tr>)}</tbody>
         </table>
         <p style={{ marginTop: 12 }}>{T.prebuilt.note}</p>
       </section>
@@ -104,6 +109,6 @@ export default function Tutorial() {
         <h2>{T.cta}</h2>
         <a className="button" href="/mhs-import-template.csv" download>{T.importLogs.download}</a>
       </InkFrame>
-    </DocShell>
+    </Shell>
   );
 }

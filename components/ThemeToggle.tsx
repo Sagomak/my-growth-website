@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { en } from "@/content/en";
 
 type Mode = "system" | "light" | "dark";
 const ORDER: Mode[] = ["system", "light", "dark"];
@@ -23,7 +22,9 @@ function apply(mode: Mode) {
 
 /** System, Paper, Graphite. The head script applies the saved choice before
  *  first paint, so there is no flash. */
-export function ThemeToggle() {
+type Labels = { label: string; system: string; light: string; dark: string };
+
+export function ThemeToggle({ labels, switchTemplate }: { labels: Labels; switchTemplate: string }) {
   const [mode, setMode] = useState<Mode>("system");
   useEffect(() => {
     const t = document.documentElement.dataset.theme;
@@ -32,10 +33,10 @@ export function ThemeToggle() {
     setMode(t === "light" || t === "dark" ? t : "system");
   }, []);
   const next = ORDER[(ORDER.indexOf(mode) + 1) % ORDER.length];
-  const name = en.nav.theme[mode];
+  const name = labels[mode];
   return (
     <button type="button" className="theme-toggle" onClick={() => { apply(next); setMode(next); }}
-      aria-label={`${en.nav.theme.label}: ${name}. Switch to ${en.nav.theme[next]}.`}>
+      aria-label={`${labels.label}: ${name}. ${switchTemplate.replace("{theme}", labels[next])}`}>
       <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
         {mode === "dark" ? (
           <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />

@@ -17,3 +17,12 @@ pyftsubset "$1/files/caveat-latin-500-normal.woff2" --unicodes="$U" \
 fonttools varLib.instancer "$2/files/nunito-latin-wght-normal.woff2" wght=400:800 -o /tmp/nunito-inst.ttf -q
 pyftsubset /tmp/nunito-inst.ttf --unicodes="$U,U+2190-2193,U+2212,U+00D7" \
   --layout-features='kern,liga,locl,tnum,mark,mkmk' --flavor=woff2 --output-file=public/fonts/nunito-latin-var.woff2
+# Other scripts: the package files as they are (each served with its own
+# unicode-range in app/globals.css, so only pages that need them fetch them).
+for sub in latin-ext cyrillic cyrillic-ext; do
+  cp "$1/files/caveat-$sub-500-normal.woff2" "public/fonts/caveat-medium-$sub.woff2"
+  cp "$1/files/caveat-$sub-700-normal.woff2" "public/fonts/caveat-bold-$sub.woff2"
+done
+for sub in latin-ext cyrillic cyrillic-ext vietnamese; do
+  cp "$2/files/nunito-$sub-wght-normal.woff2" "public/fonts/nunito-$sub.woff2"
+done

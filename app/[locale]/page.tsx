@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import { en } from "@/content/en";
-import { APP_STORE_URL, LANGUAGES, SITE_URL } from "@/lib/site";
+import { APP_STORE_URL, LANGUAGES } from "@/lib/site";
+import { LOCALES, info, pathFor, type Locale } from "@/lib/i18n";
+import { site, term, fill } from "@/lib/dict";
+import { pageMetadata } from "@/lib/seo";
 import { HABIT, rampVars } from "@/lib/colors";
-import { Nav, Footer, AppStoreBadge, Eyebrow, SectionHead } from "@/components/Chrome";
+import { AppStoreBadge, Eyebrow, SectionHead } from "@/components/Chrome";
+import { Shell } from "@/components/Shell";
 import { InkFrame, Node, InkDivider } from "@/components/Ink";
 import { Phone } from "@/components/Phone";
 import { Heatmap } from "@/components/Heatmap";
@@ -17,51 +20,45 @@ import { JsonLd, softwareApp } from "@/components/JsonLd";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
-  return [{ locale: "en" }];
+  return LOCALES.map((locale) => ({ locale }));
 }
 
-export const metadata: Metadata = {
-  title: en.meta.home.title,
-  description: en.meta.home.description,
-  alternates: { canonical: "/en/" },
-  openGraph: {
-    type: "website",
-    url: `${SITE_URL}/en/`,
-    siteName: "MyGrowth",
-    title: en.meta.home.title,
-    description: en.meta.home.description,
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "MyGrowth: hand-drawn habit heatmap and charts" }],
-    locale: "en_US",
-  },
-  twitter: { card: "summary_large_image", title: en.meta.home.title, description: en.meta.home.description, images: ["/og-image.png"] },
-};
+type Props = { params: Promise<{ locale: string }> };
 
-const F = en.features.items;
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const locale = (await params).locale as Locale;
+  const m = site(locale).meta.home;
+  return pageMetadata(locale, "", m.title, m.description);
+}
 
-export default function Home() {
+export default async function Home({ params }: Props) {
+  const locale = (await params).locale as Locale;
+  const t = site(locale);
+  const F = t.features.items;
+  const tag = info(locale).hreflang;
+  const T = (w: string) => term(locale, w);
   // Build time; the live visuals move to the visitor's own clock on load.
   const now = new Date().toISOString();
   return (
     <>
-      <JsonLd data={softwareApp} />
-      <Nav />
-      <main id="main">
+      <JsonLd data={softwareApp(t, locale)} />
+      <Shell locale={locale} page="">
         {/* Hero */}
         <section className="hero wrap" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <Eyebrow seed="hero">{en.hero.eyebrow}</Eyebrow>
-            <h1 id="hero-title">{en.hero.title}</h1>
-            <p className="hero-sub">{en.hero.sub}</p>
+            <Eyebrow seed="hero">{t.hero.eyebrow}</Eyebrow>
+            <h1 id="hero-title">{t.hero.title}</h1>
+            <p className="hero-sub">{t.hero.sub}</p>
             <div className="hero-cta">
-              <AppStoreBadge height={52} />
+              <AppStoreBadge t={t} locale={locale} height={52} />
             </div>
             <p className="hero-trust">
               <Node seed="hero.trust" size={7} />
-              <span>{en.hero.trust}</span>
+              <span>{t.hero.trust}</span>
             </p>
           </div>
           <div className="hero-visual">
-            <Phone src="/screens/dashboard.webp" srcDark="/screens/dashboard-dark.webp" alt={en.hero.phoneAlt} priority width={320} vw={64} />
+            <Phone src="/screens/dashboard.webp" srcDark="/screens/dashboard-dark.webp" alt={t.hero.phoneAlt} priority width={320} vw={64} />
           </div>
         </section>
 
@@ -70,26 +67,26 @@ export default function Home() {
           <InkFrame seed="home.year" className="year-card" hint={[1056, 330]}>
             <div className="year-head">
               <div>
-                <Eyebrow seed="year">{en.year.eyebrow}</Eyebrow>
-                <h2 id="year-title" className="year-title">{en.year.title}</h2>
-                <p className="muted">{en.year.body}</p>
+                <Eyebrow seed="year">{t.year.eyebrow}</Eyebrow>
+                <h2 id="year-title" className="year-title">{t.year.title}</h2>
+                <p className="muted">{t.year.body}</p>
               </div>
-              <WeekStrip initialNow={now} label={en.year.weekLabel} todayLabel={en.year.todayLabel} />
+              <WeekStrip initialNow={now} label={t.year.weekLabel} todayLabel={t.year.todayLabel} lang={tag} />
             </div>
             <InkDivider seed="year.divider" className="year-divider" />
-            <p className="year-habit hand">{en.year.habit}</p>
-            <Heatmap habit="reading" initialNow={now} label={en.year.gridLabel} />
+            <p className="year-habit hand">{T("Reading")}</p>
+            <Heatmap habit="reading" initialNow={now} label={t.year.gridLabel} lang={tag} />
             <div className="legend" aria-hidden="true">
-              <span>{en.year.legendLess}</span>
+              <span>{t.year.legendLess}</span>
               {[0, 1, 2, 3, 4].map((l) => <i key={l} className={`legend-cell ramp-green l${l}`} />)}
-              <span>{en.year.legendMore}</span>
+              <span>{t.year.legendMore}</span>
             </div>
           </InkFrame>
         </section>
 
         {/* Features */}
         <section id="features" className="features wrap" aria-labelledby="features-title">
-          <SectionHead id="features-title" seed="features" eyebrow={en.features.eyebrow} title={en.features.title} />
+          <SectionHead id="features-title" seed="features" eyebrow={t.features.eyebrow} title={t.features.title} />
 
           {/* Dashboard and Becoming */}
           <article className="feature-row">
@@ -109,11 +106,11 @@ export default function Home() {
               </div>
               <div className="mini-cards" aria-hidden="true">
                 {[
-                  { n: "Reading", v: "25", u: "pages", c: HABIT.sky, open: false },
-                  { n: "Workout", v: "45", u: "min", c: HABIT.orange, open: false },
-                  { n: "Meditation", v: "", u: "min", c: HABIT.violet, open: true },
+                  { k: "Reading", n: T("Reading"), v: "25", u: T("pages"), c: HABIT.sky, open: false },
+                  { k: "Workout", n: T("Workout"), v: "45", u: T("min"), c: HABIT.orange, open: false },
+                  { k: "Meditation", n: T("Meditation"), v: "", u: T("min"), c: HABIT.violet, open: true },
                 ].map((h) => (
-                  <InkFrame key={h.n} seed={`mini.${h.n}`} className={`mini-card ramp-host${h.open ? " open" : ""}`} hint={[110, 96]}
+                  <InkFrame key={h.k} seed={`mini.${h.k}`} className={`mini-card ramp-host${h.open ? " open" : ""}`} hint={[110, 96]}
                     style={{ ...rampVars(h.c), "--ink-color": h.open ? "var(--contour)" : "var(--habit-line)" } as CSSProperties}>
                     <span className="mini-name hand">{h.n}</span>
                     {h.v ? <span className="mini-value num">{h.v}<small>{h.u}</small></span> : <span className="mini-empty" />}
@@ -132,14 +129,14 @@ export default function Home() {
             </div>
             <div className="feature-visual grid-visual">
               {[
-                { k: "workout", n: "Workout", c: HABIT.orange },
-                { k: "meditation", n: "Meditation", c: HABIT.violet },
-                { k: "water", n: "Water", c: HABIT.sky },
+                { k: "workout", n: T("Workout"), c: HABIT.orange },
+                { k: "meditation", n: T("Meditation"), c: HABIT.violet },
+                { k: "water", n: T("Water"), c: HABIT.sky },
               ].map((h) => (
                 <InkFrame key={h.k} seed={`grid.${h.k}`} className="grid-card" hint={[480, 120]}>
                   <p className="grid-name hand">{h.n}</p>
                   <Heatmap habit={h.k} color={h.c} initialNow={now} cell={9} gap={2.5} maxWeeks={53} months={false} deferCells
-                    label={`Example heatmap for ${h.n}, one square per day.`} />
+                    label={fill(t.a11y.gridLabel, { habit: h.n })} lang={tag} />
                 </InkFrame>
               ))}
             </div>
@@ -157,7 +154,7 @@ export default function Home() {
                 <ConsistencyChart label={F.charts.chartLabel} title={F.charts.consistency} sub={F.charts.lastDays} />
               </InkFrame>
               <InkFrame seed="charts.bars" className="chart-card small" hint={[300, 200]}>
-                <BarsChart label={F.charts.barsLabel} title={F.charts.minutes} color={HABIT.violet} />
+                <BarsChart label={F.charts.barsLabel} title={F.charts.minutes} color={HABIT.violet} lang={tag} />
               </InkFrame>
             </div>
           </article>
@@ -168,7 +165,7 @@ export default function Home() {
               <Eyebrow seed="f.events">{F.events.eyebrow}</Eyebrow>
               <h3>{F.events.title}</h3>
               <p>{F.events.body}</p>
-              <EventsMosaic legend={F.events.legend} />
+              <EventsMosaic legend={F.events.legend} label={t.a11y.eventsLabel} />
             </InkFrame>
 
             <InkFrame as="article" seed="bento.widgets" className="tile tile-widgets" hint={[540, 360]}>
@@ -180,7 +177,7 @@ export default function Home() {
                 </div>
                 <InkFrame seed="widget.grid" className="widget-mock" radius={22} hint={[160, 160]}>
                   <p className="widget-name hand">{F.widget.name}</p>
-                  <Heatmap habit="widget.reading" initialNow={now} cell={8} gap={2.5} maxWeeks={13} months={false}
+                  <Heatmap habit="widget.reading" initialNow={now} cell={8} gap={2.5} maxWeeks={13} months={false} lang={tag}
                     label={F.widget.label} className="widget-heat" />
                 </InkFrame>
               </div>
@@ -190,7 +187,7 @@ export default function Home() {
               <Eyebrow seed="f.timers">{F.timers.eyebrow}</Eyebrow>
               <h3>{F.timers.title}</h3>
               <p>{F.timers.body}</p>
-              <Timer label={F.timers.timer} />
+              <Timer label={T(F.timers.timer)} srLabel={t.a11y.timerRunning} units={[T("h"), T("min"), T("s")]} />
             </InkFrame>
 
             <InkFrame as="article" seed="bento.themes" className="tile tile-themes" hint={[350, 330]}>
@@ -213,16 +210,16 @@ export default function Home() {
               <Eyebrow seed="f.languages">{F.languages.eyebrow}</Eyebrow>
               <h3>{F.languages.title}</h3>
               <p>{F.languages.body}</p>
-              <ul className="langs" aria-label="Languages">
-                {LANGUAGES.map((l) => <li key={l}>{l}</li>)}
+              <ul className="langs" aria-label={t.a11y.languages}>
+                {LANGUAGES.map((l, i) => <li key={l} lang={info(LOCALES[i]).hreflang}>{l}</li>)}
               </ul>
             </InkFrame>
           </div>
           {/* Real screenshots */}
           <div className="gallery">
-            <Eyebrow seed="gallery">{en.gallery.eyebrow}</Eyebrow>
-            <ul className="gallery-row" aria-label={en.gallery.label} tabIndex={0}>
-              {en.gallery.items.map((g) => (
+            <Eyebrow seed="gallery">{t.gallery.eyebrow}</Eyebrow>
+            <ul className="gallery-row" aria-label={t.gallery.label} tabIndex={0}>
+              {t.gallery.items.map((g) => (
                 <li key={g.src}>
                   <Phone src={g.src} alt={g.alt} width={220} className="phone-small" />
                   <span className="hand gallery-caption">{g.caption}</span>
@@ -234,20 +231,20 @@ export default function Home() {
 
         {/* Privacy */}
         <section id="privacy" className="privacy wrap" aria-labelledby="privacy-title">
-          <SectionHead id="privacy-title" seed="privacy" eyebrow={en.privacy.eyebrow} title={en.privacy.title} body={en.privacy.body} />
+          <SectionHead id="privacy-title" seed="privacy" eyebrow={t.privacy.eyebrow} title={t.privacy.title} body={t.privacy.body} />
           <div className="privacy-cols">
             <InkFrame seed="privacy.stored" className="privacy-card" hint={[520, 230]}>
-              <h3 className="card-title">{en.privacy.storedTitle}</h3>
+              <h3 className="card-title">{t.privacy.storedTitle}</h3>
               <ul className="ticks">
-                {en.privacy.stored.map((s, i) => (
+                {t.privacy.stored.map((s, i) => (
                   <li key={s}><Node seed={`privacy.s.${i}`} size={8} /><span>{s}</span></li>
                 ))}
               </ul>
             </InkFrame>
             <InkFrame seed="privacy.never" className="privacy-card" hint={[520, 230]}>
-              <h3 className="card-title">{en.privacy.neverTitle}</h3>
+              <h3 className="card-title">{t.privacy.neverTitle}</h3>
               <ul className="crosses">
-                {en.privacy.never.map((s) => (
+                {t.privacy.never.map((s) => (
                   <li key={s}>
                     <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.8L9.4 9.2M9.3 2.6L2.7 9.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
                     <span>{s}</span>
@@ -256,46 +253,45 @@ export default function Home() {
               </ul>
             </InkFrame>
           </div>
-          <p className="privacy-note muted">{en.privacy.purchases}</p>
-          <p><Link prefetch={false} className="cta-link hand" href="/en/privacy/">{en.privacy.link}<span aria-hidden="true"> ›</span></Link></p>
+          <p className="privacy-note muted">{t.privacy.purchases}</p>
+          <p><Link prefetch={false} className="cta-link hand" href={pathFor(locale, "privacy")}>{t.privacy.link}<span aria-hidden="true"> ›</span></Link></p>
         </section>
 
         {/* Pro */}
         <section id="pro" className="pro wrap" aria-labelledby="pro-title">
-          <SectionHead id="pro-title" seed="pro" eyebrow={en.pro.eyebrow} title={en.pro.title} body={en.pro.body} />
+          <SectionHead id="pro-title" seed="pro" eyebrow={t.pro.eyebrow} title={t.pro.title} body={t.pro.body} />
           <div className="pro-cols">
             <InkFrame seed="pro.free" className="plan" variant="plain" hint={[340, 260]}>
-              <h3 className="card-title">{en.pro.freeTitle}</h3>
+              <h3 className="card-title">{t.pro.freeTitle}</h3>
               <ul className="ticks quiet">
-                {en.pro.free.map((s, i) => <li key={s}><Node seed={`pro.f.${i}`} size={7} color="var(--text-muted)" /><span>{s}</span></li>)}
+                {t.pro.free.map((s, i) => <li key={s}><Node seed={`pro.f.${i}`} size={7} color="var(--text-muted)" /><span>{s}</span></li>)}
               </ul>
             </InkFrame>
             <InkFrame seed="pro.pro" className="plan plan-pro" hint={[520, 300]}
               style={{ "--ink-color": "var(--accent)" } as CSSProperties} lineWidth={1.6}>
-              <h3 className="card-title">{en.pro.proTitle}</h3>
+              <h3 className="card-title">{t.pro.proTitle}</h3>
               <ul className="ticks two">
-                {en.pro.proItems.map((s, i) => <li key={s}><Node seed={`pro.p.${i}`} size={8} /><span>{s}</span></li>)}
+                {t.pro.proItems.map((s, i) => <li key={s}><Node seed={`pro.p.${i}`} size={8} /><span>{s}</span></li>)}
               </ul>
-              <p className="plan-price">{en.pro.plans} <a href={APP_STORE_URL}>{en.pro.price}</a></p>
+              <p className="plan-price">{t.pro.plans} <a href={APP_STORE_URL}>{t.pro.price}</a></p>
             </InkFrame>
           </div>
         </section>
 
         {/* FAQ */}
         <section id="faq" className="faq wrap" aria-labelledby="faq-title">
-          <SectionHead id="faq-title" seed="faq" eyebrow={en.faq.eyebrow} title={en.faq.title} />
-          <Faq items={en.faq.items} base="/en" />
+          <SectionHead id="faq-title" seed="faq" eyebrow={t.faq.eyebrow} title={t.faq.title} />
+          <Faq items={t.faq.items} locale={locale} />
         </section>
 
         {/* Closing CTA */}
         <section className="closing wrap" aria-labelledby="closing-title">
           <InkFrame seed="home.closing" className="closing-card" hint={[1056, 260]}>
-            <h2 id="closing-title">{en.cta.title}</h2>
-            <AppStoreBadge height={52} />
+            <h2 id="closing-title">{t.cta.title}</h2>
+            <AppStoreBadge t={t} locale={locale} height={52} />
           </InkFrame>
         </section>
-      </main>
-      <Footer />
+      </Shell>
     </>
   );
 }

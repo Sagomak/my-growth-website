@@ -3,30 +3,343 @@
   "framework": "nextjs",
   "trailingSlash": true,
   "redirects": [
-    { "source": "/", "destination": "/en/", "statusCode": 301 },
-    { "source": "/:loc(it|es|de)", "destination": "/en/", "statusCode": 301 },
-    { "source": "/:loc(it|es|de)/", "destination": "/en/", "statusCode": 301 },
-    { "source": "/:loc(it|es|de)/:page(support|tutorial)", "destination": "/en/:page/", "statusCode": 301 },
-    { "source": "/:loc(it|es|de)/:page(support|tutorial)/", "destination": "/en/:page/", "statusCode": 301 }
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "it"
+        }
+      ],
+      "destination": "/it/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "es"
+        }
+      ],
+      "destination": "/es/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "de"
+        }
+      ],
+      "destination": "/de/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "fr"
+        }
+      ],
+      "destination": "/fr/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "pt-br"
+        }
+      ],
+      "destination": "/pt-br/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "da"
+        }
+      ],
+      "destination": "/da/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "pl"
+        }
+      ],
+      "destination": "/pl/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "ro"
+        }
+      ],
+      "destination": "/ro/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "sq"
+        }
+      ],
+      "destination": "/sq/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "tr"
+        }
+      ],
+      "destination": "/tr/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "id"
+        }
+      ],
+      "destination": "/id/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "ms"
+        }
+      ],
+      "destination": "/ms/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "fil"
+        }
+      ],
+      "destination": "/fil/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "ru"
+        }
+      ],
+      "destination": "/ru/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "uk"
+        }
+      ],
+      "destination": "/uk/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "el"
+        }
+      ],
+      "destination": "/el/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "hi"
+        }
+      ],
+      "destination": "/hi/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "bn"
+        }
+      ],
+      "destination": "/bn/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "ne"
+        }
+      ],
+      "destination": "/ne/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "th"
+        }
+      ],
+      "destination": "/th/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "vi"
+        }
+      ],
+      "destination": "/vi/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "ja"
+        }
+      ],
+      "destination": "/ja/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "ko"
+        }
+      ],
+      "destination": "/ko/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "mg-locale",
+          "value": "zh-hans"
+        }
+      ],
+      "destination": "/zh-hans/",
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "destination": "/en/",
+      "statusCode": 301
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
-        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
       ]
     },
     {
       "source": "/fonts/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/(screens|img)/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800, stale-while-revalidate=86400" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
     }
   ]
 }

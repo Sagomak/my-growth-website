@@ -86,7 +86,7 @@ main > section.wrap { padding-top: 56px; padding-bottom: 56px; }
 
 /* Hero -------------------------------------------------------------------- */
 .hero { display: grid; gap: 40px; align-items: center; padding-top: 40px !important; }
-.hero h1 { font-size: clamp(54px, 11vw, 96px); line-height: 0.98; max-width: 11ch; }
+.hero h1 { font-size: clamp(54px, 11vw, 96px); line-height: 0.98; max-width: 13ch; overflow-wrap: break-word; hyphens: auto; }
 .hero-sub { margin-top: 20px; font-size: 19px; color: var(--text-2); max-width: 34ch; }
 .hero-cta { margin-top: 28px; display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
 .badge { display: inline-block; border-radius: 10px; }
@@ -363,3 +363,86 @@ table.simple td { color: var(--text); }
 
 /* Grid items never grow past their track because of wide SVG content. */
 .feature-row > *, .grid-visual > *, .charts-visual > *, .bento > *, .privacy-cols > *, .pro-cols > *, .hero > * { min-width: 0; }
+
+/* Language switcher ------------------------------------------------------- */
+.lang { position: relative; }
+.lang > summary { list-style: none; cursor: pointer; border-radius: 10px; }
+.lang > summary::-webkit-details-marker { display: none; }
+.lang-chip { --ink-color: var(--contour); min-height: 40px; padding: 0 10px; display: inline-flex; align-items: center; }
+.lang-chip > .ink-content { display: inline-flex; align-items: center; gap: 6px; }
+.lang-name { font-size: 20px; font-weight: 700; white-space: nowrap; max-width: 12ch; overflow: hidden; text-overflow: ellipsis; }
+.lang-code { display: none; font-size: 20px; font-weight: 700; }
+.lang-chev { display: inline-flex; transform: rotate(90deg); color: var(--text-2); transition: transform 0.15s ease; }
+.lang[open] .lang-chev { transform: rotate(-90deg); }
+.lang > summary:hover .lang-chip { --ink-color: var(--text); }
+.lang-panel {
+  position: absolute; right: 0; top: 48px; z-index: 60; width: min(360px, calc(100vw - 32px));
+  padding: 12px; --ink-fill: var(--surface); filter: drop-shadow(0 12px 24px rgb(0 0 0 / 0.12));
+}
+.lang-panel ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 2px 8px; max-height: min(calc(100vh - 96px), 620px); overflow-y: auto; }
+.lang-panel a {
+  display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 6px 8px; border-radius: 8px;
+  text-decoration: none; color: var(--text); font-size: 16px; line-height: 1.25;
+}
+.lang-panel a:hover { background: var(--surface2); }
+.lang-panel a[aria-current="page"] { font-weight: 700; }
+.lang-dot { display: inline-block; width: 7px; flex: none; }
+@media (max-width: 899px) {
+  .lang-name { display: none; }
+  .lang-code { display: inline; }
+}
+@media (max-width: 599px) {
+  /* Under the header, full width inside the gutter, two columns. */
+  .lang-panel { position: fixed; top: 60px; left: 16px; right: 16px; width: auto; }
+}
+@media (max-width: 340px) { .lang-panel ul { grid-template-columns: 1fr; } }
+
+/* First-visit language hint */
+.suggest { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 70; display: flex; justify-content: center; pointer-events: none; }
+.suggest-card { pointer-events: auto; --ink-fill: var(--surface); padding: 10px 10px 10px 16px; max-width: 520px; filter: drop-shadow(0 10px 24px rgb(0 0 0 / 0.16)); }
+.suggest-card > .ink-content { display: grid; grid-template-columns: auto auto 44px; align-items: center; gap: 4px 12px; }
+@media (max-width: 520px) {
+  .suggest-card > .ink-content { grid-template-columns: 1fr 44px; grid-template-areas: "text x" "go x"; }
+  .suggest-text { grid-area: text; } .suggest-go { grid-area: go; min-height: 36px; } .suggest-x { grid-area: x; }
+}
+.suggest-text { font-size: 16px; color: var(--text); }
+.suggest-go { font-size: 22px; font-weight: 700; color: var(--accent); text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
+.suggest-go:hover { text-decoration: underline; text-underline-offset: 4px; }
+.suggest-x { margin-left: auto; width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border: 0; background: transparent; color: var(--text-2); border-radius: 10px; cursor: pointer; }
+.suggest-x:hover { background: var(--surface2); color: var(--text); }
+@media (prefers-reduced-motion: no-preference) {
+  .suggest-card { animation: suggest-in 0.35s var(--ease-draw) both; }
+}
+@keyframes suggest-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+/* "This is a translation" note on legal pages */
+.doc-note { margin-top: 12px; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 10px 10px 0; font-size: 15px; color: var(--text-2); }
+
+/* Words in the rounded sans for the 9 locales the app renders that way
+   (bn, el, hi, ja, ko, ne, th, vi, zh-Hans). Caveat runs small for its size,
+   so the sans takes smaller sizes to keep the same weight on the page. */
+.no-hand { --hand: var(--sans); }
+.no-hand .brand-word { font-family: "Caveat", var(--sans); }
+.no-hand h1, .no-hand h2, .no-hand h3 { letter-spacing: -0.01em; line-height: 1.2; }
+.no-hand .hero h1 { font-size: clamp(36px, 7.4vw, 62px); }
+.no-hand .section-head h2 { font-size: clamp(30px, 5vw, 44px); }
+.no-hand h3 { font-size: clamp(24px, 3.2vw, 30px); }
+.no-hand .tile h3 { font-size: clamp(22px, 2.6vw, 26px); }
+.no-hand .year-title, .no-hand .closing-card h2 { font-size: clamp(26px, 4vw, 38px); }
+.no-hand .doc h1 { font-size: clamp(34px, 6vw, 50px); }
+.no-hand .doc-section h2, .no-hand .contact-card h2 { font-size: 24px; }
+.no-hand .card-title { font-size: 22px; }
+.no-hand .eyebrow { font-size: 15px; font-weight: 600; }
+.no-hand .nav-links a, .no-hand .nav-menu a, .no-hand .nav-menu summary { font-size: 16px; font-weight: 600; }
+.no-hand .theme-name, .no-hand .lang-name, .no-hand .lang-code { font-size: 15px; font-weight: 600; }
+.no-hand .cta-link, .no-hand .faq-a .cta-link { font-size: 17px; font-weight: 700; }
+.no-hand .button { font-size: 17px; }
+.no-hand .back { font-size: 16px; font-weight: 600; }
+.no-hand .chart-title, .no-hand .grid-name, .no-hand .year-habit, .no-hand .timer-label { font-size: 17px; }
+.no-hand .mini-name, .no-hand .widget-name { font-size: 15px; }
+.no-hand .becoming-label { font-size: 14px; }
+.no-hand .becoming-goal { font-size: clamp(20px, 3vw, 24px); }
+.no-hand .week-letter, .no-hand .hand-axis { font-size: 14px; font-weight: 600; }
+.no-hand .gallery-caption, .no-hand .theme-pair figcaption { font-size: 16px; font-weight: 600; }
+.no-hand .suggest-go { font-size: 17px; }
+.no-hand .timer-value small { font-size: 15px; }
