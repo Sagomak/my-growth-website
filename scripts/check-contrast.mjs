@@ -22,6 +22,20 @@ for (const [theme, c] of Object.entries(T)) {
   }
   checks.push([theme, "text on surface2 (hover)", ratio(c.text, c.surface2), 4.5]);
   checks.push([theme, "onAccent on accent (button)", ratio(c.onAccent, c.accent), 4.5]);
+  // Skyline tooltip: surface-coloured text on a text-coloured chip.
+  checks.push([theme, "tooltip (surface on text)", ratio(c.surface, c.text), 4.5]);
+}
+
+// The Consistency ramp (the app's mlsGreen0 to 4, Color+Theme.swift) on the
+// card. Reported, not enforced: these are the app's colours, and every value
+// is also in the tooltip and the keyboard announcements.
+const RAMP = {
+  light: ["#efece6", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+  dark: ["#30312f", "#2d5933", "#31813e", "#26a641", "#39d353"],
+};
+const ramp = [];
+for (const [theme, g] of Object.entries(RAMP)) {
+  g.forEach((hex, i) => ramp.push(`${theme.padEnd(5)} level ${i} ${hex} on surface ${ratio(hex, T[theme].surface).toFixed(2)}${i ? `, vs level ${i - 1} ${ratio(hex, g[i - 1]).toFixed(2)}` : ""}`));
 }
 let fail = 0;
 for (const [theme, name, r, min] of checks) {
@@ -31,3 +45,4 @@ for (const [theme, name, r, min] of checks) {
 }
 if (fail) { console.error(`${fail} contrast pair(s) below the minimum`); process.exit(1); }
 console.log(`contrast: ${checks.length} pairs pass`);
+if (process.argv.includes("-v") || process.argv.includes("--ramp")) console.log("Consistency ramp (3:1 is the non-text guide):\n  " + ramp.join("\n  "));

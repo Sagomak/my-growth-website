@@ -1,0 +1,127 @@
+/* Consistency skyline card. Site tokens only (globals.css): paper and
+   graphite follow data-theme and the OS setting with no extra rules here.
+   Words use the hand face (--hand, the rounded sans in no-hand locales),
+   numbers and dates the rounded sans. */
+
+.card { padding: 18px 16px 14px; }
+@media (min-width: 768px) { .card { padding: 22px 24px 16px; } }
+
+.root { position: relative; }
+
+.head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+.title { font-family: var(--hand); font-size: 30px; font-weight: 700; line-height: 1.05; }
+.caption { font-family: var(--hand); font-size: 17px; color: var(--text-2); margin-top: 2px; }
+
+/* 2D / 3D toggle */
+.toggle {
+  position: relative; display: inline-flex; flex: none; padding: 2px;
+  border: 1.5px solid var(--border); border-radius: var(--r-control);
+}
+.thumb {
+  position: absolute; top: 2px; bottom: 2px; left: 2px; width: 34px;
+  border-radius: 8px; background: var(--text);
+  transition: transform 500ms cubic-bezier(0.65, 0, 0.35, 1);
+}
+.root[data-view="3d"] .thumb { transform: translateX(100%); }
+.toggleBtn {
+  position: relative; z-index: 1; display: grid; place-items: center;
+  width: 34px; height: 30px; padding: 0; border: 0; border-radius: 8px;
+  background: transparent; color: var(--text-2); cursor: pointer;
+  transition: color 500ms;
+}
+.toggleBtn[aria-pressed="true"] { color: var(--surface); }
+.toggleBtn svg { max-width: none; }
+
+/* Stage: one fixed size for both views, so the rise never moves the page. */
+.body { position: relative; container-type: inline-size; }
+.stage { position: relative; width: 100%; aspect-ratio: 1.5; border-radius: 8px; }
+@container (min-width: 440px) { .stage { aspect-ratio: 1.36; } }
+.stage:has(canvas:focus-visible) { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+.canvas { position: absolute; top: 0; left: 0; display: block; max-width: none; outline: none; touch-action: pan-y pinch-zoom; opacity: 0; transition: opacity 300ms; }
+.placeholder { position: absolute; top: 22px; left: 2px; width: calc(100% - 4px); height: auto; transition: opacity 300ms; }
+@container (min-width: 440px) { .placeholder { left: 34px; width: calc(100% - 36px); } }
+.root[data-ready] .canvas { opacity: 1; }
+.root[data-ready] .placeholder { opacity: 0; }
+
+/* Level colours: the app's Consistency buckets (--g0 empty, --g1 to --g4). */
+.l0 { fill: var(--g0); background-color: var(--g0); }
+.l1 { fill: var(--g1); background-color: var(--g1); }
+.l2 { fill: var(--g2); background-color: var(--g2); }
+.l3 { fill: var(--g3); background-color: var(--g3); }
+.l4 { fill: var(--g4); background-color: var(--g4); }
+
+/* Stats */
+.stat { min-width: 0; }
+.statLabel { font-family: var(--hand); font-size: 18px; font-weight: 700; line-height: 1.1; color: var(--text-2); }
+.statValue { margin: 2px 0 0; display: flex; align-items: baseline; gap: 6px; }
+.statNum { font-family: var(--sans); font-variant-numeric: tabular-nums; font-weight: 800; font-size: 26px; line-height: 1; letter-spacing: -0.02em; color: var(--accent); }
+.statUnit { font-family: var(--sans); font-size: 14px; color: var(--text); }
+.statSub { margin: 2px 0 0; font-family: var(--sans); font-size: 12px; color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.statSub::first-letter { text-transform: uppercase; }
+
+/* Narrow cards: the stats sit in a row under the chart, in both views. */
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 16px; margin: 12px 0 0; }
+.corners { display: none; }
+
+@container (min-width: 440px) {
+  /* Wide, flat: the stats fill the space under the grid, inside the stage. */
+  .row {
+    position: absolute; left: 0; right: 0; top: calc(50px + 13.2cqw); margin: 0;
+    grid-template-columns: 1fr 1fr; gap: 18px 16px;
+    transition: opacity 300ms, visibility 300ms;
+  }
+  .row .statNum { font-size: clamp(26px, 6cqw, 40px); }
+  .root[data-view="3d"] .row { opacity: 0; visibility: hidden; }
+
+  /* Wide, skyline: the stats sit in its empty corners, as in GitHub's isometric view. */
+  .corners {
+    position: absolute; inset: 4px; margin: 0; pointer-events: none;
+    display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto 1fr auto auto; row-gap: 10px;
+    opacity: 0; visibility: hidden; transform: translateY(-8px);
+    transition: opacity 300ms, transform 300ms, visibility 300ms;
+  }
+  .root[data-view="3d"] .corners {
+    opacity: 1; visibility: visible; transform: none;
+    transition: opacity 600ms 700ms, transform 600ms 700ms cubic-bezier(0.65, 0, 0.35, 1), visibility 0s 700ms;
+  }
+  .corners .statNum { font-size: clamp(24px, 5.2cqw, 40px); }
+  .corners [data-stat="avg"], .corners [data-stat="week"] { grid-column: 2; text-align: right; }
+  .corners [data-stat="avg"] .statValue, .corners [data-stat="week"] .statValue { justify-content: flex-end; }
+  .corners [data-stat="avg"] { grid-row: 1; }
+  .corners [data-stat="week"] { grid-row: 2; }
+  .corners [data-stat="longest"] { grid-column: 1; grid-row: 4; }
+  .corners [data-stat="current"] { grid-column: 1; grid-row: 5; }
+}
+
+/* Tooltip: rides the active day (the engine sets its transform). */
+.tip {
+  position: absolute; top: 0; left: 0; z-index: 20; pointer-events: none; white-space: nowrap;
+  padding: 7px 10px; border-radius: 8px; background: var(--text); color: var(--surface);
+  font-family: var(--sans); font-size: 13px; line-height: 1;
+  opacity: 0; transition: opacity 150ms;
+}
+.tip[data-show] { opacity: 1; }
+.tip strong { font-weight: 800; }
+.arrow {
+  position: absolute; top: 100%; left: var(--arrow, 50%); margin-left: -5px; width: 0; height: 0;
+  border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid var(--text);
+}
+
+/* Hint and legend */
+.foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 16px; margin-top: 12px; }
+.hint { font-family: var(--hand); font-size: 17px; color: var(--text-2); }
+.hintTouch { display: none; }
+@media (hover: none) { .hintMouse { display: none; } .hintTouch { display: inline; } }
+.legend { display: flex; align-items: center; gap: 0; font-family: var(--hand); font-size: 17px; color: var(--text-2); }
+.legend > span { padding: 0 4px; }
+/* 24 px targets around 13 px chips (WCAG 2.5.8). */
+.swatch { display: grid; place-items: center; width: 24px; height: 24px; padding: 0; border: 0; background: none; cursor: pointer; }
+.chip {
+  width: 13px; height: 13px; border-radius: 3px;
+  box-shadow: inset 0 0 0 1px rgb(127 127 127 / 0.14);
+  transition: transform 300ms;
+}
+.swatch:hover .chip { transform: scale(1.25); }
+.swatch[aria-pressed="true"] .chip { outline: 2px solid var(--text); outline-offset: 1px; }
+.goal { font-family: var(--hand); font-size: 16px; color: var(--text-2); margin-top: 4px; }

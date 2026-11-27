@@ -11,3 +11,4 @@ next-env.d.ts
 # verification artefacts
 /reports/
 scripts/og/og.html
+/lib/skyline.json
