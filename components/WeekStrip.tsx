@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { inkRect, gaugeFill, CONTROL } from "@/lib/ink";
-import { dayLevel, isoDay, level, startOfDay, weekday } from "@/lib/sample";
+import { dayLevel, isoDay, level, startOfDay, weekday, buildNow } from "@/lib/sample";
 
 const TW = 40, TH = 54;
 
@@ -15,7 +15,7 @@ export function WeekStrip({ initialNow, label, todayLabel, lang = "en" }: {
   // Narrow weekday names in the page language, Monday first (2024-01-01 was a Monday).
   const letters = Array.from({ length: 7 }, (_, i) =>
     new Intl.DateTimeFormat(lang, { weekday: "narrow" }).format(new Date(2024, 0, 1 + i)));
-  const [now, setNow] = useState(() => new Date(initialNow));
+  const [now, setNow] = useState(() => buildNow(initialNow));
   useEffect(() => {
     // Static HTML carries the build time; move to the visitor's clock once.
     // eslint-disable-next-line react-hooks/set-state-in-effect

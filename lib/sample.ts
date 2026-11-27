@@ -15,6 +15,15 @@ export function startOfDay(d: Date): Date {
   return new Date(d.getFullYear(), d.getMonth(), d.getDate());
 }
 
+/** The build time as a Date whose local fields equal its UTC fields, the same
+ *  in every time zone. Components start from it so the server render (UTC on
+ *  Vercel) and the first client render match; they move to the visitor's
+ *  clock after hydration. */
+export function buildNow(iso: string): Date {
+  const d = new Date(iso);
+  return new Date(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), d.getUTCHours(), d.getUTCMinutes(), d.getUTCSeconds());
+}
+
 /** Monday-first weekday, 0 to 6. */
 export const weekday = (d: Date) => (d.getDay() + 6) % 7;
 

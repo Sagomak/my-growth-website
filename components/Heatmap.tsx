@@ -2,7 +2,7 @@
 
 import { useEffect, useId, useMemo, useRef, useState, type CSSProperties } from "react";
 import { ring } from "@/lib/ink";
-import { DAY, isoDay, level, startOfDay, weekday } from "@/lib/sample";
+import { DAY, isoDay, level, startOfDay, weekday, buildNow } from "@/lib/sample";
 import { rampVars } from "@/lib/colors";
 import { useInView } from "@/components/Reveal";
 
@@ -29,7 +29,7 @@ type Props = {
 /** A year grid ending today, one square per day (the app's HeatmapCanvasGrid).
  *  Cells are exact; only today's circle is drawn by hand. */
 export function Heatmap({ habit, color, initialNow, label, cell = 12, gap = 3, maxWeeks = 53, months = true, className, deferCells = false, lang = "en" }: Props) {
-  const [now, setNow] = useState(() => new Date(initialNow));
+  const [now, setNow] = useState(() => buildNow(initialNow));
   const [weeks, setWeeks] = useState(maxWeeks);
   const [mounted, setMounted] = useState(false);
   const boxRef = useRef<HTMLDivElement>(null);
