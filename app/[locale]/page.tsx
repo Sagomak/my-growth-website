@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import type { CSSProperties } from "react";
-import { APP_STORE_URL, LANGUAGES } from "@/lib/site";
+import { APP_STORE_URL } from "@/lib/site";
 import { LOCALES, info, pathFor, type Locale } from "@/lib/i18n";
 import { site, term, fill } from "@/lib/dict";
 import { pageMetadata } from "@/lib/seo";
@@ -206,9 +206,6 @@ export default async function Home({ params }: Props) {
               <Eyebrow seed="f.languages">{F.languages.eyebrow}</Eyebrow>
               <h3>{F.languages.title}</h3>
               <p>{F.languages.body}</p>
-              <ul className="langs" aria-label={t.a11y.languages}>
-                {LANGUAGES.map((l, i) => <li key={l} lang={info(LOCALES[i]).hreflang}>{l}</li>)}
-              </ul>
             </InkFrame>
           </div>
           {/* Real screenshots */}
